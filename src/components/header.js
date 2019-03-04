@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import $ from 'jquery'
-import Logo from '../images/retainful-logo.png'
+import Logo from '../images/campaignrabbit-logo.png'
 import Container from "../components/container"
 import Menu from './menu'
 
@@ -19,7 +19,7 @@ class Header extends React.Component {
     render () {
         return (
             <nav className="navbar navbar-expand-md navbar-light fixed-top" >
-                <Container type='s'>
+                <Container type='m'>
                     <Link className="navbar-brand" to="/">
                         <img src={ Logo } alt="Retainful" />
                     </Link>

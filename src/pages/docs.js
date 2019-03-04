@@ -5,6 +5,7 @@ import Container from "../components/container"
 import HOME_CARDS from '../constants/homeCards';
 import CALLOUTS from '../constants/homeCallouts';
 import Search from '../components/Search';
+import SEO from '../components/seo';
 
 class DocsPage extends React.Component {
     static renderCards() {
@@ -39,6 +40,7 @@ class DocsPage extends React.Component {
     render(){
         return (
             <Layout>
+                <SEO title="Documentation" />
                 <div className='docs-container'>
                     {/*<div className="search-hero text-center">*/}
                         {/*<Container type="s">*/}

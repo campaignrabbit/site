@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import Container from "../components/container";
 import withSubNav from '../components/NavSub';
 import Img from 'gatsby-image';
+import SEO from '../components/seo';
 
 const BlogPage = ({data}) => {
     return (
@@ -11,6 +12,7 @@ const BlogPage = ({data}) => {
             {/*<Breadcrumb>*/}
                 {/*<h2>Blog</h2>*/}
             {/*</Breadcrumb>*/}
+            <SEO title="Blog" />
             <div className="blog-list-container">
                 <Container type="s">
                     { data.allMarkdownRemark.edges.map(post => (

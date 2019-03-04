@@ -1,9 +1,9 @@
 module.exports = {
     siteMetadata: {
-        title: `Retainful`,
-        description: `The easiest way to drive repeat purchases and retain customers. Generate and send unique coupon codes that can be used by the customer for the next purchase.`,
+        title: `Campaignrabbit`,
+        description: `Sell more by sending targetted, data-driven marketing emails to your customers`,
         author: `Shobana`,
-        siteUrl: `https://www.retainful.com/`
+        siteUrl: `https://www.campaignrabbit.com/`
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -70,8 +70,8 @@ module.exports = {
                 name: `retainful`,
                 short_name: `retainful`,
                 start_url: `/`,
-                background_color: `#f27052`,
-                theme_color: `#f27052`,
+                background_color: `#6772e5`,
+                theme_color: `#6772e5`,
                 display: `minimal-ui`,
                 icon: `src/images/favicon.png`, // This path is relative to the root of the site.
             }

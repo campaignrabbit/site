@@ -1,7 +1,7 @@
 {
-  "name": "retainful",
+  "name": "Campaignrabbit",
   "private": true,
-  "description": "The easiest way to drive repeat purchases and retain customers. Generate and send unique coupon codes that can be used by the customer for the next purchase.",
+  "description": "Sell more by sending targetted, data-driven marketing emails to your customers",
   "version": "0.1.0",
   "author": "Shobana <shobana@j2store.org>",
   "dependencies": {
