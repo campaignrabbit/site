@@ -4,9 +4,7 @@ import Container from  '../components/container'
 const PricingTable = () =>(
     <div id="pricing" className="pricing-section text-center">
         <Container>
-            <div className="pricing-intro wow fadeInDown">
-                <h1>Get started in Minutes. It’s Free</h1>
-            </div>
+            
             <div className="row">
                 <div className="col-lg-4 offset-lg-4 col-md-12">
                     <div className="table-left wow fadeInDown">

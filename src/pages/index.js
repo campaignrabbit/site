@@ -1,113 +1,160 @@
 import React from 'react'
-import { FaTimes, FaCheck, FaGift, FaDownload, FaFilter, FaDollarSign } from 'react-icons/fa';
+import { FaTimes, FaCheck, FaGift, FaDownload, FaFilter, FaDollarSign, FaPlay } from 'react-icons/fa';
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 import bannerLogo from '../images/retainful-coupon-03.png'
 import customerBanner from '../images/retainful-customers.png'
+import customerView from '../images/home-icons/360-degree-view-of-customers.png';
+import abandCart from '../images/home-icons/abandoned-cart-recovery.png';
+import dragDrop from '../images/home-icons/drag-and-drop-visual-email-builder.png';
+import followEmail from '../images/home-icons/follow-up-emails.png';
+import productRec from '../images/home-icons/product-recommendations.png';
+import winBack from '../images/home-icons/win-back-inactive-customers.png';
+import betterSegmentation from '../images/better-segmentation-of-customers.png';
+import automateEmail from '../images/automate-your-email-follow-up.png';
+import reachAudience from '../images/reach-target-audience.png';
 import PricingTable from '../components/pricing'
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Retainful - The easiest way to drive repeat purchases and retain customers"
-             keywords={[`Send Unique Coupon Codes`]}/>
+        <SEO title="Campaignrabbit - Sell more by sending data-driven emails to your customers"
+             keywords={[`Send data-driven emails to your customers`]}/>
 
-        <div className="container-m text-center">
-            <div className="home hero-2">
+        <div className="home">
+            <div className="container-m text-center">
                 <div className="hero-content wow fadeIn">
-                    <h1><span className="highlight">Drive repeat purchases</span> and retain your customers</h1>
-                    <p>Generate and send unique coupon codes that can be used by the customer for the next purchase in
-                        your <strong>WooCommmerce</strong> Store.</p>
-                    <p><a className="btn-action btn-edge btn-lg"
-                          href="https://wordpress.org/plugins/retainful-next-order-coupon-for-woocommerce/"
-                          target="_blank" rel="noopener noreferrer">Install Plugin</a></p>
-                    <p>
-                        <strong>It&rsquo;s Free.</strong>
-                    </p>
+                    <div className="row">
+                        <div className="col-sm-12">
+                            <h1>Sell more by sending <span className="highlight">data-driven emails</span> <br/> to your customers</h1>
+                            <p>Works with WooCommerce, J2Store & more</p>
+                            <p>
+                                <a className="btn-action btn-dark btn-lg"
+                                  href="https://wordpress.org/plugins/retainful-next-order-coupon-for-woocommerce/"
+                                  target="_blank" rel="noopener noreferrer"> <FaPlay/> Watch Demo now <span>Quick overview</span></a>
+                                <a className="btn-action btn-edge btn-lg"
+                                    href="https://wordpress.org/plugins/retainful-next-order-coupon-for-woocommerce/"
+                                    target="_blank" rel="noopener noreferrer">Try it for FREE <span>No cc required</span></a>
+                            </p>
+                        </div>
+                        <div className="col-sm-2">
+
+                        </div>
+                    </div>
+
                 </div>
                 <div className="hero-img wow fadeIn">
                     <img className="img-fluid" src={bannerLogo} alt="retainful-coupon-banner"/>
                 </div>
             </div>
         </div>
+        <div className="hero-2">
+            <div className="intro-block container-m text-center">
+                <h3>Ready to scale your online business?</h3>
+                <p>Boost your sale today</p>
+                <div className="free-trial-form">
+                    <form className="form-inline form-alt" method="post" action="https://www.campaignrabbit.com/">
+                        <div className="form-group">
+                            <input className="mail form-control" name="email" id="cf_email" size="50" maxlength="50" placeholder="Enter your email" type="text" />
+                        </div>
+                        <div className="form-group">
+                            <button className="submit-button" value="" name="send" id="cf_send" type="submit">Sign Up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
         <div id="intro" className="intro flex-split wow fadeIn">
-            <div className="container-s">
+            <div className="multi-step-container container-m">
                 <div className="flex-intro align-center">
-                    <h2>What is Retainful ?</h2>
-                    <p>
-                        Retainful provides a <span
-                        className="highlight">simple, easiest way to retain your customers</span> and encourages them to
-                        purchase repeatedly. Just install the Retainful plugin and connect it with a single step. You
-                        are ready to increase repeat purchases.
-                    </p>
+                    <div class="text-center">
+                        <h3>Get started in Minutes</h3>
+                    </div>
+                    <div class="rl-multi-step numbered">
+                        <ul class="rl-multi-step-list">
+                            <li class="rl-multi-step-item active">
+                            <div class="rl-item-wrap">
+                            <p class="rl-item-title">Connect your store</p>
+
+                            </div></li>
+                            <li class="rl-multi-step-item active">
+                            <div class="rl-item-wrap">
+                            <p class="rl-item-title">Create Campaigns</p>
+
+                            </div></li>
+                            <li class="rl-multi-step-item active">
+                            <div class="rl-item-wrap">
+                            <p class="rl-item-title">Turn on Autopilot</p>
+
+                            </div></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div id="how-it-works" className="intro flex-split wow fadeIn">
-            <div className="container-s">
-                <div className="flex-intro align-center">
-                    <h2>How it Works ?</h2>
-                    <ol>
-                        <li><span className="icon"><FaDownload/></span> Install and Connect your store</li>
-                        <li><span className="icon"><FaFilter/></span> Set up the discount.</li>
-                        <li><span className="icon"><FaGift/></span> Customers get a unique coupon code for next
-                            purchase (within his order email itself)
-                        </li>
-                        <li><span className="icon"><FaDollarSign/></span> <span className="highlight">Profit!</span></li>
-                    </ol>
-                </div>
-            </div>
-        </div>
         <div id="features" className="features wow fadeInDown">
             <div className="container-m">
                 <div className="row text-center">
                     <div className="col-md-12">
                         <div className="features-intro">
                             <h2>
-                                Retainful gives you a unique set of tools <br className="hidden-xs"/> to retain your
-                                customers and <br className="hidden-xs"/>
-                                <span className="highlight">increase revenue per customer.</span>
+                                Running <span className="highlight">email campaigns</span> <br className="hidden-xs"/>is made easier than ever with it
                             </h2>
                         </div>
                     </div>
-                    <div className="col-md-6 col-sm-12">
+                    <div className="col-md-4 col-sm-12">
                         <div className="feature-list">
                             <div className="card-text">
-                                <h3>Unique Coupons</h3>
-                                <p>Include a unique coupon code towards <span className="highlight">the next purchase in the order notification email itself</span>.
-                                    Order emails have a better open rate than the promotional emails.</p>
+                                <img className="img-responsive" src={abandCart} alt="Abandoned Cart Recovery"/>
+                                <h3>Abandoned Cart Recovery</h3>
+                                <p>Remind customers who have abandoned thier cart with automatic emails at <span className="highlight">set intervals and recover them.</span></p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-sm-12">
+                    <div className="col-md-4 col-sm-12">
                         <div className="feature-list">
                             <div className="card-text">
-                                <h3>Percentage or Fixed</h3>
-                                <p>The coupon can be a <span className="highlight">percentage or a fixed value</span>.
-                                    You can decide it in the plugin settings.</p>
+                                <img className="img-responsive" src={followEmail} alt="Abandoned Cart Recovery"/>
+                                <h3>Follow-up Emails</h3>
+                                <p>Automatically send email follow-ups to your customers. You can ask them for a feedback, a review, or just say hello</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-sm-12">
+                    <div className="col-md-4 col-sm-12">
                         <div className="feature-list">
                             <div className="card-text">
-                                <h3>Automatic Code Generation</h3>
-                                <p>Retainful <span className="highlight">generates the code instantly and sends it to the customers</span>.
-                                    You don’t have to use the same code for everyone. Also, you don't have to juggle
-                                    between thousands of coupon codes. Retainful takes care of all these for you</p>
+                                <img className="img-responsive" src={winBack} alt="Abandoned Cart Recovery"/>
+                                <h3>Win-back Inactive Customers</h3>
+                                <p>Bring back inactive customers with special offers through automated email campaigns</p>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6 col-sm-12">
+                    <div className="col-md-4 col-sm-12">
                         <div className="feature-list">
                             <div className="card-text">
-                                <h3>Analytics & Insights</h3>
-                                <p>Get a real-time insight into the performance of your emails. See <span
-                                    className="highlight">how much revenue you got from repeat purchases</span> with
-                                    Retainful. Also get a list of customers who got converted. Even you can see who have
-                                    opened the emails that have a next purchase coupon code.</p>
+                                <img className="img-responsive" src={productRec} alt="Abandoned Cart Recovery"/>
+                                <h3>Product recommendations</h3>
+                                <p>Recommend “Socks” to customers when they purchase “shoes”. Start automatically sending relevant product recommendations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-12">
+                        <div className="feature-list">
+                            <div className="card-text">
+                                <img className="img-responsive" src={customerView} alt="Abandoned Cart Recovery"/>
+                                <h3>360 degree view of customers</h3>
+                                <p>Get valuable insights about your customers. Learn what days they usually place orders, time of order, total value of orders and more</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-12">
+                        <div className="feature-list">
+                            <div className="card-text">
+                                <img className="img-responsive" src={dragDrop} alt="Abandoned Cart Recovery"/>
+                                <h3>Drag and drop visual email builder</h3>
+                                <p>Create beautiful emails with our intutive drag-and-drop visual email builder. Use short codes to add dynamic data like their names.</p>
                             </div>
                         </div>
                     </div>
@@ -116,112 +163,47 @@ const IndexPage = () => (
         </div>
 
         <div className="yd-ft wow fadeIn">
-            <div className="yd-ft-inner">
-                <div className="yd-ft-left">
-                    <h2>Why you should <span className="underline">focus on retaining customers</span>?</h2>
-                    <p>Studies proved that you only have a 5-20% chance of selling to a new prospect. <span
-                        className="underline">With your existing customers, you have a 60-70% chance of a successful sale!</span>
-                    </p>
-                    <a href="https://app.retainful.com/" className="btn-action btn-edge" target="_blank"
-                       rel="noopener noreferrer">Get Started</a>
-                </div>
-                <div className="yd-ft-right">
-                    <img src={customerBanner} alt="retainful-customers"/>
-                </div>
-            </div>
-        </div>
-
-        <div className="yd-reviews">
             <div className="container-m">
-                <div className="row">
-                    <div className="col-md-6">
-                        <h2>Major Problems with other plugins</h2>
-                        <div className="rf-list">
-                            <div className="ar-icon times">
-                                <FaTimes/>
-                            </div>
-                            <div className="ar-text">
-                                <h3>Complicated setup</h3>
-                            </div>
-                        </div>
-                        <div className="rf-list">
-                            <div className="ar-icon times">
-                                <FaTimes/>
-                            </div>
-                            <div className="ar-text">
-                                <h3>No unique codes are used. Mostly static codes</h3>
-                            </div>
-                        </div>
-                        <div className="rf-list">
-                            <div className="ar-icon times">
-                                <FaTimes/>
-                            </div>
-                            <div className="ar-text">
-                                <h3>No analytics or insights</h3>
-                            </div>
-                        </div>
-                        <div className="rf-list">
-                            <div className="ar-icon times">
-                                <FaTimes/>
-                            </div>
-                            <div className="ar-text">
-                                <h3>Does not integrate with defaul emails. (Seperate promo emails are sent which result
-                                    in low open rate)</h3>
-                            </div>
-                        </div>
+                <div className="text-center">
+                    <h2>What you can do with CampaignRabbit</h2>
+                </div>
+                <div className="yd-ft-inner">
+                    <div className="yd-ft-left">
+                        <h3>Better Segmentation of Customers</h3>
+                        <p>Easily create segments of your contacts based on data – total spending, location, behaviour and more. Campaignrabbit provides powerful segmentation of your customers. Say goodbye to spreadsheets and static reporting tools. Get more insight on your customers.
+                        </p>
+                        /*<a href="https://app.retainful.com/" className="btn-action btn-edge" target="_blank"
+                           rel="noopener noreferrer">See more</a>*/
                     </div>
-                    <div className="col-md-6">
-                        <h2>Retainful is simple, easiest solution</h2>
-                        <div className="rf-list">
-                            <div className="ar-icon check">
-                                <FaCheck/>
-                            </div>
-                            <div className="ar-text">
-                                <h3>Simple setup. Just connect, set up discount percentage or value</h3>
-                            </div>
-                        </div>
-                        <div className="rf-list">
-                            <div className="ar-icon check">
-                                <FaCheck/>
-                            </div>
-                            <div className="ar-text">
-                                <h3>Automatic generation of unique codes (each customer gets a unique code for next
-                                    purchase)</h3>
-                            </div>
-                        </div>
-                        <div className="rf-list">
-                            <div className="ar-icon check">
-                                <FaCheck/>
-                            </div>
-                            <div className="ar-text">
-                                <h3>Real-time Analytics and Insights. See how much revenue generated</h3>
-                            </div>
-                        </div>
-                        <div className="rf-list">
-                            <div className="ar-icon check">
-                                <FaCheck/>
-                            </div>
-                            <div className="ar-text">
-                                <h3>Automatically applies the code when customer clicks and visit the shop from the
-                                    email. Less friction</h3>
-                            </div>
-                        </div>
-                        <div className="rf-list">
-                            <div className="ar-icon check">
-                                <FaCheck/>
-                            </div>
-                            <div className="ar-text">
-                                <h3>Flexibility in applying the code and validating</h3>
-                            </div>
-                        </div>
+                    <div className="yd-ft-right">
+                        <img src={betterSegmentation} alt="retainful-customers"/>
+                    </div>
+                </div>
+                <hr/>
+                <div className="yd-ft-inner">
+                    <div className="yd-ft-right">
+                        <img src={automateEmail} alt="retainful-customers"/>
+                    </div>
+                    <div className="yd-ft-left">
+                        <h3>Automate your email follow-ups</h3>
+                        <p>With the pre-built, ready-to-go templates, send personalised emails to your customers automatically. Once the email flow is created, the system will take care of sending beautiful, responsive emails to your customers.
+                        <br/> Use Campaignrabbit’s drag and drop visual email builder to build stunning emails and impress your customers
+                        </p>
+                    </div>
+                </div>
+                <hr/>
+                <div className="yd-ft-inner">
+                    <div className="yd-ft-left">
+                        <h3>Reach Target Audience</h3>
+                        <p>Email campaigns are all about reaching your target customers. Stop sending generic emails to your entire customer list. Generic emails have a very low conversion rate of less than 2%. <br/> And you don’t want your brand to be remembered as a spammer. Send targeted, personalised messages that does not look like a promotion, but encourages an active engagement with your business.
+                        </p>
+                    </div>
+                    <div className="yd-ft-right">
+                        <img src={reachAudience} alt="retainful-customers"/>
                     </div>
                 </div>
             </div>
         </div>
-
-        <PricingTable/>
-
-
 
     </Layout>
 );
