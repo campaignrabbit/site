@@ -5,28 +5,22 @@ const Menu = () => (
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto navbar-right">
             <li className="nav-item">
-                <Link to="/features" className="nav-link js-scroll-trigger">Features</Link>
+                <Link to="/features" className="nav-link">Features</Link>
             </li>
             <li className="nav-item">
-                <Link to="/pricing" className="nav-link js-scroll-trigger">Pricing</Link>
+                <Link to="/pricing" className="nav-link">Pricing</Link>
             </li>
             <li className="nav-item">
-                <Link to="/integrations" className="nav-link js-scroll-trigger">Integrations</Link>
+                <Link to="/integrations" className="nav-link">Integrations</Link>
             </li>
             <li className="nav-item">
-                <Link to="/use-cases" className="nav-link js-scroll-trigger">Use cases</Link>
+                <Link to="/use-cases" className="nav-link">Use cases</Link>
             </li>
             <li className="nav-item">
-                <Link to="/blog" className="nav-link js-scroll-trigger">Blog</Link>
+                <Link to="/blog" className="nav-link">Blog</Link>
             </li>
             <li className="nav-item">
-                <Link to="/docs" className="nav-link js-scroll-trigger">Docs</Link>
-            </li>
-            <li className="nav-item">
-                <Link to="https://app.campaignrabbit.com/login" className="btn-link nav-link js-scroll-trigger">Login</Link>
-            </li>
-            <li className="nav-item">
-                <Link to="https://app.campaignrabbit.com/register" className="btn-cta nav-link js-scroll-trigger">Sign Up</Link>
+                <Link to="/docs" className="nav-link">Docs</Link>
             </li>
         </ul>
     </div>

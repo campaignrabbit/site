@@ -1,9 +1,10 @@
 import React from 'react'
 import {Link} from 'gatsby'
-import Logo from '../images/retainful-logo.png'
+import Logo from '../images/campaignrabbit-logo.png'
 import Container from "../components/container"
 import Row from "../components/row"
 import Col from "../components/column"
+import { FaFacebook, FaTwitter} from 'react-icons/fa'
 
 export default function Footer() {
     return(
@@ -11,16 +12,17 @@ export default function Footer() {
             <Container>
                 <Row>
                     <Col>
-                        <Link className="footer-logo" to="/"><img src={Logo} alt="Retainful" /></Link>
-                        <p>Insert Next-Order coupons automatically and motivate customers to purchase repeatedly. And get insights on email opens and conversions. Its free.</p>
+                        <Link className="footer-logo" to="/"><img src={Logo} alt="Campaignrabbit" /></Link>
+                        <p>Sell more by sending targetted, data-driven marketing emails to your customers.</p>
+                        <p> <a href="https://www.facebook.com/campaignrabbit/" target="_blank"><FaFacebook/></a> <a href="https://twitter.com/campaignrabbit/" target="_blank"><FaTwitter/></a></p>
                     </Col>
                     <Col>
                         <h4 className="footer-title">Also from us:</h4>
                         <ul>
                             <li><a href="https://www.flycart.org/" target="_blank" rel="noopener noreferrer">Flycart</a></li>
                             <li><a href="https://www.j2store.org/" target="_blank" rel="noopener noreferrer">J2Store</a></li>
-                            <li><a href="https://campaignrabbit.com/" target="_blank" rel="noopener noreferrer">Campaignrabbit</a></li>
-                            <li><a href="https://billingrabbit.com/" target="_blank" rel="noopener noreferrer">Billingrabbit</a></li>
+                            <li><a href="https://www.retainful.com/" target="_blank" rel="noopener noreferrer">Retainful</a></li>
+                            <li><a href="https://www.billingrabbit.com/" target="_blank" rel="noopener noreferrer">Billingrabbit</a></li>
                         </ul>
                     </Col>
                     <Col>
@@ -38,7 +40,7 @@ export default function Footer() {
                 <div className="footer-sm">
                     <Row>
                         <Col size="6">
-                            <h6>&copy; <Link to="/">Retainful</Link> <script>document.write(new Date().getFullYear());</script> Rights Reserved</h6>
+                            <h6>&copy; <Link to="/">Campaignrabbit</Link> <script>document.write(new Date().getFullYear());</script> Rights Reserved</h6>
                         </Col>
                         <Col size="6" class="text-right">
                             <ul>
