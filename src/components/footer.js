@@ -14,7 +14,10 @@ export default function Footer() {
                     <Col>
                         <Link className="footer-logo" to="/"><img src={Logo} alt="Campaignrabbit" /></Link>
                         <p>Sell more by sending targetted, data-driven marketing emails to your customers.</p>
-                        <p> <a href="https://www.facebook.com/campaignrabbit/" target="_blank"><FaFacebook/></a> <a href="https://twitter.com/campaignrabbit/" target="_blank"><FaTwitter/></a></p>
+                        <div className="footer-social-icons">
+                            <a href="https://www.facebook.com/campaignrabbit/" target="_blank"><FaFacebook/></a>
+                            <a href="https://twitter.com/campaignrabbit/" target="_blank"><FaTwitter/></a>
+                        </div>
                     </Col>
                     <Col>
                         <h4 className="footer-title">Also from us:</h4>
@@ -42,7 +45,7 @@ export default function Footer() {
                         <Col size="6">
                             <h6>&copy; <Link to="/">Campaignrabbit</Link> <script>document.write(new Date().getFullYear());</script> Rights Reserved</h6>
                         </Col>
-                        <Col size="6" class="text-right">
+                        <Col size="6" className="text-right">
                             <ul>
                                 <li>
                                     <Link to="/privacy-policy">Privacy policy</Link>

@@ -5,17 +5,14 @@ import Breadcrumb from '../components/breadcrumb'
 
 const TermsOfService = () => (
     <Layout>
-        {/*<Breadcrumb>*/}
-            {/*<h2>Terms of Service</h2>*/}
-        {/*</Breadcrumb>*/}
         <Container type="s">
             <div className="legal-info">
                 <p>
-                    This Retainful Subscription Terms of Service (“<strong>Terms of Service</strong>” or
+                    This Campaignrabbit Subscription Terms of Service (“<strong>Terms of Service</strong>” or
                     “<strong>Agreement</strong>“) is entered into by and between the Cartrabbit International Pte Ltd, a
                     company incorporated in Singapore with a principal place of business located at 09-14, High Street
                     Plaza, High Street, Singapore – 179433, on behalf of itself, and subsidiaries and affiliates set
-                    forth below (“<strong>Cartrabbit</strong>” or “<strong>Retainful</strong>”) and the entity or person
+                    forth below (“<strong>Cartrabbit</strong>” or “<strong>Campaignrabbit</strong>”) and the entity or person
                     placing an order for or accessing any Services (“<strong>Customer</strong>” or “<strong>you</strong>“).
                     If you are accessing or using the Services on behalf of your company, you represent that you are
                     authorized to accept this Agreement on behalf of your company, and all references to “you” or
@@ -28,18 +25,18 @@ const TermsOfService = () => (
                     Cartrabbit and you or the legal entity you represent (“<strong>Customer</strong>” or
                     “<strong>you</strong>“). These Terms of Service also apply if you purchase a right to use the
                     Services (as defined below) pursuant to a Service Order entered into between you and a
-                    Retainful-authorized agent, vendor, or reseller of the Services (an “<strong>Authorized
+                    Campaignrabbit-authorized agent, vendor, or reseller of the Services (an “<strong>Authorized
                     Reseller</strong>“).
                 </p>
                 <p>
-                    Customer desires to use Retainful’s online customer management services presently offered or
-                    available, (the “<strong>Services</strong>“) using Retainful’s Customer’s instructions and other
-                    documentation of Retainful (the “<strong>Retainful Documentation</strong>“). Customer management
-                    services include using Retainful software to retrieve customer information from customer emails,
+                    Customer desires to use Campaignrabbit’s online customer management services presently offered or
+                    available, (the “<strong>Services</strong>“) using Campaignrabbit’s Customer’s instructions and other
+                    documentation of Campaignrabbit (the “<strong>Campaignrabbit Documentation</strong>“). Customer management
+                    services include using Campaignrabbit software to retrieve customer information from customer emails,
                     websites and similar opt-ins, and transactions (the “<strong>Communications</strong>“), viewing data
-                    available from the Communications, and using Retainful’s marketing platform to send messages to end
-                    customers through email and SMS text messages. Retainful will permit Customer to use the Services
-                    and the Retainful Documentation subject to the terms and conditions of these Terms of Service. By
+                    available from the Communications, and using Campaignrabbit’s marketing platform to send messages to end
+                    customers through email and SMS text messages. Campaignrabbit will permit Customer to use the Services
+                    and the Campaignrabbit Documentation subject to the terms and conditions of these Terms of Service. By
                     using the Services, Customer agrees to all of the terms and conditions of these Terms of Service,
                     including but not limited to the limitations on liability set forth herein. IF CUSTOMER DOES NOT
                     AGREE TO ALL OF THE TERMS AND CONDITIONS OF THESE TERMS OF SERVICE, CUSTOMER IS NOT PERMITTED TO USE
@@ -53,10 +50,10 @@ const TermsOfService = () => (
                                 <h4>Agreement to Provide Services.</h4>
                                 <p>
                                     Subject to the terms and conditions of these Terms of Service and during the term of
-                                    these Terms of Service, Retainful will provide to Customer access to the Services
-                                    purchased through and described on the Retainful website at <a
-                                    href="https://www.retainful.com/" target="_blank" rel="noopener noreferrer">www.retainful.com</a> and its sub
-                                    domains (the “<strong>Retainful Site</strong>“), or purchased through an Authorized
+                                    these Terms of Service, Campaignrabbit will provide to Customer access to the Services
+                                    purchased through and described on the Campaignrabbit website at <a
+                                    href="https://www.campaignrabbit.com/" target="_blank" rel="noopener noreferrer">www.campaignrabbit.com</a> and its sub
+                                    domains (the “<strong>Campaignrabbit Site</strong>“), or purchased through an Authorized
                                     Reseller. Customer’s Services start on the date of the beginning of the Term as
                                     defined in Section 12. Customer understands and agrees that by using the on-line
                                     registration process and agreeing to the terms of these Terms of Service, Customer
@@ -84,18 +81,18 @@ const TermsOfService = () => (
                         <ol>
                             <li>
                                 <p>
-                                    Retainful may modify these Terms of Service or any policy or other terms referenced
+                                    Campaignrabbit may modify these Terms of Service or any policy or other terms referenced
                                     in these Terms of Service including but not limited to the Privacy Policy and, if
                                     applicable, the EU Data Protection Addendum (collectively, “<strong>Additional
                                     Policies</strong>“) at any time by posting a revised version of the Terms of Service
-                                    and the Additional Policies on the Retainful Site. Unless otherwise set forth in
+                                    and the Additional Policies on the Campaignrabbit Site. Unless otherwise set forth in
                                     these Terms of Service, the revised terms shall be effective (a) fifteen (15) days
                                     after posting and/or notifying Customers of the changes (including through a notice
-                                    submitted by Retainful to an Authorized Reseller to be then passed along to a
-                                    Customer); or (b) upon Customer’s acceptance if Retainful or an Authorized Reseller
+                                    submitted by Campaignrabbit to an Authorized Reseller to be then passed along to a
+                                    Customer); or (b) upon Customer’s acceptance if Campaignrabbit or an Authorized Reseller
                                     provides a mechanism for Customer’s immediate acceptance of the revised terms, such
                                     as a click-through confirmation or acceptance button, whichever occurs first.
-                                    Continued performance by Retainful of its obligations hereunder is adequate
+                                    Continued performance by Campaignrabbit of its obligations hereunder is adequate
                                     consideration for any such revisions. By continuing to use or receive the Services
                                     after the effective date of any revisions to these Terms of Service or any
                                     Additional Policies, Customer agrees to be bound by the revised Terms of Service or
@@ -114,18 +111,18 @@ const TermsOfService = () => (
                             <li>
                                 <h4>License.</h4>
                                 <p>
-                                    Subject to the terms and conditions of these Terms of Service, Retainful grants to
+                                    Subject to the terms and conditions of these Terms of Service, Campaignrabbit grants to
                                     Customer a non-exclusive, non-transferable, revocable license during the Term (as
                                     defined in Section 12), without the right to sublicense, to </p>
                                 <ol type="i">
                                     <li>
-                                        use the software and other technology supplied by Retainful to enable Customer
-                                        to receive or access the Services (the “<strong>Retainful Platform</strong>“)
+                                        use the software and other technology supplied by Campaignrabbit to enable Customer
+                                        to receive or access the Services (the “<strong>Campaignrabbit Platform</strong>“)
                                         solely for the purposes of accessing and using the Services; and
                                     </li>
                                     <li>
-                                        use the Retainful Documentation in connection with the Customer’s use of the
-                                        Retainful Platform. Except for the limited licenses granted hereunder, Retainful
+                                        use the Campaignrabbit Documentation in connection with the Customer’s use of the
+                                        Campaignrabbit Platform. Except for the limited licenses granted hereunder, Campaignrabbit
                                         reserves all rights not expressly granted and no such additional rights may be
                                         implied.
                                     </li>
@@ -136,25 +133,25 @@ const TermsOfService = () => (
                                 <p>Customer acknowledges that</p>
                                 <ol type="i">
                                     <li>
-                                        all right, title and interest in and to the Services, including the Retainful
-                                        Platform and Retainful Documentation therein, and all patents, copyrights, trade
+                                        all right, title and interest in and to the Services, including the Campaignrabbit
+                                        Platform and Campaignrabbit Documentation therein, and all patents, copyrights, trade
                                         secrets, trademarks, trade names, service marks, slogans, logos, other
                                         trade-identifying symbols and other proprietary and intellectual property rights
-                                        embodied therein or associated therewith, are and shall remain with Retainful or
+                                        embodied therein or associated therewith, are and shall remain with Campaignrabbit or
                                         its third party licensors;
                                     </li>
                                     <li>
-                                        no right or interest in the Services or the Retainful Platform is conveyed other
+                                        no right or interest in the Services or the Campaignrabbit Platform is conveyed other
                                         than the limited licenses granted herein;
                                     </li>
                                     <li>
-                                        the Services, the Retainful Documentation and the Retainful Platform are
+                                        the Services, the Campaignrabbit Documentation and the Campaignrabbit Platform are
                                         protected by copyright and other intellectual property laws; and
                                     </li>
                                     <li>
-                                        Retainful asserts that the Services, the Retainful Documentation and the
-                                        Retainful Platform embody valuable confidential and secret information of
-                                        Retainful or its licensors, the development of which required the expenditure of
+                                        Campaignrabbit asserts that the Services, the Campaignrabbit Documentation and the
+                                        Campaignrabbit Platform embody valuable confidential and secret information of
+                                        Campaignrabbit or its licensors, the development of which required the expenditure of
                                         considerable time and money.
                                     </li>
                                 </ol>
@@ -166,16 +163,16 @@ const TermsOfService = () => (
                                 </p>
                                 <ol type="i">
                                     <li>
-                                        modify or alter the Retainful Platform;
+                                        modify or alter the Campaignrabbit Platform;
                                     </li>
                                     <li>
-                                        create derivative works of the Retainful Platform;
+                                        create derivative works of the Campaignrabbit Platform;
                                     </li>
                                     <li>
-                                        decompile, disassemble, decode or reverse engineer the Retainful Platform,
-                                        translate the Retainful Platform or otherwise attempt to learn the source code,
-                                        structure, algorithms or internal ideas underlying the Retainful Platform or
-                                        reduce the Retainful Platform by any other means to a human perceivable form; or
+                                        decompile, disassemble, decode or reverse engineer the Campaignrabbit Platform,
+                                        translate the Campaignrabbit Platform or otherwise attempt to learn the source code,
+                                        structure, algorithms or internal ideas underlying the Campaignrabbit Platform or
+                                        reduce the Campaignrabbit Platform by any other means to a human perceivable form; or
                                     </li>
                                     <li>
                                         bypass, delete or disable any copy protection mechanisms or any security
@@ -186,20 +183,20 @@ const TermsOfService = () => (
                             <li>
                                 <h4>License to Customer Marketing Content.</h4>
                                 <p>
-                                    In connection with the Services, Customer grants Retainful and Third-Party Partner
+                                    In connection with the Services, Customer grants Campaignrabbit and Third-Party Partner
                                     Site(s) a non-exclusive, transferable, royalty-free license during the Term to use
                                     Customer’s trademarks, trade names, service marks, slogans, logos, other
                                     trade-identifying symbols and all other marketing or promotional content provided by
-                                    Customer to Retainful (“<strong>Customer Marketing Content</strong>“) in connection
+                                    Customer to Campaignrabbit (“<strong>Customer Marketing Content</strong>“) in connection
                                     with the advertising, promotion and sale of Customer’s products, services or
                                     business, and to sublicense such Customer Marketing Content to third parties in
                                     connection with the provision of such Services. Customer acknowledges that any
                                     on-line coupon or similar marketing offer, deal or advertisement to market its
                                     products or services (each, an “<strong>Offer</strong>“) posted on Third-Party
-                                    Partner Site(s) may not carry the Retainful trademark or branding. Customer further
-                                    acknowledges and agrees that Retainful or its sublicensees may modify Customer
+                                    Partner Site(s) may not carry the Campaignrabbit trademark or branding. Customer further
+                                    acknowledges and agrees that Campaignrabbit or its sublicensees may modify Customer
                                     Marketing Content in order to effectively provide the Services ordered in
-                                    Retainful’s reasonable discretion, provided, that none of such modifications shall
+                                    Campaignrabbit’s reasonable discretion, provided, that none of such modifications shall
                                     materially alter the terms of any Offer without Customer’s prior written consent.
                                 </p>
                             </li>
@@ -216,8 +213,8 @@ const TermsOfService = () => (
                                     <li>
                                         shall not obscure, alter or remove any notice of any copyright, trademark, trade
                                         name, service mark, logo, or other intellectual property or proprietary right
-                                        designation appearing on or contained within the Services, the Retainful
-                                        Platform, the Documentation or on any other Retainful materials; and
+                                        designation appearing on or contained within the Services, the Campaignrabbit
+                                        Platform, the Documentation or on any other Campaignrabbit materials; and
                                     </li>
                                     <li>
                                         shall take all reasonable precautions to prevent unauthorized or improper use of
@@ -230,8 +227,8 @@ const TermsOfService = () => (
                                 <p>
                                     During the term of these Terms of Service, Customer will not assert, nor will
                                     Customer authorize, assist, or encourage any third party to assert, against
-                                    Retainful or any related party, any patent infringement or other intellectual
-                                    property infringement claim with respect to the Retainful Platform, Retainful
+                                    Campaignrabbit or any related party, any patent infringement or other intellectual
+                                    property infringement claim with respect to the Campaignrabbit Platform, Campaignrabbit
                                     Documentation or the Services.
                                 </p>
                             </li>
@@ -239,16 +236,16 @@ const TermsOfService = () => (
                                 <h4>Feedback and Comments.</h4>
                                 <p>
                                     In the event Customer elects, in connection with any of the Services, to communicate
-                                    to Retainful (either directly or through an Authorized Reseller) suggestions for
-                                    improvements to the Services (“<strong>Feedback</strong>“), Retainful shall be
+                                    to Campaignrabbit (either directly or through an Authorized Reseller) suggestions for
+                                    improvements to the Services (“<strong>Feedback</strong>“), Campaignrabbit shall be
                                     entitled to use the Feedback without restriction and Feedback will not be treated as
-                                    confidential to Customer. Customer hereby grants to Retainful a royalty-free,
+                                    confidential to Customer. Customer hereby grants to Campaignrabbit a royalty-free,
                                     sub-licensable, transferable, perpetual, irrevocable worldwide license in and to the
                                     Feedback to use in any manner related to the operation of its business. In addition,
-                                    Retainful hereby disclaims any and all liability for any comments, drawings,
-                                    depictions, audio clips or other content made available on the Retainful Site by
-                                    Customers of the Retainful Site generally (“<strong>Comments</strong>“). Further
-                                    Retainful
+                                    Campaignrabbit hereby disclaims any and all liability for any comments, drawings,
+                                    depictions, audio clips or other content made available on the Campaignrabbit Site by
+                                    Customers of the Campaignrabbit Site generally (“<strong>Comments</strong>“). Further
+                                    Campaignrabbit
                                 </p>
                                 <ol type="i">
                                     <li>
@@ -257,7 +254,7 @@ const TermsOfService = () => (
                                         operation of its business, and
                                     </li>
                                     <li>
-                                        reserves the right to remove any such Content from the Retainful Site
+                                        reserves the right to remove any such Content from the Campaignrabbit Site
                                         immediately in its sole discretion.
                                     </li>
                                 </ol>
@@ -271,11 +268,11 @@ const TermsOfService = () => (
                                 <h4>Fees.</h4>
                                 <p>
                                     In consideration for the provision of Services to Customer, Customer will pay to
-                                    Retainful, or if Customer purchases a right to use the Service from an Authorized
+                                    Campaignrabbit, or if Customer purchases a right to use the Service from an Authorized
                                     Reseller, then Customer will pay to such Authorized Reseller, all Services fees
                                     (“<strong>Fees</strong>“) due in advance according to the Service Order. Charges are
                                     exclusive of all applicable taxes, which may be billed to Customer in addition to
-                                    the Fees. Retainful or Authorized Reseller will provide Customer fourteen (14) days
+                                    the Fees. Campaignrabbit or Authorized Reseller will provide Customer fourteen (14) days
                                     advance notice for any increase in fees or addition of new fees for any existing
                                     Services. Customer’s continued use of the Services after a fee increase will
                                     constitute Customer’s agreement to the increase in service fees.
@@ -284,29 +281,29 @@ const TermsOfService = () => (
                             <li>
                                 <h4>Billing, Invoicing and Payment Terms.</h4>
                                 <p>
-                                    Retainful, or if applicable, the Authorized Reseller, will, using Stripe (or other
+                                    Campaignrabbit, or if applicable, the Authorized Reseller, will, using Stripe (or other
                                     third party payment processors), charge Customer the Fees and applicable taxes for
                                     the Services rendered in advance for each billing period on or after the first day
                                     of such billing period. If Customer is paying by credit card or eCheck, (a) Customer
-                                    hereby irrevocably authorizes Retainful, or if applicable, the Authorized Reseller,
+                                    hereby irrevocably authorizes Campaignrabbit, or if applicable, the Authorized Reseller,
                                     to charge the credit card or other payment method provided for any such amounts when
                                     due, (b) amounts due will be automatically charged, in advance, and (c) if
-                                    Customer’s credit card expires, Customer hereby gives Retainful, or if applicable,
+                                    Customer’s credit card expires, Customer hereby gives Campaignrabbit, or if applicable,
                                     the Authorized Reseller, permission to submit the credit card charge with a later
-                                    expiration date. All billing disputes must be emailed to support@retainful.com
+                                    expiration date. All billing disputes must be emailed to support@campaignrabbit.com
                                     within fourteen (14) days of delivery of the billing statement, and disputes not
                                     made within that time are waived by Customer. Late payments, including those
                                     resulting from credit card declines that the Customer has attempted to follow up on
                                     hereunder will accrue interest at a rate of one and one-half percent (1 1/2 %) per
-                                    month, or the highest rate allowed by applicable law, whichever is lower. Retainful,
+                                    month, or the highest rate allowed by applicable law, whichever is lower. Campaignrabbit,
                                     or if applicable, the Authorized Reseller, reserves the right to have Customer
                                     complete a credit application to determine Customer’s creditworthiness as a
-                                    condition of receiving further Services. If Retainful, or if applicable, the
+                                    condition of receiving further Services. If Campaignrabbit, or if applicable, the
                                     Authorized Reseller, must initiate a collections process to recover Fees due and
-                                    payable hereunder, then Retainful, or if applicable, the Authorized Reseller, shall
+                                    payable hereunder, then Campaignrabbit, or if applicable, the Authorized Reseller, shall
                                     be entitled to recover from Customer all costs associated with such collections
                                     efforts, including but not limited to reasonable attorneys’ fees. In the event
-                                    Retainful, or if applicable, the Authorized Reseller, delivers to Customer an
+                                    Campaignrabbit, or if applicable, the Authorized Reseller, delivers to Customer an
                                     invoice for any Fees or interest payments owed hereunder, such invoiced amounts
                                     shall be due within fourteen (14) days of the date of such invoice. In the event an
                                     account is past due and Customer requests to cancel per Section 12, Customer is
@@ -355,8 +352,8 @@ const TermsOfService = () => (
                                     Without limiting the foregoing, Customer is responsible for all charges and
                                     liabilities applicable to data and information transmitted to and stored under
                                     Customer’s account on the Services. In the event Customer believes the Passwords
-                                    have been compromised, Customer is solely responsible for notifying Retainful
-                                    immediately by email to support@retainful.com
+                                    have been compromised, Customer is solely responsible for notifying Campaignrabbit
+                                    immediately by email to support@campaignrabbit.com
                                 </p>
                             </li>
                             <li>
@@ -366,46 +363,46 @@ const TermsOfService = () => (
                                     suspended for the duration of any scheduled or unscheduled downtime or
                                     unavailability of any portion or all of the Services for any reason, including as a
                                     result of power outages, system failures or other interruptions, or any other acts,
-                                    omissions or failures on the part of Retainful.
+                                    omissions or failures on the part of Campaignrabbit.
                                 </p>
                             </li>
                             <li>
                                 <h4>Suspension, Limitation or Termination.</h4>
                                 <p>
-                                    Retainful shall be entitled, without liability to Customer, to immediately suspend,
+                                    Campaignrabbit shall be entitled, without liability to Customer, to immediately suspend,
                                     terminate or limit Customer’s access to the Services at any time in the event
                                 </p>
                                 <ol type="i">
                                     <li>
-                                        that Retainful determines, in its sole discretion, that the Services are being
+                                        that Campaignrabbit determines, in its sole discretion, that the Services are being
                                         used in violation of applicable federal, state or local law or ordinance, these
                                         Terms of Service, or any agreement applicable to the Services;
                                     </li>
                                     <li>
-                                        that Retainful, in its sole discretion, determines that the Services are being
+                                        that Campaignrabbit, in its sole discretion, determines that the Services are being
                                         used in an unauthorized, inappropriate, or fraudulent manner;
                                     </li>
                                     <li>
-                                        that Retainful determines that the use of the Services adversely affects
-                                        Retainful’s equipment or service to others;
+                                        that Campaignrabbit determines that the use of the Services adversely affects
+                                        Campaignrabbit’s equipment or service to others;
                                     </li>
                                     <li>
-                                        Retainful is prohibited by an order of a court or other governmental agency from
+                                        Campaignrabbit is prohibited by an order of a court or other governmental agency from
                                         providing the Services;
                                     </li>
                                     <li>
-                                        of a denial of service attack or any other event which Retainful determines, in
+                                        of a denial of service attack or any other event which Campaignrabbit determines, in
                                         its sole discretion, may create a risk to the Services or to any other customers
                                         if the Services were not suspended; or
                                     </li>
                                     <li>
                                         of a security incident or other disaster that impacts the Services or the
-                                        security of Customer Data. In addition, Retainful shall have the right to
-                                        immediately deny or suspend access to the Retainful Platform or Services in the
-                                        event Retainful, or if applicable, an Authorized Reseller, is not paid any
+                                        security of Customer Data. In addition, Campaignrabbit shall have the right to
+                                        immediately deny or suspend access to the Campaignrabbit Platform or Services in the
+                                        event Campaignrabbit, or if applicable, an Authorized Reseller, is not paid any
                                         amount due in connection with the Services or Customer’s breach or alleged
                                         breach of these Terms of Service. Without limiting the generality of Section 5,
-                                        Retainful shall have no liability for any damages, liabilities or losses as a
+                                        Campaignrabbit shall have no liability for any damages, liabilities or losses as a
                                         result of any suspension, limitation or termination of Customer‘s right to use
                                         the Services in accordance with these Terms of Service.
                                     </li>
@@ -420,7 +417,7 @@ const TermsOfService = () => (
                                     <li>
                                         in violation of these Terms of Service, including usage that exceeds storage
                                         volume limits or other parameters and restrictions described on the applicable
-                                        Service Order or on the Retainful Site;
+                                        Service Order or on the Campaignrabbit Site;
                                     </li>
                                     <li>
                                         to infringe on, violate, dilute or misappropriate the intellectual property
@@ -445,20 +442,20 @@ const TermsOfService = () => (
                                     <li>
                                         to introduce or propagate any unauthorized data, malware, viruses, Trojan
                                         horses, spyware, worms, other malicious or harmful code. Customer may not use
-                                        the Retainful Platform or Services in any application that may involve risks of
+                                        the Campaignrabbit Platform or Services in any application that may involve risks of
                                         death, personal injury, property damage or environmental damage. Customer may
                                         not interfere with or attempt to interfere with or disrupt the integrity,
-                                        security, functionality or proper working of the Services or the Retainful
+                                        security, functionality or proper working of the Services or the Campaignrabbit
                                         Platform. Customer may not attempt to discover or use any license keys, access
-                                        codes or similar information provided from time to time to Retainful. Customer
+                                        codes or similar information provided from time to time to Campaignrabbit. Customer
                                         may not attempt to discover, access, read, alter, destroy, or damage any
                                         programs, data or other information stored on or in connection with the
-                                        Retainful Platform or Services by any other party. Customer may access the
+                                        Campaignrabbit Platform or Services by any other party. Customer may access the
                                         Services only through the interfaces and protocols provided or authorized by
-                                        Retainful. Customer may not access the Retainful Platform or Services through
+                                        Campaignrabbit. Customer may not access the Campaignrabbit Platform or Services through
                                         unauthorized means, such as unlicensed software clients. Customer may not
-                                        compile or use the Retainful provided materials or any other information
-                                        obtained through the Services or the Retainful Platform for the purpose of
+                                        compile or use the Campaignrabbit provided materials or any other information
+                                        obtained through the Services or the Campaignrabbit Platform for the purpose of
                                         spamming, unsolicited contacting of sellers or customers, or other impermissible
                                         advertising, marketing or other activities, including, without limitation, any
                                         activities that violate anti-spamming laws and regulations.
@@ -468,7 +465,7 @@ const TermsOfService = () => (
                             <li>
                                 <h4>No Spam; Customer’s Obligation to Obtain Permission.</h4>
                                 <p>
-                                    Under the terms of the CAN-SPAM Act, as between Retainful and Customer, Customer is
+                                    Under the terms of the CAN-SPAM Act, as between Campaignrabbit and Customer, Customer is
                                     the sender of emails and is obligated to follow all legal requirements applicable to
                                     the sending of emails under CAN-SPAM, including but not limited to the prohibition
                                     against sending unsolicited emails to persons with whom Customer does not have a
@@ -484,14 +481,14 @@ const TermsOfService = () => (
                                 <h4>HIPAA Compliance.</h4>
                                 <p>
                                     Customer agrees to not upload or incorporate into any customer lists, or otherwise
-                                    provide to Retainful any protected health information of any kind within the meaning
+                                    provide to Campaignrabbit any protected health information of any kind within the meaning
                                     of the Health Insurance Portability and Accountability Act of 1996, as amended
                                     (HIPAA). Notwithstanding the foregoing, if Customer is a covered entity under HIPAA,
-                                    Customer agrees to contact Retainful at <a
+                                    Customer agrees to contact Campaignrabbit at <a
                                     href="mailto:legal@cartrabbit.io">legal@cartrabbit.io</a> in order to request a
-                                    business associate agreement (BAA) prior to using the Retainful Site or the
-                                    Services. If Retainful agrees to enter into a BAA with Customer, Customer may
-                                    provide protected health information to Retainful, subject to these Terms of Service
+                                    business associate agreement (BAA) prior to using the Campaignrabbit Site or the
+                                    Services. If Campaignrabbit agrees to enter into a BAA with Customer, Customer may
+                                    provide protected health information to Campaignrabbit, subject to these Terms of Service
                                     and the terms of the BAA.
                                 </p>
                             </li>
@@ -499,28 +496,28 @@ const TermsOfService = () => (
                                 <h4>No Children’s Information.</h4>
                                 <p>
                                     Customer agrees not to upload or incorporate into any customer lists, or otherwise
-                                    provide to Retainful any information about individuals that Customer knows or has
+                                    provide to Campaignrabbit any information about individuals that Customer knows or has
                                     reason to know are under the age of 13. If Customer discovers that it uploaded,
-                                    incorporated into any customer lists, or otherwise provided to Retainful any
+                                    incorporated into any customer lists, or otherwise provided to Campaignrabbit any
                                     information about individuals that Customer knows or discovers are under the age of
-                                    13, Customer agrees to promptly remove such information from Retainful’s systems and
-                                    notify Retainful of such occurrence.
+                                    13, Customer agrees to promptly remove such information from Campaignrabbit’s systems and
+                                    notify Campaignrabbit of such occurrence.
                                 </p>
                             </li>
                             <li>
                                 <h4>Changes to the Services.</h4>
                                 <p>
-                                    Retainful has the right to change, modify, update, add to, discontinue or retire the
+                                    Campaignrabbit has the right to change, modify, update, add to, discontinue or retire the
                                     Services and any aspect or feature thereof, including but not limited to, hours of
                                     availability, equipment needed for access or use, and the type and size of files
-                                    that can be stored or transmitted. Retainful may provide notice of material changes
-                                    to the Retainful Platform or Services by posting them on the Retainful Site. It is
-                                    Customer’s responsibility to check the Retainful Site periodically to be informed of
-                                    any changes. You understand and agree that Retainful may change the telephone
-                                    number(s) and/or the credit card payment processing system. You agree that Retainful
+                                    that can be stored or transmitted. Campaignrabbit may provide notice of material changes
+                                    to the Campaignrabbit Platform or Services by posting them on the Campaignrabbit Site. It is
+                                    Customer’s responsibility to check the Campaignrabbit Site periodically to be informed of
+                                    any changes. You understand and agree that Campaignrabbit may change the telephone
+                                    number(s) and/or the credit card payment processing system. You agree that Campaignrabbit
                                     will not be liable for damages (including consequential or special damages) arising
                                     out of any such change and you hereby waive any claims with respect to any such
-                                    change, whether based on contractual, tort or other grounds, even if Retainful has
+                                    change, whether based on contractual, tort or other grounds, even if Campaignrabbit has
                                     been advised of the possibility of such damages.
                                 </p>
                             </li>
@@ -533,19 +530,19 @@ const TermsOfService = () => (
                                 <h4>Customer Data.</h4>
                                 <p>
                                     Customer warrants that Customer is the owner or legal custodian of, or otherwise has
-                                    the right to provide to Retainful, all programs, data, information and other content
-                                    transmitted via the Retainful Platform and hosted through the Services, including,
+                                    the right to provide to Campaignrabbit, all programs, data, information and other content
+                                    transmitted via the Campaignrabbit Platform and hosted through the Services, including,
                                     without limitation, End Customer Data (as defined below) and the Customer Marketing
                                     Content (collectively, the “<strong>Customer Data</strong>“) and has the full
                                     authority to transmit and store the Customer Data through the Services. Customer
-                                    hereby authorizes the storage of Customer Data by Retainful through the Services
-                                    that Customer elects to transmit via the Retainful Platform. Customer acknowledges
+                                    hereby authorizes the storage of Customer Data by Campaignrabbit through the Services
+                                    that Customer elects to transmit via the Campaignrabbit Platform. Customer acknowledges
                                     that Customer bears sole responsibility for adequate security, protection and backup
                                     of Customer’s Data on Customer’s equipment. Customer understands that the Services
                                     may store and backup files that are no longer usable due to corruption from viruses,
                                     software malfunctions and other causes, which might result in Customer restoring
                                     files that are no longer usable. Without limiting the generality of Section 6,
-                                    Retainful will have no liability to Customer for any unauthorized access to, or use,
+                                    Campaignrabbit will have no liability to Customer for any unauthorized access to, or use,
                                     alteration, corruption, deletion, destruction or loss of any of Customer Data on
                                     Customer’s equipment.
                                 </p>
@@ -553,28 +550,28 @@ const TermsOfService = () => (
                             <li>
                                 <h4>End Customer Data.</h4>
                                 <p>
-                                    In connection with Retainful’s performance of the Services, Retainful may collect
-                                    online data from Customer or an Authorized Reseller and through the Retainful
+                                    In connection with Campaignrabbit’s performance of the Services, Campaignrabbit may collect
+                                    online data from Customer or an Authorized Reseller and through the Campaignrabbit
                                     Platform regarding Customer’s customers (the “<strong>End Customer Data</strong>“).
                                     Further, Customer acknowledges that such End Customer Data may include personal
                                     information of Customer’s customers as well as data relating to Communications.
-                                    Retainful will not use such End Customer Data for any purpose other than to provide
+                                    Campaignrabbit will not use such End Customer Data for any purpose other than to provide
                                     the Services to Customer, to improve the Services generally, or as otherwise
-                                    directed by Customer. If Customer cancels its account with Retainful or becomes
-                                    inactive due to past-due amounts, Customer agrees that Retainful may delete all End
+                                    directed by Customer. If Customer cancels its account with Campaignrabbit or becomes
+                                    inactive due to past-due amounts, Customer agrees that Campaignrabbit may delete all End
                                     Customer Data after a period of 2 months. To the extent that any privacy or data
-                                    protection laws impose an obligation upon Retainful to comply with an individual’s
+                                    protection laws impose an obligation upon Campaignrabbit to comply with an individual’s
                                     request for access to or correction of their personal information that is End
                                     Customer Data, Customer agrees that Customer shall satisfy such obligations.
-                                    Retainful agrees that it shall forward any such individual requests that it receives
+                                    Campaignrabbit agrees that it shall forward any such individual requests that it receives
                                     to Customer and shall reasonably assist Customer, at Customer’s request and expense,
-                                    to satisfy such obligations. Customer agrees that it may be necessary for Retainful
+                                    to satisfy such obligations. Customer agrees that it may be necessary for Campaignrabbit
                                     to access End Customer Data to respond to Customer’s request for assistance with any
-                                    technical problems and/or queries. Customer shall hold Retainful, its
+                                    technical problems and/or queries. Customer shall hold Campaignrabbit, its
                                     subcontractors, suppliers and licensors harmless from any and all privacy or data
-                                    protection claims relating to such access. Retainful may transfer End Customer Data
+                                    protection claims relating to such access. Campaignrabbit may transfer End Customer Data
                                     to its successor or acquirer in a merger, acquisition or other consolidation,
-                                    including without limitation the sale of all or substantially all of Retainful’s
+                                    including without limitation the sale of all or substantially all of Campaignrabbit’s
                                     stock or assets or business to which these Terms of Service apply.
                                 </p>
                             </li>
@@ -583,12 +580,12 @@ const TermsOfService = () => (
                                 <p>
                                     Customer acknowledges and agrees that if Customer uses (or instructs, permits, or
                                     enables any of Customer’s employees, contractors, partners, or customers to use) any
-                                    of the Services, including the Retainful Platform, to collect, retrieve, send,
+                                    of the Services, including the Campaignrabbit Platform, to collect, retrieve, send,
                                     store, host, transfer, or otherwise process or use any End Customer Data relating to
                                     any natural persons located in the European Union, then such activities shall be
-                                    subject to the <a href="https://www.retainful.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy
+                                    subject to the <a href="https://www.campaignrabbit.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Privacy
                                     Policy</a>, which is hereby incorporated into these <a
-                                    href="https://www.retainful.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Terms of
+                                    href="https://www.campaignrabbit.com/privacy-policy/" target="_blank" rel="noopener noreferrer">Terms of
                                     Service</a> by this reference.
                                 </p>
                             </li>
@@ -635,7 +632,7 @@ const TermsOfService = () => (
                                 <h4>Validity of Offers.</h4>
                                 <p>
                                     Customer warrants that any Offer shall not violate any laws or regulations and, upon
-                                    claim by a customer whether on the Retainful Site or a Third-Party Partner Site or
+                                    claim by a customer whether on the Campaignrabbit Site or a Third-Party Partner Site or
                                     otherwise, shall be available for redemption by such customer. Customer agrees to
                                     comply with the Offer terms and conditions as set forth in a particular Offer or any
                                     other advertising or marketing terms or Offers made available to Customer’s end
@@ -657,18 +654,18 @@ const TermsOfService = () => (
                                     </li>
                                     <li>
                                         that Customer has the necessary rights and licenses, consents, permissions,
-                                        waivers and releases to use the Customer Data and to enable Retainful to use and
+                                        waivers and releases to use the Customer Data and to enable Campaignrabbit to use and
                                         disclose to Customer the Customer Data as intended by the parties under these
                                         Terms of Service and the terms of any applicable Service Orders;
                                     </li>
                                     <li>
                                         that Customer has a legally sufficient privacy policy or privacy notice that is
                                         made available to customers prior to their provision of any Personal Information
-                                        to Customer or Retainful;
+                                        to Customer or Campaignrabbit;
                                     </li>
                                     <li>
-                                        that use by Retainful of Customer Data (a) does not violate, misappropriate or
-                                        infringe any rights of Retainful or any third party, (b) does not constitute
+                                        that use by Campaignrabbit of Customer Data (a) does not violate, misappropriate or
+                                        infringe any rights of Campaignrabbit or any third party, (b) does not constitute
                                         defamation, invasion of privacy or publicity, or otherwise violate any rights of
                                         any third party, and (c) is not designed for use in any illegal activity or does
                                         not promote illegal activities, including, without limitation, in a manner that
@@ -717,15 +714,15 @@ const TermsOfService = () => (
                         <h3>LIMITED WARRANTY</h3>
                         <ol>
                             <li>
-                                <h4>Retainful Platform and Services</h4>
+                                <h4>Campaignrabbit Platform and Services</h4>
                                 <p>
-                                    Retainful warrants solely to Customer that the Retainful Platform and the Services,
+                                    Campaignrabbit warrants solely to Customer that the Campaignrabbit Platform and the Services,
                                     when used in accordance with the terms of these Terms of Service, will function
-                                    substantially in accordance with the Documentation. Retainful shall use commercially
-                                    reasonable efforts to perform the Services. Retainful’s sole obligation and
+                                    substantially in accordance with the Documentation. Campaignrabbit shall use commercially
+                                    reasonable efforts to perform the Services. Campaignrabbit’s sole obligation and
                                     Customer’s exclusive remedy hereunder with respect to any failure of the foregoing
                                     obligations shall be to use reasonable efforts to correct any such failure.
-                                    Retainful shall have no obligation for any failure resulting from
+                                    Campaignrabbit shall have no obligation for any failure resulting from
                                 </p>
                                 <ol type="i">
                                     <li>
@@ -737,41 +734,41 @@ const TermsOfService = () => (
                                         by the Customer;
                                     </li>
                                     <li>
-                                        the use or combination of the Retainful Platform or the Services with any other
-                                        software or hardware not supported by Retainful;
+                                        the use or combination of the Campaignrabbit Platform or the Services with any other
+                                        software or hardware not supported by Campaignrabbit;
                                     </li>
                                     <li>
-                                        causes external to the Retainful Platform or the Services, such as problems with
-                                        the hardware, network or other infrastructure with which the Retainful Platform
+                                        causes external to the Campaignrabbit Platform or the Services, such as problems with
+                                        the hardware, network or other infrastructure with which the Campaignrabbit Platform
                                         and the Services are used;
                                     </li>
                                     <li>
-                                        unauthorized or improper use of the Retainful Platform or the Services; or
+                                        unauthorized or improper use of the Campaignrabbit Platform or the Services; or
                                     </li>
                                     <li>
-                                        any modification of the Retainful Platform or the Services by anyone other than
-                                        Retainful.
+                                        any modification of the Campaignrabbit Platform or the Services by anyone other than
+                                        Campaignrabbit.
                                     </li>
                                 </ol>
                             </li>
                             <li>
                                 <h4>Disclaimer.</h4>
                                 <p>
-                                    EXCEPT AS EXPRESSLY PROVIDED HEREUNDER, THE RETAINFUL PLATFORM AND THE SERVICES ARE
-                                    PROVIDED TO CUSTOMER “AS IS,” WITHOUT WARRANTY OF ANY KIND. RETAINFUL HEREBY
-                                    DISCLAIMS ALL OTHER WARRANTIES WITH RESPECT TO THESE TERMS OF SERVICE, THE RETAINFUL
+                                    EXCEPT AS EXPRESSLY PROVIDED HEREUNDER, THE CAMPAIGNRABBIT PLATFORM AND THE SERVICES ARE
+                                    PROVIDED TO CUSTOMER “AS IS,” WITHOUT WARRANTY OF ANY KIND. CAMPAIGNRABBIT HEREBY
+                                    DISCLAIMS ALL OTHER WARRANTIES WITH RESPECT TO THESE TERMS OF SERVICE, THE CAMPAIGNRABBIT
                                     PLATFORM, THE SERVICES OR THE OFFERS, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT
                                     LIMITED TO, ANY IMPLIED WARRANTIES OF CUSTOMER ABILITY, FITNESS FOR A PARTICULAR
                                     PURPOSE, TITLE OR NON-INFRINGEMENT. Without limiting the generality of the
-                                    foregoing, Retainful does not warrant that the Retainful Platform or the Services
+                                    foregoing, Campaignrabbit does not warrant that the Campaignrabbit Platform or the Services
                                     will meet Customer’s requirements or operate without interruption OR DOWNTIME or be
                                     error free. Notwithstanding anything in these Terms of Service to the contrary, the
-                                    warranties provided by Retainful hereunder with respect to the Retainful Platform or
+                                    warranties provided by Campaignrabbit hereunder with respect to the Campaignrabbit Platform or
                                     the Services may not be extended, supplemented or modified by an Authorized
                                     Reseller, and if an Authorized Reseller makes any additional warranty,
-                                    representation or commitment regarding the Retainful Platform or the Services (or
-                                    modifies an existing warranty, representation or commitment granted by Retainful
-                                    regarding the Retainful Platform or the Services), the Authorized Reseller shall be
+                                    representation or commitment regarding the Campaignrabbit Platform or the Services (or
+                                    modifies an existing warranty, representation or commitment granted by Campaignrabbit
+                                    regarding the Campaignrabbit Platform or the Services), the Authorized Reseller shall be
                                     solely responsible for any such additional warranties, representations or
                                     commitments or modifications.
                                 </p>
@@ -782,23 +779,23 @@ const TermsOfService = () => (
                         <h3>LIMITATION OF LIABILITY</h3>
                         <ol>
                             <li>
-                                TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL RETAINFUL, NOR ANY
+                                TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL CAMPAIGNRABBIT, NOR ANY
                                 OF ITS AFFILIATES, SUBCONTRACTORS, LICENSORS, VENDORS, SUPPLIERS OR RESELLERS, NOR ANY
                                 OF ITS THIRD PARTY PARTNERS, BE LIABLE TO CUSTOMER OR ANY OTHER THIRD PARTY FOR LOST
                                 REVENUES, LOST PROFITS OR OTHER SPECIAL, INCIDENTAL, INDIRECT, PUNITIVE, CONSEQUENTIAL,
                                 RELIANCE OR EXEMPLARY DAMAGES ARISING FROM CUSTOMER’S OR ANY OTHER THIRD PARTY’S USE OF
                                 OR INABILITY TO USE THE SERVICES INCLUDING, BUT NOT LIMITED TO, LOSS OF TECHNOLOGY, LOSS
-                                OF DATA OR INTERRUPTION OR LOSS OF USE DAMAGES WHETHER OR NOT RETAINFUL HAS BEEN ADVISED
-                                OF THE POSSIBILITY OF SUCH DAMAGE OR LOSS. THE MAXIMUM AGGREGATE LIABILITY OF RETAINFUL,
+                                OF DATA OR INTERRUPTION OR LOSS OF USE DAMAGES WHETHER OR NOT CAMPAIGNRABBIT HAS BEEN ADVISED
+                                OF THE POSSIBILITY OF SUCH DAMAGE OR LOSS. THE MAXIMUM AGGREGATE LIABILITY OF CAMPAIGNRABBIT,
                                 ITS LICENSORS, VENDORS AND RESELLERS ARISING OUT OF OR IN CONNECTION WITH THESE TERMS OF
                                 SERVICE, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE, STRICT LIABILITY OR
                                 OTHERWISE), SHALL NOT EXCEED THE ACTUAL FEES PAID BY CUSTOMER FOR THE SERVICE FOR THE
                                 SIX (6) MONTH PERIOD IMMEDIATELY PRECEDING THE INITIAL EVENT GIVING RISE TO LIABILITY
                                 HEREUNDER. THE LIMITATIONS OF LIABILITY SET FORTH IN THIS SECTION 9 ARE FUNDAMENTAL
-                                ELEMENTS OF THE BASIS OF THE BARGAIN BETWEEN RETAINFUL AND CUSTOMER.
+                                ELEMENTS OF THE BASIS OF THE BARGAIN BETWEEN CAMPAIGNRABBIT AND CUSTOMER.
                             </li>
                             <li>
-                                Customer may not bring any suit or action against Retainful for any reason whatsoever
+                                Customer may not bring any suit or action against Campaignrabbit for any reason whatsoever
                                 more than one (1) year after the cause of action accrued.
                             </li>
                             <li>
@@ -808,8 +805,8 @@ const TermsOfService = () => (
                                     <li>
                                         any Services (“<strong>Partner Services</strong>“) provided by, through or in
                                         partnership with an Authorized Reseller or any other third-party partner of
-                                        Retainful (“Partners”) ARE PROVIDED TO CUSTOMER “AS IS,” WITHOUT WARRANTY OF ANY
-                                        KIND. RETAINFUL HEREBY DISCLAIMS ON BEHALF OF THE PARTNERS ALL OTHER WARRANTIES
+                                        Campaignrabbit (“Partners”) ARE PROVIDED TO CUSTOMER “AS IS,” WITHOUT WARRANTY OF ANY
+                                        KIND. CAMPAIGNRABBIT HEREBY DISCLAIMS ON BEHALF OF THE PARTNERS ALL OTHER WARRANTIES
                                         WITH RESPECT TO SUCH PARTNER SERVICES. TO THE FULLEST EXTENT PERMITTED UNDER
                                         APPLICABLE LAW, NO PARTNER SHALL HAVE ANY LIABILITY TO CUSTOMER OTHER THAN AS
                                         MAY BE SET FORTH IN THE PARTNER’S STANDARD TERMS AND CONDITIONS FOR THE PARTNER
@@ -831,7 +828,7 @@ const TermsOfService = () => (
                                         nonetheless continues to be published;
                                     </li>
                                     <li>
-                                        Customer will cooperate to provide Retainful with all information reasonably
+                                        Customer will cooperate to provide Campaignrabbit with all information reasonably
                                         required by a Partner to provide any Partner Services;
                                     </li>
                                     <li>
@@ -849,11 +846,11 @@ const TermsOfService = () => (
                         <h3>SUPPORT</h3>
                         <ol>
                             <li>
-                                For Customer support, please email support@retainful.com. In providing support,
-                                Retainful or a Retainful agent may use a variety of tools to aid in the process of
+                                For Customer support, please email support@campaignrabbit.com. In providing support,
+                                Campaignrabbit or a Campaignrabbit agent may use a variety of tools to aid in the process of
                                 resolving Customer issues as a Customer and may request that Customer provide additional
-                                information in order to resolve these issues. Customer hereby grants Retainful and such
-                                agent the right to use those tools and any information Customer provides to Retainful in
+                                information in order to resolve these issues. Customer hereby grants Campaignrabbit and such
+                                agent the right to use those tools and any information Customer provides to Campaignrabbit in
                                 order to provide Customer with support.
                             </li>
                         </ol>
@@ -861,27 +858,27 @@ const TermsOfService = () => (
                     <li>
                         <h3>INDEMNIFICATION.</h3>
                         <p>
-                            Customer will indemnify and hold Retainful, its Partners, its and their investors, officers,
+                            Customer will indemnify and hold Campaignrabbit, its Partners, its and their investors, officers,
                             directors, affiliates, subsidiaries, licensors, agents and employees (collectively, the
-                            “<strong>Retainful Parties</strong>“) harmless against any loss, liability, claim, demand,
+                            “<strong>Campaignrabbit Parties</strong>“) harmless against any loss, liability, claim, demand,
                             damages, penalties, settlements, costs and expenses, including reasonable attorney’s fees,
                             resulting from any claim (including third party claims), suit, action or proceeding against
-                            a Retainful Party, resulting from or arising out of or in connection with
+                            a Campaignrabbit Party, resulting from or arising out of or in connection with
                         </p>
                         <ol type="i">
                             <li>
                                 claims of intellectual property infringement based on (A) Customer’s use or combination
-                                of the Retainful Platform and the Services with any other software or hardware not
-                                supported by Retainful, if such infringement would not have occurred but for such use or
-                                combination; (B) any modification of the Retainful Platform and the Services by
-                                Customer; or (C) the use by Customer of any version of the Retainful Platform and/or
-                                Services other than the current version of the Retainful Platform and/or Services, if
-                                such version was made available by Retainful with notice that such version was being
+                                of the Campaignrabbit Platform and the Services with any other software or hardware not
+                                supported by Campaignrabbit, if such infringement would not have occurred but for such use or
+                                combination; (B) any modification of the Campaignrabbit Platform and the Services by
+                                Customer; or (C) the use by Customer of any version of the Campaignrabbit Platform and/or
+                                Services other than the current version of the Campaignrabbit Platform and/or Services, if
+                                such version was made available by Campaignrabbit with notice that such version was being
                                 provided in order to avoid an alleged or potential infringement;
                             </li>
                             <li>
                                 claims relating to the Offers or the fulfillment thereof (including claims by purchasers
-                                or other Customers of the Offers on the Retainful Site or Third-Party Partner Site
+                                or other Customers of the Offers on the Campaignrabbit Site or Third-Party Partner Site
                                 relating to Customer’s products or services); or
                             </li>
                             <li>
@@ -890,9 +887,9 @@ const TermsOfService = () => (
                             </li>
                             <li>
                                 the use, transmission, access, disclosure, or other processing of Customer Data.
-                                Retainful does not knowingly collect, either online or offline, Personal Information
-                                from persons under the age of thirteen (13). Customer agrees to indemnify Retainful if,
-                                as a result of Communications, Retainful collects Customer Data from persons under the
+                                Campaignrabbit does not knowingly collect, either online or offline, Personal Information
+                                from persons under the age of thirteen (13). Customer agrees to indemnify Campaignrabbit if,
+                                as a result of Communications, Campaignrabbit collects Customer Data from persons under the
                                 age of 13.
                             </li>
                         </ol>
@@ -903,7 +900,7 @@ const TermsOfService = () => (
                             <li>
                                 <h4>Term.</h4>
                                 <p>
-                                    Subject to Retainful’s receipt of all applicable Fees, and unless otherwise
+                                    Subject to Campaignrabbit’s receipt of all applicable Fees, and unless otherwise
                                     terminated in accordance with this Section 12, these Terms of Service shall commence
                                     upon Customer’s first use of the Services or acceptance of these Terms of Service
                                     (whichever comes first) and shall continue in effect for the period specified on the
@@ -918,39 +915,39 @@ const TermsOfService = () => (
                             <li>
                                 <h4>Termination by Customer.</h4>
                                 <p>
-                                    Notification of of such non-renewal from Customer to Retainful must be emailed to
-                                    support@retainful.com, which must be confirmed by Retainful. If Customer chooses not
-                                    to renew, Customer must fully notify Retainful in writing at least [48 business
+                                    Notification of of such non-renewal from Customer to Campaignrabbit must be emailed to
+                                    support@campaignrabbit.com, which must be confirmed by Campaignrabbit. If Customer chooses not
+                                    to renew, Customer must fully notify Campaignrabbit in writing at least [48 business
                                     hours] prior to the Renewal Term, in which case, Customer will continue to have
                                     access to the Services and be billed until the end of the then current term.
                                     Customer shall not receive a refund for any unused portion of the Term. In the case
-                                    Customer fails to fully notify Retainful of its intent not to renew within this
+                                    Customer fails to fully notify Campaignrabbit of its intent not to renew within this
                                     time, the Renewal Term will commence at the end of the then-current term and
                                     Customer is responsible for the payment of Fees for the Services rendered for that
                                     Renewal Term. Customer shall not in any event be entitled to any refund of any Fees
-                                    previously paid to Retainful for Services.
+                                    previously paid to Campaignrabbit for Services.
                                 </p>
                             </li>
                             <li>
-                                <h4>Termination by Retainful.</h4>
+                                <h4>Termination by Campaignrabbit.</h4>
                                 <p>
-                                    Retainful shall have the right to terminate these Terms of Service at any time
-                                    without cause and without notice. In addition, Retainful may terminate these Terms
+                                    Campaignrabbit shall have the right to terminate these Terms of Service at any time
+                                    without cause and without notice. In addition, Campaignrabbit may terminate these Terms
                                     of Service upon written notice to Customer (or upon written notice provided to an
                                     Authorized Reseller and then passed along by an Authorized Reseller to a Customer)
                                     if Customer becomes the subject of a petition in bankruptcy or any proceeding
                                     relating to insolvency, receivership, or liquidation for the benefit of creditors.
-                                    Upon a termination by Retainful without cause, Customer may be entitled to a
-                                    pro-rata refund of any pre-paid and unused Fees advanced to Retainful.
+                                    Upon a termination by Campaignrabbit without cause, Customer may be entitled to a
+                                    pro-rata refund of any pre-paid and unused Fees advanced to Campaignrabbit.
                                 </p>
                             </li>
                             <li>
                                 <h4>Past Due Bills.</h4>
                                 <p>
-                                    In the event of a credit card decline, Retainful, or if applicable, an Authorized
+                                    In the event of a credit card decline, Campaignrabbit, or if applicable, an Authorized
                                     Reseller, will attempt to reach out to Customer for a new payment method. If
-                                    Retainful or, if applicable, an Authorized Reseller, fail to resolve the issue with
-                                    Customer, the account will be terminated due to non-payment and Retainful will
+                                    Campaignrabbit or, if applicable, an Authorized Reseller, fail to resolve the issue with
+                                    Customer, the account will be terminated due to non-payment and Campaignrabbit will
                                     attempt to collect on any past due balances at Customer’s expense. Per Section 4.2,
                                     in the event Customer, or if applicable, an Authorized Reseller, requests to cancel
                                     with a past due balance, Customer is required to pay for the month of service from
@@ -961,8 +958,8 @@ const TermsOfService = () => (
                                 <h4>Consequences of Termination.</h4>
                                 <p>
                                     Upon termination of these Terms of Service or the Service for any reason, Customer
-                                    shall cease to use the Retainful Platform, the Services and Documentation. Retainful
-                                    retains the right to terminate Customer’s access to any Retainful Platform and
+                                    shall cease to use the Campaignrabbit Platform, the Services and Documentation. Campaignrabbit
+                                    retains the right to terminate Customer’s access to any Campaignrabbit Platform and
                                     Services in the event of termination by either party.
                                 </p>
                             </li>
@@ -973,32 +970,32 @@ const TermsOfService = () => (
                                 </p>
                                 <ol type="i">
                                     <li>
-                                        Retainful will not take any action to intentionally erase or delete Customer
+                                        Campaignrabbit will not take any action to intentionally erase or delete Customer
                                         Data stored on the Services; and
                                     </li>
                                     <li>
                                         applicable Fees will continue to accrue. In the event of the termination of
-                                        these Terms of Service, Customer may, upon reasonable notice to Retainful, elect
+                                        these Terms of Service, Customer may, upon reasonable notice to Campaignrabbit, elect
                                         to retrieve Customer Data directly. If these Terms of Service are terminated for
-                                        any reason other than Customer’s breach, Retainful will not take any action to
+                                        any reason other than Customer’s breach, Campaignrabbit will not take any action to
                                         intentionally erase or delete Customer Data stored on the Services for a period
                                         of sixty (60) days. If these Terms of Service are terminated on account of
-                                        Customer’s breach or alleged breach of these Terms of Service, Retainful will
+                                        Customer’s breach or alleged breach of these Terms of Service, Campaignrabbit will
                                         not take any action to intentionally erase or delete Customer Marketing Content
                                         or Customer Data stored on the Services for a period of [fifteen (15) days, or
                                         for sixty (60) days with respect to customer Communications as discussed above].
                                         In each case, Customer’s post-termination retrieval or transfer of Customer Data
-                                        will be conditioned on Retainful’s receipt of all applicable Fees for the period
+                                        will be conditioned on Campaignrabbit’s receipt of all applicable Fees for the period
                                         following termination, payment in full of any other amounts owed, and Customer’s
-                                        compliance with such reasonable terms and conditions as Retainful may establish
+                                        compliance with such reasonable terms and conditions as Campaignrabbit may establish
                                         with respect to such retrieval or transfer. In addition, if Customer utilizes
-                                        the professional services of Retainful to assist Customer in connection with
-                                        such retrieval or transfer, Customer will be responsible for Retainful’s then
-                                        current charges for such professional services. In the event that Retainful does
+                                        the professional services of Campaignrabbit to assist Customer in connection with
+                                        such retrieval or transfer, Customer will be responsible for Campaignrabbit’s then
+                                        current charges for such professional services. In the event that Campaignrabbit does
                                         not receive all such Fees and amounts due within the applicable time periods
-                                        described above, or in the event that Customer fails to notify Retainful of
+                                        described above, or in the event that Customer fails to notify Campaignrabbit of
                                         Customer’s election with respect to the retrieval or transfer of Customer Data
-                                        within such period, Retainful shall have no obligation to continue to store
+                                        within such period, Campaignrabbit shall have no obligation to continue to store
                                         Customer Data or permit Customer to retrieve or transfer the same.
                                     </li>
                                 </ol>
@@ -1021,11 +1018,11 @@ const TermsOfService = () => (
                     <li>
                         <h3>DIGITAL MILLENNIUM COPYRIGHT ACT; TAKE DOWN NOTICE AND PROCEDURES</h3>
                         <p>
-                            It is Retainful’s policy to respond to notices alleging that any material uploaded by users
-                            of the Services or the Retainful Platform infringes another persons’ copyright. If you
-                            believe any material accessible on or from the Retainful Site or the Services infringes your
+                            It is Campaignrabbit’s policy to respond to notices alleging that any material uploaded by users
+                            of the Services or the Campaignrabbit Platform infringes another persons’ copyright. If you
+                            believe any material accessible on or from the Campaignrabbit Site or the Services infringes your
                             copyright, you may request removal of those materials (or access thereto) from this web site
-                            by contacting the Retainful’s copyright agent (identified below) and providing the following
+                            by contacting the Campaignrabbit’s copyright agent (identified below) and providing the following
                             information:
                         </p>
                         <ol>
@@ -1054,8 +1051,8 @@ const TermsOfService = () => (
                             </li>
                         </ol>
                         <p>
-                            Our agent for copyright issues relating to the Retainful Site or Services is:<br/>
-                            Retainful Legal <br/>
+                            Our agent for copyright issues relating to the Campaignrabbit Site or Services is:<br/>
+                            Campaignrabbit Legal <br/>
                             Cartrabbit International Pte Ltd, <br/>
                             09-14, High Street Plaza, <br/>
                             High Street <br/>
@@ -1064,8 +1061,8 @@ const TermsOfService = () => (
                         </p>
                         <p>
                             For all email submissions please include the subject line: DMCA Takedown Request.<br/>
-                            Retainful has adopted a policy of terminating, in appropriate circumstances, accounts of
-                            users of the Services or Retainful Platform who are deemed to have repeatedly uploaded
+                            Campaignrabbit has adopted a policy of terminating, in appropriate circumstances, accounts of
+                            users of the Services or Campaignrabbit Platform who are deemed to have repeatedly uploaded
                             content that infringes the intellectual property rights of others.
                         </p>
                     </li>
@@ -1075,9 +1072,9 @@ const TermsOfService = () => (
                             <li>
                                 <h4>Marketing.</h4>
                                 <p>
-                                    Customer agrees that Retainful may refer to Customer by name and trademark in
-                                    Retainful’s marketing materials and web site. Customer understands and acknowledges
-                                    that Retainful does not certify or endorse, and has no obligation to certify or
+                                    Customer agrees that Campaignrabbit may refer to Customer by name and trademark in
+                                    Campaignrabbit’s marketing materials and web site. Customer understands and acknowledges
+                                    that Campaignrabbit does not certify or endorse, and has no obligation to certify or
                                     endorse, any of Customer’s products or content.
                                 </p>
                             </li>
@@ -1088,21 +1085,21 @@ const TermsOfService = () => (
                                     applicable, the EU Data Protection Addendum, set forth the complete understanding of
                                     the parties with respect to the subject matter hereof and supersede all prior
                                     understandings and communications relating thereto. No term or condition of any
-                                    other document provided to Retainful which is different from, inconsistent with, or
+                                    other document provided to Campaignrabbit which is different from, inconsistent with, or
                                     in addition to the terms and conditions set forth herein will be binding upon
-                                    Retainful.
+                                    Campaignrabbit.
                                 </p>
                             </li>
                             <li>
                                 <h4>Modification; Waiver.</h4>
                                 <p>
-                                    Retainful shall have the right to amend these Terms of Service at any time,
+                                    Campaignrabbit shall have the right to amend these Terms of Service at any time,
                                     effective upon posting of an updated version of these Terms of Service at <a
-                                    href="https://www.retainful.com/terms-of-service">https://www.retainful.com/terms-of-service</a>.
-                                    Retainful shall use reasonable efforts to provide Customer with notice of changes to
+                                    href="https://www.campaignrabbit.com/terms-of-service">https://www.campaignrabbit.com/terms-of-service</a>.
+                                    Campaignrabbit shall use reasonable efforts to provide Customer with notice of changes to
                                     these Terms of Service (including, by submitting a notice to the applicable
                                     Authorized Reseller to be forwarded to Customer), but Customer is responsible for
-                                    regularly checking the Retainful Site to be informed of such changes. Continued use
+                                    regularly checking the Campaignrabbit Site to be informed of such changes. Continued use
                                     of the Services after any such changes are posted shall constitute Customer’s
                                     agreement to such changes. The waiver by either party of a breach of any provision
                                     hereof shall not be construed as a waiver of any succeeding breach of the same or
@@ -1117,11 +1114,11 @@ const TermsOfService = () => (
                                     These Terms of Service shall be governed by the laws of the Republic of Singapore
                                     without regard to its conflict of laws provisions, shall govern the interpretation
                                     and enforcement of the arbitration agreement discussed in section 14.12. Unless you
-                                    and Retainful agree otherwise in writing, in the event that the arbitration
+                                    and Campaignrabbit agree otherwise in writing, in the event that the arbitration
                                     agreement is found not to apply to you or a particular claim (except for small
                                     claims court actions), as a result of a decision by the arbitrator or a court order,
                                     you agree that the claim will be resolved exclusively by the federal court in
-                                    Singapore. You and Retainful agree to submit to the personal jurisdiction of the
+                                    Singapore. You and Campaignrabbit agree to submit to the personal jurisdiction of the
                                     courts located within Singapore for the purposes of litigating such claims. The
                                     application of the United Nations Convention on Contracts for the International Sale
                                     of Goods is expressly excluded. Your use of the Services may also be subject to
@@ -1132,8 +1129,8 @@ const TermsOfService = () => (
                                 <h4>Assignment.</h4>
                                 <p>
                                     Customer may not assign its rights or delegate any obligations hereunder without the
-                                    express prior written consent of Retainful. Any assignment by Customer without the
-                                    prior written consent of Retainful shall be null and void. Retainful may assign its
+                                    express prior written consent of Campaignrabbit. Any assignment by Customer without the
+                                    prior written consent of Campaignrabbit shall be null and void. Campaignrabbit may assign its
                                     rights or obligations hereunder without notice or consent; provided, however, that
                                     the Services shall continue to operate as specified in these Terms of Service. These
                                     Terms of Service shall inure to the benefit of each party’s permitted successors and
@@ -1167,9 +1164,9 @@ const TermsOfService = () => (
                             <li>
                                 <h4>Independent Contractor.</h4>
                                 <p>
-                                    Neither Customer nor Retainful shall be deemed to be an agent of the other and the
-                                    relationship of Customer and Retainful shall be that of independent contractors.
-                                    Neither Customer nor Retainful shall have any right or authority to assume any
+                                    Neither Customer nor Campaignrabbit shall be deemed to be an agent of the other and the
+                                    relationship of Customer and Campaignrabbit shall be that of independent contractors.
+                                    Neither Customer nor Campaignrabbit shall have any right or authority to assume any
                                     obligations, or to make any representations or warranties, whether express or
                                     implied, on behalf of the other party, or to bind the other party in any matter
                                     whatsoever..
@@ -1181,7 +1178,7 @@ const TermsOfService = () => (
                                     Except as otherwise provided, notices under these Terms of Service shall be
                                     delivered by email addressed to the other party at such address as is set forth in
                                     the applicable Service Order or such other email address as Customer may provide to
-                                    Retainful. Such notice will be deemed to have been given as of the date it is
+                                    Campaignrabbit. Such notice will be deemed to have been given as of the date it is
                                     delivered by electronic mail, personally, by confirmed facsimile or by courier, or
                                     five (5) days after it is sent by postal mail. All communications and notices to be
                                     made or given pursuant to these Terms of Service shall be in the English language.
@@ -1209,7 +1206,7 @@ const TermsOfService = () => (
                                     under these Terms of Service including, without limitation, relating to your use of
                                     our services, you hereby waive any right you may now have or hereafter possess to a
                                     trial by jury. Both parties agree to resolve any dispute either Party may have
-                                    arising out of or relating to these Terms of Service or the Retainful Services in
+                                    arising out of or relating to these Terms of Service or the Campaignrabbit Services in
                                     good faith mediation. In the event no mutual agreement is made under mediation
                                     within sixty (60) days of notice of such dispute, the Parties have the right to
                                     resolve such dispute via arbitration in Singapore administered by the Singapore
@@ -1217,12 +1214,12 @@ const TermsOfService = () => (
                                     the Singapore International Arbitration Centre (“SIAC Rules”) for the time being in
                                     force, which rules are deemed to be incorporated by reference in this clause.. Even
                                     if allowed under SIAC Rules, no class or collective action or arbitration may be
-                                    brought against Retainful hereunder unless required by applicable law. If either you
-                                    or Retainful intends to seek arbitration under these terms of service, the party
+                                    brought against Campaignrabbit hereunder unless required by applicable law. If either you
+                                    or Campaignrabbit intends to seek arbitration under these terms of service, the party
                                     seeking arbitration must first notify the other party of the dispute in writing at
-                                    least 30 days in advance of initiating the arbitration. Notice to Retainful should
+                                    least 30 days in advance of initiating the arbitration. Notice to Campaignrabbit should
                                     be sent as required by these Terms of Service. The notice must describe the nature
-                                    of the claim and the relief being sought. If you and Retainful are unable to resolve
+                                    of the claim and the relief being sought. If you and Campaignrabbit are unable to resolve
                                     our dispute within 30 days, either party may then proceed to file a claim for
                                     arbitration. The arbitration, information produced, and pre-and post-hearing
                                     proceedings will be confidential and any award shall not be used in any other case

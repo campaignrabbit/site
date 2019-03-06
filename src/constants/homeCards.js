@@ -1,5 +1,5 @@
 import React from 'react';
-import {MdSend, MdSettings, MdShowChart, MdSupervisorAccount} from 'react-icons/md';
+import {MdSend} from 'react-icons/md';
 
 const HOME_CARDS = [
     {

@@ -5,9 +5,6 @@ import Breadcrumb from '../components/breadcrumb'
 
 const PrivacyPolicy = () => (
     <Layout>
-        {/*<Breadcrumb>*/}
-            {/*<h2>Privacy policy</h2>*/}
-        {/*</Breadcrumb>*/}
         <Container type="s">
             <div className="legal-info">
                 <p>Privacy Statement for Personally Identifiable Information of Cartrabbit International Pte Ltd.</p>
@@ -16,7 +13,7 @@ const PrivacyPolicy = () => (
                     committed to protecting your privacy and processing your personally identifiable information (referred to as
                     “PII” or “personal data” or “personal information”) with transparency.</p>
                 <p>This Global Privacy Policy statement describes the types of Personal Data we collect through our products and
-                    services (“Services”) and via our online presence, which include our main website at Retainful.com, as well
+                    services (“Services”) and via our online presence, which include our main website at Campaignrabbit.com, as well
                     as services and websites that we enable Internet users to access (collectively, our “Sites” or “Offerings”).
                     This policy also describes how we use Personal Data, with whom we share it, your rights and choices, and how
                     you can contact us about our privacy practices. This policy does not apply to third-party websites,
