@@ -31,20 +31,21 @@ Here are some fun statistics about email marketing:
 - Email has the most users out of any age group – 5.2 billion users as of 2018.
 - 77% of consumers prefer email over social media for permission-based promotional messages.
 - 75% of the email marketers surveyed by GetResponse said they were using email automation, and 58% were using personalization techniques.
+- 23% of email marketers surveyed by GetResponse said lead             generation is the greatest benefit, with improved sales next at      19%, and improved conversion rates in third place at 17%.   
+  From what we can see here, the major goals of marketing – lead generation, sales, conversion and ROI can be achieved in a good margin with email. So, let’s stop worrying about the death of email marketing and hop off to learn what exactly it is.
 
-- 23% of email marketers surveyed by GetResponse said lead generation is the greatest benefit, with improved sales next at 19%, and improved conversion rates in third place at 17%.
-
-From what we can see here, the major goals of marketing – lead generation, sales, conversion and ROI can be achieved in a good margin with email. So, let’s stop worrying about the death of email marketing and hop off to learn what exactly it is.
-
-    Key Takeaway: Email marketing is not dead.
+        
+   ` >       Key Takeaway: Email marketing is not dead.`
 
 ## Types of email marketing
 
 If one had to separate emails by type, there would be so many outcomes. We’d get welcome email, thank you email, transactional email, update / press release email, promotional email, retention email and what not.
 
 But when we look at the bigger picture, email marketing falls into two broad categories of emails:
-* Newsletters
-* Direct email campaigns
+    
+- Newsletters
+
+- Direct email campaigns
 
  **Newsletters**
 Simply put, newsletters are broadcasts. Generally, newsletters are informational content sent over email regularly. It could be anything ranging from sharing life hacks to an update about a new release product. You can also send a performance report as newsletter.
@@ -73,11 +74,10 @@ There may be recipients who did not open your email or did not take any action a
 
 Basically, you have the data and you can respond to the reader’s action accordingly. You can automatically send each new message based on previous success or failure.
 
-    Key Takeaway
-
-        * Newsletters are for indirect brand marketing. Not for selling products.
-        * Email campaigns are direct, targeted and goal oriented. For selling products.
-        * Email campaigns can result in a better ROI. Newsletters are informational.
+ > Key Takeaway  
+ >*Newsletters are for indirect brand marketing. Not for selling products.       
+ >* Email campaigns are direct, targeted and goal oriented. For selling products.       
+ >* Email campaigns can result in a better ROI. Newsletters are informational.
 
 
 **How To Run Email Campaigns**
