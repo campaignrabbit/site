@@ -7,6 +7,8 @@ author: "Nandeep VJ"
 image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/types-of-emails-your-ecommerce-store-should-send/types_of_emails_your_ecommerce_store_should_send.jpg"
 category: Marketing
 ---
+The type of email you send is crucial in digital marketing. The right ones can result in just the ROI that you’d want. Let’s take a quick look at what type your store should be sending.
+
 Obviously, email marketing is a crucial part of your overall marketing strategy. They are a classic, great way to not only keep in touch with the customers but also to retain them.
 
 If you are wondering what types of emails are best for your customers, happy reading!
