@@ -41,8 +41,9 @@ class homeTabs extends React.Component {
                 <div className="container">
                     <div className="features-intro text-center">
                         <h2>
-                            Running <span className="highlight">email campaigns</span> <br className="hidden-xs"/>is made easier than ever with it
+                            CAMPAIGNRABBIT ?
                         </h2>
+                        <p>WHAT, HOW & WHY</p>
                     </div>
                     <ul className="tabs">
                         <li className="tab-link current" data-tab="tab-1">
@@ -51,7 +52,7 @@ class homeTabs extends React.Component {
                         </li>
                         <li className="tab-link" data-tab="tab-2">
                             <img className="img-responsive" src={followEmail} alt="Follow-up Emails"/>
-                            <span>Follow-up Emails</span>
+                            <span>Follow-up <br/> Emails</span>
                         </li>
                         <li className="tab-link" data-tab="tab-3">
                             <img className="img-responsive" src={winBack} alt="Win-Back inactive customers"/>
@@ -76,31 +77,24 @@ class homeTabs extends React.Component {
                     </ul>
 
                     <div id="tab-1" className="tab-content current">
-                        <p>Remind customers who have abandoned thier cart with automatic emails at <span className="highlight">set intervals and recover them.</span></p>
                         <img className="img-fluid" src={recovery} alt="Abandoned Cart Recovery"/>
                     </div>
                     <div id="tab-2" className="tab-content">
-                         <p>Automatically send email follow-ups to your customers. You can ask them for a feedback, a review, or just say hello</p>
-                             <img className="img-responsive" src={follow} alt="Follow-up Emails"/>
+                        <img className="img-responsive" src={follow} alt="Follow-up Emails"/>
                     </div>
                     <div id="tab-3" className="tab-content">
-                        <p>Bring back inactive customers with special offers through automated email campaigns</p>
-                            <img className="img-responsive" src={customers} alt="Win-Back inactive customers"/>
+                        <img className="img-responsive" src={customers} alt="Win-Back inactive customers"/>
                     </div>
                     <div id="tab-4" className="tab-content">
-                        <p>Recommend “Socks” to customers when they purchase “shoes”. Start automatically sending relevant product recommendations</p>
-                            <img className="img-responsive" src={recommend} alt="Product recommendation"/>
+                        <img className="img-responsive" src={recommend} alt="Product recommendation"/>
                     </div>
                     <div id="tab-5" className="tab-content">
-                        <p>Get valuable insights about your customers. Learn what days they usually place orders, time of order, total value of orders and more</p>
-                            <img className="img-responsive" src={degree} alt="Customer in-depth Analytics"/>
+                        <img className="img-responsive" src={degree} alt="Customer in-depth Analytics"/>
                     </div>
                     <div id="tab-6" className="tab-content">
-                        <p>Create beautiful emails with our intutive drag-and-drop visual email builder. Use short codes to add dynamic data like their names.</p>
                         <img className="img-responsive" src={visualEmail} alt="WYSIWYG Email builder"/>
                     </div>
                     <div id="tab-7" className="tab-content">
-                        <p>Campaignrabbit works beautifully with WooCommerce. Synchronise orders and customers seamlessly. Just download and install the WooCommerce plugin for Campaignrabbit.</p>
                         <img src={integrate} className="img-responsive" alt="Popular integrations"/>
                     </div>
                 </div>
