@@ -57,11 +57,11 @@ A good abandoned cart recovery campaign involves multiple follow-ups and differe
 
 So how we could do that?
 
-**Solution:** Put your cart recovery campaigns on Autopilot mode using <link-text ="https://www.campaignrabbit.com/" target="_blank" rel="noopener">Campaignrabbit</link-text>, the easy-to-use Marketing Automation tool for WooCommerce.
+**Solution:** Put your cart recovery campaigns on Autopilot mode using <link-text url="https://www.campaignrabbit.com/" target="_blank" rel="noopener">Campaignrabbit</link-text>, the easy-to-use Marketing Automation tool for WooCommerce.
 
-Let’s me walk you through step-by-step for creating an effective abandoned cart recovery campaign using <link-text ="https://www.campaignrabbit.com/" target="_blank" rel="noopener">Campaignrabbit.</link-text>
+Let’s me walk you through step-by-step for creating an effective abandoned cart recovery campaign using <link-text url="https://www.campaignrabbit.com/" target="_blank" rel="noopener">Campaignrabbit.</link-text>
 
-If you do not have an account yet, <link-text ="https://app.campaignrabbit.com/register" target="_blank" rel="noopener">sign up now.</link-text> No credit card required.
+If you do not have an account yet, <link-text url="https://app.campaignrabbit.com/register" target="_blank" rel="noopener">sign up now.</link-text> No credit card required.
 ## Creating your first abandoned cart follow up email
 
 The objective of the campaign is to automatically send an email follow up whenever a customer abandons their cart. Now or in the future.
