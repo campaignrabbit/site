@@ -5,7 +5,7 @@ title: "5 quick ways to promote your eCommerce Store"
 description: "Learn to provide a coupon for the next purchase when a customer makes an order and send it within the order notification email itself"
 author: "Deepika"
 image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/5-Quick-ways-to-promote-your-Ecommerce-store-in-2019/5-Quick-ways-to-promote-your-Ecommerce-store-in-2019.jpg"
-category: Ecommerce
+category: "Ecommerce"
 ---
 How you do it?
 That’s the question you need to answer to promote your online business. Well, this post shares you with 5 simple ideas on how to promote your eCommerce store.
@@ -33,7 +33,7 @@ The next task is of positioning, take up the instance of selling shoes again –
 
 Keep in mind, it always takes two to tango, Customer-Dealer relationship decides the future of your eCommerce store. Understand the mindset of your customers. This can be achieved by personalizing with your customers, understand what their needs are and make them interested in your product by giving away discounts.
 
-Some online stores promote their products by giving massive discounts during a certain period. Flat 50% off, free shipping, free delivery can be easy targets to achieve your customer interest. Another way to  <link-text url="https://www.retainful.com/" ref="noopener" target="_blank">retain your customer</link-text> is to provide them with an easy checkout service.
+Some online stores promote their products by giving massive discounts during a certain period. Flat 50% off, free shipping, free delivery can be easy targets to achieve your customer interest. Another way to  <link-text url="https://www.retainful.com/" rel="noopener" target="_blank">retain your customer</link-text> is to provide them with an easy checkout service.
 
 According to a survey, 90% of the customers are more likely to shop on an online website when free shipping is assured.
 ### Use brilliant marketing strategies
@@ -44,9 +44,9 @@ According to a survey, 90% of the customers are more likely to shop on an online
 Adapting to strategies of affiliate marketing can prove to be very helpful. Affiliates are people who promote your product by earning a commission on every sale that you make from the customers promoted by them. Affiliates can be people such as Instagram influencers or people who have a large fan following in social media.
 
 **Email Marketing**
-Email Marketing is emerging fast these days and people stay connected with the help of emails. You can send promotional emails to your customers regarding the latest offers, new products or whatsoever. Instead of sending usual e-mails, segment your customers and <link-text url="https://www.campaignrabbit.com/" terget="_blank" ref="noopener">automate your email campaigns. Giving catchy offer descriptions are the sole reason for this.
+Email Marketing is emerging fast these days and people stay connected with the help of emails. You can send promotional emails to your customers regarding the latest offers, new products or whatsoever. Instead of sending usual e-mails, segment your customers and <link-text url="https://www.campaignrabbit.com/" terget="_blank" rel="noopener">automate your email campaigns. Giving catchy offer descriptions are the sole reason for this.
 
-People tend to shop frequently on online because of dynamic pricing. Also, sending offer and price drop <link-text url="https://www.campaignrabbit.com/how-automated-email-grow-online-business/" target="_blank" ref="noopener">emails can really boost the revenue</link-text> of your online store.
+People tend to shop frequently on online because of dynamic pricing. Also, sending offer and price drop <link-text url="https://www.campaignrabbit.com/how-automated-email-grow-online-business/" target="_blank" rel="noopener">emails can really boost the revenue</link-text> of your online store.
 ## SMS Marketing
 Even for people who don’t open their email on a regular basis, you can always keep them informed about your products through SMS. There are very fewer chances of ignoring text messages.
 
@@ -54,7 +54,7 @@ Even for people who don’t open their email on a regular basis, you can always 
 Writing blogs on social media can never go wrong in promotional tasks. Invest in your social media organically. Hire a blogger who can do wonders with words and promote your products on social media platforms like Facebook, Instagram, and Twitter. The number of followers in your social media counts the number of customers you gain. You would have definitely heard of Bill Gates’ saying “If your business is not on the internet, then your business will be out of business”.
 ## Search Engine Optimization
 
-Optimize your eCommerce store through Search Engine Optimization(SEO) techniques. One of the recent evolutions in SEO is the <link-text url="https://www.searchenginejournal.com/schema-101-improve-seo-results/204858/" target="_blank" ref="noopener nofollow">Schema Markup technology.</link-text> Schema markup is a code that you embed on your website to help Google bots rank your informative results for users.
+Optimize your eCommerce store through Search Engine Optimization(SEO) techniques. One of the recent evolutions in SEO is the <link-text url="https://www.searchenginejournal.com/schema-101-improve-seo-results/204858/" target="_blank" rel="noopener nofollow">Schema Markup technology.</link-text> Schema markup is a code that you embed on your website to help Google bots rank your informative results for users.
 
 When a customer randomly searches for shoes in Google, make sure you already have it as a keyword for your online store using schema markup. The number of times your keywords directs you to your e-store, there’s a huge possibility in gaining customers each time.
 Easy navigation and search is another key factor to boost up your customer rates.
@@ -63,7 +63,7 @@ Easy navigation and search is another key factor to boost up your customer rates
 
 Advertisement marketing on youtube and other social media are also the other few platforms to promote your products. Online marketing has seen consistent growth, says AIB.
 
-Facebook advertising and Google Adwords- Both of these work extremely well and deliver high profits. When a person on facebook likes a certain product of yours, you can target him through Facebook ads. Advertising online provides you with endless insights to become an effective marketer. There is always this misconception that digital ads are poor in quality and less trustworthy. But in reality, digital ads provide us the opportunity to <link-text url="https://www.business2community.com/seo/5-ways-video-content-can-improve-your-seo-02159034" target="_blank" ref="noopener nofollow">engage media with video content</link-text> as well.
+Facebook advertising and Google Adwords- Both of these work extremely well and deliver high profits. When a person on facebook likes a certain product of yours, you can target him through Facebook ads. Advertising online provides you with endless insights to become an effective marketer. There is always this misconception that digital ads are poor in quality and less trustworthy. But in reality, digital ads provide us the opportunity to <link-text url="https://www.business2community.com/seo/5-ways-video-content-can-improve-your-seo-02159034" target="_blank" rel="noopener nofollow">engage media with video content</link-text> as well.
 
 Always remember what the Good Old Businessman said,
 **“Big businesses never happen overnight”.**
