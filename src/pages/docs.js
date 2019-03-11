@@ -27,9 +27,6 @@ class DocsPage extends React.Component {
             const cardClass = `card home-callout col-md-4 callout--${card.BADGE}`;
             return (
                 <div className={cardClass} key={card.TITLE}>
-                    <div className="home-callout_badge">
-                        {card.BADGE}
-                    </div>
                     <h3 className="card_title is-size-h2 m-bottom-2">{card.TITLE}</h3>
                     <p className="is-p">{card.COPY}</p>
                     <Link to={card.LINK} className="btn btn-primary center">Get Started</Link>
