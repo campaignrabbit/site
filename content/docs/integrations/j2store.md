@@ -4,6 +4,7 @@ updated: "2019-02-20"
 title: "J2Store"
 description: "Integrate your J2Store with Campaignrabbit."
 author: "Kowsaliya"
+category: "integrations"
 ---
 J2Store is a popular eCommerce platform for the Joomla Content management system.
 
@@ -13,7 +14,7 @@ Here are the steps to connect your store to Campaignrabbit.
 1. Login to your Joomla Administration
 2. Navigate to J2Store -> Apps -> Campaignrabbit
 ![j2store Installation](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/integrations/j2store/screenshot-demo.flycart.org-2019.02.08-17-58-43.png)
-3. Enter the API Key and the API Secret in the respective fields(You can get these from the <link-text url="https://app.campaignrabbit.com/settings" target="_blank" rel="noopener">"Settings" section of Campaignrabbit app </link-text>) 
+3. Enter the API Key and the API Secret in the respective fields(You can get these from the <link-text url="https://app.campaignrabbit.com/settings" target="_blank" rel="noopener">"Settings" section of Campaignrabbit app </link-text>)
 ![Connection](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/integrations/j2store/screenshot-demo.flycart.org-2019.02.08-18-01-04.png)
 Once when the authentication message is "Success", you can see that your store is connected and the orders and customers start flowing in.
 

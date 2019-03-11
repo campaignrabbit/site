@@ -1,12 +1,14 @@
 ---
-path: "/docs/gettingstarted/gettingstarted"
+path: "/docs/gettingstarted/"
 updated: "2019-02-20"
-title: "What is Campaign Rabbit"
+title: "What is Campaignrabbit"
 description: "How Campaignrabbit works, what it can do for your eCommerce store and how it can increase conversions."
 author: "Kowsaliya"
+category: "getting-started"
+tags: [Campaigns, Email Marketing, Sales]
 ---
-# What is Campaignrabbit?
-How Campaignrabbit works, what it can do for your eCommerce store and how it can increase conversions 
+
+How Campaignrabbit works, what it can do for your eCommerce store and how it can increase conversions
 
 **Campaignrabbit is a Marketing Automation platform built specially for the eCommerce businesses.**
 
@@ -24,9 +26,9 @@ How do we convert the visitors into paying customers and more importantly, how a
 Campaignrabbit is the answer to these questions.
 ### What can you do with Campaignrabbit?
 
-If you are running an eCommerce business and sell goods or services online, you can use Campaignrabbit to 
+If you are running an eCommerce business and sell goods or services online, you can use Campaignrabbit to
 * **Recover abandoned carts** - You can create a campaign that "automatically" sends when there is a cart abandonment. Studies show that you can recover at least 35% of abandoned carts when you re-engage with your customers.
-* **Dynamic product recommendations** - Send personalised product recommendations to your customers that can drive repeat purchases.  Example: Suggest a pair of socks when a customer purchases a shoe. 
+* **Dynamic product recommendations** - Send personalised product recommendations to your customers that can drive repeat purchases.  Example: Suggest a pair of socks when a customer purchases a shoe.
 * **User behaviour targeting** - Trigger a popup  / slide-in message  when the customer lingers in the cart page for a minute or two. The popup can contain a coupon code that motivates customers to purchase
 * **Action bars**  - Create action bars and display them at the top or the bottom to run a flash sale with a coupon or showcase a new arrival at discounted rate. Again, No coding required. Use our drag and drop visual builder for creating the messages.
 * **Welcome emails** - Send a personalised welcome message when a customer makes a purchase in the store. It makes your brand more professional
@@ -44,7 +46,6 @@ Connect your store with Campaignrabbit. It just takes a minute
 
 **I have more questions**
 
-Just leave your question and email by clicking the Live Chat button below or submit your support request to <hello@campaignrabbit.com>
+Just leave your question and email by clicking the Live Chat button below or submit your support request to hello@campaignrabbit.com
 
 We are always happy to assist you :)
-

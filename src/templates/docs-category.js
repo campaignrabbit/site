@@ -22,20 +22,26 @@ const Category = ({ pageContext, data }) => {
                     </Container>
                 </div>
                 <Container>
-                    <ul className="category-list">
-                        <h4>{category}</h4>
-                        {edges.map(({ node }) => {
-                            const { title } = node.frontmatter
-                            const { slug } = node.fields
-                            const { excerpt } = node.excerpt
-                            return (
-                                <li key={slug}>
-                                    <Link to={slug}>{title}</Link>
-                                    <p>{excerpt}</p>
-                                </li>
-                            )
-                        })}
-                    </ul>
+                <div className="card card-blog text-center col-md-6 col-push-md-3">
+                    <div className="card_inner">
+                        <div className="card_links">
+                          <ul className="category-list">
+                              <h4>{category}</h4>
+                                {edges.map(({ node }) => {
+                                  const { title } = node.frontmatter
+                                  const { slug } = node.fields
+                                  const { excerpt } = node.excerpt
+                                  return (
+                                      <li key={slug}>
+                                          <Link to={slug}>{title}</Link>
+                                          <p>{excerpt}</p>
+                                      </li>
+                                  )
+                              })}
+                          </ul>
+                        </div>
+                      </div>
+                  </div>
                     {/*
                       This links to a page that does not yet exist.
                       We'll come back to it!
@@ -77,7 +83,7 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { category: { eq: $category } } , fileAbsolutePath: { regex: "/docs/" } }
+      filter: { frontmatter: { category: { eq: $category } }, fileAbsolutePath: { regex: "/docs/" } }
     ) {
       totalCount
       edges {

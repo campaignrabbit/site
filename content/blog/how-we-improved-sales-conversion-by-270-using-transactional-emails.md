@@ -11,7 +11,7 @@ I cleaned my desk... filled my coffee mug and started to work my fingers over th
 Every hour in search of potential information, I go on refilling my mug."
 author: "Siddharth"
 image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/how-we-improved-sales-conversion-rate-using-transactional-emails.png"
-category: Marketing
+category: "marketing"
 ---
 
 >“Can Transactional emails help in bringing more sales conversions?”

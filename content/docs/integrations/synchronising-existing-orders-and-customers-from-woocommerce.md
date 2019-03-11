@@ -4,6 +4,7 @@ updated: "2019-02-20"
 title: "Synchronising your existing orders and customers from WooCommerce"
 description: "Learn how to send the existing order and customer data to Campaignrabbit"
 author: "Kowsaliya"
+category: "integrations"
 ---
 Once you have connected your store to Campaignrabbit, all the new orders placed thereafter would automatically be sent.
 

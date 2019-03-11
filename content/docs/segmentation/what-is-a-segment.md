@@ -4,14 +4,15 @@ updated: "2019-02-20"
 title: "What is a segment ?"
 description: "Let&#39;s get introduced to the term Segment"
 author: "Kowsaliya"
+category: "segmentation"
 ---
 ## What are segments ?
 * Segments are grouping a set of customers for your reference based on certain conditions.
-* Segments are an optional setup. 
-* Now, since we know that segments are nothing but setting up conditions. It's time to get familiar with the conditions. 
+* Segments are an optional setup.
+* Now, since we know that segments are nothing but setting up conditions. It's time to get familiar with the conditions.
 
 Campaignrabbit offers 15+ conditions with each condition having different attribute.
-The available conditions are 
+The available conditions are
 
 Name
 E-mail

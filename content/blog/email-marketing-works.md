@@ -8,8 +8,8 @@ By striking a deal, I mean the conversion of leads into customers and generating
 author: " Swaathi Unnikrishnan"
 image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/email-marketing-works/email-marketing.png"
 thumbnail: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/email-marketing-works/email-marketing.png"
-category: Marketing
---- 
+category: "marketing"
+---
 
 What is email marketing? To be direct, you promote your brand values and your products / services to your email recipients. But, the most important part is to build a good relationship with the recipients, also called leads. Whether you strike a deal or not depends on the emails you send. What’s your chance of striking a deal with your leads?
 
@@ -34,7 +34,7 @@ Here are some fun statistics about email marketing:
 - 23% of email marketers surveyed by GetResponse said lead             generation is the greatest benefit, with improved sales next at      19%, and improved conversion rates in third place at 17%.   
   From what we can see here, the major goals of marketing – lead generation, sales, conversion and ROI can be achieved in a good margin with email. So, let’s stop worrying about the death of email marketing and hop off to learn what exactly it is.
 
-        
+
    ` >       Key Takeaway: Email marketing is not dead.`
 
 ## Types of email marketing
@@ -42,7 +42,7 @@ Here are some fun statistics about email marketing:
 If one had to separate emails by type, there would be so many outcomes. We’d get welcome email, thank you email, transactional email, update / press release email, promotional email, retention email and what not.
 
 But when we look at the bigger picture, email marketing falls into two broad categories of emails:
-    
+
 - Newsletters
 
 - Direct email campaigns
@@ -102,4 +102,3 @@ So, the bottom line is this – If you want to give informational content while 
 Whatever your choice be, email marketing is definitely not dead! Go for it and see how it works for your brand.
 
 Have you tried email marketing already? Share how email marketing has worked for you in the comments below!
-

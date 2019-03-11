@@ -5,7 +5,7 @@ title: "How to reduce cart abandonment in an eCommerce store?"
 description: "Reduce cart abandonment on your online store with CampaignRabbit&#039;s solution. Decrease abandonment and recover your potential customers today with these tactics."
 author: "Ramesh Elamathi"
 image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/reduce-cart-abandonment-recovery-solutions/eCommerce-cart-abandonment-solution.png"
-category: Ecommerce
+category: "ecommerce"
 ---
 # Reducing eCommerce cart abandonment
 

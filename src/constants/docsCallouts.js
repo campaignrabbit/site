@@ -1,15 +1,15 @@
 const HOME_CALLOUTS = [
     {
         BADGE: 'Integration',
-        TITLE: 'WooCommerce',
+        TITLE: 'Getting started',
         COPY: 'Learn how you can integrate Campaignrabbit with WooCommerce and boost sales.',
-        LINK: '/docs/woocommerce',
+        LINK: '/docs/getting-started/what-is-campaignrabbit',
     },
     {
         BADGE: 'Integration',
-        TITLE: 'Shopify (coming soon)',
-        COPY: 'Add Campaignrabbit to your Shopify store to drive repeat purchases',
-        LINK: '/docs/shopify',
+        TITLE: 'Integrations',
+        COPY: 'Learn how you can integrate Campaignrabbit with your stores and boost sales.',
+        LINK: '/docs/integrations/woocommerce',
     },
 ];
 

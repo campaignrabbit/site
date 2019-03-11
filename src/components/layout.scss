@@ -494,10 +494,7 @@ body {
 
   .hero-2 {
     text-align: center;
-    background: #f7f7f7;
-    &.bottom{
-        background: #f7f7f7;
-    }
+    background: #fafafa;
     .intro-block {
       padding: 50px 0 50px 0;
       max-width: 800px;
@@ -823,6 +820,9 @@ body {
 
   .features {
     padding: 40px 0;
+    .card{
+      border: none;
+    }
 
   }
 
@@ -1897,18 +1897,12 @@ body {
 
   .bk-top {
     position: fixed;
-    bottom: 30px;
+    bottom: 90px;
     right: 30px;
     border-radius: 3px;
     z-index: 90;
     display: none;
-    width: 45px;
-    height: 45px;
-    background: $primary;
-    color: #f2f2f0;
-    border-radius: 50%;
     display: table;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
   }
 
   .bk-top-txt {
@@ -1918,7 +1912,13 @@ body {
   }
 
   .back-to-top {
-
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: $primary;
+    color: #f2f2f0;
+    border-radius: 50%;
     font-size: 12px;
     font-weight: 700;
     color: #FFFFFF;
@@ -1927,6 +1927,7 @@ body {
     -moz-transition: 200ms;
     -o-transition: 200ms;
     transition: 200ms;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
   }
 
   .back-to-top:hover {
@@ -2937,6 +2938,7 @@ ul.tabs{
     	cursor: pointer;
         text-align: center;
         font-size: 14px;
+        font-weight: 500;
         white-space: normal;
         word-wrap: break-word;
         &:after {

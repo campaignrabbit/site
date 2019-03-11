@@ -5,7 +5,7 @@ title: "How Automated Email grow online Business"
 description: "Are you a tech entrepreneur? Make sure you keep an eye on automated email strategy. Improve your online business with the marketing automation."
 author: "Nandeep VJ"
 image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/how-automated-email-grow-online-business/How_automated_email_campaigns_grow_your_online_business.jpg"
-category: Marketing
+category: "marketing"
 ---
 It has actually been about 5 years since automation in marketing began and is still ruling digital marketing. If you are new to the scene or not quite sure how automated email campaigns can boost your ROI, here’s a quick read for you.
 

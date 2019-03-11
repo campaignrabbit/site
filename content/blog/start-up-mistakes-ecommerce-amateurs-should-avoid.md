@@ -5,7 +5,7 @@ title: "Major Start-Up Mistakes Every eCommerce Amateurs Should Avoid"
 description: "Find out the major mistakes that every eCommerce startup amateurs commit via this blog post. Don&#039;t try to do the same mistakes again. Stop failing today."
 author: "Deepika"
 image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/Major-Start-Up-mistakes-every-E-Commerce-amateurs-should-avoid/Major-Start-Up-mistakes-every-E-Commerce-amateurs-should-avoid.jpg"
-category: "Ecommerce"
+category: "ecommerce"
 ---
 Avoid these major Startup mistakes and Make your eCommerce success story. Many Startups fail due to the following blunders and here’s how to avoid them.
 Do you believe in you of making a successful start-up story?…

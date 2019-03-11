@@ -1,11 +1,11 @@
 ---
 path: "/blog/follow-up-emails-boost-your-freemium-products-conversion-rate"
 date: "2019-02-20"
-title: "How Welcome Emails help to achieve Successful Customer Relationship"
-description: "Do you own an online business? Send welcome emails to your onboarding customers and enrich your brand. Retain your customers with an engaging welcome email."
+title: "How Follow Up Emails Boost your Freemium Product’s Conversion Rate"
+description: "Follow up email is the key to boost your lead conversion. Making a healthy customer relation through follow up emails buy customers trust on your product. Hear what, Up-selling becomes much easy with satisfied customers."
 author: "Rachit Singh"
 image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/follow-up-emails-boost-your-freemium-products-conversion-rate/conversion-rate-with-followup-emails.png"
-category: "Email Marketing"
+category: "email-marketing"
 ---
 Follow up email is the key to boost your lead conversion. Making a healthy customer relation through follow up emails buy customers trust on your product. Hear what, Up-selling becomes much easy with satisfied customers.
 Most businesses are looking for ways to get new customers at low costs. Unfortunately, it is not easy to get customers without spending money. For freemium to work, you should understand the needs of the users and what can motivate the users to upgrade.
@@ -78,4 +78,3 @@ Follow up email is one of the best ways to request the subscribers to upgrade fr
 You may feel counterintuitive to send the subscriber with emails, but the follow-up messages will help the customers to stay engaged with the product when used well.
 
 Apart from the immediate response thanking the subscribers for their interest in your business and welcome them. Also, remember to include content that will remind the customers of the most important issues. The follow-up emails will help you to know if they are enjoying the product. Make sure that they have a way of asking questions if they want any help. Remind them of any upcoming event or offer; this should be included in the CTA. This will help the customers decide on the ongoing service.
-

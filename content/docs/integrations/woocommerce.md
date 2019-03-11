@@ -4,6 +4,7 @@ updated: "2019-02-20"
 title: " Connect your WooCommerce store with Campaignrabbit in two easy steps"
 description: "Connect your WooCommerce store with Campaignrabbit in two easy steps."
 author: "Kowsaliya"
+category: "integrations"
 ---
 WooCommerce is a popular eCommerce platform for WordPress and powers more than 16% of the online stores.
 
@@ -13,7 +14,7 @@ Download our native WooCommerce plugin to connect your store with Campaignrabbit
 Alternatively, you will be offered to download the WooCommerce plugin when you first signup with Campaignrabbit.
 
 After downloading,
-1. Install the plugin by going to Your WordPress Dashboard -> Plugins -> Add plugin. 
+1. Install the plugin by going to Your WordPress Dashboard -> Plugins -> Add plugin.
   ![Selecting Plugin](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/woocommerce/screenshot-localhost-2019.02.08-14-02-06.png)
 Activate the plugin. You can now see Campaignrabbit Admin menu in your WordPress.
 ![Plugin Activation](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/woocommerce/screenshot-localhost-2019.02.08-14-05-39.png)
@@ -31,4 +32,3 @@ I have more questions
 Just leave your question and email by clicking the Live Chat button below or submit your support request to <hello@campaignrabbit.com>
 
 We are always happy to assist you :)
-

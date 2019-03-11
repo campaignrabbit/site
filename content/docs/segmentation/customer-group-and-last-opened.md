@@ -4,6 +4,7 @@ updated: "2019-02-20"
 title: "Customer Group and Last opened"
 description: "Let&#39;s see how to filter customers based on the usergroup"
 author: "Kowsaliya"
+category: "segmentation"
 ---
 Let's sort out all the customers belonging to the usergroup wholesale customers and the last opened is more than 5 days ago.
 
@@ -22,9 +23,9 @@ Two filter conditions are set. One for customer group and another one for last o
 
 Note:
 * The value entered in "Last opened" is considered in days.
-* **Example** : Last opened is more than 5 days. 
-* There are different parameters you can choose from. 
-* For the condition, Customer group we have different parameters like Is, Is not, Starts With, Ends With, Contains and so on. 
+* **Example** : Last opened is more than 5 days.
+* There are different parameters you can choose from.
+* For the condition, Customer group we have different parameters like Is, Is not, Starts With, Ends With, Contains and so on.
 
 ![segment-name](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/original-2.png)
 
@@ -40,7 +41,7 @@ Customer group starts with subscribe and last opened has any value.
 Customer group is not administrator and last opened before 18/06/2018.
 
 #### What's next ?
-* Creating <link-text url="https://docs.campaignrabbit.com/campaigns/how-campaigns-work" rel="noopener" target="_blank">Campaigns</link-text>. 
+* Creating <link-text url="https://docs.campaignrabbit.com/campaigns/how-campaigns-work" rel="noopener" target="_blank">Campaigns</link-text>.
 
 I have more questions
 

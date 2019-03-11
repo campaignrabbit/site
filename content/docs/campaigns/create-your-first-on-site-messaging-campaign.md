@@ -4,12 +4,13 @@ updated: "2019-02-20"
 title: "Create your first on-site messaging campaign"
 description: "Add call to actions like popups, slide-ins and action bars to create a high CTA and engagement"
 author: "Kowsaliya"
+category: "campaigns"
 ---
 Convert the website visitors into customers by showing personalised messages based on the customer behaviour.
 
 Here is a best example:
 
-You can show a 10% coupon in a popup or an action bar when the customer tries to exit your website or shop (it is called an exit-intent marketing). 
+You can show a 10% coupon in a popup or an action bar when the customer tries to exit your website or shop (it is called an exit-intent marketing).
 
 Researches found that "Exit-intent based campaigns" can increase your conversions and revenue by at least 50 to 60%.  (**Heads up!** Don't believe those that claim 300% increase. That can't be true in a real world scenario!)
 **Exit-intent strategy examples**
@@ -24,7 +25,7 @@ Campaignrabbit helps you create engaging **exit-intent popups** through its visu
 Let's create an exit-intent popup as your first on-site messaging campaign
 **Creating your first on-site messaging campaign**
 
-Login to <link-text url="https://app.campaignrabbit.com/login" rel="noopener" target="_blank">campignrabbit.</link-text> 
+Login to <link-text url="https://app.campaignrabbit.com/login" rel="noopener" target="_blank">campignrabbit.</link-text>
 
 Navigate to Campaigns -> On site popups  and click "Create New Campaign" to get started
 
@@ -38,7 +39,7 @@ You will be presented with a gallery of templates. Choose one and proceed. You c
 
 ![tempopup](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/onsite-messaging-campaigns/tempop.png)
 
-Now, you can see the visual editor. You can add / edit / remove text, images, buttons and more. 
+Now, you can see the visual editor. You can add / edit / remove text, images, buttons and more.
 
 A popular exit-intent strategy is to show a coupon code with a discount when they try to exit. It motivates the visitor to buy.
 
@@ -54,7 +55,7 @@ Example: You can show the popup when the customer is on a specific url (example 
 
 
 And that's all! You have successfully created your first on-site messaging campaign.
- 
+
 **Set the Campaign Live**
 
 #### What's Next ?

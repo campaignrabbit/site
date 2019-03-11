@@ -4,6 +4,7 @@ updated: "2019-02-20"
 title: "Country and Order status"
 description: "Let&#39;s see how to filter customers based on the country and order status"
 author: "Kowsaliya"
+category: "segmentation"
 ---
 I am going to sort out all the customers belonging to the **country** USA and the **order status** in completed.
 ![segment](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/segment.png)
@@ -14,7 +15,7 @@ Two filter conditions are set. One for country and another one for order status.
 * The chosen conditions are country and order status.
 * Hit on create segment and provide suitable segment name.
 **Note:**
-* There are different parameters you can choose from. 
+* There are different parameters you can choose from.
 * For the condition, Country we have different parameters like Is, Is not, Starts With, Ends With, Contains and so on.
 ![country](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/country.png)
 * Similar way, for Order Status there are different parameters such as Paid, Unpaid, Pending, Cancelled and Failed.
@@ -27,12 +28,10 @@ Country Has Any Value and Order Status is Completed.
 County Starts With United and Order Status is Cancelled.
 
 ### What's next ?
-* Creating <link-text url="https://docs.campaignrabbit.com/campaigns/how-campaigns-work" target="_blank" rel="noopener">Campaigns. 
+* Creating <link-text url="https://docs.campaignrabbit.com/campaigns/how-campaigns-work" target="_blank" rel="noopener">Campaigns.
 
 #### I have more questions
 
 Just leave your question and email by clicking the Live Chat button below or submit your support request to <hello@campaignrabbit.com>
 
 We are always happy to assist you :)
-
-

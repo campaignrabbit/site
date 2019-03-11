@@ -11,10 +11,10 @@ const Card = (props) => {
         <div className={cardClass}>
             <div className="card_inner">
                 <h3 className="card_title" >{slottedChildren["card-title"]}</h3>
+                <p className="is-p">{slottedChildren["card-body"]}</p>
                 <div className="card_links">
                     {slottedChildren["card-links"]}
                 </div>
-                <p className="is-p">{slottedChildren["card-body"]}</p>
             </div>
             <div className="card_button">
                 {slottedChildren["card-button"]}

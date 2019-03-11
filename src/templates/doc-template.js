@@ -89,7 +89,7 @@ function DocTemplate(props) {
                                 <PrevNext prev={prev && prev.node} next={next && next.node} />
                                 <hr/>
                                 <div className="text-right">
-                                    <Link to="/blog">Go Back</Link>
+                                    <Link to="/docs">Go Back</Link>
                                 </div>
                             </div>
                         }

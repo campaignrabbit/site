@@ -4,6 +4,7 @@ updated: "2019-02-20"
 title: "Order Status and Total Spent"
 description: "Let&#39;s see how to filter customers based on the usergroup"
 author: "Kowsaliya"
+category: "segmentation"
 ---
 Let us now see on how we can create a new segment.
 
@@ -23,8 +24,8 @@ Two filter conditions are set. One for order status and another one for total sp
 
 **Note:**
 * The amount entered in "total spent" is considered based on the currency that is chosen in the settings page.
-* There are different parameters you can choose from. 
-* For the condition, for Order Status there are different parameters such as Paid, Unpaid, Pending, Cancelled, Failed and Completed. 
+* There are different parameters you can choose from.
+* For the condition, for Order Status there are different parameters such as Paid, Unpaid, Pending, Cancelled, Failed and Completed.
 
 ![order](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/order.png)
 
@@ -40,7 +41,7 @@ Total spent is less than $100 and the Order status Has Any Value.
 Total spent is $200 and the order status isNot Cancelled.
 
 #### What's next ?
-* Creating <link-text url="" target="_blank" rel="noopener">Campaigns.</link-text> 
+* Creating <link-text url="" target="_blank" rel="noopener">Campaigns.</link-text>
 
 I have more questions
 
