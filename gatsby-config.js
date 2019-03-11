@@ -79,13 +79,13 @@ module.exports = {
         {
             resolve: `gatsby-plugin-google-analytics`,
             options: {
-                trackingId: "UA-131810748-1",
+                trackingId: "UA-118283837-1",
             }
         },
         {
             resolve: `gatsby-plugin-facebook-pixel`,
             options: {
-                pixelId: '270877090250817',
+                pixelId: '178691189734042',
             }
         },
         {
@@ -97,7 +97,7 @@ module.exports = {
         {
             resolve: `gatsby-plugin-hotjar`,
             options: {
-                id: 1169984,
+                id: 1062564,
                 sv: 6
             },
         },

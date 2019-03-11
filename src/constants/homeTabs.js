@@ -10,13 +10,13 @@ import productRec from '../images/icons/product-recommendations.png';
 import winBack from '../images/icons/win-back-inactive-customers.png';
 import popInt from '../images/icons/Popular-Integration.png';
 
-import recovery from '../images/features/abandoned-cart-recovery-2.png';
-import follow from '../images/features/follow-up-emails-2.png';
-import recommend from '../images/features/product-recommendations-2.png';
-import customers from '../images/features/win-back-inactive-customers-2.png';
-import visualEmail from '../images/features/Drag-and-drop-visual-email-builder.png';
-import degree from '../images/features/360-degree-view-of-customers-2.png';
-import integrate from '../images/features/supports-your-favourite-ecommerce-platform–woocommerce.png';
+import recovery from '../images/home-features/Abandoned-Cart-Recovery.png';
+import follow from '../images/home-features/Follow-Up-Emails.png';
+import recommend from '../images/home-features/Product-Recommendation.png';
+import customers from '../images/home-features/Win-Back-Inactive-Customers.png';
+import visualEmail from '../images/home-features/WYSIWYG-Email-Editor.png';
+import degree from '../images/home-features/Customer-In-Depth-Analytics.png';
+import integrate from '../images/home-features/Popular-Integration.png';
 
 class homeTabs extends React.Component {
     componentDidMount () {

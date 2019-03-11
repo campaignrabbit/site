@@ -1,21 +1,21 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import { FaPlay } from 'react-icons/fa';
+import { FaPlay, FaTimes } from 'react-icons/fa';
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import $ from 'jquery'
 import ReactModal from 'react-modal'
-import {FaArrowRight} from 'react-icons/fa';
+
 //images
 import bannerImage from '../images/home-banner.png';
-import connectStore from '../images/store.png';
-import createCampaigns from '../images/campaigns.png';
-import turnAutopilot from '../images/autopilot.png';
-import reachAudience from '../images/sue-bryce-7aefe319.jpg';
+import QuickOverview from '../CampaignRabbit-Quick-Tour-Dashboard-Video.mp4';
+
 //sections
+import HomeSteps from '../constants/homeSteps';
 import HomeFeatures from '../constants/homeFeatures';
 import HomeTabs from '../constants/homeTabs';
 import HomeServices from '../constants/homeServices';
+import HomeReviews from '../constants/homeReviews';
 
 ReactModal.setAppElement('#___gatsby')
 
@@ -81,14 +81,14 @@ class IndexPage extends React.Component {
                                 <div className="col-sm-12">
                                     <h1>Sell more by sending <span className="highlight">data-driven emails</span> <br/> to your customers</h1>
                                     <p>Works with WooCommerce, J2Store & more</p>
-                                    <p>
-                                        <Link to="#" className="btn-action btn-dark" onClick={this.handleModalOpen}>
+                                    <div className="btn-container">
+                                        <button className="btn-action btn-dark" onClick={this.handleModalOpen}>
                                             <FaPlay/> Watch Demo now <span>Quick overview</span>
-                                        </Link>
+                                        </button>
                                         <a className="btn-action btn-edge"
                                             href="https://app.campaignrabbit.com/register"
                                             target="_blank" rel="noopener noreferrer">Try it for FREE <span>No credit card required</span></a>
-                                    </p>
+                                    </div>
                                 </div>
                                 <div className="col-sm-2">
 
@@ -105,8 +105,12 @@ class IndexPage extends React.Component {
                       onRequestClose={this.handleModalClose}
                       contentLabel="Example Modal In Gatsby"
                     >
-                      <h2>Donate</h2>
-                      <button onClick={this.handleModalClose}>Close Modal</button>
+                    <video width="100%" heigh="100%"  controls autoplay="autoplay">
+                      <source src={QuickOverview} type="video/mp4"/>
+                      Your browser does not support HTML5 video.
+                    </video>
+
+                      <button onClick={this.handleModalClose} className="close-btn"><FaTimes/></button>
                     </ReactModal>
                 </div>
                 <div className="hero-2">
@@ -125,46 +129,6 @@ class IndexPage extends React.Component {
                                 <p className="returnmessage"></p>
                             </form>
                             <p>Get started for free. No credit card required.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="intro" className="intro flex-split wow fadeIn">
-                    <div className="multi-step-container container-m">
-                        <div className="flex-intro align-center">
-                            <div className="text-center">
-                                <h3>Get started in Minutes</h3>
-                            </div>
-                            <div className="row">
-                                <div className="col-sm-4">
-                                    <p className="rl-item-icon"><img src={connectStore} /></p>
-                                </div>
-                                <div className="col-sm-4">
-                                    <p className="rl-item-icon"><img src={createCampaigns} /></p>
-                                </div>
-                                <div className="col-sm-4">
-                                    <p className="rl-item-icon"><img src={turnAutopilot} /></p>
-                                </div>
-                            </div>
-                            <div className="rl-multi-step numbered">
-                                <ul className="rl-multi-step-list">
-                                    <li className="rl-multi-step-item active">
-                                    <div className="rl-item-wrap">
-                                    <p className="rl-item-title">Connect your store</p>
-
-                                    </div></li>
-                                    <li className="rl-multi-step-item active">
-                                    <div className="rl-item-wrap">
-                                    <p className="rl-item-title">Create Campaigns</p>
-
-                                    </div></li>
-                                    <li className="rl-multi-step-item active">
-                                    <div className="rl-item-wrap">
-                                    <p className="rl-item-title">Turn on Autopilot</p>
-
-                                    </div></li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -195,65 +159,7 @@ class IndexPage extends React.Component {
                     </div>
                 </div>
 
-                <div className="yd-ft wow fadeIn">
-                    <div className="container-m">
-                        <div className="text-center">
-                            <h2>How customers use Campaignrabbit</h2>
-                            <hr/>
-                        </div>
-                        <div className="yd-ft-inner">
-                            <div className="yd-ft-right">
-                                <img src={reachAudience} alt="customers"/>
-                            </div>
-                            <div className="yd-ft-left">
-                                <h3><a href="#">Gimlet Media</a></h3>
-                                <h4>StartUp & Reply All podcasts.</h4>
-                                <p>Gimlet Media is the award-winning podcasting company started by Alex Blumberg and Matt Lieber. Members get early access to shows, exclusive merchandise, and the opportunity to meet staff in Slack.
-                                </p>
-                                <p><em>Photo © Emily Assiran/New York Observer</em>
-                                </p>
-                                <hr/>
-                            </div>
-                        </div>
-                        <div className="yd-ft-inner">
-                            <div className="yd-ft-left">
-                                <h3><a href="#">Sue Bryce Education</a></h3>
-                                <h4>Learn from one of the world&apos;s best.</h4>
-                                <p>Sue Bryce is one of the world’s most influential fine-art portrait photographers and educators. Members get access to hours of educational content that helps them build a rewarding and profitable career.
-                                </p>
-                                <p><em>Photo © Caitlin Thomas</em>
-                                </p>
-                                <hr/>
-                            </div>
-                            <div className="yd-ft-right">
-                                <img src={reachAudience} alt="customers"/>
-                            </div>
-                        </div>
-                        <div className="yd-ft-inner">
-                            <div className="yd-ft-right">
-                                <img src={reachAudience} alt="customers"/>
-                            </div>
-                            <div className="yd-ft-left">
-                                <h3><a href="#">Gimlet Media</a></h3>
-                                <h4>StartUp & Reply All podcasts.</h4>
-                                <p>Gimlet Media is the award-winning podcasting company started by Alex Blumberg and Matt Lieber. Members get early access to shows, exclusive merchandise, and the opportunity to meet staff in Slack.
-                                </p>
-                                <p><em>Photo © Emily Assiran/New York Observer</em>
-                                </p>
-                                <hr/>
-                            </div>
-                        </div>
-                        <div className="features-intro text-center">
-                            <p>
-                                <a href="/features">
-                                    More Testimonials <FaArrowRight/>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="home">
+                <div className="home bottom">
                     <div className="container-m text-center">
                         <div className="hero-content wow fadeIn">
                             <h2>The great way to sell more.</h2>
@@ -263,7 +169,6 @@ class IndexPage extends React.Component {
                                     href="https://app.campaignrabbit.com/register"
                                     target="_blank" rel="noopener noreferrer">Try it for FREE</a>
                             </p>
-                            <hr/>
                         </div>
                     </div>
                 </div>
