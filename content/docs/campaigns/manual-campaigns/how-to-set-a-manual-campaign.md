@@ -1,7 +1,7 @@
 ---
 path: "/docs/campaigns/https://docs.campaignrabbit.com/campaigns/manual-campaigns/how-to-set-a-manual-campaign"
 updated: "2019-02-20"
-title: ""Learn how to set Seasonal Campaigns in Campaignrabbit"
+title: "Learn how to set Seasonal Campaigns in Campaignrabbit"
 description: "Show a pop up when the time spent on a page is atleast 10 secs"
 author: "Kowsaliya"
 ---
