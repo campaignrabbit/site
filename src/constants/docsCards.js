@@ -27,7 +27,9 @@ const HOME_CARDS = [
         LINKS: [
             { URL: '/docs/campaigns/how-campaigns-work', TEXTNODE: 'How campaigns work?' },
             { URL: '/docs/campaigns/working-with-editor', TEXTNODE: 'Working with Editor' },
-            { URL: '/docs/campaigns/create-your-first-on-site-messaging-campaign', TEXTNODE: 'Create your first on-site messaging campaign' },
+            { URL: '/docs/campaigns/on-site-messaging-campaigns/create-your-first-on-site-messaging-campaign', TEXTNODE: 'Create your first on-site messaging campaign' },
+            { URL: '/docs/campaigns/on-site-messaging-campaigns/create-a-slide-in-campaign', TEXTNODE: 'Create a slide in campaign' },
+            { URL: '/docs/campaigns/on-site-messaging-campaigns/create-a-popup-campaign', TEXTNODE: 'Create a popup campaign' },
         ],
         BUTTON_LINK: '/docs/campaigns',
     },

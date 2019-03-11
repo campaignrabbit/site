@@ -4,6 +4,7 @@ updated: "2019-02-20"
 title: "Create a slide in campaign"
 description: "Show a pop up when the time spent on a page is atleast 10 secs"
 author: "Kowsaliya"
+category: "campaigns"
 ---
 ### How to set slide in campaigns ?
 * Click on "Create New Campaign" from the On site popups.
@@ -25,12 +26,12 @@ author: "Kowsaliya"
 ![popupcampaignrules](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/screenshot-app.campaignrabbit.com-2019.01.02-11-35-39.png)
 
 * A slide in message will be displayed if the time spent on a site is atleast 9 secs.
-* Here is a screenshot of the pop up that will be displayed when a condition is satisfied. 
+* Here is a screenshot of the pop up that will be displayed when a condition is satisfied.
 ![popupdisplay](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/screenshot-localhost-2019.01.02-11-36-53.png)
 
 **Note:**  
-* The time entered is calculated in seconds. 
-* A slide in will be displayed only when the specified time frame is reached. 
+* The time entered is calculated in seconds.
+* A slide in will be displayed only when the specified time frame is reached.
 * Popular combinations are
 
 *Time on site is not more than 30 secs and the URL path is the homepage

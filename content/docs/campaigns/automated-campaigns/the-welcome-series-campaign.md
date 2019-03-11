@@ -4,6 +4,7 @@ updated: "2019-02-20"
 title: "The Welcome Series Campaign"
 description: "Create an awesome welcome series email campaign"
 author: "Kowsaliya"
+category: "campaigns"
 ---
 **What and Why Welcome Series Campaign ?**
 Let's create a campaign to welcome all the recently subscribed members.
@@ -13,7 +14,7 @@ Wow your subscribers by sending a welcome E-mail and showcase your brand and say
 
 **How to create a Welcome Series Campaigns ?**
 * Navigate to Campaigns tab from dashboard.
-* Click on "Create New Campaign" from the "Automated Messages" section. 
+* Click on "Create New Campaign" from the "Automated Messages" section.
 
 ![AutomatedMessages](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
 
@@ -29,7 +30,7 @@ In the *Campaign Settings:*
 
 ![Welcome](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/welcome.png)
 
-In the message section, draft the message body. 
+In the message section, draft the message body.
 
 You can mention details about the discount available.
 

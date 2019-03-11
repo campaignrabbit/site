@@ -4,6 +4,7 @@ updated: "2019-02-20"
 title: "Milestone campaign"
 description: "Let&#39;s congratulate customers for reaching a milestone"
 author: "Kowsaliya"
+category: "campaigns"
 ---
 **What is milestone campaign?**
 * Congratulations message and discount for subscribers who have reached a total order value of $5000 in 100 days.
@@ -14,7 +15,7 @@ author: "Kowsaliya"
 
 **How to create a milestone Campaigns ?**
 * Navigate to Campaigns tab from dashboard.
-* Click on "Create New Campaign" from the "Automated Messages" section. 
+* Click on "Create New Campaign" from the "Automated Messages" section.
 
 ![AutomatedMessages](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
 
@@ -25,7 +26,7 @@ Match all customers whose **signed up** is exactly 100 days and the **total spen
 ![AudienceMilestone](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/MilestoneAudience.png)
 
 In the *Campaign Settings:*
-* Specify category(if any). 
+* Specify category(if any).
 * Set the start date.
 * Set end date(optional).
 

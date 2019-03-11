@@ -4,9 +4,10 @@ updated: "2019-02-20"
 title: "Sales followup campaign"
 description: "Details about steps to create a sales followup email campaign"
 author: "Kowsaliya"
+category: "campaigns"
 ---
 **What is sales followup campaign ?**
-* This campaign is based on post purchase of the product. 
+* This campaign is based on post purchase of the product.
 * You can set mails indicating the status of the product.
 
 **Why sales followup campaign ?**
@@ -15,7 +16,7 @@ author: "Kowsaliya"
 
 **How to create a sales followup campaign ?**
 * Navigate to Campaigns tab from dashboard.
-* Click on "Create New Campaign" from the "Automated Messages" section. 
+* Click on "Create New Campaign" from the "Automated Messages" section.
 
 ![AutomatedMessages](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
 
@@ -25,7 +26,7 @@ Match all customers whose **name** has any value and the **order status** is *co
 
 ![Audience](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/salesfollowup.png)
 
-In the *campaign category,* 
+In the *campaign category,*
 * Specify category(if any).
 * Set the campaign start date.
 * Set end date(optional).
@@ -34,7 +35,7 @@ In the *campaign category,*
 
 ![SalesSetting](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/salessetting.png)
 
-In the *message section,* draft the message body. 
+In the *message section,* draft the message body.
 
 ![FollowupBody](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/salesfollowupBody.png)
 

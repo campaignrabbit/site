@@ -4,6 +4,7 @@ updated: "2019-02-20"
 title: "Create a popup campaign"
 description: "Show a pop up when the time spent on a page is atleast 10 secs"
 author: "Kowsaliya"
+category: "campaigns"
 ---
 ## Create a popup campaign
 **How to set popup campaigns ?**
@@ -20,13 +21,13 @@ author: "Kowsaliya"
 * The rules are time on page is atleast 10 or time on page is no more than 20.
 ![popu-rules](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/onsite-messaging-campaigns/popuprules.png)
 * A pop up message will be displayed when the time spent on a page is atleast 10 secs or time spent on a page is less than 20 secs.
-* Here is a screenshot of the pop up that will be displayed when a condition is satisfied. 
+* Here is a screenshot of the pop up that will be displayed when a condition is satisfied.
 
 ![popup](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/onsite-messaging-campaigns/popup.png)
 
 **Note:**  
-* The time entered is calculated in seconds. 
-* A slide in will be displayed only when the specified time frame is reached. 
+* The time entered is calculated in seconds.
+* A slide in will be displayed only when the specified time frame is reached.
 * Popular combinations are
 
 *Time on site is not more than 30 secs and the URL path is the homepage

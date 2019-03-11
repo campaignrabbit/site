@@ -4,6 +4,7 @@ updated: "2019-02-20"
 title: "Reorder campaign"
 description: "Learn how to create re-order email campaign"
 author: "Kowsaliya"
+category: "campaigns"
 ---
 **What is a re-order campaign ?**
 * If you are selling a product that needs to be reordered regularly, such as medicines or ink cartridges, you can use a reorder campaign to remind customers before they run out.
@@ -23,7 +24,7 @@ The *target audience* should contain the following conditions:
 Match all customers whose **name** has any value, **product name** is ink cartridge and the **last ordered** is more than 15 days.
 
 In the *Campaign Settings:*
-* Specify category(if any). 
+* Specify category(if any).
 * Set the start date.
 * Set end date(optional).
 

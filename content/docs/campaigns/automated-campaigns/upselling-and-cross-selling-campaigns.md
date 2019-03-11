@@ -4,14 +4,15 @@ updated: "2019-02-20"
 title: "Upselling and Cross Selling Campaigns"
 description: "Learn how upselling and cross selling works in Campaignrabbit"
 author: "Kowsaliya"
+category: "campaigns"
 ---
 **What and why Upselling campaigns ?**
-* Upselling induces a customer to purchase a higher end product while cross selling suggests the purchase of additional products. 
+* Upselling induces a customer to purchase a higher end product while cross selling suggests the purchase of additional products.
 * Large businesses usually combine upselling and cross-selling to maximize profit.
 
 **How to create a Upselling Campaigns ?**
 * Navigate to Campaigns tab from dashboard.
-* Click on "Create New Campaign" from the "Automated Messages" section. 
+* Click on "Create New Campaign" from the "Automated Messages" section.
 
 ![AutomatedMessages](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
 
@@ -22,11 +23,11 @@ Match all customers whose **product name** is hard disk and **last ordered** on 
 ![upsellingrules](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/upsellrules.png)
 
 In the *Campaign Settings:*
-* Specify category(if any). 
+* Specify category(if any).
 * Set the start date.
 * Set end date(optional).
 
-Here, setting the start date is not mandatory. 
+Here, setting the start date is not mandatory.
 
 When there are orders with the specified condition, mails will be sent automatically(if campaign is set to live)
 

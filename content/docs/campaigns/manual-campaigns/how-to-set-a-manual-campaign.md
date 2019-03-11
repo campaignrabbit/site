@@ -4,6 +4,7 @@ updated: "2019-02-20"
 title: "Learn how to set Seasonal Campaigns in Campaignrabbit"
 description: "Show a pop up when the time spent on a page is atleast 10 secs"
 author: "Kowsaliya"
+category: "campaigns"
 ---
 Manual messages are something that are sent on one shot.
 Let's take an *example* :
@@ -24,7 +25,7 @@ Seasonal Campaigns are the best example for manual messages.
 
 #### How to create a Seasonal campaign ?
 * Navigate to Campaigns tab from dashboard.
-* Click on "Create New Campaign" from the "Manual Messages" section. 
+* Click on "Create New Campaign" from the "Manual Messages" section.
 
 ![manual](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/manualCampaigns/manual.png)
 

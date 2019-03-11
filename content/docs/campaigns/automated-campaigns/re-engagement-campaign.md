@@ -4,6 +4,7 @@ updated: "2019-02-20"
 title: "Re - engagement Campaign"
 description: "Engage customers by creating a Re-engagement campaign"
 author: "Kowsaliya"
+category: "campaigns"
 ---
 **What and why Re-engagement campaigns ?**
 * Let's see on how to set a campaign for a targeted group of people who have signed up recently and has not yet purchased any product.
@@ -11,7 +12,7 @@ author: "Kowsaliya"
 
 **How to create a Re-engagement Campaigns ?**
 * Navigate to Campaigns tab from dashboard.
-* Click on "Create New Campaign" from the "Automated Messages" section. 
+* Click on "Create New Campaign" from the "Automated Messages" section.
 
 ![AutomatedMessages](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
 
@@ -22,8 +23,8 @@ Match all customers whose **signed up** is more than 20 and the **total spent** 
 ![reengagement](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/reengagement.png)
 
 In the *Campaign Settings*:
-* Specify category(if any). 
-* Here, setting the start date is not mandatory. 
+* Specify category(if any).
+* Here, setting the start date is not mandatory.
 * When there are orders whose signed up is more than 20 days, mails will be sent automatically(if campaign is set to live)
 * Set end date(optional).
 

@@ -2612,8 +2612,27 @@ body {
       font-size: 28px;
     }
   }
+  .card_links{
+    h4{
+      color: #333333;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+  }
+  ol{
+    list-style: decimal;
+    margin-left: 20px;
+    li{
+      padding-left: 5px;
+    }
+    a{
+      color: #818198;
+      &:hover{
+        color: $primary;
+      }
+    }
+  }
   .category-list {
-    padding: 40px 0;
     h4 {
       margin-bottom: 15px;
       font-weight: 600;

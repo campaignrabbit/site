@@ -22,11 +22,11 @@ const Category = ({ pageContext, data }) => {
                     </Container>
                 </div>
                 <Container>
-                <div className="card card-blog text-center col-md-6 col-push-md-3">
+                <div className="card card-blog col-md-6 col-push-md-3">
                     <div className="card_inner">
                         <div className="card_links">
-                          <ul className="category-list">
-                              <h4>{category}</h4>
+                            <h4>{category}</h4>
+                            <ol className="category-list">
                                 {edges.map(({ node }) => {
                                   const { title } = node.frontmatter
                                   const { slug } = node.fields
@@ -37,8 +37,8 @@ const Category = ({ pageContext, data }) => {
                                           <p>{excerpt}</p>
                                       </li>
                                   )
-                              })}
-                          </ul>
+                                })}
+                            </ol>
                         </div>
                       </div>
                   </div>
