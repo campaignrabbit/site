@@ -521,7 +521,7 @@ body {
         justify-content: center;
         .form-group{
             &.flex-70{
-                flex-basis: 60%;
+                flex-basis: 55%;
             }
             &.flex-30{
                 flex-basis: 40%;
@@ -4035,6 +4035,19 @@ ul.tabs{
                     padding-bottom: 10px;
                 }
             }
+        }
+    }
+}
+
+.ReactModalPortal{
+    .ReactModal__Overlay{
+        background: rgba(0, 0, 0, 0.7);
+        .ReactModal__Content{
+            max-width: 600px;
+            width: 100%;
+            margin: auto;
+            z-index: 1050;
+            top: 120px;
         }
     }
 }
