@@ -5,6 +5,7 @@ module.exports = {
         author: `Shobana`,
         siteUrl: `https://www.campaignrabbit.com/`
     },
+    pathPrefix: `https://github.com/campaignrabbit/cr-media/src`,
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-catch-links`,

@@ -94,10 +94,6 @@ class IndexPage extends React.Component {
 
                                 </div>
                             </div>
-
-                        </div>
-                        <div className="hero-img wow fadeIn">
-                            <img className="img-fluid" src={bannerImage} alt="banner"/>
                         </div>
                     </div>
                     <ReactModal

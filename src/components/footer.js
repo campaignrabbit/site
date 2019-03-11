@@ -20,56 +20,94 @@ class Footer extends React.Component {
             <div className="footer-container">
                 <Container>
                     <Row>
-                        <Col>
+
+                        <Col size='2'>
+                            <h4 className="footer-title">Product</h4>
+                            <ul>
+                                <li>
+                                  <Link to="/features">Features</Link>
+                                </li>
+                                <li>
+                                  <Link to="/pricing">Pricing</Link>
+                                </li>
+                                <li>
+                                  <Link to="/integrations">Integrations</Link>
+                                </li>
+                                <li>
+                                  <Link to="/use-cases">Use cases</Link>
+                                </li>
+                            </ul>
+                        </Col>
+                        <Col size='2'>
+                            <h4 className="footer-title">Platforms</h4>
+                            <ul>
+                                <li>
+                                  <Link to="/">Shopify</Link>
+                                </li>
+                                <li>
+                                  <Link to="/">WooCommerce</Link>
+                                </li>
+                                <li>
+                                  <Link to="/">J2Store</Link>
+                                </li>
+                                <li>
+                                  <Link to="/">Magento</Link>
+                                </li>
+                            </ul>
+                        </Col>
+                        <Col size='2'>
+                            <h4 className="footer-title">Resources</h4>
+                            <ul>
+                                <li>
+                                    <Link to="/blog">Blog</Link>
+                                </li>
+                                <li>
+                                  <Link to="/docs">Documentation</Link>
+                                </li>
+                            </ul>
+                        </Col>
+                        <Col size='2'>
+                            <div>
+                                <h4 className="footer-title">Company</h4>
+                                <ul>
+                                    <li><Link to="/about-us">About us</Link></li>
+                                </ul>
+                                <h5>Also from us:</h5>
+                                <ul>
+                                    <li><a href="https://www.flycart.org/" target="_blank" rel="noopener noreferrer">Flycart</a></li>
+                                    <li><a href="https://www.j2store.org/" target="_blank" rel="noopener noreferrer">J2Store</a></li>
+                                    <li><a href="https://www.retainful.com/" target="_blank" rel="noopener noreferrer">Retainful</a></li>
+                                    <li><a href="https://www.billingrabbit.com/" target="_blank" rel="noopener noreferrer">Billingrabbit</a></li>
+                                </ul>
+                            </div>
+                        </Col>
+                        <Col size='4'>
                             <Link className="footer-logo" to="/"><img src={Logo} alt="Campaignrabbit" /></Link>
                             <p>Sell more by sending targetted, data-driven marketing emails to your customers.</p>
+                            <h5>CartRabbit International Pte Ltd</h5>
                             <div className="footer-social-block">
                             	<div className="footer-social-links clearfix">
-                            		<a target="_blank" href="https://www.facebook.com/campaignrabbit/" className="foot-social-link"><i className="fa fa-facebook"><FaFacebookF/></i>Find us <span className="social-subtext">on Facebook</span></a><a target="_blank" href="https://twitter.com/campaignrabbit/" className="foot-social-link"><i className="fa fa-twitter"><FaTwitter/></i>Follow us <span className="social-subtext">on Twitter</span></a>
+                            		<a target="_blank" href="https://www.facebook.com/campaignrabbit/" className="foot-social-link"><i className="fa fa-facebook"><FaFacebookF/></i></a>
+                                <a target="_blank" href="https://twitter.com/campaignrabbit/" className="foot-social-link"><i className="fa fa-twitter"><FaTwitter/></i></a>
                                 </div>
                             </div>
                         </Col>
-                        <Col>
-                            <h4 className="footer-title">Quick links:</h4>
-                            <ul>
-                                <li><Link to="/about-us">About us</Link></li>
-                            </ul>
-                            <h5>Also from us:</h5>
-                            <ul>
-                                <li><a href="https://www.flycart.org/" target="_blank" rel="noopener noreferrer">Flycart</a></li>
-                                <li><a href="https://www.j2store.org/" target="_blank" rel="noopener noreferrer">J2Store</a></li>
-                                <li><a href="https://www.retainful.com/" target="_blank" rel="noopener noreferrer">Retainful</a></li>
-                                <li><a href="https://www.billingrabbit.com/" target="_blank" rel="noopener noreferrer">Billingrabbit</a></li>
-                            </ul>
-                        </Col>
-                        <Col>
-                            <div>
-                                <h4 className="footer-title">Reach us</h4>
-                                <h5>CartRabbit International Pte Ltd</h5>
-                                <p>#07-04, High Street Centre, 1 North Bridge Road,  Singapore, 179094</p>
-                                <h5>CartRabbit Technologies Private Limited</h5>
-                                <p>SS Towers, Kalapatti Main Road, Coimbatore, Tamil Nadu <br />India - 641014</p>
-                            </div>
-                        </Col>
+
                     </Row>
                 </Container>
                 <Container>
                     <div className="footer-sm">
-                        <Row>
-                            <Col size="6">
-                                <h6>&copy; <Link to="/">Campaignrabbit</Link> <script>document.write(new Date().getFullYear());</script> Rights Reserved</h6>
-                            </Col>
-                            <Col size="6" className="text-right">
-                                <ul>
-                                    <li>
-                                        <Link to="/privacy-policy">Privacy policy</Link>
-                                    </li>
-                                    <li>
-                                        <Link to="/terms-of-service">Terms of Service</Link>
-                                    </li>
-                                </ul>
-                            </Col>
-                        </Row>
+                        <Link className="footer-logo" to="/"><img src={Logo} alt="Campaignrabbit" /></Link>
+                        <h6>&copy; <Link to="/">Campaignrabbit</Link> <script>document.write(new Date().getFullYear());</script>.
+                        All rights reserved. #07-04, High Street Centre, 1 North Bridge Road,  Singapore, 179094</h6>
+                        <ul>
+                            <li>
+                                <Link to="/privacy-policy">Privacy policy</Link>
+                            </li>
+                            <li>
+                                <Link to="/terms-of-service">Terms of Service</Link>
+                            </li>
+                        </ul>
                     </div>
                 </Container>
                 <div id="back-top" className="bk-top">

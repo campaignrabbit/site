@@ -324,7 +324,7 @@ body {
   --------------- Hero Home Styling Starts -------------------
   ----------------------------------------------------------*/
 .home{
-    background: #f6f9fc;
+    background: #ffffff;
     &.bottom{
       background: #ffffff;
       padding-bottom: 30px;
@@ -343,12 +343,13 @@ body {
            align-items: center;
            justify-content: center;
            margin-top: 30px;
+           margin-bottom: 30px;
          }
      }
      h1 {
        font-size: 34px;
        font-weight: 600;
-       color: #364655;
+       color: #333333;
        line-height: 1.3;
        letter-spacing: 0;
      }
@@ -493,6 +494,7 @@ body {
 
   .hero-2 {
     text-align: center;
+    background: #f7f7f7;
     &.bottom{
         background: #f7f7f7;
     }
@@ -533,18 +535,29 @@ body {
     }
     .form-alt {
         position: relative;
-        max-width: 400px;
+        max-width: 100%;
         display: flex;
         align-items: center;
         margin: 0 auto;
         justify-content: center;
-        .form-group{
-            &.flex-70{
-                flex-basis: 55%;
-            }
-            &.flex-30{
-                flex-basis: 40%;
-            }
+        padding: 10px 20px;
+        @media(min-width: 420px){
+          max-width: 400px;
+          padding: 0;
+          .form-group{
+              &.flex-70{
+                  flex-basis: 55%;
+              }
+              &.flex-30{
+                  flex-basis: 40%;
+              }
+          }
+          .mail {
+            border-radius: 4px 0 0 4px;
+          }
+          .submit-button {
+            border-radius: 0 4px 4px 0;
+          }
         }
         .mail {
           position: relative;
@@ -555,7 +568,6 @@ body {
           box-sizing: content-box;
           transition: all .3s;
           border: 1px solid #ddd;
-          border-radius: 4px 0 0 4px;
         }
         input[type="text"] {
               color: #222222;
@@ -579,7 +591,6 @@ body {
             width: 100%;
             height: 56px;
             border: 0;
-            border-radius: 0 4px 4px 0;
             padding: 0 25px 0 25px;
             background: $primary;
             font-size: 16px;
@@ -843,13 +854,14 @@ body {
       margin-bottom: 15px;
       a{
           text-decoration: underline;
+          color: $primary;
       }
     }
   }
 
   .feature-list {
-      margin: 20px 5px;
-      border: 1px solid #eaeaea;
+      margin: 20px 0 10px;
+      border: none;
       .card-icon {
           width: 65px;
           height: 65px;
@@ -869,9 +881,9 @@ body {
           }
       }
       .card-text {
-        padding: 20px;
+        padding: 0px;
         .img-responsive {
-          max-width: 80px;
+          max-width: 70px;
           height: auto;
           margin: 0 auto 8px;
         }
@@ -1690,18 +1702,12 @@ body {
     padding: 30px 0;
     background: #f6f6fd;
     .footer-title {
-      font-size: 21px;
-      font-weight: 600;
+      font-size: 15px;
+      font-weight: 500;
+      text-transform: uppercase;
       color: #333333;
       margin-top: 15px;
       margin-bottom: 15px;
-      &:after {
-        content: '';
-        display: block;
-        width: 30px;
-        margin: 8px 0 15px;
-        border-bottom: 6px dotted $primary;
-      }
     }
     .footer-logo {
       img {
@@ -1717,11 +1723,11 @@ body {
       line-height: 1.8;
     }
     h5 {
-      font-size: 16px;
-      font-weight: 600;
+      font-size: 15px;
+      font-weight: 500;
       color: #333333;
       margin-top: 15px;
-      margin-bottom: 0;
+      margin-bottom: 10px;
     }
     ul {
       li {
@@ -1749,7 +1755,6 @@ body {
                 font-size: 16px;
                 color: #818198;
                 display: inline-block;
-                width: 50%;
                 line-height: 22px;
                 margin-top: 20px;
                 i{
@@ -1807,6 +1812,7 @@ body {
     padding-top: 20px;
     margin-top: 30px;
     border-top: 1px solid #dddddd;
+    text-align: center;
     a {
       color: $primary;
     }
@@ -1825,10 +1831,6 @@ body {
     display: block;
     margin-bottom: 15px;
     text-decoration: none;
-  }
-  .footer-sm .footer-logo img {
-    max-width: 120px;
-    height: auto;
   }
 
   .footer-sm h6 {
@@ -2086,10 +2088,6 @@ body {
     padding: 0 50px 0 50px;
   }
 
-  .footer-sm {
-    text-align: left;
-  }
-
   .footer-sm .footer-logo {
     margin-bottom: 0;
     font-size: 16px;
@@ -2098,8 +2096,6 @@ body {
 
   .footer-sm ul {
     list-style-type: none;
-    text-align: right;
-    margin-top: 0;
   }
   .btn-action.btn-lg {
     height: auto;
@@ -3030,16 +3026,23 @@ ul.tabs{
     @media(max-width: 768px){
       flex-wrap: wrap;
         li{
+          width: 30%;
             &:after{
               display: none;
             }
         }
     }
+    @media(max-width: 420px){
+        li{
+          width: 50%;
+        }
+    }
 }
 
 .features-tabs{
-    background: #F7F9FC;
+    background: #ffffff;
     padding: 40px 0;
+    border-bottom: 1px solid #eeeeee;
     .features-intro{
         margin-bottom: 40px;
         h2{
