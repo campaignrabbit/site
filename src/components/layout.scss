@@ -338,6 +338,7 @@ body {
      .hero-content{
          padding: 40px 0 10px;
          .btn-container{
+           flex-wrap: wrap;
            display: flex;
            align-items: center;
            justify-content: center;
@@ -1686,12 +1687,13 @@ body {
   -------------------- Footer Small Styling Starts ---------------
   --------------------------------------------------------------*/
   .footer-container {
-    padding: 50px 0 30px;
+    padding: 30px 0;
     background: #f6f6fd;
     .footer-title {
       font-size: 21px;
       font-weight: 600;
       color: #333333;
+      margin-top: 15px;
       margin-bottom: 15px;
       &:after {
         content: '';
@@ -2926,6 +2928,9 @@ body {
 ul.tabs{
 	margin: 0px;
 	padding: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 	list-style: none;
     li{
         position: relative;
@@ -3017,12 +3022,17 @@ ul.tabs{
             }
         }
     }
-
     @media(min-width: 768px){
-        display: flex;
-        align-items: center;
         li{
             width: 14%;
+        }
+    }
+    @media(max-width: 768px){
+      flex-wrap: wrap;
+        li{
+            &:after{
+              display: none;
+            }
         }
     }
 }
@@ -3039,6 +3049,11 @@ ul.tabs{
             font-size: 14px;
             margin-top: 0;
         }
+    }
+    @media(max-width: 768px){
+      .container{
+        max-width: 100%;
+      }
     }
 }
 
@@ -3093,13 +3108,15 @@ ul.tabs{
     }
     .service-content-container{
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
         max-width: 1200px;
         margin: 0 auto;
+        padding: 15px;
         .service-img-div{
             display: block;
             clear: none;
-            flex: 1;
             img{
                 width: 90%;
                 max-width: 550px;
@@ -3111,7 +3128,6 @@ ul.tabs{
             }
         }
         .service-text-div{
-            flex-basis: 40%;
             h4{
                 font-size: 18px;
                 font-weight: 600;
@@ -3149,6 +3165,14 @@ ul.tabs{
                     padding-left: 5px;
                 }
             }
+        }
+        @media(min-width: 768px){
+          .service-img-div{
+            flex: 1;
+          }
+          .service-text-div{
+            flex-basis: 40%;
+          }
         }
     }
 }
@@ -4063,7 +4087,6 @@ ul.tabs{
         z-index: 1050;
         .ReactModal__Content{
             max-width: 800px;
-            width: 100%;
             margin: auto;
             z-index: 1050;
             overflow: visible !important;
@@ -4078,6 +4101,8 @@ ul.tabs{
               background: #222;
               color: #ffffff;
               cursor: pointer;
+              width: 35px;
+              height: 35px;
             }
         }
     }
