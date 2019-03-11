@@ -67,8 +67,8 @@ module.exports = {
         {
             resolve: `gatsby-plugin-manifest`,
             options: {
-                name: `retainful`,
-                short_name: `retainful`,
+                name: `campaignrabbit`,
+                short_name: `campaignrabbit`,
                 start_url: `/`,
                 background_color: `#6772e5`,
                 theme_color: `#6772e5`,

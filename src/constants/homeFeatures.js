@@ -9,12 +9,12 @@ import winBack from '../images/home-icons/win-back-inactive-customers.png';
 import {FaArrowRight} from 'react-icons/fa';
 
 
-import CALLOUTS from '../constants/homeCallouts2';
+import CALLOUTS from '../constants/homeCallouts';
 
 class homeFeature extends React.Component {
     static renderCallouts() {
         return CALLOUTS.map((card) => {
-            const cardClass = `col-md-6`;
+            const cardClass = `col-md-4`;
             return (
                 <div className={cardClass} key={card.TITLE}>
                     <div className="card text-center feature-list">
@@ -34,7 +34,7 @@ class homeFeature extends React.Component {
                 <div className="container-m">
                     <div className="features-intro text-center">
                         <h2>
-                            Features that Speaks
+                            Features that Speak
                         </h2>
                     </div>
                     <div className="row">

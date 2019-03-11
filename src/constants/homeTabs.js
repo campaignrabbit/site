@@ -1,19 +1,14 @@
 import React from 'react';
 import $ from 'jquery';
+import {FaArrowRight} from 'react-icons/fa';
 
-// import abandCart from '../images/feature-icons/shopping-cart.png';
-// import followUp from '../images/feature-icons/emails.png';
-// import winBack from '../images/feature-icons/users.png';
-// import prodRec from '../images/feature-icons/product-recommend.png';
-// import cusAnalytics from '../images/feature-icons/analytics.png';
-// import emailBuilder from '../images/feature-icons/mail-builder.png';
-import popInt from '../images/feature-icons/integrations.png';
-import customerView from '../images/home-icons/360-degree-view-of-customers.png';
-import abandCart from '../images/home-icons/abandoned-cart-recovery.png';
-import dragDrop from '../images/home-icons/drag-and-drop-visual-email-builder.png';
-import followEmail from '../images/home-icons/follow-up-emails.png';
-import productRec from '../images/home-icons/product-recommendations.png';
-import winBack from '../images/home-icons/win-back-inactive-customers.png';
+import customerView from '../images/icons/Customer-In-Depth-Analytics.png';
+import abandCart from '../images/icons/abandoned-cart-recovery.png';
+import dragDrop from '../images/icons/WYSIWYG-Email-Editor.png';
+import followEmail from '../images/icons/follow-up-emails.png';
+import productRec from '../images/icons/product-recommendations.png';
+import winBack from '../images/icons/win-back-inactive-customers.png';
+import popInt from '../images/icons/Popular-Integration.png';
 
 import recovery from '../images/features/abandoned-cart-recovery-2.png';
 import follow from '../images/features/follow-up-emails-2.png';
@@ -73,6 +68,12 @@ class homeTabs extends React.Component {
                         <li className="tab-link" data-tab="tab-7">
                             <img src={popInt} className="img-responsive" alt="Popular integrations"/>
                             <span>Popular integrations</span>
+                        </li>
+                        <li className="tab-link link-arrow">
+                            <a href="#">
+                                <span className="arrow"> <FaArrowRight/></span>
+                                See More
+                            </a>
                         </li>
                     </ul>
 

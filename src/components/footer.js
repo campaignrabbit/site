@@ -4,7 +4,7 @@ import Logo from '../images/campaignrabbit-logo.png'
 import Container from "../components/container"
 import Row from "../components/row"
 import Col from "../components/column"
-import { FaFacebook, FaTwitter} from 'react-icons/fa'
+import { FaFacebookF, FaTwitter} from 'react-icons/fa'
 import $ from 'jquery'
 
 class Footer extends React.Component {
@@ -23,13 +23,18 @@ class Footer extends React.Component {
                         <Col>
                             <Link className="footer-logo" to="/"><img src={Logo} alt="Campaignrabbit" /></Link>
                             <p>Sell more by sending targetted, data-driven marketing emails to your customers.</p>
-                            <div className="footer-social-icons">
-                                <a href="https://www.facebook.com/campaignrabbit/" target="_blank"><FaFacebook/></a>
-                                <a href="https://twitter.com/campaignrabbit/" target="_blank"><FaTwitter/></a>
+                            <div className="footer-social-block">
+                            	<div className="footer-social-links clearfix">
+                            		<a target="_blank" href="https://www.facebook.com/campaignrabbit/" className="foot-social-link"><i className="fa fa-facebook"><FaFacebookF/></i>Find us <span className="social-subtext">on Facebook</span></a><a target="_blank" href="https://twitter.com/campaignrabbit/" className="foot-social-link"><i className="fa fa-twitter"><FaTwitter/></i>Follow us <span className="social-subtext">on Twitter</span></a>
+                                </div>
                             </div>
                         </Col>
                         <Col>
-                            <h4 className="footer-title">Also from us:</h4>
+                            <h4 className="footer-title">Quick links:</h4>
+                            <ul>
+                                <li><Link to="/about-us">About us</Link></li>
+                            </ul>
+                            <h5>Also from us:</h5>
                             <ul>
                                 <li><a href="https://www.flycart.org/" target="_blank" rel="noopener noreferrer">Flycart</a></li>
                                 <li><a href="https://www.j2store.org/" target="_blank" rel="noopener noreferrer">J2Store</a></li>

@@ -1,18 +1,23 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import { FaPlay } from 'react-icons/fa';
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import $ from 'jquery'
-
-import bannerLogo from '../images/retainful-coupon-03.png'
-import customerBanner from '../images/retainful-customers.png'
-
+import ReactModal from 'react-modal'
+import {FaArrowRight} from 'react-icons/fa';
+//images
+import bannerImage from '../images/home-banner.png';
+import connectStore from '../images/store.png';
+import createCampaigns from '../images/campaigns.png';
+import turnAutopilot from '../images/autopilot.png';
 import reachAudience from '../images/sue-bryce-7aefe319.jpg';
-
-import PricingTable from '../components/pricing';
+//sections
 import HomeFeatures from '../constants/homeFeatures';
 import HomeTabs from '../constants/homeTabs';
 import HomeServices from '../constants/homeServices';
+
+ReactModal.setAppElement('#___gatsby')
 
 class IndexPage extends React.Component {
     componentDidMount () {
@@ -48,13 +53,28 @@ class IndexPage extends React.Component {
             }
         });
     }
+    constructor(props) {
+        super(props)
+        this.state = {
+          isModalOpen: false,
+        }
+    }
+    handleModalOpen = event => {
+        // console.log('handleModalOpen: ', event);
+        this.setState({ isModalOpen: true })
+    }
+
+    handleModalClose = event => {
+        // console.log('handleModalOpen: ', event);
+        this.setState({ isModalOpen: false })
+    }
     render(){
         return (
             <Layout>
                 <SEO title="Campaignrabbit - Sell more by sending data-driven emails to your customers"
                      keywords={[`Send data-driven emails to your customers`]}/>
 
-                <div className="home">
+                <div id="home" className="home">
                     <div className="container-m text-center">
                         <div className="hero-content wow fadeIn">
                             <div className="row">
@@ -62,11 +82,11 @@ class IndexPage extends React.Component {
                                     <h1>Sell more by sending <span className="highlight">data-driven emails</span> <br/> to your customers</h1>
                                     <p>Works with WooCommerce, J2Store & more</p>
                                     <p>
-                                        <a className="btn-action btn-dark"
-                                          href="https://app.campaignrabbit.com/login"
-                                          target="_blank" rel="noopener noreferrer"> <FaPlay/> Watch Demo now <span>Quick overview</span></a>
+                                        <Link to="#" className="btn-action btn-dark" onClick={this.handleModalOpen}>
+                                            <FaPlay/> Watch Demo now <span>Quick overview</span>
+                                        </Link>
                                         <a className="btn-action btn-edge"
-                                            href="https://www.campaignrabbit.com/pricing"
+                                            href="https://app.campaignrabbit.com/register"
                                             target="_blank" rel="noopener noreferrer">Try it for FREE <span>No credit card required</span></a>
                                     </p>
                                 </div>
@@ -77,9 +97,17 @@ class IndexPage extends React.Component {
 
                         </div>
                         <div className="hero-img wow fadeIn">
-                            <img className="img-fluid" src={bannerLogo} alt="retainful-coupon-banner"/>
+                            <img className="img-fluid" src={bannerImage} alt="banner"/>
                         </div>
                     </div>
+                    <ReactModal
+                      isOpen={this.state.isModalOpen}
+                      onRequestClose={this.handleModalClose}
+                      contentLabel="Example Modal In Gatsby"
+                    >
+                      <h2>Donate</h2>
+                      <button onClick={this.handleModalClose}>Close Modal</button>
+                    </ReactModal>
                 </div>
                 <div className="hero-2">
                     <div className="intro-block container-m text-center">
@@ -92,7 +120,7 @@ class IndexPage extends React.Component {
                                 </div>
                                 <div className="form-group flex-30">
 
-                                    <input type="button" id="submit" className="submit-button"  id="cf_send" value="Sign Up"/>
+                                    <input type="button" id="submit" className="submit-button"  id="cf_send" value="Sign Up for Free"/>
                                 </div>
                                 <p className="returnmessage"></p>
                             </form>
@@ -106,6 +134,17 @@ class IndexPage extends React.Component {
                         <div className="flex-intro align-center">
                             <div className="text-center">
                                 <h3>Get started in Minutes</h3>
+                            </div>
+                            <div className="row">
+                                <div className="col-sm-4">
+                                    <p className="rl-item-icon"><img src={connectStore} /></p>
+                                </div>
+                                <div className="col-sm-4">
+                                    <p className="rl-item-icon"><img src={createCampaigns} /></p>
+                                </div>
+                                <div className="col-sm-4">
+                                    <p className="rl-item-icon"><img src={turnAutopilot} /></p>
+                                </div>
                             </div>
                             <div className="rl-multi-step numbered">
                                 <ul className="rl-multi-step-list">
@@ -147,7 +186,7 @@ class IndexPage extends React.Component {
                                 </div>
                                 <div className="form-group flex-30">
 
-                                    <input type="button" id="submit" className="submit-button"  id="cf_send1" value="Sign Up"/>
+                                    <input type="button" id="submit" className="submit-button"  id="cf_send1" value="Sign Up for Free"/>
                                 </div>
                                 <p className="returnmessage"></p>
                             </form>
@@ -164,7 +203,7 @@ class IndexPage extends React.Component {
                         </div>
                         <div className="yd-ft-inner">
                             <div className="yd-ft-right">
-                                <img src={reachAudience} alt="retainful-customers"/>
+                                <img src={reachAudience} alt="customers"/>
                             </div>
                             <div className="yd-ft-left">
                                 <h3><a href="#">Gimlet Media</a></h3>
@@ -187,12 +226,12 @@ class IndexPage extends React.Component {
                                 <hr/>
                             </div>
                             <div className="yd-ft-right">
-                                <img src={reachAudience} alt="retainful-customers"/>
+                                <img src={reachAudience} alt="customers"/>
                             </div>
                         </div>
                         <div className="yd-ft-inner">
                             <div className="yd-ft-right">
-                                <img src={reachAudience} alt="retainful-customers"/>
+                                <img src={reachAudience} alt="customers"/>
                             </div>
                             <div className="yd-ft-left">
                                 <h3><a href="#">Gimlet Media</a></h3>
@@ -203,6 +242,13 @@ class IndexPage extends React.Component {
                                 </p>
                                 <hr/>
                             </div>
+                        </div>
+                        <div className="features-intro text-center">
+                            <p>
+                                <a href="/features">
+                                    More Testimonials <FaArrowRight/>
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>

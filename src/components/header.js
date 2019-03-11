@@ -21,7 +21,7 @@ class Header extends React.Component {
             <nav className="navbar navbar-expand-md navbar-light fixed-top" >
                 <Container type='l'>
                     <Link className="navbar-brand" to="/">
-                        <img src={ Logo } alt="Retainful" />
+                        <img src={ Logo } alt="Campaignrabbit" />
                     </Link>
                     <Menu/>
                     <div className="collapse navbar-collapse">

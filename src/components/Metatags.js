@@ -65,9 +65,9 @@ function Metatags(props) {
 
                 { name: 'robots', content: 'index, follow' },
 
-                { name: 'twitter:creator', content: '@retainful' },
-                { name: 'twitter:domain', content: 'retainful.com' },
-                { property: 'og:site_name', content: 'Retainful' }
+                { name: 'twitter:creator', content: '@campaignrabbit' },
+                { name: 'twitter:domain', content: 'campaignrabbit.com' },
+                { property: 'og:site_name', content: 'Campaignrabbit' }
             ]}
         >
             <html lang="en" />

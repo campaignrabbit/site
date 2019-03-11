@@ -41,6 +41,7 @@
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.3.0",
+    "react-modal": "^3.8.1",
     "react-typography": "^0.16.18",
     "rehype-react": "^3.1.0",
     "styled-components": "^4.1.3",
@@ -62,7 +63,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/retainful/site"
+    "url": "https://github.com/campaignrabbit/site"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

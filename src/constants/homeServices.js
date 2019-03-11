@@ -54,6 +54,38 @@ const homeFeature = () =>(
                 <img className="img-fluid" src={recovery} alt="Abandoned Cart Recovery"/>
             </div>
         </div>
+        <div className="service-content-container">
+            <div className="service-img-div">
+                <img className="img-fluid" src={recovery} alt="Abandoned Cart Recovery"/>
+            </div>
+            <div className="service-text-div">
+                <h4>Drive sales from your email campaigns</h4>
+                <h2>Send Email <strong>Campaigns</strong></h2>
+                <div className="divider-line"></div>
+                <p>Design, schedule and track email campaigns. Drive sales from your emails.</p>
+                <ul className="list">
+                    <li>Upload opted-in email list</li>
+                    <li>Send broadcast email campaigns</li>
+                    <li>Reports to measure clicks, opens and more...‍</li>
+                </ul>
+            </div>
+        </div>
+        <div className="service-content-container">
+            <div className="service-text-div">
+                <h4>Drive sales from your email campaigns</h4>
+                <h2>Send Email <strong>Campaigns</strong></h2>
+                <div className="divider-line"></div>
+                <p>Design, schedule and track email campaigns. Drive sales from your emails.</p>
+                <ul className="list">
+                    <li>Upload opted-in email list</li>
+                    <li>Send broadcast email campaigns</li>
+                    <li>Reports to measure clicks, opens and more...‍</li>
+                </ul>
+            </div>
+            <div className="service-img-div align-right">
+                <img className="img-fluid" src={recovery} alt="Abandoned Cart Recovery"/>
+            </div>
+        </div>
     </div>
 )
 export default homeFeature;
