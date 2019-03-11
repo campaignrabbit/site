@@ -36,38 +36,37 @@ class homeTabs extends React.Component {
                 <div className="container">
                     <div className="features-intro text-center">
                         <h2>
-                            CAMPAIGNRABBIT ?
+                            Discover how you can sell more
                         </h2>
-                        <p>WHAT, HOW & WHY</p>
                     </div>
                     <ul className="tabs">
                         <li className="tab-link current" data-tab="tab-1">
                             <img className="img-responsive" src={abandCart} alt="Abandoned Cart Recovery"/>
-                            <span>Abandoned cart recovery</span>
+                            <span>Recover abandoned carts</span>
                         </li>
                         <li className="tab-link" data-tab="tab-2">
                             <img className="img-responsive" src={followEmail} alt="Follow-up Emails"/>
-                            <span>Follow-up <br/> Emails</span>
+                            <span>Smart Follow-up <br/> Emails</span>
                         </li>
                         <li className="tab-link" data-tab="tab-3">
                             <img className="img-responsive" src={winBack} alt="Win-Back inactive customers"/>
-                            <span>Win-Back inactive customers</span>
+                            <span>Win back inactive customers</span>
                         </li>
                         <li className="tab-link" data-tab="tab-4">
                             <img className="img-responsive" src={productRec} alt="Product recommendation"/>
-                            <span>Product recommendation</span>
+                            <span>Dynamic product recommendation</span>
                         </li>
                         <li className="tab-link" data-tab="tab-5">
                             <img className="img-responsive" src={customerView} alt="Customer in-depth Analytics"/>
-                            <span>Customer in-depth Analytics</span>
+                            <span>In-depth Analytics</span>
                         </li>
                         <li className="tab-link" data-tab="tab-6">
                             <img className="img-responsive" src={dragDrop} alt="WYSIWYG Email builder"/>
-                            <span>WYSIWYG Email builder</span>
+                            <span>Visual Drag and Drop Email builder</span>
                         </li>
                         <li className="tab-link" data-tab="tab-7">
                             <img src={popInt} className="img-responsive" alt="Popular integrations"/>
-                            <span>Popular integrations</span>
+                            <span>Integrations</span>
                         </li>
                         <li className="tab-link link-arrow">
                             <a href="#">

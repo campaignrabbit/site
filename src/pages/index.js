@@ -71,19 +71,19 @@ class IndexPage extends React.Component {
     render(){
         return (
             <Layout>
-                <SEO title="Campaignrabbit - Sell more by sending data-driven emails to your customers"
-                     keywords={[`Send data-driven emails to your customers`]}/>
+                <SEO title="Campaignrabbit - An eCommerce Marketing Automation platform for Shopify and WooCommerce. Sell more by sending data-driven smart emails and on-site messages"
+                     keywords={['Email Marketing', 'WooCommerce Email Automation', 'WooCommerce Follow-up Emails', 'Shopify Marketing Automation']}/>
 
                 <div id="home" className="home">
                     <div className="container-m text-center">
                         <div className="hero-content wow fadeIn">
                             <div className="row">
                                 <div className="col-sm-12">
-                                    <h1>Sell more by sending <span className="highlight">data-driven emails</span> <br/> to your customers</h1>
-                                    <p>Works with WooCommerce, J2Store & more</p>
+                                    <h1>Sell more by sending <span className="highlight">data-driven emails and on-site messages</span></h1>
+                                    <p>Send smarter, personalised emails, recover abandoned carts and trigger calls to actions on the site. Grow sales with targeted messages</p>
                                     <p>
                                         <Link to="#" className="btn-action btn-dark" onClick={this.handleModalOpen}>
-                                            <FaPlay/> Watch Demo now <span>Quick overview</span>
+                                            <FaPlay/> Watch A Demo<span>Quick overview</span>
                                         </Link>
                                         <a className="btn-action btn-edge"
                                             href="https://app.campaignrabbit.com/register"
@@ -109,65 +109,7 @@ class IndexPage extends React.Component {
                       <button onClick={this.handleModalClose}>Close Modal</button>
                     </ReactModal>
                 </div>
-                <div className="hero-2">
-                    <div className="intro-block container-m text-center">
-                        <h3>Ready to scale your online business?</h3>
-                        <p>Boost your sale today</p>
-                        <div className="free-trial-form">
-                            <form className="form-inline form-alt" id="signup-form">
-                                <div className="form-group flex-70">
-                                    <input className="mail form-control" name="email" id="cf_email" size="50" maxLength="50" placeholder="Enter your email" type="text" />
-                                </div>
-                                <div className="form-group flex-30">
 
-                                    <input type="button" id="submit" className="submit-button"  id="cf_send" value="Sign Up for Free"/>
-                                </div>
-                                <p className="returnmessage"></p>
-                            </form>
-                            <p>Get started for free. No credit card required.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="intro" className="intro flex-split wow fadeIn">
-                    <div className="multi-step-container container-m">
-                        <div className="flex-intro align-center">
-                            <div className="text-center">
-                                <h3>Get started in Minutes</h3>
-                            </div>
-                            <div className="row">
-                                <div className="col-sm-4">
-                                    <p className="rl-item-icon"><img src={connectStore} /></p>
-                                </div>
-                                <div className="col-sm-4">
-                                    <p className="rl-item-icon"><img src={createCampaigns} /></p>
-                                </div>
-                                <div className="col-sm-4">
-                                    <p className="rl-item-icon"><img src={turnAutopilot} /></p>
-                                </div>
-                            </div>
-                            <div className="rl-multi-step numbered">
-                                <ul className="rl-multi-step-list">
-                                    <li className="rl-multi-step-item active">
-                                    <div className="rl-item-wrap">
-                                    <p className="rl-item-title">Connect your store</p>
-
-                                    </div></li>
-                                    <li className="rl-multi-step-item active">
-                                    <div className="rl-item-wrap">
-                                    <p className="rl-item-title">Create Campaigns</p>
-
-                                    </div></li>
-                                    <li className="rl-multi-step-item active">
-                                    <div className="rl-item-wrap">
-                                    <p className="rl-item-title">Turn on Autopilot</p>
-
-                                    </div></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <HomeTabs/>
 
@@ -177,8 +119,7 @@ class IndexPage extends React.Component {
 
                 <div className="hero-2 bottom">
                     <div className="intro-block container-m text-center">
-                        <h3>Get started for free today</h3>
-                        <p>Boost your sale today</p>
+                        <h3>Join over <span class="highlight">1000+ marketers and start selling more</span></h3>
                         <div className="free-trial-form">
                             <form className="form-inline form-alt" id="signup-form1">
                                 <div className="form-group flex-70">
@@ -198,7 +139,7 @@ class IndexPage extends React.Component {
                 <div className="yd-ft wow fadeIn">
                     <div className="container-m">
                         <div className="text-center">
-                            <h2>How customers use Campaignrabbit</h2>
+                            <h2>Learn how eCommerce store owners use Campaignrabbit</h2>
                             <hr/>
                         </div>
                         <div className="yd-ft-inner">
@@ -206,57 +147,23 @@ class IndexPage extends React.Component {
                                 <img src={reachAudience} alt="customers"/>
                             </div>
                             <div className="yd-ft-left">
-                                <h3><a href="#">Gimlet Media</a></h3>
-                                <h4>StartUp & Reply All podcasts.</h4>
-                                <p>Gimlet Media is the award-winning podcasting company started by Alex Blumberg and Matt Lieber. Members get early access to shows, exclusive merchandise, and the opportunity to meet staff in Slack.
+                                <h3><a href="http://rumblespaleo.com.au">RumblesPaleo</a></h3>
+                                <h4>Paleo Health Snack</h4>
+                                <p>
+                                    Amazing work! Following up our customers with personalised emails and sending them targeted messages helped us increase the conversions and engagement.
                                 </p>
-                                <p><em>Photo © Emily Assiran/New York Observer</em>
-                                </p>
+
                                 <hr/>
                             </div>
                         </div>
-                        <div className="yd-ft-inner">
-                            <div className="yd-ft-left">
-                                <h3><a href="#">Sue Bryce Education</a></h3>
-                                <h4>Learn from one of the world&apos;s best.</h4>
-                                <p>Sue Bryce is one of the world’s most influential fine-art portrait photographers and educators. Members get access to hours of educational content that helps them build a rewarding and profitable career.
-                                </p>
-                                <p><em>Photo © Caitlin Thomas</em>
-                                </p>
-                                <hr/>
-                            </div>
-                            <div className="yd-ft-right">
-                                <img src={reachAudience} alt="customers"/>
-                            </div>
-                        </div>
-                        <div className="yd-ft-inner">
-                            <div className="yd-ft-right">
-                                <img src={reachAudience} alt="customers"/>
-                            </div>
-                            <div className="yd-ft-left">
-                                <h3><a href="#">Gimlet Media</a></h3>
-                                <h4>StartUp & Reply All podcasts.</h4>
-                                <p>Gimlet Media is the award-winning podcasting company started by Alex Blumberg and Matt Lieber. Members get early access to shows, exclusive merchandise, and the opportunity to meet staff in Slack.
-                                </p>
-                                <p><em>Photo © Emily Assiran/New York Observer</em>
-                                </p>
-                                <hr/>
-                            </div>
-                        </div>
-                        <div className="features-intro text-center">
-                            <p>
-                                <a href="/features">
-                                    More Testimonials <FaArrowRight/>
-                                </a>
-                            </p>
-                        </div>
+              
                     </div>
                 </div>
 
                 <div className="home">
                     <div className="container-m text-center">
                         <div className="hero-content wow fadeIn">
-                            <h2>The great way to sell more.</h2>
+                            <h2>Start automating your marketing efforts and drive growth</h2>
                             <p>Sign up and get instant access. No Credit Card required.</p>
                             <p>
                                 <a className="btn-action btn-edge"
