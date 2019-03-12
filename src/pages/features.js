@@ -57,7 +57,7 @@ class FeaturesPage extends React.Component {
                 <div className="features-services-box-container">
                     <div className="container">
                         <div className="service-box-row text-center">
-                            <h2><span class="title-highlight">Email Campaign</span> features more details</h2>
+                            <h2><span className="title-highlight">Email Campaign</span> features more details</h2>
                             <p>CampaignRabbit works with all popular eCommerce platforms including WooCommerce, Shopify, Magento, Prestashop and a lot more.</p>
                         </div>
                         <div className="service-box-row row">

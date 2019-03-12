@@ -29,12 +29,12 @@ class IndexPage extends React.Component {
         $("#cf_send").click(function() {
             var email = $("#cf_email").val();
             var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            $(".returnmessage").empty(); // To empty previous error/success message.
+            $("#returnmessage").empty(); // To empty previous error/success message.
             // Checking for blank fields.
             if (email == '') {
-                $(".returnmessage").html("Please Fill Required Field");
+                $("#returnmessage").html("Please Fill Required Field");
             } else if( !re.test(email) ) {
-                $(".returnmessage").html("Please enter valid email");
+                $("#returnmessage").html("Please enter valid email");
             } else {
                 window.location="https://app.campaignrabbit.com/register?email=" + email;
             }
@@ -42,12 +42,12 @@ class IndexPage extends React.Component {
         $("#cf_send1").click(function() {
             var email = $("#cf_email1").val();
             var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            $(".returnmessage").empty(); // To empty previous error/success message.
+            $("#returnmessage2").empty(); // To empty previous error/success message.
             // Checking for blank fields.
             if (email == '') {
-                $(".returnmessage").html("Please Fill Required Field");
+                $("#returnmessage2").html("Please Fill Required Field");
             } else if( !re.test(email) ) {
-                $(".returnmessage").html("Please enter valid email");
+                $("#returnmessage2").html("Please enter valid email");
             } else {
                 window.location="https://app.campaignrabbit.com/register?email=" + email;
             }
@@ -114,15 +114,17 @@ class IndexPage extends React.Component {
                         <h3>Ready to scale your online business?</h3>
                         <p>Boost your sale today</p>
                         <div className="free-trial-form">
-                            <form className="form-inline form-alt" id="signup-form">
-                                <div className="form-group flex-70">
-                                    <input className="mail form-control" name="email" id="cf_email" size="50" maxLength="50" placeholder="Enter your email" type="text" />
-                                </div>
-                                <div className="form-group flex-30">
+                            <form className="form" id="signup-form">
+                              <div className="form-alt">
+                                  <div className="form-group flex-70">
+                                      <input className="mail form-control" name="email" id="cf_email" size="50" maxLength="50" placeholder="Enter your email" type="text" />
+                                  </div>
+                                  <div className="form-group flex-30">
 
-                                    <input type="button" id="submit" className="submit-button"  id="cf_send" value="Sign Up for Free"/>
-                                </div>
-                                <p className="returnmessage"></p>
+                                      <input type="button" id="submit" className="submit-button"  id="cf_send" value="Sign Up for Free"/>
+                                  </div>
+                              </div>
+                              <p id="returnmessage" className="returnmessage"></p>
                             </form>
                             <p>Get started for free. No credit card required.</p>
                         </div>
@@ -140,15 +142,17 @@ class IndexPage extends React.Component {
                         <h3>Get started for free today</h3>
                         <p>Boost your sale today</p>
                         <div className="free-trial-form">
-                            <form className="form-inline form-alt" id="signup-form1">
-                                <div className="form-group flex-70">
-                                    <input className="mail form-control" name="email" id="cf_email1" size="50" maxLength="50" placeholder="Enter your email" type="text" />
-                                </div>
-                                <div className="form-group flex-30">
+                            <form className="form" id="signup-form1">
+                                <div className="form-alt">
+                                  <div className="form-group flex-70">
+                                      <input className="mail form-control" name="email" id="cf_email1" size="50" maxLength="50" placeholder="Enter your email" type="text" />
+                                  </div>
+                                  <div className="form-group flex-30">
 
-                                    <input type="button" id="submit" className="submit-button"  id="cf_send1" value="Sign Up for Free"/>
+                                      <input type="button" id="submit" className="submit-button"  id="cf_send1" value="Sign Up for Free"/>
+                                  </div>
                                 </div>
-                                <p className="returnmessage"></p>
+                                <p id="returnmessage2" className="returnmessage"></p>
                             </form>
                             <p>Get started for free. No credit card required.</p>
                         </div>

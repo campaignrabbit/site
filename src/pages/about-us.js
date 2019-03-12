@@ -20,13 +20,13 @@ import EMPLOYEE_PROFILE from '../constants/employeeCards';
 class AboutUsPage extends React.Component {
     static renderEmployees() {
         return EMPLOYEE_PROFILE.map(employee => (
-            <div class="col-md-3" key={employee.NAME}>
-                <div class="team-member-block">
-                    <div class="team-member-image"><img src={employee.PROFILE} class="img-responsive" alt={employee.NAME} />
+            <div className="col-md-3" key={employee.NAME}>
+                <div className="team-member-block">
+                    <div className="team-member-image"><img src={employee.PROFILE} className="img-responsive" alt={employee.NAME} />
                     </div>
-                    <div class="lower-box">
+                    <div className="lower-box">
                         <h3>{employee.NAME}</h3>
-                        <div class="designation">{employee.DESIGNATION}</div>
+                        <div className="designation">{employee.DESIGNATION}</div>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@ class AboutUsPage extends React.Component {
                         <div className="col-sm-6">
                             <h4>help you achieve consistency</h4>
                             <h2>We are Ready to Take you One Step Forward</h2>
-                            <div class="separator"><span class="dott">.</span><span class="dott">.</span><span class="dott">.</span></div>
+                            <div className="separator"><span className="dott">.</span><span className="dott">.</span><span className="dott">.</span></div>
                             <p>The Seed of CampaignRabbit’s idea- Make it Simple!<br/>
                             We,<br/>
                             Reinvented the traditional Email marketing strategy into a smart algorithm to make you achieve maximum customer engagement<br/>
@@ -61,10 +61,10 @@ class AboutUsPage extends React.Component {
                 <div className="container">
                     <div className="aboutus-title-block text-center">
                         <h2>Meet The Experts</h2><h4>we’ve the Best Team</h4>
-                        <div class="separator"><span class="dott">.</span><span class="dott">.</span><span class="dott">.</span></div>
+                        <div className="separator"><span className="dott">.</span><span className="dott">.</span><span className="dott">.</span></div>
                     </div>
-                    <div class="team-content-block">
-                		<div class="row">
+                    <div className="team-content-block">
+                		<div className="row">
                             { AboutUsPage.renderEmployees() }
                 		</div>
                 	</div>

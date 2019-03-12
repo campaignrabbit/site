@@ -12,14 +12,14 @@ const homeFeature = () =>(
     <div id="services" className="home-services wow fadeInDown">
         <div className="text-center container-m">
             <div className="services-intro">
-                <div class="divider-line"></div>
+                <div className="divider-line"></div>
                 <h2>
                     Send Unlimited <strong>Email Campaigns</strong> <br/>
                     <strong>Automate</strong> your Campaigns <br/>
                     Trigger timely <strong>PopUps & Recommendations</strong> <br/>
                     Scale your Business by <strong>5x</strong>.
                 </h2>
-                <div class="divider-line"></div>
+                <div className="divider-line"></div>
             </div>
         </div>
         <div className="service-content-container">
