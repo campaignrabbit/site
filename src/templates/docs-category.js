@@ -17,35 +17,30 @@ const Category = ({ pageContext, data }) => {
         <Layout>
             <div className="category-container">
                 <div className="category-header">
-                    <Container>
+                    <Container type="s">
                         <h2>{categoryHeader}</h2>
                     </Container>
                 </div>
-                <Container>
-                <div className="card card-blog col-md-6 col-push-md-3">
-                    <div className="card_inner">
-                        <div className="card_links">
-                            <h4>{category}</h4>
-                            <ol className="category-list">
-                                {edges.map(({ node }) => {
-                                  const { title } = node.frontmatter
-                                  const { slug } = node.fields
-                                  const { excerpt } = node.excerpt
-                                  return (
-                                      <li key={slug}>
-                                          <Link to={slug}>{title}</Link>
-                                          <p>{excerpt}</p>
-                                      </li>
-                                  )
-                                })}
-                            </ol>
-                        </div>
-                      </div>
-                  </div>
-                    {/*
-                      This links to a page that does not yet exist.
-                      We'll come back to it!
-                    */}
+                <Container type="s">
+                    <div className="row category-list">
+                        {edges.map(({ node }) => {
+                          const { title, description } = node.frontmatter
+                          const { slug } = node.fields
+                          const { excerpt } = node.excerpt
+                          return (
+                            <div className="col-sm-6" key={slug}>
+                                <div className="card card-category">
+                                    <div className="card_inner">
+                                        <div className="card_links">
+                                          <h4><Link to={slug}>{title}</Link></h4>
+                                          <p>{description}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          )
+                        })}
+                    </div>
                 </Container>
             </div>
         </Layout>
@@ -90,6 +85,7 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            description
             category
           }
           fields{

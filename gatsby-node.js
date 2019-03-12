@@ -158,6 +158,7 @@ exports.createPages = ({ actions, graphql }) => {
                     slug: node.fields.slug,
                     prev: index === 0 ? null : posts[index - 1],
                     next: index === result.length - 1 ? null : posts[index + 1],
+                    category: category,
                 }, // additional data can be passed via context
             })
         });

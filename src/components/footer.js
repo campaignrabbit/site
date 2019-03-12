@@ -82,14 +82,12 @@ class Footer extends React.Component {
                             </div>
                         </Col>
                         <Col size='4'>
-                            <Link className="footer-logo" to="/"><img src={Logo} alt="Campaignrabbit" /></Link>
                             <p>Sell more by sending targetted, data-driven marketing emails to your customers.</p>
-                            <h5>CartRabbit International Pte Ltd</h5>
                             <div className="footer-social-block">
                             	<div className="footer-social-links clearfix">
                             		<a target="_blank" href="https://www.facebook.com/campaignrabbit/" className="foot-social-link"><i className="fa fa-facebook"><FaFacebookF/></i></a>
                                 <a target="_blank" href="https://twitter.com/campaignrabbit/" className="foot-social-link"><i className="fa fa-twitter"><FaTwitter/></i></a>
-                                </div>
+                              </div>
                             </div>
                         </Col>
 
