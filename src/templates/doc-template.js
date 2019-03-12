@@ -79,7 +79,7 @@ function DocTemplate(props) {
                 pathname={props.location.pathname}
             />
             <Container className="docs-wrap" type='l'>
-              <div className="aside-menu">
+              <div className="aside-menu">4
                   <div className="card">
                       <div className="card-header">
                           <h3>{categoryHeader}</h3>
@@ -98,7 +98,7 @@ function DocTemplate(props) {
                               })}
                           </ol>
                           <div className="btn-container">
-                            <Link to={ "docs/" + category } className="btn btn-primary">Back to {category}</Link>
+                            <Link to="/docs" className="btn btn-primary">Back to Docs</Link>
                           </div>
                         </div>
                     </div>

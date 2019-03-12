@@ -1,16 +1,24 @@
-const HOME_CALLOUTS = [
+const DOCS_CALLOUTS = [
     {
-        BADGE: 'Integration',
         TITLE: 'Getting started',
         COPY: 'Learn how you can integrate Campaignrabbit with WooCommerce and boost sales.',
         LINK: '/docs/getting-started/what-is-campaignrabbit',
     },
     {
-        BADGE: 'Integration',
         TITLE: 'Integrations',
         COPY: 'Learn how you can integrate Campaignrabbit with your stores and boost sales.',
         LINK: '/docs/integrations/woocommerce',
     },
+    {
+        TITLE: 'Campaigns',
+        COPY: 'Learn how you can integrate Campaignrabbit with WooCommerce and boost sales.',
+        LINK: '/docs/campaigns/how-campaigns-work',
+    },
+    {
+        TITLE: 'Segmentation',
+        COPY: 'Learn how you can integrate Campaignrabbit with your stores and boost sales.',
+        LINK: '/docs/segmentation/what-is-a-segment',
+    },
 ];
 
-export default HOME_CALLOUTS;
+export default DOCS_CALLOUTS;
