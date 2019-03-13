@@ -1,6 +1,8 @@
 import React from 'react';
 import $ from 'jquery';
 import {FaArrowRight} from 'react-icons/fa';
+import {IoMdCart, IoMdMailOpen, IoIosPersonAdd, IoIosThumbsUp, IoIosAnalytics, IoIosHelpBuoy, IoIosGrid, IoIosLaptop} from 'react-icons/io';
+import {Link} from 'gatsby';
 
 import customerView from '../images/icons/Customer-In-Depth-Analytics.png';
 import abandCart from '../images/icons/abandoned-cart-recovery.png';
@@ -42,38 +44,38 @@ class homeTabs extends React.Component {
                     </div>
                     <ul className="tabs">
                         <li className="tab-link current" data-tab="tab-1">
-                            <img className="img-responsive" src={abandCart} alt="Abandoned Cart Recovery"/>
+                            <IoMdCart className="tab-icon"/>
                             <span>Abandoned cart recovery</span>
                         </li>
                         <li className="tab-link" data-tab="tab-2">
-                            <img className="img-responsive" src={followEmail} alt="Follow-up Emails"/>
+                            <IoMdMailOpen className="tab-icon"/>
                             <span>Follow-up <br/> Emails</span>
                         </li>
                         <li className="tab-link" data-tab="tab-3">
-                            <img className="img-responsive" src={winBack} alt="Win-Back inactive customers"/>
+                            <IoIosPersonAdd className="tab-icon"/>
                             <span>Win-Back inactive customers</span>
                         </li>
                         <li className="tab-link" data-tab="tab-4">
-                            <img className="img-responsive" src={productRec} alt="Product recommendation"/>
+                            <IoIosThumbsUp className="tab-icon"/>
                             <span>Product recommendation</span>
                         </li>
                         <li className="tab-link" data-tab="tab-5">
-                            <img className="img-responsive" src={customerView} alt="Customer in-depth Analytics"/>
+                            <IoIosAnalytics className="tab-icon"/>
                             <span>Customer in-depth Analytics</span>
                         </li>
                         <li className="tab-link" data-tab="tab-6">
-                            <img className="img-responsive" src={dragDrop} alt="WYSIWYG Email builder"/>
+                            <IoIosLaptop className="tab-icon"/>
                             <span>WYSIWYG Email builder</span>
                         </li>
                         <li className="tab-link" data-tab="tab-7">
-                            <img src={popInt} className="img-responsive" alt="Popular integrations"/>
+                            <IoIosGrid className="tab-icon"/>
                             <span>Popular integrations</span>
                         </li>
                         <li className="tab-link link-arrow">
-                            <a href="#">
+                            <Link to="/features">
                                 <span className="arrow"> <FaArrowRight/></span>
                                 See More
-                            </a>
+                            </Link>
                         </li>
                     </ul>
 

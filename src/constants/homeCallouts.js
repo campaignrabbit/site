@@ -5,6 +5,9 @@ import dragDrop from '../images/home-icons/drag-and-drop-visual-email-builder.pn
 import followEmail from '../images/home-icons/follow-up-emails.png';
 import productRec from '../images/home-icons/product-recommendations.png';
 import winBack from '../images/home-icons/win-back-inactive-customers.png';
+import segment from '../images/home-icons/powerful-segmentation.png';
+import platform from '../images/home-icons/supports-your-favourite-ecommerce-platform-woocommerce.png';
+
 
 const HOME2_CALLOUTS = [
     {
@@ -33,9 +36,19 @@ const HOME2_CALLOUTS = [
         COPY: 'Get valuable insights about your customers. Learn what days they usually place orders, time of order, total value of orders and more'
     },
     {
+        IMAGE: segment,
+        TITLE: 'Powerful Customer Segmentation',
+        COPY: 'Segment your customers based on their order history, total spending, purchase behaviour, products bought, abandoned carts, location and more.'
+    },
+    {
         IMAGE: dragDrop,
         TITLE: 'Drag and drop visual email builder',
         COPY: 'Create beautiful emails with our intuitive drag-and-drop visual email builder. Use short codes to add dynamic data like their names.'
+    },
+    {
+        IMAGE: platform,
+        TITLE: 'Supports your favourite eCommerce platform',
+        COPY: 'Campaignrabbit works beautifully with WooCommerce. Synchronise orders and customers seamlessly. Just download and install the WooCommerce plugin for Campaignrabbit.'
     },
 ];
 
