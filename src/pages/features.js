@@ -1,19 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import $ from 'jquery'
-
-import recovery from '../images/features/abandoned-cart-recovery-2.png';
-import follow from '../images/features/follow-up-emails-2.png';
-import recommend from '../images/features/product-recommendations-2.png';
-import customers from '../images/features/win-back-inactive-customers-2.png';
-import visualEmail from '../images/features/Drag-and-drop-visual-email-builder.png';
-import degree from '../images/features/360-degree-view-of-customers-2.png';
-import responsive from '../images/features/Bulletproof-responsive-emails.png';
-import integrate from '../images/features/supports-your-favourite-ecommerce-platform–woocommerce.png';
-import segment from '../images/features/powerful-segmentation-2.png';
 
 class FeaturesPage extends React.Component {
     componentDidMount () {
@@ -81,14 +70,14 @@ class FeaturesPage extends React.Component {
                             </div>
                             <div className="col-sm-6">
                                 <div className="service-box-image">
-                                    <img className="img-fluid" src={recovery} alt="Abandoned Cart Recovery"/>
+                                    <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/features/abandoned-cart-recovery-2.png`} alt="Abandoned Cart Recovery"/>
                                 </div>
                             </div>
                         </div>
                         <div className="service-box-row row">
                             <div className="col-sm-6">
                                 <div className="service-box-image">
-                                    <img className="img-responsive" src={follow} alt="Follow-up Emails"/>
+                                    <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/features/follow-up-emails-2.png`} alt="Follow-up Emails"/>
                                 </div>
                             </div>
                             <div className="col-sm-6">
@@ -107,14 +96,14 @@ class FeaturesPage extends React.Component {
                             </div>
                             <div className="col-sm-6">
                                 <div className="service-box-image">
-                                    <img className="img-responsive" src={customers} alt="Win-Back inactive customers"/>
+                                    <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/features/win-back-inactive-customers-2.png`} alt="Win-Back inactive customers"/>
                                 </div>
                             </div>
                         </div>
                         <div className="service-box-row row">
                             <div className="col-sm-6">
                                 <div className="service-box-image">
-                                    <img className="img-responsive" src={recommend} alt="Product recommendation"/>
+                                    <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/features/product-recommendations-2.png`} alt="Product recommendation"/>
                                 </div>
                             </div>
                             <div className="col-sm-6">
@@ -133,14 +122,14 @@ class FeaturesPage extends React.Component {
                             </div>
                             <div className="col-sm-6">
                                 <div className="service-box-image">
-                                    <img className="img-responsive" src={degree} alt="Customer in-depth Analytics"/>
+                                    <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/features/360-degree-view-of-customers-2.png`} alt="Customer in-depth Analytics"/>
                                 </div>
                             </div>
                         </div>
                         <div className="service-box-row row">
                             <div className="col-sm-6">
                                 <div className="service-box-image">
-                                    <img className="img-responsive" src={visualEmail} alt="WYSIWYG Email builder"/>
+                                    <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/features/Drag-and-drop-visual-email-builder.png`} alt="WYSIWYG Email builder"/>
                                 </div>
                             </div>
                             <div className="col-sm-6">
@@ -159,14 +148,14 @@ class FeaturesPage extends React.Component {
                             </div>
                             <div className="col-sm-6">
                                 <div className="service-box-image">
-                                    <img className="img-responsive" src={responsive} alt="Bulletproof responsive emails"/>
+                                    <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/features/Bulletproof-responsive-emails.png`} alt="Bulletproof responsive emails"/>
                                 </div>
                             </div>
                         </div>
                         <div className="service-box-row row">
                             <div className="col-sm-6">
                                 <div className="service-box-image">
-                                    <img src={integrate} className="img-responsive" alt="Popular integrations"/>
+                                    <img src={`${process.env.CR_MEDIA_URL}/images/features/supports-your-favourite-ecommerce-platform–woocommerce.png`} className="img-responsive" alt="Popular integrations"/>
                                 </div>
                             </div>
                             <div className="col-sm-6">
@@ -185,7 +174,7 @@ class FeaturesPage extends React.Component {
                             </div>
                             <div className="col-sm-6">
                                 <div className="service-box-image">
-                                    <img className="img-responsive" src={segment} alt="Bulletproof responsive emails"/>
+                                    <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/features/powerful-segmentation-2.png`} alt="Bulletproof responsive emails"/>
                                 </div>
                             </div>
                         </div>

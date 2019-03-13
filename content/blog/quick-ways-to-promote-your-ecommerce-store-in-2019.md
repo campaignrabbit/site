@@ -4,7 +4,7 @@ date: "2019-01-19"
 title: "5 quick ways to promote your eCommerce Store"
 description: "Learn to provide a coupon for the next purchase when a customer makes an order and send it within the order notification email itself"
 author: "Deepika"
-image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/5-Quick-ways-to-promote-your-Ecommerce-store-in-2019/5-Quick-ways-to-promote-your-Ecommerce-store-in-2019.jpg"
+image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/5-Quick-ways-to-promote-your-Ecommerce-store-in-2019/5-Quick-ways-to-promote-your-Ecommerce-store-in-2019.jpg"
 category: "ecommerce"
 ---
 How you do it?

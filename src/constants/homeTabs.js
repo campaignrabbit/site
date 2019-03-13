@@ -1,24 +1,8 @@
 import React from 'react';
 import $ from 'jquery';
 import {FaArrowRight} from 'react-icons/fa';
-import {IoMdCart, IoMdMailOpen, IoIosPersonAdd, IoIosThumbsUp, IoIosAnalytics, IoIosHelpBuoy, IoIosGrid, IoIosLaptop} from 'react-icons/io';
+import {IoMdCart, IoMdMailOpen, IoIosPersonAdd, IoIosThumbsUp, IoIosAnalytics, IoIosGrid, IoIosLaptop} from 'react-icons/io';
 import {Link} from 'gatsby';
-
-import customerView from '../images/icons/Customer-In-Depth-Analytics.png';
-import abandCart from '../images/icons/abandoned-cart-recovery.png';
-import dragDrop from '../images/icons/WYSIWYG-Email-Editor.png';
-import followEmail from '../images/icons/follow-up-emails.png';
-import productRec from '../images/icons/product-recommendations.png';
-import winBack from '../images/icons/win-back-inactive-customers.png';
-import popInt from '../images/icons/Popular-Integration.png';
-
-import recovery from '../images/home-features/Abandoned-Cart-Recovery.png';
-import follow from '../images/home-features/Follow-Up-Emails.png';
-import recommend from '../images/home-features/Product-Recommendation.png';
-import customers from '../images/home-features/Win-Back-Inactive-Customers.png';
-import visualEmail from '../images/home-features/WYSIWYG-Email-Editor.png';
-import degree from '../images/home-features/Customer-In-Depth-Analytics.png';
-import integrate from '../images/home-features/Popular-Integration.png';
 
 class homeTabs extends React.Component {
     componentDidMount () {
@@ -80,25 +64,25 @@ class homeTabs extends React.Component {
                     </ul>
 
                     <div id="tab-1" className="tab-content current">
-                        <img className="img-fluid" src={recovery} alt="Abandoned Cart Recovery"/>
+                        <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/home-features/Abandoned-Cart-Recovery.png`} alt="Abandoned Cart Recovery"/>
                     </div>
                     <div id="tab-2" className="tab-content">
-                        <img className="img-responsive" src={follow} alt="Follow-up Emails"/>
+                        <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Follow-Up-Emails.png`} alt="Follow-up Emails"/>
                     </div>
                     <div id="tab-3" className="tab-content">
-                        <img className="img-responsive" src={customers} alt="Win-Back inactive customers"/>
+                        <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Win-Back-Inactive-Customers.png`} alt="Win-Back inactive customers"/>
                     </div>
                     <div id="tab-4" className="tab-content">
-                        <img className="img-responsive" src={recommend} alt="Product recommendation"/>
+                        <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Product-Recommendation.png`} alt="Product recommendation"/>
                     </div>
                     <div id="tab-5" className="tab-content">
-                        <img className="img-responsive" src={degree} alt="Customer in-depth Analytics"/>
+                        <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Customer-In-Depth-Analytics.png`} alt="Customer in-depth Analytics"/>
                     </div>
                     <div id="tab-6" className="tab-content">
-                        <img className="img-responsive" src={visualEmail} alt="WYSIWYG Email builder"/>
+                        <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/WYSIWYG-Email-Editor.png`} alt="WYSIWYG Email builder"/>
                     </div>
                     <div id="tab-7" className="tab-content">
-                        <img src={integrate} className="img-responsive" alt="Popular integrations"/>
+                        <img src={`${process.env.CR_MEDIA_URL}/images/home-features/Popular-Integration.png`} className="img-responsive" alt="Popular integrations"/>
                     </div>
                 </div>
             </div>

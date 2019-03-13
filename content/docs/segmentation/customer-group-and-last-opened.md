@@ -16,10 +16,10 @@ Two filter conditions are set. One for customer group and another one for last o
 * I am giving Match all and setting the conditions accordingly.
 * The chosen conditions are customer group and last opened.
 
-![customer-group](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/customergroup.png)
+![customer-group](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/segmentation/customergroup.png)
 * Hit on create segment and provide suitable segment name.
 
-![segment-name](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/original1.png)
+![segment-name](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/segmentation/original1.png)
 
 Note:
 * The value entered in "Last opened" is considered in days.
@@ -27,11 +27,11 @@ Note:
 * There are different parameters you can choose from.
 * For the condition, Customer group we have different parameters like Is, Is not, Starts With, Ends With, Contains and so on.
 
-![segment-name](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/original-2.png)
+![segment-name](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/segmentation/original-2.png)
 
 * Similar way, for last opened there are different parameters such as more than, less than, exactly, before, after, has any value and so on.
 
-![segment-name](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/original-3.png)
+![segment-name](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/segmentation/original-3.png)
 
 * You can combine any of the parameters according to your requirement.
 * Popular Combinations are

@@ -20,7 +20,7 @@ By default, WordPress comes with an internal cron active. This might have been d
 In this case, you should by default have a cron job / task set in your hosting cPanel.
 * In this case, you will have to manually initiate the synchronisation process by copying the synchronisation url and calling it in a browser window.
 * This will initiate a sync and you can see Initial Synchronisation successful.
-![Image](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/integrations/woocommerce/original.png)
+![Image](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/integrations/woocommerce/original.png)
 *What's next ?*
 * Create automated <link-text url="https://docs.campaignrabbit.com/campaigns/how-campaigns-work" rel="noopener" target="_blank">campaigns</link-text> :)
 

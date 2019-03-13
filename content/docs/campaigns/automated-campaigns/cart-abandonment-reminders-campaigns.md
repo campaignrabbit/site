@@ -16,13 +16,13 @@ Any circumstance for a transaction takes place is a perfect opportunity to send 
 * Navigate to Campaigns tab from dashboard.
 * Click on "Create New Campaign" from the "Automated Messages" section.
 
-![AutomatedMessages](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
+![AutomatedMessages](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
 
 The *target audience* should contain the following conditions:
 
 Match all customers whose **order status** is unpaid and the **last ordered** on is more than 2 days ago.
 
-![ChooseAudience](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/e867dfc40d14f1344e96974cff259b160cd29452cc7321f0cf18f8691894f32fWelcomeSeries.png)
+![ChooseAudience](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/e867dfc40d14f1344e96974cff259b160cd29452cc7321f0cf18f8691894f32fWelcomeSeries.png)
 
 In the *Campaign Settings*:
 * Specify category(if any).
@@ -30,13 +30,13 @@ In the *Campaign Settings*:
 * Only when the checkbox is clicked, the campaign mails will be sent multiple times for one email.
 * Since it is an abandoned cart email, setting the start and end date is optional
 
-![abandied](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/abandined.png)
+![abandied](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/abandined.png)
 
 In *message section,* draft the mail content.
 
 Click "Save and set live".
 
-![message](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/Abandoned_Message.png)
+![message](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/Abandoned_Message.png)
 
 To know more about working with the editor types, click <link-text url="https://docs.campaignrabbit.com/campaigns/working-with-editor" target="_blank" rel="noopener">here.</link-text>
 

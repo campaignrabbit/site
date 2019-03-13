@@ -10,7 +10,7 @@ This scenario was happening because the work desk at CartRabbit needs me as an e
 I cleaned my desk... filled my coffee mug and started to work my fingers over the internet to pull case studies relating the topic.
 Every hour in search of potential information, I go on refilling my mug."
 author: "Siddharth"
-image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/how-we-improved-sales-conversion-rate-using-transactional-emails.png"
+image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/how-we-improved-sales-conversion-rate-using-transactional-emails.png"
 category: "marketing"
 ---
 
@@ -58,7 +58,7 @@ Transactional emails are automatically triggered emails, send to a website visit
 
 Whenever a website visitor gets to the landing page of our store or subscribes to the email newsletter for the first time, a **Welcome email** is sent.
 
-![J2Store-Welcome-email](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/image-1.jpg)
+![J2Store-Welcome-email](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/image-1.jpg)
 
 When the customer initiates an order, a **Confirmation email** is sent asking for customer acknowledgment.
 
@@ -90,7 +90,7 @@ Most of us would have ignored many default emails on seeing ‘Canned’ stateme
 
 So never make your customers feel that they are being answered by machines.
 
-![customer-mail-sample](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/image-2.png)
+![customer-mail-sample](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/image-2.png)
 
 Greeting customers with their names is the best way to personalize emails. It is the way to show customers that they aren’t replied by chatbots. Make the customers feel special rather like a common one in the bucket. The customers give you enough data (for example- Customer name) during their purchase, transactions. Use those data and provide useful shopping suggestions. Encourage them to shop for more. Personalizing emails can make good sales conversions.
 ### Start being a Shopping Santa!
@@ -105,7 +105,7 @@ Offering coupon codes along with transactional emails is the best email campaign
 
 #InsideIdea- Make sure your coupons carry a timer. Give customers time-limited coupons for getting quick conversions.
 
-![Coupon-mail](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/image-3.png)
+![Coupon-mail](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/image-3.png)
 
 ### Share & Update on New Launches
 
@@ -121,7 +121,7 @@ The brand value of your online shopping store expands when you get an active aud
 -You can see that Net-A-Porter(online fashion store) share social buttons at the bottom of the mail for the customers to get connect.
 ### Showcase your Brand
 
-![Brand_Showcase](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/image-4.jpg)
+![Brand_Showcase](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/image-4.jpg)
 
 As online store-keepers, how can we display product showcases?
 The answer is with Transactional emails.
@@ -133,13 +133,13 @@ The transactional email offers a good platform to exhibit the best selling produ
 
 ### Show Useful Shopping Recommendations
 
-![Recommendations](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/image-5.png)
+![Recommendations](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/image-5.png)
 
 Recent shopping scenario, I went on to purchase a digital camera online but at the end of the day, my cart had a digital camera along with a memory stick. What made me to buy both? The eCommerce store in their transactional email showed some ‘frequently bought together’ suggestion.
 Also, I found the recommendation to be useful for my purchase.
 Adding both the products to the cart was a better option.
 
-![Recommendations](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/image-6.jpg)
+![Recommendations](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/image-6.jpg)
 
 Similarly, we did succeed in making potential upsell and cross-sell to our customer list by providing them with product-related suggestions.
 ### How to avoid getting your email campaign spammed?

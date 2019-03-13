@@ -4,7 +4,7 @@ date: "2019-01-07"
 title: "How Automated Email grow online Business"
 description: "Are you a tech entrepreneur? Make sure you keep an eye on automated email strategy. Improve your online business with the marketing automation."
 author: "Nandeep VJ"
-image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/how-automated-email-grow-online-business/How_automated_email_campaigns_grow_your_online_business.jpg"
+image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/how-automated-email-grow-online-business/How_automated_email_campaigns_grow_your_online_business.jpg"
 category: "marketing"
 ---
 It has actually been about 5 years since automation in marketing began and is still ruling digital marketing. If you are new to the scene or not quite sure how automated email campaigns can boost your ROI, here’s a quick read for you.
@@ -40,7 +40,7 @@ Clearly, the biggest advantages of using email marketing are that a gives a repo
 
 Even from a consultant’s perspective, metric and data-driven counsel is more effective and acts as a central to their success.
 ## Summary
-![email-marketing-ROI](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/how-automated-email-grow-online-business/ROI-768x353.png)
+![email-marketing-ROI](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/how-automated-email-grow-online-business/ROI-768x353.png)
 
 Study after study shows that email marketing delivers the highest ROI irrespective of which technology the marketers choose. The email will remain to be a powerful business growth tool. Around 70 per cent of marketers with the best-of-breed stack use their technology mainly for email marketing.
 

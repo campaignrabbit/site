@@ -17,7 +17,7 @@ category: "campaigns"
 * Navigate to Campaigns tab from dashboard.
 * Click on "Create New Campaign" from the "Automated Messages" section.
 
-![AutomatedMessages](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
+![AutomatedMessages](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
 
 The **target audience** for all the three campaigns will have the following condition:
 
@@ -34,7 +34,7 @@ For handy purpose, let's create a category named "Drip Campaign" and group the c
 
 **Let's create the first campaign:**
 
-![Filter](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/ea9d5002c15b5e28082a095f3e9069ee08900b342352811d79a1d1f8ce5bb982aband.png)
+![Filter](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/ea9d5002c15b5e28082a095f3e9069ee08900b342352811d79a1d1f8ce5bb982aband.png)
 
 Map this campaign to the category "Drip Campaign" and make sure that the abandoned cart checkbox is enabled.
 
@@ -45,17 +45,17 @@ By default, campaign mails will be sent only once.
 Let's take a scenario where you have orders with order status as "unpaid" and last ordered is less than 1 day.  An abandoned cart email will be sent out in such cases.
 Now, again there is another order(the same mail id) with the same conditions. Since the campaign mails are set to send only once, the mail will not be sent again in this case. To get it working (to send an abandoned mail for the second time), this checkbox should be enabled.
 
-![Abandoned](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/abandoned.png)
+![Abandoned](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/abandoned.png)
 
 Draft a message body detailing the special discount available.
 
 Example: Let's say, provide a 5% discount :)
 
-![Drip1](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/drip1_abandoned.png)
+![Drip1](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/drip1_abandoned.png)
 
 Correspondingly, create the second campaign and map it to "Drip Campaign" Category.
 
-![Drip2](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/drip2.png)
+![Drip2](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/drip2.png)
 
 In the mail content, make sure to specific the discount available.
 This time, enter a higher value percentage value.
@@ -63,7 +63,7 @@ Example: 10% discount.
 
 Likewise, create the third campaign:
 
-![Drip3](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/drip3.png)
+![Drip3](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/drip3.png)
 
 Now, all the campaign mails are created and set to live and what happens is that, the campaign mails will be sent when the conditions are met.
 Like example, when there is a customer who order status is "unpaid" and the last ordered is lesser than 1 day, first campaign mail will be sent out.

@@ -1,8 +1,4 @@
 import React from 'react';
-import connectStore from '../images/store.png';
-import createCampaigns from '../images/campaigns.png';
-import turnAutopilot from '../images/autopilot.png';
-
 
 class homeFeature extends React.Component {
     render(){
@@ -15,13 +11,13 @@ class homeFeature extends React.Component {
                       </div>
                       <div className="row">
                           <div className="col-sm-4">
-                              <p className="rl-item-icon"><img src={connectStore} /></p>
+                              <p className="rl-item-icon"><img src={`${process.env.CR_MEDIA_URL}/images/store.png`} /></p>
                           </div>
                           <div className="col-sm-4">
-                              <p className="rl-item-icon"><img src={createCampaigns} /></p>
+                              <p className="rl-item-icon"><img src={`${process.env.CR_MEDIA_URL}/images/campaigns.png`} /></p>
                           </div>
                           <div className="col-sm-4">
-                              <p className="rl-item-icon"><img src={turnAutopilot} /></p>
+                              <p className="rl-item-icon"><img src={`${process.env.CR_MEDIA_URL}/images/autopilot.png`} /></p>
                           </div>
                       </div>
                       <div className="rl-multi-step numbered">

@@ -18,27 +18,27 @@ Campaignrabbit comes with an easy drag and drop editor which brings your creativ
 * All you need to do is, just drag the contents and drop in the content panel.
 * Additionally there is an option to add tags in mail content.
 
-![Editor](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/editor.png)
+![Editor](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/editor.png)
 
 Once you have chosen the email template, drag the block and drop the necessary contents in the container area.
 
-![container_area](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/containerarea.png)
+![container_area](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/containerarea.png)
 
 In a flick, you can change the size and the styles.
 
-![style](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/style.png)
+![style](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/style.png)
 
 Also, to cross check, you can toggle between different devices and check the view.
 
-![toggle](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/togglescreen.png)
+![toggle](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/togglescreen.png)
 
 To add tags, click on the element and select the tags from the drop down menu.
 
-![tags](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/tag.png)
+![tags](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/tag.png)
 
 By default, these are the few available tags in Campaignrabbit.
 
-![toggle](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/original-1.png)
+![toggle](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/original-1.png)
 
 **I have more questions**
 

@@ -7,7 +7,7 @@ author: "Kowsaliya"
 category: "segmentation"
 ---
 I am going to sort out all the customers belonging to the **country** USA and the **order status** in completed.
-![segment](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/segment.png)
+![segment](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/segmentation/segment.png)
 Match all is selected.
 Two filter conditions are set. One for country and another one for order status.
 * Navigate to people tab from the campaignrabbit dashboard.
@@ -17,9 +17,9 @@ Two filter conditions are set. One for country and another one for order status.
 **Note:**
 * There are different parameters you can choose from.
 * For the condition, Country we have different parameters like Is, Is not, Starts With, Ends With, Contains and so on.
-![country](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/country.png)
+![country](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/segmentation/country.png)
 * Similar way, for Order Status there are different parameters such as Paid, Unpaid, Pending, Cancelled and Failed.
-![order-status](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/orderstatus.png)
+![order-status](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/segmentation/orderstatus.png)
 * You can combine any of the parameters according to your requirement.
 * Popular Combinations are
 

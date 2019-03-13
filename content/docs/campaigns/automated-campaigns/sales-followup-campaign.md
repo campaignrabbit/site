@@ -18,13 +18,13 @@ category: "campaigns"
 * Navigate to Campaigns tab from dashboard.
 * Click on "Create New Campaign" from the "Automated Messages" section.
 
-![AutomatedMessages](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
+![AutomatedMessages](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
 
 The *target audience* should contain the following conditions:
 
 Match all customers whose **name** has any value and the **order status** is *completed.*
 
-![Audience](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/salesfollowup.png)
+![Audience](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/salesfollowup.png)
 
 In the *campaign category,*
 * Specify category(if any).
@@ -33,11 +33,11 @@ In the *campaign category,*
 * Click "Save and set live".
 
 
-![SalesSetting](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/salessetting.png)
+![SalesSetting](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/salessetting.png)
 
 In the *message section,* draft the message body.
 
-![FollowupBody](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/salesfollowupBody.png)
+![FollowupBody](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/salesfollowupBody.png)
 
 To know more about working with the editor types, click <link-text url="https://docs.campaignrabbit.com/campaigns/working-with-editor" rel="noopener" target="_blank">here.</link-text>
 

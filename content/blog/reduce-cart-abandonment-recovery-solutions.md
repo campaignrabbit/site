@@ -4,7 +4,7 @@ date: "2018-10-19"
 title: "How to reduce cart abandonment in an eCommerce store?"
 description: "Reduce cart abandonment on your online store with CampaignRabbit&#039;s solution. Decrease abandonment and recover your potential customers today with these tactics."
 author: "Ramesh Elamathi"
-image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/reduce-cart-abandonment-recovery-solutions/eCommerce-cart-abandonment-solution.png"
+image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/reduce-cart-abandonment-recovery-solutions/eCommerce-cart-abandonment-solution.png"
 category: "ecommerce"
 ---
 # Reducing eCommerce cart abandonment
@@ -15,7 +15,7 @@ According to the Baymard Institute, a UK based Web Usability research institute,
 
 That means, 7 out of 10 eCommerce visitors who add an item to their cart leave your store without buying.
 
-![ecommerce-cart-abandonment](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/reduce-cart-abandonment-recovery-solutions/eCommerce-cart-abandonment-solution.png)
+![ecommerce-cart-abandonment](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/reduce-cart-abandonment-recovery-solutions/eCommerce-cart-abandonment-solution.png)
 
 > As a store owner, losing a conversion means more than losing an order. You are losing a potential customer, whose life-time value (LTV) might be much bigger than his abandoned cart value. Even 10 times bigger than that one lost sale.
 
@@ -31,7 +31,7 @@ There are a number of reasons why a customer leaves without purchasing.
 
 Baymard Institute has outlined the top reasons for cart abandonment in their research.
 
-![cart-abandonment-percentage](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/reduce-cart-abandonment-recovery-solutions/Baymard-Institute.png)
+![cart-abandonment-percentage](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/reduce-cart-abandonment-recovery-solutions/Baymard-Institute.png)
 
 Baymard says that optimizing the checkout experience would help you increase the conversions by 35 percent. It says “If we look at the combined e-commerce sales of $738 billion in the US and EU (source: eMarketer, 2015), the potential for a 35.26% increase in conversion rate translates to $260 billion worth of lost orders which are recoverable.”
 
@@ -76,7 +76,7 @@ In your Campaignrabbit Dashboard, click on the “Campaigns” section -> Create
 * Set this to Unpaid. (Any orders in WooCommerce with the status “Pending payment” means they were Unpaid). If you have the data already synchronised, you would see the customers that match this condition.
 * Also, set the Last Ordered On filter to More than 1 day. This will ensure that the email is triggered in 24 hours.
 
-![choose-the-audience](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/reduce-cart-abandonment-recovery-solutions/1-Choose-the-Audience.png)
+![choose-the-audience](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/reduce-cart-abandonment-recovery-solutions/1-Choose-the-Audience.png)
 Proceed to the next step.
 ## Step 2: Campaign Settings
 
@@ -94,7 +94,7 @@ Here are some good examples
 
 These are simple, short subject lines that give a motivation to open the email and take an action.
 
-![email-campaign-subject](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/reduce-cart-abandonment-recovery-solutions/2-Email-Campaign-Subject.png)
+![email-campaign-subject](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/reduce-cart-abandonment-recovery-solutions/2-Email-Campaign-Subject.png)
 
 ## Step 3: Create your message
 
@@ -102,7 +102,7 @@ Campaignrabbit comes with a beautiful, visual email builder. You can drag and dr
 
 You can either choose a pre-built template to start the design or you can build from scratch. Just drag and drop!
 
-![email-visual-presentation](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/reduce-cart-abandonment-recovery-solutions/3-create-message-using-visual-email-builder.png)
+![email-visual-presentation](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/reduce-cart-abandonment-recovery-solutions/3-create-message-using-visual-email-builder.png)
 
 > Heads up! Don’t forget to include a “link to the cart” so that the customer can complete his order.
 If you wanted to get a bit creative and want to up-sell, you can recommend a product as well.
@@ -133,7 +133,7 @@ Let’s start creating another campaign in Campaignrabbit Dashboard -> Campaigns
 
 In the audience section, use the filter: Last Contacted On and the Last Ordered On filters together.
 
-![followup-email-content](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/reduce-cart-abandonment-recovery-solutions/4-Second-Follow-up-Email.png)
+![followup-email-content](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/reduce-cart-abandonment-recovery-solutions/4-Second-Follow-up-Email.png)
 This campaign will be triggered 3 days after the customer received the first email (Last Contacted flag will make sure that happens)
 
 And the “Last Ordered On” filter is set because we only want to send this email to those who abandoned their carts three days ago and still has not converted.

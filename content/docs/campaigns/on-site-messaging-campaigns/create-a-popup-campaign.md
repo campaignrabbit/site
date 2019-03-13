@@ -11,19 +11,19 @@ category: "campaigns"
 * Click on "Create New Campaign" from the On site popups.
 * Select the campaign type as "popup" from the In app campaigns section.
 
-![pop](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/onsite-messaging-campaigns/pop.png)
+![pop](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/onsite-messaging-campaigns/pop.png)
 
 * You can select one among the default templates available.
-![tempop](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/onsite-messaging-campaigns/tempop.png)
+![tempop](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/onsite-messaging-campaigns/tempop.png)
 * Use the drag and drop builder and customize your pop up campaign.
-![popupdesign](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/onsite-messaging-campaigns/popupdesign.png)
+![popupdesign](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/onsite-messaging-campaigns/popupdesign.png)
 * An example for display rules is set.
 * The rules are time on page is atleast 10 or time on page is no more than 20.
-![popu-rules](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/onsite-messaging-campaigns/popuprules.png)
+![popu-rules](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/onsite-messaging-campaigns/popuprules.png)
 * A pop up message will be displayed when the time spent on a page is atleast 10 secs or time spent on a page is less than 20 secs.
 * Here is a screenshot of the pop up that will be displayed when a condition is satisfied.
 
-![popup](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/onsite-messaging-campaigns/popup.png)
+![popup](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/onsite-messaging-campaigns/popup.png)
 
 **Note:**  
 * The time entered is calculated in seconds.

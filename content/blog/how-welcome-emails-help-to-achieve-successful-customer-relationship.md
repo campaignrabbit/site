@@ -4,7 +4,7 @@ date: "2019-02-11"
 title: "How Welcome Emails help to achieve Successful Customer Relationship"
 description: "Do you own an online business? Send welcome emails to your onboarding customers and enrich your brand. Retain your customers with an engaging welcome email."
 author: "Siddharth"
-image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/How-Welcome-emails-help-to-achieve-Successful-Customer-relationship/How-Welcome-emails-help-to-achieve-Successful-Customer-relationship.jpg"
+image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/How-Welcome-emails-help-to-achieve-Successful-Customer-relationship/How-Welcome-emails-help-to-achieve-Successful-Customer-relationship.jpg"
 category: "email-marketing"
 ---
 Why is Welcome email incredibly effective?

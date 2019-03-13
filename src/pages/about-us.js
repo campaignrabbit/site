@@ -3,18 +3,6 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import $ from 'jquery'
-
-import recovery from '../images/features/abandoned-cart-recovery-2.png';
-import follow from '../images/features/follow-up-emails-2.png';
-import recommend from '../images/features/product-recommendations-2.png';
-import customers from '../images/features/win-back-inactive-customers-2.png';
-import visualEmail from '../images/features/Drag-and-drop-visual-email-builder.png';
-import degree from '../images/features/360-degree-view-of-customers-2.png';
-import responsive from '../images/features/Bulletproof-responsive-emails.png';
-import integrate from '../images/features/supports-your-favourite-ecommerce-platform–woocommerce.png';
-
-import cartrabbitOffice from '../images/about/cartrabbit-inside-the-office.jpg';
-
 import EMPLOYEE_PROFILE from '../constants/employeeCards';
 
 class AboutUsPage extends React.Component {
@@ -50,7 +38,7 @@ class AboutUsPage extends React.Component {
                             <p>Our work desks not just shares responsibilities but lots of Smiles as well!</p>
                         </div>
                         <div className="col-sm-6">
-                            <img src={cartrabbitOffice} alt="cartrabbit Office" />
+                            <img src={`${process.env.CR_MEDIA_URL}/images/about/cartrabbit-inside-the-office.jpg`} alt="cartrabbit Office" />
                         </div>
                     </div>
 

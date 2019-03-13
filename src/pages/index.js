@@ -6,10 +6,6 @@ import SEO from '../components/seo'
 import $ from 'jquery'
 import ReactModal from 'react-modal'
 
-//images
-import bannerImage from '../images/home-banner.png';
-import QuickOverview from '../CampaignRabbit-Quick-Tour-Dashboard-Video.mp4';
-
 //sections
 import HomeSteps from '../constants/homeSteps';
 import HomeFeatures from '../constants/homeFeatures';
@@ -86,7 +82,7 @@ class IndexPage extends React.Component {
                       contentLabel="Example Modal In Gatsby"
                     >
                     <video width="100%" heigh="100%"  controls autoplay="autoplay">
-                      <source src={QuickOverview} type="video/mp4"/>
+                      <source src={`${process.env.CR_MEDIA_URL}/CampaignRabbit-Quick-Tour-Dashboard-Video.mp4`} type="video/mp4"/>
                       Your browser does not support HTML5 video.
                     </video>
 

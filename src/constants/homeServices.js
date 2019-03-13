@@ -1,13 +1,5 @@
 import React from 'react';
 
-import recovery from '../images/features/abandoned-cart-recovery-2.png';
-import follow from '../images/features/follow-up-emails-2.png';
-import recommend from '../images/features/product-recommendations-2.png';
-import customers from '../images/features/win-back-inactive-customers-2.png';
-import visualEmail from '../images/features/Drag-and-drop-visual-email-builder.png';
-import degree from '../images/features/360-degree-view-of-customers-2.png';
-import integrate from '../images/features/supports-your-favourite-ecommerce-platform–woocommerce.png';
-
 const homeFeature = () =>(
     <div id="services" className="home-services wow fadeInDown">
         <div className="text-center container-m">
@@ -24,7 +16,7 @@ const homeFeature = () =>(
         </div>
         <div className="service-content-container">
             <div className="service-img-div">
-                <img className="img-fluid" src={recovery} alt="Abandoned Cart Recovery"/>
+                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/features/abandoned-cart-recovery-2.png`} alt="Abandoned Cart Recovery"/>
             </div>
             <div className="service-text-div">
                 <h4>Drive sales from your email campaigns</h4>
@@ -51,12 +43,12 @@ const homeFeature = () =>(
                 </ul>
             </div>
             <div className="service-img-div align-right">
-                <img className="img-fluid" src={recovery} alt="Abandoned Cart Recovery"/>
+                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/features/abandoned-cart-recovery-2.png`} alt="Abandoned Cart Recovery"/>
             </div>
         </div>
         <div className="service-content-container">
             <div className="service-img-div">
-                <img className="img-fluid" src={recovery} alt="Abandoned Cart Recovery"/>
+                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/features/abandoned-cart-recovery-2.png`} alt="Abandoned Cart Recovery"/>
             </div>
             <div className="service-text-div">
                 <h4>Drive sales from your email campaigns</h4>
@@ -83,7 +75,7 @@ const homeFeature = () =>(
                 </ul>
             </div>
             <div className="service-img-div align-right">
-                <img className="img-fluid" src={recovery} alt="Abandoned Cart Recovery"/>
+                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/features/abandoned-cart-recovery-2.png`} alt="Abandoned Cart Recovery"/>
             </div>
         </div>
     </div>

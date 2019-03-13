@@ -14,13 +14,13 @@ category: "campaigns"
 * Navigate to Campaigns tab from dashboard.
 * Click on "Create New Campaign" from the "Automated Messages" section.
 
-![AutomatedMessages](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
+![AutomatedMessages](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
 
 The *target audience* should contain the following conditions:
 
 Match all customers whose **signed up** is more than 20 and the **total spent** is 0.
 
-![reengagement](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/reengagement.png)
+![reengagement](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/reengagement.png)
 
 In the *Campaign Settings*:
 * Specify category(if any).
@@ -28,12 +28,12 @@ In the *Campaign Settings*:
 * When there are orders whose signed up is more than 20 days, mails will be sent automatically(if campaign is set to live)
 * Set end date(optional).
 
-![reengagesetting](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/reengageSetting.png)
+![reengagesetting](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/reengageSetting.png)
 
 In *message section*, draft the mail content.
 Click "Save and set live".
 
-![reengagebody](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/reengagebody.png)
+![reengagebody](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/reengagebody.png)
 
 
 To know more about working with the editor types, click <link-text url="https://docs.campaignrabbit.com/campaigns/working-with-editor" rel="noopener" target="_blank">here.</link-text>

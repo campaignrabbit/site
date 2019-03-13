@@ -16,7 +16,7 @@ Wow your subscribers by sending a welcome E-mail and showcase your brand and say
 * Navigate to Campaigns tab from dashboard.
 * Click on "Create New Campaign" from the "Automated Messages" section.
 
-![AutomatedMessages](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
+![AutomatedMessages](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
 
 The *target audience* should contain the following conditions:
 Match all customers whose **name** has any value and the **signed up** is less than 2 days ago.
@@ -28,13 +28,13 @@ In the *Campaign Settings:*
 * Set the campaign start date.
 * Set end date(optional).
 
-![Welcome](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/welcome.png)
+![Welcome](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/welcome.png)
 
 In the message section, draft the message body.
 
 You can mention details about the discount available.
 
-![WelcomeMessage](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/welcome_message.png)
+![WelcomeMessage](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/welcome_message.png)
 
 To know more about working with the editor types, click <link-text url="https://docs.campaignrabbit.com/campaigns/working-with-editor" target="_blank" rel="noopener">here.</link-text>
 

@@ -1,14 +1,5 @@
 import React from 'react';
 import {FaArrowRight} from 'react-icons/fa';
-import reachAudience from '../images/sue-bryce-7aefe319.jpg';
-
-import recovery from '../images/features/abandoned-cart-recovery-2.png';
-import follow from '../images/features/follow-up-emails-2.png';
-import recommend from '../images/features/product-recommendations-2.png';
-import customers from '../images/features/win-back-inactive-customers-2.png';
-import visualEmail from '../images/features/Drag-and-drop-visual-email-builder.png';
-import degree from '../images/features/360-degree-view-of-customers-2.png';
-import integrate from '../images/features/supports-your-favourite-ecommerce-platform–woocommerce.png';
 
 const homeFeature = () =>(
   <div className="yd-ft wow fadeIn">
@@ -19,7 +10,7 @@ const homeFeature = () =>(
           </div>
           <div className="yd-ft-inner">
               <div className="yd-ft-right">
-                  <img src={reachAudience} alt="customers"/>
+                  <img src={`${process.env.CR_MEDIA_URL}/images/sue-bryce-7aefe319.jpg`} alt="sue-bryce"/>
               </div>
               <div className="yd-ft-left">
                   <h3><a href="#">Gimlet Media</a></h3>
@@ -42,12 +33,12 @@ const homeFeature = () =>(
                   <hr/>
               </div>
               <div className="yd-ft-right">
-                  <img src={reachAudience} alt="customers"/>
+                  <img src={`${process.env.CR_MEDIA_URL}/images/sue-bryce-7aefe319.jpg`} alt="sue-bryce"/>
               </div>
           </div>
           <div className="yd-ft-inner">
               <div className="yd-ft-right">
-                  <img src={reachAudience} alt="customers"/>
+                  <img src={`${process.env.CR_MEDIA_URL}/images/sue-bryce-7aefe319.jpg`} alt="sue-bryce"/>
               </div>
               <div className="yd-ft-left">
                   <h3><a href="#">Gimlet Media</a></h3>

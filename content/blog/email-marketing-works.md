@@ -6,8 +6,8 @@ description: "What is email marketing? To be direct, you promote your brand valu
 
 By striking a deal, I mean the conversion of leads into customers and generating ROI. You strike a deal only when the reader finds your emails intuitive, clicks through them, reads them and engages with your brand. Looks like it is easier said than done? To an extent, yes. But the results can be astonishingly awesome if you do your marketing right."
 author: " Swaathi Unnikrishnan"
-image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/email-marketing-works/email-marketing.png"
-thumbnail: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/email-marketing-works/email-marketing.png"
+image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/email-marketing-works/email-marketing.png"
+thumbnail: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/email-marketing-works/email-marketing.png"
 category: "marketing"
 ---
 
@@ -21,7 +21,7 @@ However, before getting to how to do the right kind of email marketing, I would 
 ## Is email marketing dead?
 Whenever I look up something about email marketing on Google, a popular search term comes up, “Is email marketing dead”. Also there are others like, “Is email marketing still relevant”.
 
-![email marketing work](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/email-marketing-works/email-marketing-works-image1.png)
+![email marketing work](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/email-marketing-works/email-marketing-works-image1.png)
 
 
 Hey! It’s very much alive and undoubtedly effective. For the record, according to the surveys by <link-text url="https://optinmonster.com/email-marketing-vs-social-media-performance-2016-2019-statistics/" rel="nofollow noopener">OptinMonster</link-text> and <link-text url="https://support.getresponse.com/uploads/2016/01/The-State-of-Email-Marketing-by-Industry-January-2016.pdf" rel="noopener nofollow">GetResponse</link-text>, email marketing is certainly not dead. In fact, it generates the highest ROI among all other internet marketing strategies.

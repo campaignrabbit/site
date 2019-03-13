@@ -20,18 +20,18 @@ Two filter conditions are set. One for order status and another one for total sp
 * I am giving Match all and setting the conditions accordingly.
 * The chosen conditions are order status and total spent.
 
-![total-spent](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/totalspent.png)
+![total-spent](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/segmentation/totalspent.png)
 
 **Note:**
 * The amount entered in "total spent" is considered based on the currency that is chosen in the settings page.
 * There are different parameters you can choose from.
 * For the condition, for Order Status there are different parameters such as Paid, Unpaid, Pending, Cancelled, Failed and Completed.
 
-![order](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/order.png)
+![order](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/segmentation/order.png)
 
 * Similar way, for Total spent the parameters are Is, Isnot,Greater Than and Less Than.
 
- ![total](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/total.png)
+ ![total](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/segmentation/total.png)
 
 * You can combine any of the parameters according to your requirement.
 * Popular Combinations are:

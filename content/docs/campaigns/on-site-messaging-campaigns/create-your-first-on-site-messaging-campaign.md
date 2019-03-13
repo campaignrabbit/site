@@ -29,26 +29,26 @@ Login to <link-text url="https://app.campaignrabbit.com/login" rel="noopener" ta
 
 Navigate to Campaigns -> On site popups  and click "Create New Campaign" to get started
 
-![onsite](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/onsite-messaging-campaigns/onsite.png)
+![onsite](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/onsite-messaging-campaigns/onsite.png)
 
 In the next screen, choose the campaign type. For this example, let's choose the "popup" type
 
-![onsite-popup](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/onsite-messaging-campaigns/onsitepopup.png)
+![onsite-popup](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/onsite-messaging-campaigns/onsitepopup.png)
 
 You will be presented with a gallery of templates. Choose one and proceed. You can customize this template to your branding requirements in the drag and drop editor
 
-![tempopup](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/onsite-messaging-campaigns/tempop.png)
+![tempopup](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/onsite-messaging-campaigns/tempop.png)
 
 Now, you can see the visual editor. You can add / edit / remove text, images, buttons and more.
 
 A popular exit-intent strategy is to show a coupon code with a discount when they try to exit. It motivates the visitor to buy.
 
-![popup-design](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/onsite-messaging-campaigns/popupdesign.png)
+![popup-design](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/onsite-messaging-campaigns/popupdesign.png)
 In the same step, you can also set up "Display rules" .
 
 These rules help you control when the popup should appear. For our example, let's choose the Exit-Detected rule
 
-![exit-detection](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/onsite-messaging-campaigns/exit-detection.png)
+![exit-detection](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/onsite-messaging-campaigns/exit-detection.png)
 
 NOTE: The Rule engine is very powerful and you can combine it with other conditions as well.
 Example: You can show the popup when the customer is on a specific url (example your "Shop page" and tries to exit from that page)

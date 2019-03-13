@@ -17,7 +17,7 @@ category: "campaigns"
 * Navigate to Campaigns tab from dashboard.
 * Click on "Create New Campaign" from the "Automated Messages" section.
 
-![AutomatedMessages](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
+![AutomatedMessages](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
 
 The *target audience* should contain the following conditions:
 
@@ -28,15 +28,15 @@ In the *Campaign Settings:*
 * Set the start date.
 * Set end date(optional).
 
-![Re-order](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/re-order.png)
+![Re-order](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/re-order.png)
 
-![Re-order-setting](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/reorder_setting.png)
+![Re-order-setting](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/reorder_setting.png)
 
 In message section, draft the mail content.
 
 Click "Save and set live".
 
-![Re-order-Message](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/re-orderMessage.png)
+![Re-order-Message](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/re-orderMessage.png)
 
 
 To know more about working with the editor types, click <link-text url="https://docs.campaignrabbit.com/campaigns/working-with-editor" target="_blank" rel="noopener">here.</link-text>

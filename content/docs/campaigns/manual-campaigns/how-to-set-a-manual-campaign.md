@@ -27,19 +27,19 @@ Seasonal Campaigns are the best example for manual messages.
 * Navigate to Campaigns tab from dashboard.
 * Click on "Create New Campaign" from the "Manual Messages" section.
 
-![manual](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/manualCampaigns/manual.png)
+![manual](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/manualCampaigns/manual.png)
 
 The target audience should contain the following conditions:
 
 * Match all customers whose name has any value and the country is USA.
 
-![manualsetting](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/manualCampaigns/manualsetting.png)
+![manualsetting](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/manualCampaigns/manualsetting.png)
 
 In message section, draft the mail content.
 
 Click "Save and set live".
 
-![season](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/manualCampaigns/season.png)
+![season](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/manualCampaigns/season.png)
 
 To know more about working with the editor types, click <link-text url="https://docs.campaignrabbit.com/campaigns/working-with-editor" rel="noopener" target="_blank">here.</link-text>
 

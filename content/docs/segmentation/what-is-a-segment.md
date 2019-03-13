@@ -141,7 +141,7 @@ Last ordered on Less than 10 days ago.
 By default, there are three segments created when a user registers with campaign rabbit. Cool right !
 
 Primarily, conditions work based on two type of operations.
-![Image](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/segmentation/original.png)
+![Image](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/segmentation/original.png)
 ***Match All:***
 The segment displays the list of customers only when all the given conditions are met.
 Works like and operation.

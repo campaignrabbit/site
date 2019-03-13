@@ -14,13 +14,13 @@ category: "campaigns"
 * Navigate to Campaigns tab from dashboard.
 * Click on "Create New Campaign" from the "Automated Messages" section.
 
-![AutomatedMessages](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
+![AutomatedMessages](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
 
 The *target audience* should contain the following conditions:
 
 Match all customers whose **product name** is hard disk and **last ordered** on is more than 2 days.
 
-![upsellingrules](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/upsellrules.png)
+![upsellingrules](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/upsellrules.png)
 
 In the *Campaign Settings:*
 * Specify category(if any).
@@ -31,13 +31,13 @@ Here, setting the start date is not mandatory.
 
 When there are orders with the specified condition, mails will be sent automatically(if campaign is set to live)
 
-![upsellingdate](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/upselldate.png)
+![upsellingdate](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/upselldate.png)
 
 In *message section*, draft the mail content.
 You can add cross selling content and start your campaign.
 Click "Save and set live".
 
-![upselliBody](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/upsellbody.png)
+![upselliBody](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/upsellbody.png)
 
 To know more about working with the editor types, click <link-text url="https://docs.campaignrabbit.com/campaigns/working-with-editor" target="_blank" rel="noopener">here.</link-text>
 

@@ -10,24 +10,24 @@ category: "campaigns"
 * Click on "Create New Campaign" from the On site popups.
 * Select the campaign type as "slide in" from the *In app campaigns* section.
 
-![slideIn](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/slidein.png)
+![slideIn](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/slidein.png)
 
 * You can select one among the default templates available.
 
-![slideIncamp](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/slideincamp.png)
+![slideIncamp](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/slideincamp.png)
 
 * Use the drag and drop builder and customize your pop up campaign.
 
-![popupcampaigns](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/screenshot-app.campaignrabbit.com-2019.01.02-11-16-39.png)
+![popupcampaigns](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/screenshot-app.campaignrabbit.com-2019.01.02-11-16-39.png)
 
 * An example for display rules is set.
 * The rules are time on site is atleast 9 secs.
 
-![popupcampaignrules](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/screenshot-app.campaignrabbit.com-2019.01.02-11-35-39.png)
+![popupcampaignrules](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/screenshot-app.campaignrabbit.com-2019.01.02-11-35-39.png)
 
 * A slide in message will be displayed if the time spent on a site is atleast 9 secs.
 * Here is a screenshot of the pop up that will be displayed when a condition is satisfied.
-![popupdisplay](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/screenshot-localhost-2019.01.02-11-36-53.png)
+![popupdisplay](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/screenshot-localhost-2019.01.02-11-36-53.png)
 
 **Note:**  
 * The time entered is calculated in seconds.

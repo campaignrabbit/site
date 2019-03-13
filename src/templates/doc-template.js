@@ -79,7 +79,7 @@ function DocTemplate(props) {
                 pathname={props.location.pathname}
             />
             <Container className="docs-wrap" type='l'>
-              <div className="aside-menu">4
+              <div className="aside-menu">
                   <div className="card">
                       <div className="card-header">
                           <h3>{categoryHeader}</h3>

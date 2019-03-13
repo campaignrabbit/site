@@ -4,7 +4,7 @@ date: "2019-02-20"
 title: "How Follow Up Emails Boost your Freemium Product’s Conversion Rate"
 description: "Follow up email is the key to boost your lead conversion. Making a healthy customer relation through follow up emails buy customers trust on your product. Hear what, Up-selling becomes much easy with satisfied customers."
 author: "Rachit Singh"
-image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/follow-up-emails-boost-your-freemium-products-conversion-rate/conversion-rate-with-followup-emails.png"
+image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/follow-up-emails-boost-your-freemium-products-conversion-rate/conversion-rate-with-followup-emails.png"
 category: "email-marketing"
 ---
 Follow up email is the key to boost your lead conversion. Making a healthy customer relation through follow up emails buy customers trust on your product. Hear what, Up-selling becomes much easy with satisfied customers.

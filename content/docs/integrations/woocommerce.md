@@ -15,11 +15,11 @@ Alternatively, you will be offered to download the WooCommerce plugin when you f
 
 After downloading,
 1. Install the plugin by going to Your WordPress Dashboard -> Plugins -> Add plugin.
-  ![Selecting Plugin](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/woocommerce/screenshot-localhost-2019.02.08-14-02-06.png)
+  ![Selecting Plugin](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/woocommerce/screenshot-localhost-2019.02.08-14-02-06.png)
 Activate the plugin. You can now see Campaignrabbit Admin menu in your WordPress.
-![Plugin Activation](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/woocommerce/screenshot-localhost-2019.02.08-14-05-39.png)
+![Plugin Activation](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/woocommerce/screenshot-localhost-2019.02.08-14-05-39.png)
 2. Click the Campaignrabbit menu and enter the API ID and API Token (You can get these from the <link-text url="https://app.campaignrabbit.com/settings" target="_blank" rel="noopener">Settings" section of Campaignrabbit app.</link-text>
- ![Settings](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/woocommerce/screenshot-localhost-2019.02.08-14-14-01.png)
+ ![Settings](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/woocommerce/screenshot-localhost-2019.02.08-14-14-01.png)
 
 Once when the authentication message is "Success", you can see that your store is connected and the orders and customers start flowing in.
 

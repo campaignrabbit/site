@@ -17,27 +17,27 @@ category: "campaigns"
 * Navigate to Campaigns tab from dashboard.
 * Click on "Create New Campaign" from the "Automated Messages" section.
 
-![AutomatedMessages](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
+![AutomatedMessages](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/AutomatedMessages.png)
 
 The *target audience* should contain the following conditions:
 
 Match all customers whose **signed up** is exactly 100 days and the **total spent** is greater than $500.
 
-![AudienceMilestone](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/MilestoneAudience.png)
+![AudienceMilestone](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/MilestoneAudience.png)
 
 In the *Campaign Settings:*
 * Specify category(if any).
 * Set the start date.
 * Set end date(optional).
 
-![MilestoneSettings](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/milestoneSetting.png)
+![MilestoneSettings](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/milestoneSetting.png)
 
 In *message section*, draft the mail content.
 
 Click "Save and set live".
 
 
-![MilestoneBody](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/docs/campaigns/automated-campaigns/milestoneBody.png)
+![MilestoneBody](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/milestoneBody.png)
 
 To know more about working with the editor types, click <link-text url="https://docs.campaignrabbit.com/campaigns/working-with-editor" target="_blank" rel="noopener">here.</link-text>
 
