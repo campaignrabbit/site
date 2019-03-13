@@ -6,7 +6,23 @@ import withSubNav from '../components/NavSub';
 import Img from 'gatsby-image';
 import SEO from '../components/seo';
 
-const BlogPage = ({data}) => {
+const NavLink = props => {
+  if (!props.test) {
+    return <Link to={props.url}>{props.text}</Link>
+  } else {
+    return <span>{props.text}</span>
+  }
+}
+
+const BlogPage = ({ pageContext}) => {
+  console.log(pageContext);
+  const { group, index, first, last, pageCount, pathPrefix } = pageContext
+  const previousUrl = index - 1 == 1 ? pathPrefix : pathPrefix + '/'+(index - 1).toString()
+  const nextUrl = pathPrefix + '/'+(index + 1).toString()
+
+  console.log(previousUrl);
+  console.log(nextUrl);
+
     return (
         <Layout>
             {/*<Breadcrumb>*/}
@@ -15,8 +31,8 @@ const BlogPage = ({data}) => {
             <SEO title="Blog" />
             <div className="blog-list-container">
                 <Container type="s">
-                    { data.allMarkdownRemark.edges.map(post => (
-                        <div className="blog-post" key={post.node.id}>
+                    { group.map(post => (
+                        <div className="blog-post" key={post.node.fields.slug}>
                             <div className="image-section">
                                 <Link to={post.node.fields.slug}>
                                     { post.node.frontmatter.image &&
@@ -37,6 +53,15 @@ const BlogPage = ({data}) => {
                             </div>
                         </div>
                     )) }
+
+                    <div className="pagination-links">
+                      <div className="previousLink">
+                        <NavLink test={first} url={previousUrl} text="← Previous Posts" />
+                      </div>
+                      <div className="nextLink">
+                        <NavLink test={last} url={nextUrl} text="Next Posts →" />
+                      </div>
+                    </div>
                 </Container>
             </div>
         </Layout>

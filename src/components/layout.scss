@@ -2424,6 +2424,16 @@ body {
       }
     }
   }
+  .pagination-links{
+    display: flex;
+    .previousLink{
+      flex: 1;
+    }
+    .nextLink{
+      flex: 1;
+      text-align: right;
+    }
+  }
 }
 
 .single-blog-post {
@@ -2939,11 +2949,14 @@ body {
 
 //Aside menu
 .aside-menu {
+  font-family: $secondary-font;
   padding: 50px 0;
   position: sticky;
   align-self: flex-start;
   flex: 0 0 300px;
   top: 0;
+  border-right: 1px solid #eeeeee;
+  padding-right: 30px;
   .card{
     border: none;
   }
@@ -2966,28 +2979,29 @@ body {
       font-size: 18px;
       color: #444;
       margin-bottom: 20px;
+      border-bottom: 1px dashed #dddddd;
       a {
-          color: $primary;
+          color: #525252;
           display: block;
-          margin-bottom: 10px;
+          margin-bottom: 15px;
           padding-left: 0;
           padding-top: 2px;
           line-height: 1.5;
-          font-size: 15px;
+          font-size: 16px;
           font-weight: 500;
           -webkit-transition: 0.2s;
           -moz-transition: 0.2s;
           transition: 0.2s;
           &:hover{
-            color: #3ECF8E;
+            color: $primary;
             text-decoration: none;
           }
       }
       &.active{
         a{
-          border-left: 3px solid #3ECF8E;
+          border-left: 3px solid $primary;
           padding-left: 10px;
-          color: #546b81;
+          color: $primary;
           -webkit-transition: 0.2s;
           -moz-transition: 0.2s;
           transition: 0.2s;
