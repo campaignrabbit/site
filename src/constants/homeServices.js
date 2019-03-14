@@ -7,7 +7,7 @@ const homeFeature = () =>(
                 <div className="divider-line"></div>
                 <h2>Discover how Campaignrabbit can drive more sales</h2>
                 <p>
-                    You have spent a huge amount of money for acquiring customers. Now <span className="highlight">how do we retain them and get more dollars per customer?</span><br/>
+                    You have spent a huge amount of money for acquiring customers. Now <span className="highlight">how do you retain them and get more dollars per customer?</span><br/>
                     We know it is quite a challange. That is where <strong>Campaignrabbit</strong> comes in. We let you automate your marketing efforts in a few simple steps.<br/>
                     Right from extending a warm welcome, <span className="highlight">Campaignrabbit helps you stay connected with your customers, engage and retain them in a more meaningful way</span> - using
                     a wide range of features.<br/>

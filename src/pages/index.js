@@ -59,15 +59,13 @@ class IndexPage extends React.Component {
                         <div className="hero-content wow fadeIn">
                             <div className="row">
                                 <div className="col-sm-12">
-                                    <h1>Sell more by sending <span className="highlight">data-driven, personalised, highly relevant emails and on-site messages</span></h1>
-                                    <p>Engage and convert your visitors into customers smartly</p>
+                                    <h1>Sell more by sending <span className="highlight">personalised, highly relevant emails and on-site messages</span></h1>
+                                    <p>Campaignrabbit offers <span className="highlight">tools to engage and convert the visitors into customers smartly</span> for growth-focused eCommerce businesses.<br />
+                                        Join 1000+ growing businesses today. <br /></p>
                                     <div className="btn-container">
-                                        <button className="btn-action btn-dark" onClick={this.handleModalOpen}>
-                                            <FaPlay/> Watch A Demo<span>Quick overview</span>
-                                        </button>
                                         <a className="btn-action btn-edge"
                                             href="https://app.campaignrabbit.com/register"
-                                            target="_blank" rel="noopener noreferrer">Try it for FREE <span>No credit card required</span></a>
+                                            target="_blank" rel="noopener noreferrer">Get started for FREE <span>No credit card required</span></a>
                                     </div>
                                 </div>
                                 <div className="col-sm-2">

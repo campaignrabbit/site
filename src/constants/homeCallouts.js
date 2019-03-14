@@ -9,7 +9,7 @@ const HOME_CALLOUTS = [
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/follow-up-emails.png`,
         TITLE: 'Follow-up Emails',
-        COPY: 'Send a series of follow-up emails and nurture your customers to build a lasting relationship'
+        COPY: 'Send a series of follow-up emails on autopilot and nurture your customers to build a lasting relationship.'
     },
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/win-back-inactive-customers.png`,
@@ -19,7 +19,7 @@ const HOME_CALLOUTS = [
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/product-recommendations.png`,
         TITLE: 'Product Recommendations',
-        COPY: 'Automatically boost your sales by suggesting related products based on the purchase history of the customers.'
+        COPY: 'Automatically boost sales by suggesting related products based on the purchase history of customers.'
     },
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/360-degree-view-of-customers.png`,
@@ -33,13 +33,13 @@ const HOME_CALLOUTS = [
     },
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/drag-and-drop-visual-email-builder.png`,
-        TITLE: 'Drag and drop visual email builder',
+        TITLE: 'Visual email builder',
         COPY: 'Create beautiful emails that reflect your brand with our intuitive drag-and-drop visual email builder.'
     },
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/supports-your-favourite-ecommerce-platform-woocommerce.png`,
-        TITLE: 'Powerful Segmentation',
-        COPY: 'Segment your customers based on their purchase history, total spending, abandoned carts, location and more.'
+        TITLE: 'Segmentation',
+        COPY: 'Segment your customers based on their purchase history, total spending, location and more.'
     },
 ];
 
