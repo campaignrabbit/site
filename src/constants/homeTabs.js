@@ -22,14 +22,14 @@ class homeTabs extends React.Component {
                 <div className="container">
                     <div className="features-intro text-center">
                         <h2>
-                            Powerful features tailored for eCommerce businesses to sell more and build a strong brand
+                            Powerful features tailored for eCommerce businesses to sell more on autopilot
                         </h2>
                         <p>Learn how Campaignrabbit can drive sales and grow your business</p>
                     </div>
                     <ul className="tabs">
                         <li className="tab-link current" data-tab="tab-1">
                             <IoMdCart className="tab-icon"/>
-                            <span>Abandoned cart recovery</span>
+                            <span>Recover Abandoned Carts</span>
                         </li>
                         <li className="tab-link" data-tab="tab-2">
                             <IoMdMailOpen className="tab-icon"/>
@@ -37,23 +37,23 @@ class homeTabs extends React.Component {
                         </li>
                         <li className="tab-link" data-tab="tab-3">
                             <IoIosPersonAdd className="tab-icon"/>
-                            <span>Win-Back inactive customers</span>
+                            <span>Win-Back Inactive Customers</span>
                         </li>
                         <li className="tab-link" data-tab="tab-4">
                             <IoIosThumbsUp className="tab-icon"/>
-                            <span>Product recommendation</span>
+                            <span>Product Recommendations</span>
                         </li>
                         <li className="tab-link" data-tab="tab-5">
                             <IoIosAnalytics className="tab-icon"/>
-                            <span>Customer in-depth Analytics</span>
+                            <span>On-site Messages</span>
                         </li>
                         <li className="tab-link" data-tab="tab-6">
                             <IoIosLaptop className="tab-icon"/>
-                            <span>WYSIWYG Email builder</span>
+                            <span>Visual Email Builder</span>
                         </li>
                         <li className="tab-link" data-tab="tab-7">
                             <IoIosGrid className="tab-icon"/>
-                            <span>Popular integrations</span>
+                            <span>Popular Integrations</span>
                         </li>
                         <li className="tab-link link-arrow">
                             <Link to="/features">
