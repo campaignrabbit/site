@@ -4,13 +4,6 @@ import {FaArrowRight} from 'react-icons/fa';
 import {IoMdCart, IoMdMailOpen, IoIosPersonAdd, IoIosThumbsUp, IoIosAnalytics, IoIosHelpBuoy, IoIosGrid, IoIosLaptop} from 'react-icons/io';
 import {Link} from 'gatsby';
 
-import customerView from '../images/icons/Customer-In-Depth-Analytics.png';
-import abandCart from '../images/icons/abandoned-cart-recovery.png';
-import dragDrop from '../images/icons/WYSIWYG-Email-Editor.png';
-import followEmail from '../images/icons/follow-up-emails.png';
-import productRec from '../images/icons/product-recommendations.png';
-import winBack from '../images/icons/win-back-inactive-customers.png';
-import popInt from '../images/icons/Popular-Integration.png';
 
 import recovery from '../images/home-features/Abandoned-Cart-Recovery.png';
 import follow from '../images/home-features/Follow-Up-Emails.png';
@@ -38,9 +31,9 @@ class homeTabs extends React.Component {
                 <div className="container">
                     <div className="features-intro text-center">
                         <h2>
-                            CAMPAIGNRABBIT ?
+                            Powerful features tailored for eCommerce businesses to sell more
                         </h2>
-                        <p>WHAT, HOW & WHY</p>
+                        <p>Learn how Campaignrabbit can drive sales</p>
                     </div>
                     <ul className="tabs">
                         <li className="tab-link current" data-tab="tab-1">
@@ -53,23 +46,23 @@ class homeTabs extends React.Component {
                         </li>
                         <li className="tab-link" data-tab="tab-3">
                             <IoIosPersonAdd className="tab-icon"/>
-                            <span>Win-Back inactive customers</span>
+                            <span>Win-Back Inactive customers</span>
                         </li>
                         <li className="tab-link" data-tab="tab-4">
                             <IoIosThumbsUp className="tab-icon"/>
-                            <span>Product recommendation</span>
+                            <span>Product Recommendation</span>
                         </li>
                         <li className="tab-link" data-tab="tab-5">
                             <IoIosAnalytics className="tab-icon"/>
-                            <span>Customer in-depth Analytics</span>
+                            <span>On-site Messages</span>
                         </li>
                         <li className="tab-link" data-tab="tab-6">
                             <IoIosLaptop className="tab-icon"/>
-                            <span>WYSIWYG Email builder</span>
+                            <span>Drag and Drop Email Builder</span>
                         </li>
                         <li className="tab-link" data-tab="tab-7">
                             <IoIosGrid className="tab-icon"/>
-                            <span>Popular integrations</span>
+                            <span>Powerful Segmentation</span>
                         </li>
                         <li className="tab-link link-arrow">
                             <Link to="/features">

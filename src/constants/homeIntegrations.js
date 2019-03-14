@@ -11,7 +11,6 @@ class homeFeature extends React.Component {
                         <h2>
                             <strong>Easily integrate</strong> with your favorite <br/> ecommerce platform
                         </h2>
-                        <p>Can't find it? Connect any custom platform via API instead.</p>
                     </div>
                     <div className="integration-list row">
                         <div className="col-md-3">
