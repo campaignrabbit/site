@@ -60,8 +60,12 @@ class IndexPage extends React.Component {
                             <div className="row">
                                 <div className="col-sm-12">
                                     <h1>Sell more by sending <span className="highlight">personalised, highly relevant emails and on-site messages</span></h1>
-                                    <p>Campaignrabbit offers <span className="highlight">tools to engage and convert the visitors into customers smartly</span> for growth-focused eCommerce businesses.<br />
-                                        Join 1000+ growing businesses today. <br /></p>
+                                    <p className="underline">Campaignrabbit offers tools to engage and convert visitors into customers smartly for growth-focused eCommerce businesses.
+                                        </p>
+                                    <p className="underline">Email Automation, Follow-Up emails, Abandoned Cart Recovery, Optin Popups, Messenger Prompts, Action Bars and much more. <br />
+                                    Plus, you get behaviour based targeting, powerful segmentation, visual email builder, responsive emails and actionable insights.
+                                    </p>
+                                    <p>Join 1000+ businesses and put your marketing on autopilot today.</p>
                                     <div className="btn-container">
                                         <a className="btn-action btn-edge"
                                             href="https://app.campaignrabbit.com/register"
