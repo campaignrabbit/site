@@ -38,8 +38,8 @@ class FeaturesPage extends React.Component {
             <div className="features-banner-container">
                 <div className="features-header-banner text-center">
                     <div className="container-m">
-                		<h2>Try CampaignRabbit For <span className="title-highlight">Free!</span></h2>
-                        <p>Who says the best things can’t be used for free? Use CampaignRabbit free of cost for 30 days and tell us how you love it!“</p>
+                		<h2>Get CampaignRabbit For <span className="title-highlight">Free!</span></h2>
+                        <p>Who says the best things can’t be used for free? Get started with CampaignRabbit for free and upgrade as you grow!“</p>
                         <div className="free-trial-form">
                             <form className="form-inline form-alt" id="signup-form">
                                 <div className="form-group flex-70">
@@ -58,8 +58,8 @@ class FeaturesPage extends React.Component {
                 <div className="features-services-box-container">
                     <div className="container">
                         <div className="service-box-row text-center">
-                            <h2><span className="title-highlight">Email Campaign</span> features more details</h2>
-                            <p>CampaignRabbit works with all popular eCommerce platforms including WooCommerce, Shopify, Magento, Prestashop and a lot more.</p>
+                            <h2><span className="title-highlight">Email Campaigns</span></h2>
+                            <p>CampaignRabbit integrates seamlessly with all popular eCommerce platforms including WooCommerce and Shopify.</p>
                         </div>
                         <div className="service-box-row row">
                             <div className="col-sm-6">
