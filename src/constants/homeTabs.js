@@ -22,9 +22,9 @@ class homeTabs extends React.Component {
                 <div className="container">
                     <div className="features-intro text-center">
                         <h2>
-                            Powerful features tailored for eCommerce businesses to sell more on autopilot
+                            Powerful features tailored for eCommerce businesses
                         </h2>
-                        <p>Learn how Campaignrabbit can drive sales and grow your business</p>
+                        <p>Learn how Campaignrabbit can drive sales and grow your business on autopilot</p>
                     </div>
                     <ul className="tabs">
                         <li className="tab-link current" data-tab="tab-1">
