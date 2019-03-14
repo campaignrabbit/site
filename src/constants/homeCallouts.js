@@ -3,43 +3,43 @@ import React from 'react';
 const HOME_CALLOUTS = [
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/abandoned-cart-recovery.png`,
-        TITLE: 'Abandoned cart recovery',
+        TITLE: 'Recover Abandoned Carts',
         COPY: 'Remind customers who have abandoned thier cart with automatic emails at set intervals and recover them.'
     },
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/follow-up-emails.png`,
         TITLE: 'Follow-up Emails',
-        COPY: 'Automatically send email follow-ups to your customers. You can ask them for a feedback, a review, or just say hello'
+        COPY: 'Using the powerful segmentation, send smarter emails to build your brand. Ask customers for a feedback, a review, or just say hello to establish a lasting relationship.'
     },
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/win-back-inactive-customers.png`,
         TITLE: 'Win-back Inactive Customers',
-        COPY: 'Bring back inactive customers with special offers through automated email campaigns'
+        COPY: 'Bring back inactive customers with a series of messages designed to drive repeat purchases. Send a coupon code or a special offer if you did not see someone back in 60 days.'
     },
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/product-recommendations.png`,
-        TITLE: 'Product recommendations',
-        COPY: 'Recommend “Socks” to customers when they purchase “shoes”. Start automatically sending relevant product recommendations'
+        TITLE: 'Product Recommendations',
+        COPY: 'Automatically boost your sales by suggesting related products based on the purchase history of the customers. Example: You can suggest "Socks" to those who bought Shoes'
     },
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/360-degree-view-of-customers.png`,
-        TITLE: '360 degree view of customers',
-        COPY: 'Get valuable insights about your customers. Learn what days they usually place orders, time of order, total value of orders and more'
+        TITLE: 'Welcome Emails',
+        COPY: 'Create a great first impression and start building a brand loyalty right from their sign-up. A personalised welcome email can build a better brand image'
     },
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/powerful-segmentation.png`,
-        TITLE: 'Powerful Customer Segmentation',
-        COPY: 'Segment your customers based on their order history, total spending, purchase behaviour, products bought, abandoned carts, location and more.'
+        TITLE: 'On-site messages',
+        COPY: 'Engage and convert your visitors into customers with on-site popups / slide-ins / action bars. Trigger them based on their behavior, visit to a product page or if they try to exit.'
     },
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/drag-and-drop-visual-email-builder.png`,
         TITLE: 'Drag and drop visual email builder',
-        COPY: 'Create beautiful emails with our intuitive drag-and-drop visual email builder. Use short codes to add dynamic data like their names.'
+        COPY: 'Create beautiful emails that reflect your brand with our intuitive drag-and-drop visual email builder. Use short codes to add dynamic data like their names.'
     },
     {
         IMAGE: `${process.env.CR_MEDIA_URL}/images/home-icons/supports-your-favourite-ecommerce-platform-woocommerce.png`,
-        TITLE: 'Supports your favourite eCommerce platform',
-        COPY: 'Campaignrabbit works beautifully with WooCommerce. Synchronise orders and customers seamlessly. Just download and install the WooCommerce plugin for Campaignrabbit.'
+        TITLE: 'Powerful Segmentation',
+        COPY: 'Segment your customers based on their order history, total spending, purchase behaviour, products bought, abandoned carts, location and more.'
     },
 ];
 
