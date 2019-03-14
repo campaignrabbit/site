@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from "../components/layout";
 import Container from "../components/container";
-import withSubNav from '../components/NavSub';
 import Img from 'gatsby-image';
 import SEO from '../components/seo';
 

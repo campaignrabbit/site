@@ -2,7 +2,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import Layout from "../components/layout";
 import Container from "../components/container";
-import NavSub from "../components/NavSub";
 // Components
 import { Link, graphql } from "gatsby"
 

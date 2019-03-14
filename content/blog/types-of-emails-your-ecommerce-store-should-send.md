@@ -2,7 +2,7 @@
 path: "/blog/types-of-emails-your-ecommerce-store-should-send"
 date: "2018-12-28"
 title: "Types of Emails your eCommerce store should send"
-description: "Don&#039;t send boring emails anymore. Plan your email marketing process and send the appropriate eCommerce emails. Store owners should choose the wise option."
+description: "Don't send boring emails anymore. Plan your email marketing process and send the appropriate eCommerce emails. Store owners should choose the wise option."
 author: "Nandeep VJ"
 image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/types-of-emails-your-ecommerce-store-should-send/types_of_emails_your_ecommerce_store_should_send.jpg"
 category: "marketing"
