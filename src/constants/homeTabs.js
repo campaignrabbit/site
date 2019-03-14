@@ -7,14 +7,14 @@ import {Link} from 'gatsby';
 class homeTabs extends React.Component {
     componentDidMount () {
         $('ul.tabs li').click(function(){
-    		var tab_id = $(this).attr('data-tab');
+            var tab_id = $(this).attr('data-tab');
 
-    		$('ul.tabs li').removeClass('current');
-    		$('.tab-content').removeClass('current');
+            $('ul.tabs li').removeClass('current');
+            $('.tab-content').removeClass('current');
 
-    		$(this).addClass('current');
-    		$("#"+tab_id).addClass('current');
-    	})
+            $(this).addClass('current');
+            $("#"+tab_id).addClass('current');
+        })
     }
     render () {
         return (
@@ -22,9 +22,9 @@ class homeTabs extends React.Component {
                 <div className="container">
                     <div className="features-intro text-center">
                         <h2>
-                            CAMPAIGNRABBIT ?
+                            Powerful features tailored for eCommerce businesses to sell more and build a strong brand
                         </h2>
-                        <p>WHAT, HOW & WHY</p>
+                        <p>Learn how Campaignrabbit can drive sales and grow your business</p>
                     </div>
                     <ul className="tabs">
                         <li className="tab-link current" data-tab="tab-1">
