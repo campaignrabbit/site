@@ -63,17 +63,18 @@ class IndexPage extends React.Component {
                         <div className="hero-content wow fadeIn">
                             <div className="row">
                                 <div className="col-sm-12">
-                                    <h1>Sell more by sending <span className="highlight">personalised, highly relevant emails and on-site messages</span></h1>
-                                    <p className="underline">Campaignrabbit offers tools to engage and convert visitors into customers smartly for growth-focused eCommerce businesses.
+                                    <h1>Sell more by sending <span className="highlight">personalised, highly relevant emails</span>and  <span className="highlight">on-site messages</span></h1>
+                                    <p>Campaignrabbit offers tools to <span className="underline">engage and convert visitors into customers smartly</span>for growth-focused eCommerce businesses.
                                         </p>
-                                    <p className="underline">Email Automation, Follow-Up emails, Abandoned Cart Recovery, Optin Popups, Messenger Prompts, Action Bars and much more. <br />
-                                    Plus, you get behaviour based targeting, powerful segmentation, visual email builder, responsive emails and actionable insights.
+                                    <p><span className="underline">Email Automation, Follow-Up emails, Abandoned Cart Recovery, Optin Popups, Messenger Prompts, Action Bars and much more. </span><br />
+                                        Plus, you get <span className="underline">behaviour based targeting, powerful segmentation, visual email builder, responsive emails and actionable insights.</span>
                                     </p>
                                     <p>Join 1000+ businesses and put your marketing on autopilot today.</p>
                                     <div className="btn-container">
                                         <a className="btn-action btn-edge"
                                             href="https://app.campaignrabbit.com/register"
-                                            target="_blank" rel="noopener noreferrer">Get started for FREE <span>No credit card required</span></a>
+                                            target="_blank" rel="noopener noreferrer">Get started for FREE</a>
+                                        <small>No credit card required</small>
                                     </div>
                                 </div>
                                 <div className="col-sm-2">
