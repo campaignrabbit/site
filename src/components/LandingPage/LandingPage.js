@@ -47,6 +47,7 @@ class LandingPage extends Component {
           return (
               <Box key={card.TITLE}>
                 <Image src={card.IMAGE} />
+                {card.IMAGE}
                 <Content>{card.COPY}</Content>
               </Box>
           );
