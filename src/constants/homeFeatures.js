@@ -22,7 +22,7 @@ class homeFeature extends React.Component {
     render(){
         return (
             <div id="features" className="features wow fadeInDown">
-                <div className="container-m">
+                <div className="container">
                     <div className="features-intro text-center">
                         <h2>
                             Features
