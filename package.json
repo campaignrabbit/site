@@ -9,12 +9,9 @@
     "gatsby": "^2.1.30",
     "gatsby-image": "^2.0.32",
     "gatsby-paginate": "^1.0.17",
-<<<<<<< HEAD
     "gatsby-plugin-breadcrumb": "^2.1.0",
     "gatsby-plugin-catch-links": "^2.0.9",
-=======
     "gatsby-plugin-catch-links": "^2.0.13",
->>>>>>> a79c6118722950ab5c87065e5792d71aa58f43ad
     "gatsby-plugin-facebook-pixel": "^1.0.3",
     "gatsby-plugin-google-analytics": "^2.0.17",
     "gatsby-plugin-google-fonts": "0.0.4",

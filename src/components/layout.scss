@@ -336,7 +336,7 @@ body {
         }
      }
      .hero-content{
-         padding: 40px 0 10px;
+         padding: 40px 0 20px;
          .btn-container{
            flex-wrap: wrap;
            display: flex;
@@ -491,45 +491,39 @@ body {
   /*------------------------------------------------
   ------------- Hero Version 2 Styling -------------
   -------------------------------------------------*/
-
-  .hero-2 {
+  .free-trial-form{
+    margin: 0 auto;
     text-align: center;
-    background: #fafafa;
-    .intro-block {
-      padding: 50px 0 50px 0;
-      max-width: 800px;
+    .returnmessage{
+        color: red;
+        font-size: 14px;
+    }
+    h3 {
+      font-size: 25px;
+      font-weight: 600;
+      color: #303133;
+      line-height: 1.3;
+      letter-spacing: 0.02em;
+    }
+    p {
+      font-size: 17px;
+      font-weight: 500;
+      max-width: 630px;
       margin: 0 auto;
-      h3 {
-        font-size: 25px;
-        font-weight: 600;
-        color: #303133;
-        line-height: 1.3;
-        letter-spacing: 0.02em;
-        text-transform: uppercase;
-      }
-      p {
-        font-size: 16px;
-        font-weight: 500;
-        color: rgb(129, 129, 152);
-        max-width: 630px;
-        margin: 0 auto;
-        letter-spacing: 0;
-        line-height: 1.6;
-        margin-top: 15px;
-        strong {
-          color: #333333;
-        }
+      letter-spacing: 0;
+      line-height: 1.6;
+      margin-top: 15px;
+      strong {
+        color: #333333;
       }
     }
-    .free-trial-form{
-      margin: 0 auto;
-      text-align: center;
-      p{
-          font-size: 14px;
-      }
-      .returnmessage{
-          color: red;
-      }
+    .note{
+      font-size: 14px;
+      font-weight: 500;
+      color: #555;
+    }
+    .form{
+      margin-top: 15px;
     }
     .form-alt {
         position: relative;
@@ -550,12 +544,17 @@ body {
               &.flex-30{
                   flex-basis: 30%;
               }
-          }
-          .mail {
-            border-radius: 4px 0 0 4px;
-          }
-          .submit-button {
-            border-radius: 0 4px 4px 0;
+              .mail {
+                border-radius: 4px 0 0 4px;
+              }
+              .submit-button {
+                border-radius: 0 4px 4px 0;
+              }
+              &:only-child {
+                .submit-button {
+                  border-radius: 4px;
+                }
+              }
           }
         }
         .mail {
@@ -628,6 +627,38 @@ body {
             }
 
         }
+    }
+  }
+
+
+  .hero-2 {
+    text-align: center;
+    background: #fafafa;
+    .intro-block {
+      padding: 50px 0 50px 0;
+      max-width: 800px;
+      margin: 0 auto;
+      h3 {
+        font-size: 25px;
+        font-weight: 600;
+        color: #303133;
+        line-height: 1.3;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 500;
+        color: rgb(129, 129, 152);
+        max-width: 630px;
+        margin: 0 auto;
+        letter-spacing: 0;
+        line-height: 1.6;
+        margin-top: 15px;
+        strong {
+          color: #333333;
+        }
+      }
     }
     #email-error {
       position: absolute;
@@ -856,15 +887,13 @@ body {
 
   .feature-list {
       margin: 20px 0 10px;
-      .card-icon {
-          width: 65px;
-          height: 65px;
-          border-radius: 50%;
-          margin: 0 auto;
-          background: rgba(30, 166, 154, 0.08);
-          background: #ece7fe;
+      .card-icon svg{
+          width: 50px;
+          height: 50px;
+          margin:  15px auto;
           display: table;
           text-align: center;
+          color: $primary;
       }
       .card-img {
           display: table-cell;
@@ -3362,11 +3391,11 @@ ul.tabs{
 	list-style: none;
     li{
         position: relative;
-    	background: none;
-    	color: #222;
-    	display: inline-block;
-    	padding: 10px 15px;
-    	cursor: pointer;
+      	background: none;
+      	color: #222;
+      	display: inline-block;
+      	padding: 8px;
+      	cursor: pointer;
         text-align: center;
         font-size: 14px;
         font-weight: 500;
@@ -3430,7 +3459,7 @@ ul.tabs{
         }
         .tab-icon{
           color: #bebebe;
-          width: 50px;
+          width: 40px;
           height: auto;
           margin-bottom: 8px;
           vertical-align: baseline;
@@ -3520,26 +3549,29 @@ ul.tabs{
 }
 
 .home-services{
-    font-family: $secondary-font;
     padding: 40px 0;
     .services-intro{
         text-align: center;
         h2{
             font-family: $secondary-font;
-            color: #5a5a57;
-            font-size: 24px;
+            color: #3a3a37;
+            font-size: 32px;
             text-align: center;
             line-height: 1.6;
-            font-weight: 500;
+            font-weight: 600;
             margin-top: 0;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
             strong{
                 color: #3a3a47;
                 font-weight: 600;
             }
         }
+        p{
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
         .divider-line {
-            margin: 15px auto 25px;
+            margin: 15px auto 20px;
         }
     }
     .divider-line {
@@ -3575,6 +3607,7 @@ ul.tabs{
         }
         .service-text-div{
             h4{
+                font-family: $secondary-font;
                 font-size: 18px;
                 font-weight: 600;
                 color: #999;
@@ -3594,21 +3627,17 @@ ul.tabs{
                 }
             }
             p{
-                color: #555;
-                font-size: 18px;
-                font-weight: 500;
                 margin-bottom: 20px;
+                line-height: 1.7;
             }
             ul{
                 margin: 20px 0;
                 list-style: disc;
                 margin-left: 30px;
                 li{
-                    color: #555;
-                    font-size: 18px;
-                    font-weight: 500;
                     margin-bottom: 10px;
                     padding-left: 5px;
+                    line-height: 1.7;
                 }
             }
         }

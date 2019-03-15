@@ -1,6 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
-import {FaArrowRight} from 'react-icons/fa';
+import {FaArrowRight, FaShoppingCart, FaEnvelopeOpenText, FaUsers, FaRegThumbsUp, FaCogs, FaRegComments, FaLaptop} from 'react-icons/fa';
 import {IoMdCart, IoMdMailOpen, IoIosPersonAdd, IoIosThumbsUp, IoIosAnalytics, IoIosGrid, IoIosLaptop} from 'react-icons/io';
 import {Link} from 'gatsby';
 
@@ -28,31 +28,31 @@ class homeTabs extends React.Component {
                     </div>
                     <ul className="tabs">
                         <li className="tab-link current" data-tab="tab-1">
-                            <IoMdCart className="tab-icon"/>
+                            <FaShoppingCart className="tab-icon"/>
                             <span>Recover Abandoned Carts</span>
                         </li>
                         <li className="tab-link" data-tab="tab-2">
-                            <IoMdMailOpen className="tab-icon"/>
+                            <FaEnvelopeOpenText className="tab-icon"/>
                             <span>Follow-up <br/> Emails</span>
                         </li>
                         <li className="tab-link" data-tab="tab-3">
-                            <IoIosPersonAdd className="tab-icon"/>
+                            <FaUsers className="tab-icon"/>
                             <span>Win-Back Inactive Customers</span>
                         </li>
                         <li className="tab-link" data-tab="tab-4">
-                            <IoIosThumbsUp className="tab-icon"/>
+                            <FaRegThumbsUp className="tab-icon"/>
                             <span>Product Recommendations</span>
                         </li>
                         <li className="tab-link" data-tab="tab-5">
-                            <IoIosAnalytics className="tab-icon"/>
+                            <FaRegComments className="tab-icon"/>
                             <span>On-site Messages</span>
                         </li>
                         <li className="tab-link" data-tab="tab-6">
-                            <IoIosLaptop className="tab-icon"/>
+                            <FaLaptop className="tab-icon"/>
                             <span>Visual Email Builder</span>
                         </li>
                         <li className="tab-link" data-tab="tab-7">
-                            <IoIosGrid className="tab-icon"/>
+                            <FaCogs className="tab-icon"/>
                             <span>Popular Integrations</span>
                         </li>
                         <li className="tab-link link-arrow">
