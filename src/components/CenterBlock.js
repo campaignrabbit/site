@@ -57,7 +57,7 @@ const Box = styled.div`
   }
 `;
 
-class LandingPage extends Component {
+class CenterBlock extends Component {
   constructor(props) {
     super(props);
   }
@@ -65,43 +65,22 @@ class LandingPage extends Component {
   componentDidMount() {
 
   }
-  static renderCallouts(callouts) {
-      return callouts.map((card, index) => {
-          const cardClass = `col-md-3`;
-          if(index == 2){
-            return (
-                <Center key={card.TITLE} className="center">
-                  <Image src={card.IMAGE}  />
-                  <Content>
-                    <H3>{card.TITLE}</H3>
-                    <P>{card.COPY}</P>
-                  </Content>
-                </Center>
-            );
-          } else{
-            return (
-                <Box key={card.TITLE} className="">
-                  <Image src={card.IMAGE}  />
-                  <Content>
-                    <H3>{card.TITLE}</H3>
-                    <P>{card.COPY}</P>
-                  </Content>
-                </Box>
-            );
-          }
-      });
-  }
   render() {
     return (
         <Inner>
-          {LandingPage.renderCallouts(this.props.callouts)}
+          <Center key={this.props.title} className="center">
+            <Content>
+              <H3>{this.props.title}</H3>
+              <P>{this.props.description}</P>
+            </Content>
+          </Center>
         </Inner>
     );
   }
 }
 
-LandingPage.propTypes = {
+CenterBlock.propTypes = {
 
 };
 
-export default LandingPage;
+export default CenterBlock;
