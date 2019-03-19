@@ -3386,7 +3386,7 @@ body {
 
 ul.tabs{
 	margin: 0px;
-	padding: 0 15px;
+	padding: 0;
 	list-style: none;
     li{
         position: relative;
@@ -3490,7 +3490,7 @@ ul.tabs{
     background: #f5f9fc;
     padding: 40px 0;
     .features-intro{
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         h3{
           font-size: 38px;
           max-width: 900px;
@@ -3515,16 +3515,16 @@ ul.tabs{
     }
     .tab-content{
       background:#fff;
-      padding: 30px;
+      padding: 10px;
       text-align:center;
       position:relative;
-      height:500px;
-      min-width:473px;
+      height: auto;
       flex-direction:column;
       box-shadow:1px 1px 5px 0 rgba(26,26,67,.05),39px 62.5px 125px -25px rgba(50,50,93,.5),23.4px 37.5px 75px -37.5px rgba(0,0,0,.6);
       border-radius:12px;
-      max-width:473px;
+      max-width: 100%;
       margin:0 auto;
+      top: 20px;
       left: 0;
       transform-origin:center center;
       user-select:none;

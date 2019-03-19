@@ -28,7 +28,7 @@ class homeTabs extends React.Component {
                 </div>
                 <div className="container-s">
                     <div className="row">
-                          <ul className="col-sm-6 tabs">
+                          <ul className="col-sm-5 tabs">
                               <li className="tab-link current" data-tab="tab-1">
                                   <FaEnvelope className="tab-icon"/>
                                   <span> Welcome Emails</span>
@@ -64,7 +64,7 @@ class homeTabs extends React.Component {
                                   </Link>
                               </li>
                           </ul>
-                          <div className="col-sm-6">
+                          <div className="col-sm-7">
                             <div id="tab-1" className="tab-content">
                                 <img src={`${process.env.CR_MEDIA_URL}/images/home-features/welcome.png`} className="img-responsive" alt="Welcome Emails"/>
                             </div>
