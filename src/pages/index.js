@@ -28,11 +28,8 @@ class IndexPage extends React.Component {
                             <div className="row">
                                 <div className="col-sm-12">
                                     <h1>Sell more by sending <span className="highlight">personalised, highly relevant emails</span> and  <span className="highlight">on-site messages</span></h1>
-                                    <p>Campaignrabbit offers tools to <span className="underline">engage and convert visitors into customers smartly</span>for growth-focused eCommerce businesses.
+                                    <p>Campaignrabbit offers tools to <span className="underline">engage and convert visitors into customers smartly</span> for growth-focused eCommerce businesses.
                                         </p>
-                                    <p><span className="underline">Email Automation, Follow-Up emails, Abandoned Cart Recovery, Optin Popups, Messenger Prompts, Action Bars and much more. </span><br />
-                                        Plus, you get <span className="underline">behaviour based targeting, powerful segmentation, visual email builder, responsive emails and actionable insights.</span>
-                                    </p>
                                     <SignUpForm user_mail_id={false}
                                       btnText="Get started for FREE" btnClass="btn-action" description="Join 1000+ businesses and put your marketing on autopilot today."
                                       note="No credit card required" />
