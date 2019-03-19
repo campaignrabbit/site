@@ -11,7 +11,7 @@ category: "ecommerce"
 
 Let’s face the fact — more than 70% of the shoppers abandon their cart.
 
-According to the Baymard Institute, a UK based Web Usability research institute, more than <link-text url=="https://baymard.com/lists/cart-abandonment-rate" target="_blank" rel="noopener nofollow">69.89% of online shopping carts are abandoned.</link-text>
+According to the Baymard Institute, a UK based Web Usability research institute, more than <link-text url="https://baymard.com/lists/cart-abandonment-rate" target="_blank" rel="noopener nofollow">69.89% of online shopping carts are abandoned.</link-text>
 
 That means, 7 out of 10 eCommerce visitors who add an item to their cart leave your store without buying.
 
