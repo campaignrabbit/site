@@ -68,7 +68,7 @@ class LandingPage extends Component {
   static renderCallouts(callouts) {
       return callouts.map((card, index) => {
           const cardClass = `col-md-3`;
-          if(index == 2){
+          if(index == 2 || index == 5){
             return (
                 <Center key={card.TITLE} className="center">
                   <Image src={card.IMAGE}  />
