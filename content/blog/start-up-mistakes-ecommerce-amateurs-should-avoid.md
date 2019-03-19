@@ -2,7 +2,7 @@
 path: "/blog/start-up-mistakes-ecommerce-amateurs-should-avoid"
 date: "2019-02-02"
 title: "Major Start-Up Mistakes Every eCommerce Amateurs Should Avoid"
-description: "Find out the major mistakes that every eCommerce startup amateurs commit via this blog post. Don&#039;t try to do the same mistakes again. Stop failing today."
+description: "Find out the major mistakes that every eCommerce startup amateurs commit via this blog post. Don't try to do the same mistakes again. Stop failing today."
 author: "Deepika"
 image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/Major-Start-Up-mistakes-every-E-Commerce-amateurs-should-avoid/Major-Start-Up-mistakes-every-E-Commerce-amateurs-should-avoid.jpg"
 category: "ecommerce"

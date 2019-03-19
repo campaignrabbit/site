@@ -10,7 +10,7 @@ class homeFeature extends React.Component {
                 <div className={cardClass} key={card.TITLE}>
                     <div className="card text-center feature-list">
                         <div className="card-text">
-                            <img className="img-responsive" src={card.IMAGE} alt={card.TITLE} />
+                            <p className="card-icon">{card.IMAGE}</p>
                             <h3>{card.TITLE}</h3>
                             <p>{card.COPY}</p>
                         </div>
@@ -22,7 +22,7 @@ class homeFeature extends React.Component {
     render(){
         return (
             <div id="features" className="features wow fadeInDown">
-                <div className="container-m">
+                <div className="container">
                     <div className="features-intro text-center">
                         <h2>
                             Features
