@@ -1,7 +1,7 @@
 ---
 path: "/docs/integrations/woocommerce"
 updated: "2019-02-20"
-title: " Connect your WooCommerce store with Campaignrabbit in two easy steps"
+title: "WooCommerce"
 description: "Connect your WooCommerce store with Campaignrabbit in two easy steps."
 author: "Kowsaliya"
 category: "integrations"
