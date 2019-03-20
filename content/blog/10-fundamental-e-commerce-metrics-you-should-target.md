@@ -21,8 +21,9 @@ Your customers invest in you for a period of time or weeks or months that can pr
 
 In short, <link-text url="https://piwik.pro/blog/customer-lifetime-value-important-for-your-business/" target="_blank" rel="noopener">customer lifetime value</link-text> is the total profit your company earns from a customer over a period of their lifetime.
 
-The formula to calculate CLV goes this way, 
-**CLV= Total number of transactions * Average Gross Value**
+**The formula to calculate CLV goes this way,**
+
+<Highlight>**CLV = Total number of transactions * Average Gross Value**</Highlight>
 
 For example, if you earn 10$ over 4 subscriptions from a customer throughout the life, customer lifetime value is $40.
 
@@ -32,8 +33,9 @@ Customer acquisition deals with the process of bringing in new customers. The af
 
 Nevertheless, you can manage customer acquisition cost through advertisements, paid promoters, influencers or strategies of the same kind.
 
-To measure, Customer Acquisition Cost you can apply the following formula,
-**CAC = Promoting or marketing costs / Customers procured.**
+**To measure, Customer Acquisition Cost you can apply the following formula,** 
+
+<Highlight>**CAC = Promoting or marketing costs / Customers procured.**</Highlight>
 ## Customer Conversion rates
 
 When a browser accidentally or intentionally clicks the link to your e-commerce page, he becomes a visitor. If he further gets intrigued by your products and services, he tends to make purchases with you. This is what we call technically as Customer Conversion rate. 
@@ -48,8 +50,9 @@ Like aforementioned, your customers would no longer be customers if you don't st
 
 This could be due to several reasons to list out, starting from privacy concerns to navigational disasters. <link-text url="https://campaignrabbit.com/blog/reduce-cart-abandonment-recovery-solutions/" target="_blank" rel="noopener">Reducing cart abandonment </link-text> is the mandatory task for scaling the business.
  
-Cart abandonment can simply be calculated with, 
-**No of abandoned shopping carts = No of Initiated Transactions / No of completed transactions.**
+**Cart abandonment can simply be calculated with,** 
+
+<Highlight>**No of abandoned shopping carts = No of Initiated Transactions / No of completed transactions.**</Highlight>
 
 ## Customer retention rate
 
@@ -57,8 +60,9 @@ The customer retention rate of the process of <link-text url="https://www.retain
 
 Customer retention can be achieved through several strategies.
 
-Customer retention can be formulated using, 
-**Customer retention rate = Total cost of retention / Retained Customers.**
+**Customer retention can be formulated using,** 
+
+<Highlight>**Customer retention rate = Total cost of retention / Retained Customers.**</Highlight>
 
 ## Subscription rate
 
@@ -76,8 +80,9 @@ If your visitors are continuously denying from subscriptions, then your e-commer
 
 To name some, come up with interesting content, aesthetic website outlook and increased email frequency. 
 
-Unsubscribers rate can be calculated using the formula mentioned, 
-**No of subscribers cancelling / No of subscribers up for renewal.**
+<Highlight>**Unsubscribers rate can be calculated using the formula mentioned,**</Highlight>
+
+<Highlight>**No of subscribers cancelling / No of subscribers up for renewal.**</Highlight>
 
 ## Email Receptive Rate
 
@@ -85,8 +90,9 @@ Email receptive rate talks about the number of times an email is opened. Email h
 
 Email marketing can be helped through several plugins one such is <link-text url="https://www.retainful.com/blog/" target="_blank" rel="noopener">retainful.com.</link-text> It assists you in creating and sending automated emails.
 
-Email receptive rate can thus be calculated as, 
-**No of clicks / total number of emails sent - ignored emails.**
+<Highlight>**Email receptive rate can thus be calculated as,** </Highlight>
+
+<Highlight>**No of clicks / total number of emails sent - ignored emails.**</Highlight>
 
 Ignored emails are the ones that visitors deny from clicking. To be elaborate with email receptive rate, 
 No of clicks: 22
@@ -101,15 +107,18 @@ Now comes that issue, that no one likes to talk about, but it is too important t
 
 One thing that you should be very sure of is to avoid spam complaints but it is not possible every time. When you try to send frequent emails it can sometimes turn to be spams. However, a little effort can be put from your side to avoid spams. Studies say spam complaints should always be less than 0.1%.
 
-To calculate spam complaint rate, 
-**Complaint rate / delivered emails * 100**
+<Highlight>**To calculate spam complaint rate,** </Highlight>
+
+
+<Highlight>**Complaint rate / delivered emails * 100**</Highlight>
 
 ## Average referral rate
 
 Referrals are defined as the number of times when a customer refers or suggests your website to others. Referrals are as powerful as other marketing strategies.
 
-Referral rate can be calculated using this formula, 
-**No of sales happened via referrals / No of sales * 100.**
+<Highlight>**Referral rate can be calculated using this formula,**</Highlight>
+
+<Highlight>**No of sales happened via referrals / No of sales * 100.**</Hightlight>
 
 E-commerce is going to be of as equal importance of electricity in the upcoming years. As an e-commerce entrepreneur make sure you leave a footprint in the business industry. 
  
