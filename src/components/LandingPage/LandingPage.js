@@ -43,7 +43,7 @@ const Box = styled.div`
   grid-template-rows: auto;
   grid-template-areas: "left right";
   align-items: center;
-  padding: 20px 0;
+  padding: 40px 0;
 
   & > ${Image}, &:nth-of-type(even) > ${Content} {
     grid-area: left;
@@ -68,7 +68,7 @@ class LandingPage extends Component {
   static renderCallouts(callouts) {
       return callouts.map((card, index) => {
           const cardClass = `col-md-3`;
-          if(index == 2){
+          if(index == 2 || index == 5){
             return (
                 <Center key={card.TITLE} className="center">
                   <Image src={card.IMAGE}  />

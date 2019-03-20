@@ -1,7 +1,8 @@
 $primary: #6772e5;
 $info: #1a82e2;
 $danger: #b71c1c;
-$secondary-font: 'Quattrocento Sans', sans-serif;
+$primary-font: 'Hind', sans-serif;
+$secondary-font: 'Cabin', sans-serif;
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -29,11 +30,11 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: #717188;
   line-height: 1.8;
-  letter-spacing: 0.025em;
-  font-family: 'Cabin', sans-serif !important;
+  letter-spacing: 0.02em;
+  font-family: $primary-font;
 }
 
 ol, ul {
@@ -328,8 +329,7 @@ body {
 .home{
     background: #ffffff;
     &.bottom{
-      background: #ffffff;
-      padding-bottom: 30px;
+      background: #f6f6fd;
     }
     .hero-img{
          img {
@@ -369,8 +369,6 @@ body {
         font-size: 19px;
         font-weight: 400;
         max-width: 780px;
-        letter-spacing: 0.025em;
-        line-height: 1.9em;
         margin: 20px auto;
        strong {
          color: #333333;
@@ -381,8 +379,6 @@ body {
          font-size: 19px;
          font-weight: 400;
          max-width: 680px;
-         letter-spacing: 0.025em;
-         line-height: 1.9em;
        }
        .form-alt .btn-action {
          display: inline-block;
@@ -934,8 +930,8 @@ body {
 
 
   .integrations {
-    padding: 40px 0;
-    background: #fcfcfc;
+    padding: 60px 0 20px;
+    background: #f6f6fd;
     .integrations-intro {
       margin-bottom: 20px;
       h2 {
@@ -974,8 +970,7 @@ body {
         padding: 0;
       }
       .integration-item{
-          border-right: 1px solid #f8efe3;
-          border-bottom: 1px solid #f8efe3;
+          border-right: 1px solid #dddddd;
           position: relative;
           display: block;
           height: 100px;
@@ -1841,9 +1836,9 @@ body {
   --------------------------------------------------------------*/
   .footer-container {
     padding: 30px 0;
-    background: #f6f6fd;
+    background: #ffffff;
     .footer-title {
-      font-size: 16px;
+      font-size: 14px;
       font-weight: 600;
       text-transform: uppercase;
       color: #333333;
@@ -1864,7 +1859,7 @@ body {
       line-height: 1.8;
     }
     h5 {
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 600;
       color: #333333;
       margin-top: 15px;
@@ -3386,7 +3381,7 @@ body {
 
 ul.tabs{
 	margin: 0px;
-	padding: 0 15px;
+	padding: 0;
 	list-style: none;
     li{
         position: relative;
@@ -3490,7 +3485,7 @@ ul.tabs{
     background: #f5f9fc;
     padding: 40px 0;
     .features-intro{
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         h3{
           font-size: 38px;
           max-width: 900px;
@@ -3515,16 +3510,16 @@ ul.tabs{
     }
     .tab-content{
       background:#fff;
-      padding: 30px;
+      padding: 10px;
       text-align:center;
       position:relative;
-      height:500px;
-      min-width:473px;
+      height: auto;
       flex-direction:column;
       box-shadow:1px 1px 5px 0 rgba(26,26,67,.05),39px 62.5px 125px -25px rgba(50,50,93,.5),23.4px 37.5px 75px -37.5px rgba(0,0,0,.6);
       border-radius:12px;
-      max-width:473px;
+      max-width: 100%;
       margin:0 auto;
+      top: 20px;
       left: 0;
       transform-origin:center center;
       user-select:none;
@@ -3578,8 +3573,6 @@ ul.tabs{
           font-size: 18px;
           font-weight: 400;
           max-width: 780px;
-          letter-spacing: 0.025em;
-          line-height: 1.9em;
           margin: 20px auto;
         }
         .divider-line {
@@ -3619,12 +3612,11 @@ ul.tabs{
         }
         .service-text-div{
             h4{
-                font-size: 18px;
-                font-weight: 500;
-                color: #777777;
+                font-size: 17px;
+                font-weight: 400;
+                color: #999;
                 margin-bottom: 10px;
                 margin-top: 0;
-                letter-spacing: 0;
             }
             h2{
                 color:  #3a3a47;
@@ -3638,7 +3630,6 @@ ul.tabs{
               font-size: 18px;
               font-weight: 400;
               max-width: 780px;
-              line-height: 1.9em;
               margin: 20px auto;
             }
             ul{
@@ -3651,7 +3642,6 @@ ul.tabs{
                     font-size: 18px;
                     font-weight: 400;
                     max-width: 780px;
-                    line-height: 1.9em;
                 }
             }
         }
@@ -3669,7 +3659,8 @@ ul.tabs{
 .features-banner-container{
     .features-header-banner{
         padding: 40px 0;
-        background: #F6F9FC;
+        background: #ffffff;
+        border-bottom: 1px solid #eeeeee;
         h2 {
            font-size: 36px;
            font-weight: 600;
@@ -3681,11 +3672,9 @@ ul.tabs{
            }
        }
        p {
-          color: #777777;
            font-size: 18px;
            margin: 0 auto;
            max-width: 700px;
-           font-weight: 500;
       }
       .btn-primary{
       		padding: 17px 30px;
@@ -3814,13 +3803,11 @@ ul.tabs{
                 	font-weight: 600;
                 	color: #303133;
                 	margin-bottom: 15px;
-                    span{
-                    	color: $primary;
-                    }
                 }
                 p{
-                    color: #777;
-                	font-size: 18px;
+                	  font-size: 18px;
+                    max-width: 780px;
+                    margin: auto;
                 }
             }
             .service-box-content{
@@ -3839,19 +3826,17 @@ ul.tabs{
                     z-index: -1;
                 }
                 h2{
-                    margin-bottom: 10px;
+                    margin-bottom: 15px;
                     font-weight: 600;
-                	line-height: 1.5;
-                	font-size: 26px;
+                	   line-height: 1.5;
                     color: #303133;
                 }
                 h4{
                     font-size: 18px;
                 }
                 p{
-                    color: #777;
-                	font-size: 17px;
-                	margin-top: 0;
+                  	font-size: 18px;
+                  	margin-top: 0;
                 }
                 .service-link{
                     font-size: 16px;
@@ -4334,7 +4319,7 @@ ul.tabs{
 	border-bottom: 1px solid #ddd;
 }
 .usecases-banner-container .features-header-banner h2 {
-    font-size: 26px;
+    font-size: 28px;
 		font-weight: 600;
 		color: #303133;
 		line-height: 1.4;
@@ -4350,7 +4335,6 @@ ul.tabs{
     max-width: 100%;
 }
 .usecases-example-container .usecases-row .usecase-content-block h3{
-	font-size: 21px;
 	line-height: 1.33;
 	color: #303133;
 	margin-left: 0;
@@ -4394,9 +4378,7 @@ ul.tabs{
 .usecases-example-container .usecases-row .usecase-content-block ul li{
 	position: relative;
 	padding-left: 20px;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 28px;
+	font-size: 18px;
 	color: #525f7f;
 	margin-bottom: 20px;
 }
@@ -4600,6 +4582,25 @@ ul.tabs{
   padding: 40px 0;
   h3{
     max-width: 900px;
-    margin: 0 auto 15px;
+    margin: 15px auto;
+  }
+}
+
+.bottom{
+  background: #f6f6fd;
+  position: relative;
+  padding-bottom: 150px;
+  > div{
+    z-index: 2;
+  }
+  &::after{
+    display: block;
+    width: 100%;
+    height: 300px;
+    content: '';
+    position: absolute;
+    top: auto;
+    bottom: -2px;
+    background: url('../images/footer-line.svg') no-repeat scroll 0 0/100% 100%;
   }
 }
