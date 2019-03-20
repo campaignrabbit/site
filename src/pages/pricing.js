@@ -13,27 +13,40 @@ class PricingPage extends React.Component {
             switch (chosenPrice) {
                 case '100':
                     x.innerHTML = "Free";
+                    $('.price-title').show();
+                    $('.price-sub').show();
                     // y.innerHTML = "0";
                     break;
                 case '2000':
                     x.innerHTML = "$14";
+                    $('.price-title').show();
+                    $('.price-sub').show();
                     // y.innerHTML = "$ 168";
                     break;
                 case '5000':
                     x.innerHTML = "$29";
+                    $('.price-title').show();
+                    $('.price-sub').show();
                     // y.innerHTML = "$ 348";
                     break;
                 case '10000':
                     x.innerHTML = "$49";
+                    $('.price-title').show();
+                    $('.price-sub').show();
                     // y.innerHTML = "$ 588";
                     break;
                 case '25000':
                     x.innerHTML = "$69";
+                    $('.price-title').show();
+                    $('.price-sub').show();
                     // y.innerHTML = "$ 828";
                     break;
                 case '26000':
-                    x.innerHTML = '<span className="pricing-percent">Having more than 25,000+ customers <br><a className="pricing-link btn btn-primary" href="https://www.campaignrabbit.com/contact-us/">Contact us</a><br> For info and pricing, contact us at <a href="mailto:sales@campaignrabbit.com">sales@campaignrabbit.com</a></span>';
-                    // y.innerHTML = "$ 828";
+                    x.innerHTML = `<span class="pricing-percent">Having more than 25,000+ customers <br/>
+                        <a class="pricing-link btn btn-primary" href="https://www.campaignrabbit.com/contact-us/">Contact us</a>
+                        <br/> For info and pricing, contact us at <a href="mailto:sales@campaignrabbit.com">sales@campaignrabbit.com</a></span>`;
+                        $('.price-title').hide();
+                        $('.price-sub').hide();
                     break;
             }
         });
@@ -64,9 +77,9 @@ class PricingPage extends React.Component {
                                 <option value="26000">Above 25000</option>
                             </select>
                         </div>
-                        <h4>Campaignrabbit will cost you:</h4>
+                        <h4 className="price-title">Campaignrabbit will cost you:</h4>
                         <div className="price-value-box">
-                            Monthly
+                            <span className="price-sub">Monthly</span>
                             <div id="monthprice" className="price">Free</div>
                         </div>
                     </div>

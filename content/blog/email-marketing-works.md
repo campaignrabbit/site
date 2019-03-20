@@ -18,7 +18,7 @@ By striking a deal, I mean the conversion of leads into customers and generating
 
 However, before getting to how to do the right kind of email marketing, I would like to answer a universal question about email marketing being… dead?!
 
-## Is email marketing dead?
+### Is email marketing dead?
 Whenever I look up something about email marketing on Google, a popular search term comes up, “Is email marketing dead”. Also there are others like, “Is email marketing still relevant”.
 
 ![email marketing work](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/email-marketing-works/email-marketing-works-image1.png)
@@ -37,17 +37,18 @@ Here are some fun statistics about email marketing:
 
    ` >       Key Takeaway: Email marketing is not dead.`
 
-## Types of email marketing
+### Types of email marketing
 
 If one had to separate emails by type, there would be so many outcomes. We’d get welcome email, thank you email, transactional email, update / press release email, promotional email, retention email and what not.
 
 But when we look at the bigger picture, email marketing falls into two broad categories of emails:
 
 - Newsletters
-
 - Direct email campaigns
 
- **Newsletters**
+
+
+**Newsletters**   
 Simply put, newsletters are broadcasts. Generally, newsletters are informational content sent over email regularly. It could be anything ranging from sharing life hacks to an update about a new release product. You can also send a performance report as newsletter.
 
 Some of the best newsletters in my personal inbox are Inside newsletters, Higher Thoughts from Medium and Wait But Why. They are valuable content that I subscribed to with consent. That is how newsletters work. They do not focus on sales, but they focus on keeping the reader interested.
@@ -74,10 +75,10 @@ There may be recipients who did not open your email or did not take any action a
 
 Basically, you have the data and you can respond to the reader’s action accordingly. You can automatically send each new message based on previous success or failure.
 
- > Key Takeaway  
- >*Newsletters are for indirect brand marketing. Not for selling products.       
- >* Email campaigns are direct, targeted and goal oriented. For selling products.       
- >* Email campaigns can result in a better ROI. Newsletters are informational.
+ > #### Key Takeaway
+ > * Newsletters are for indirect brand marketing. Not for selling products.       
+ > * Email campaigns are direct, targeted and goal oriented. For selling products.       
+ > * Email campaigns can result in a better ROI. Newsletters are informational.
 
 
 **How To Run Email Campaigns**

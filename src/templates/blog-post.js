@@ -94,7 +94,7 @@ export default function BlogPost(props) {
                         }
                         <h1>{title}</h1>
                         {props.data.markdownRemark.frontmatter.author && props.data.markdownRemark.frontmatter.date && props.data.markdownRemark.frontmatter.category &&
-                        <p>
+                        <p className="post-meta">
                             Posted
                             by {props.data.markdownRemark.frontmatter.author} on {props.data.markdownRemark.frontmatter.date} in
                             <Link
@@ -112,11 +112,11 @@ export default function BlogPost(props) {
                         {renderAst(props.data.markdownRemark.htmlAst)}
                     </div>
                     <div className="footer">
-                        <Share title={title} url={url} pathname={props.location.pathname}/>
+                        <hr/>
                         <PrevNext prev={prev && prev.node} next={next && next.node}/>
+                            <Share title={title} url={url} pathname={props.location.pathname}/>
                         <div className="text-right">
-                            <hr/>
-                            <Link to="/blog">Go Back</Link>
+                            <Link to="/blog" className="btn btn-primary">Go Back</Link>
                         </div>
                     </div>
                 </Container>
