@@ -65,7 +65,7 @@ class homeTabs extends React.Component {
                               </li>
                           </ul>
                           <div className="col-sm-7">
-                            <div id="tab-1" className="tab-content">
+                            <div id="tab-1" className="tab-content current">
                                 <img src={`${process.env.CR_MEDIA_URL}/images/home-features/welcome.png`} className="img-responsive" alt="Welcome Emails"/>
                             </div>
                             <div id="tab-2" className="tab-content">
@@ -74,7 +74,7 @@ class homeTabs extends React.Component {
                             <div id="tab-3" className="tab-content">
                                 <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Product-Recommendation.png`} alt="Product recommendation"/>
                             </div>
-                            <div id="tab-4" className="tab-content current">
+                            <div id="tab-4" className="tab-content">
                                 <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/home-features/Abandoned-Cart-Recovery.png`} alt="Abandoned Cart Recovery"/>
                             </div>
                             <div id="tab-5" className="tab-content">

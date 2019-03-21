@@ -2070,16 +2070,16 @@ body {
     font-weight: 600;
     color: $primary;
     letter-spacing: 0;
-    display: block;
-    margin-bottom: 15px;
+    display: inline-block;
+    margin: 0 auto 15px;
     text-decoration: none;
   }
 
   .footer-sm h6 {
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0;
-    display: inline-block;
+    display: block;
     color: #818198;
   }
 
@@ -2513,6 +2513,31 @@ body {
   }
 }
 
+.blog-sidebar-container{
+  padding: 40px 0;
+  h4{
+    color: #333333;
+    margin-bottom: 15px;
+  }
+  ul{
+    li{
+      font-size: 17px;
+      font-weight: 500;
+      margin-bottom: 2px;
+      text-transform: capitalize;
+      a{
+        padding: 5px;
+        display: block;
+        color: #333;
+        &:hover, &:focus{
+          color: $primary;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
 .single-blog-post {
   color: #525252;
   padding: 40px 0;
@@ -2525,6 +2550,13 @@ body {
   }
   b, strong {
     font-weight: 600;
+  }
+  .toc-title-icon{
+    color: $primary;
+    line-height: 1;
+    svg{
+      fill: $primary;
+    }
   }
   blockquote {
     font-style: italic;
@@ -3222,6 +3254,7 @@ body {
   width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
+  border-radius: 4px;
   h4 {
     margin-top: 0 !important;
     margin-bottom: 15px !important;
@@ -3229,14 +3262,25 @@ body {
   }
   ul, ol {
     margin: 0 20px !important;
+    list-style: disc;
     li {
+      list-style: disc;
       font-size: 16px;
       line-height: 1.8;
+      &:before{
+        content: none;
+      }
       a {
-        display: block;
+        display: inline-block;
         color: #333;
         &:hover, &:focus{
           text-decoration: underline
+        }
+      }
+      ul{
+        list-style: circle;
+        li{
+          list-style: circle;
         }
       }
     }
