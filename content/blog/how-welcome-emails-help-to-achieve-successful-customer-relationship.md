@@ -12,7 +12,7 @@ On average, 320% more revenue is attributed to Welcome emails than other promoti
 Emails. The one thing that fills our lives every day. Isn’t it?
 And it is no surprise that we get tired of opening email inboxes seeing thousands of promotional messages. Here’s a fact, an average worker receives 121 emails per day.
 Quite a number.
-But, people do prioritize <link-text url="https://www.campaignrabbit.com/types-of-ecommerce-emails-to-send/" rel="noopener" target="_blank">certain emails</link-text> in that 121 which they receive and Welcome emails are the one to top that priority list.
+But, people do prioritize <link-text url="https://www.campaignrabbit.com/blog/types-of-ecommerce-emails-to-send/" rel="noopener" target="_blank">certain emails</link-text> in that 121 which they receive and Welcome emails are the one to top that priority list.
 ### Welcome Emails- The First Blush
 
 As a customer, whenever you sign up to any services online your email notification pops up.
@@ -47,7 +47,7 @@ Be Optimistic,
 
 Most successful marketers say that you’ve got a 48-hour window to send your Welcome emails. You can impress your customers by sending Onboarding emails immediately after they sign up.
 
-You can even share discount coupons along Welcome emails to encourage customers to subscribe/ Buy from your online store. And that’s how successful eCommerce stores <link-text url="https://www.campaignrabbit.com/how-automated-email-grow-online-business/" target="_blank" rel="noopener">automate their email campaigns.</link-text>
+You can even share discount coupons along Welcome emails to encourage customers to subscribe/ Buy from your online store. And that’s how successful eCommerce stores <link-text url="https://www.campaignrabbit.com/blog/how-automated-email-grow-online-business/" target="_blank" rel="noopener">automate their email campaigns.</link-text>
 
 Well, if you have failed to send your Welcome emails in the 48-hour window, what you are going to read may be hard to face.
 …You have lost a valuable opportunity to convert your lead.
