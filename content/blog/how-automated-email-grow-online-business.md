@@ -25,7 +25,7 @@ Imagine that you have your customers birth date in your database (which most of 
 You end up gaining customer loyalty. And as a result, it motivates them to buy something from your site when you provide timely and relevant information in the sales cycle. It also gives them a better sense of understanding of their needs which improve the overall perception of your business.
 ## Lead nurturing
 
-When you look at automation, it is mainly used to set up a <link-text url="https://www.campaignrabbit.com/blog/types-of-ecommerce-emails-to-send/" target="_blank" rel="noopener">series of emails that nurture leads. Contacts play a vital role in any business. Agree? Especially in the middle of the sales funnel, automated email marketing contributes a lot to it. Sending guided messages that are triggered by the customer’s on-site behaviour can immensely accelerate conversions.
+When you look at automation, it is mainly used to set up a <link-text url="https://www.campaignrabbit.com/blog/types-of-ecommerce-emails-to-send/" target="_blank" rel="noopener">series of emails that nurture leads.</link-text> Contacts play a vital role in any business. Agree? Especially in the middle of the sales funnel, automated email marketing contributes a lot to it. Sending guided messages that are triggered by the customer’s on-site behaviour can immensely accelerate conversions.
 
 At the same time, <link-text url="http://www.unspunmarketing.com/lead-nurturing-emails/" target="_blank" rel="noopener nofollow">lead nurturing</link-text> doesn’t only mean quantity of leads but also the quality. With the help of email marketing, you can know which leads are most likely to convert. High-quality leads are a result of acquiring insight into the behaviours and actions of leads.
 
