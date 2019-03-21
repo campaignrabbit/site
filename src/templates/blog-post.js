@@ -17,7 +17,6 @@ import LinkText from "../components/linkText"
 import Gist from "../components/gist"
 import Row from "../components/row"
 import Col from "../components/column"
-import TableOfContents from "../components/TableOfContents"
 
 const PrimaryTitle = styled.h1`
     color: #f00;
@@ -49,7 +48,6 @@ const renderAst = new rehypeReact({
         "link-text": LinkText,
         row: Row,
         col: Col,
-        "table-contents": TableOfContents,
     },
 }).Compiler
 
@@ -58,6 +56,7 @@ export default function BlogPost(props) {
     const thumbnail = props.data.markdownRemark.frontmatter.image;
     const {title} = props.data.markdownRemark.frontmatter;
     const {prev, next} = props.pageContext;
+    const toc = props.data.markdownRemark.tableOfContents;
     // const toc = props.data.markdownRemark.htmlAst.children.filter((item)=>{
     //     if(item.tagName === "h3"){
     //         return item;
@@ -103,6 +102,10 @@ export default function BlogPost(props) {
                         }
                         <hr/>
                     </div>
+                    <div className="table-of-contents">
+                        <h4>Table of Contents</h4>
+                        <div  dangerouslySetInnerHTML={{__html: toc}} />
+                    </div>
                     <div className="content">
                         {/*<div className="table-of-contents">*/}
                             {/*<h4>Table of Contents</h4>*/}
@@ -130,6 +133,9 @@ export const query = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       htmlAst
       excerpt
+      tableOfContents(
+        pathToSlugField: "fields.slug"
+      )
       frontmatter {
           title
           description

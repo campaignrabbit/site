@@ -64,7 +64,16 @@ const BlogPage = ({ pageContext}) => {
                       </div>
                   </div>
                   <div className="col-sm-4">
-
+                    <div className="blog-sidebar-container">
+                      <h4>Categories</h4>
+                      <ul>
+                        {group.map(cat =>(
+                          <li className="post-meta" key={cat.node.fields.slug}>
+                            <Link to={'blog/category/'+ cat.node.frontmatter.category}> {cat.node.frontmatter.category}</Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
                   </div>
                 </div>
 
