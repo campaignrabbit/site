@@ -6,10 +6,10 @@ description: "What is email marketing? To be direct, you promote your brand valu
 
 By striking a deal, I mean the conversion of leads into customers and generating ROI. You strike a deal only when the reader finds your emails intuitive, clicks through them, reads them and engages with your brand. Looks like it is easier said than done? To an extent, yes. But the results can be astonishingly awesome if you do your marketing right."
 author: " Swaathi Unnikrishnan"
-image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/email-marketing-works/email-marketing.png"
-thumbnail: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/email-marketing-works/email-marketing.png"
-category: Marketing
---- 
+image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/email-marketing-works/email-marketing.png"
+thumbnail: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/email-marketing-works/email-marketing.png"
+category: "marketing"
+---
 
 What is email marketing? To be direct, you promote your brand values and your products / services to your email recipients. But, the most important part is to build a good relationship with the recipients, also called leads. Whether you strike a deal or not depends on the emails you send. What’s your chance of striking a deal with your leads?
 
@@ -18,10 +18,10 @@ By striking a deal, I mean the conversion of leads into customers and generating
 
 However, before getting to how to do the right kind of email marketing, I would like to answer a universal question about email marketing being… dead?!
 
-## Is email marketing dead?
+### Is email marketing dead?
 Whenever I look up something about email marketing on Google, a popular search term comes up, “Is email marketing dead”. Also there are others like, “Is email marketing still relevant”.
 
-![email marketing work](https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/email-marketing-works/email-marketing-works-image1.png)
+![email marketing work](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/email-marketing-works/email-marketing-works-image1.png)
 
 
 Hey! It’s very much alive and undoubtedly effective. For the record, according to the surveys by <link-text url="https://optinmonster.com/email-marketing-vs-social-media-performance-2016-2019-statistics/" rel="nofollow noopener">OptinMonster</link-text> and <link-text url="https://support.getresponse.com/uploads/2016/01/The-State-of-Email-Marketing-by-Industry-January-2016.pdf" rel="noopener nofollow">GetResponse</link-text>, email marketing is certainly not dead. In fact, it generates the highest ROI among all other internet marketing strategies.
@@ -34,20 +34,21 @@ Here are some fun statistics about email marketing:
 - 23% of email marketers surveyed by GetResponse said lead             generation is the greatest benefit, with improved sales next at      19%, and improved conversion rates in third place at 17%.   
   From what we can see here, the major goals of marketing – lead generation, sales, conversion and ROI can be achieved in a good margin with email. So, let’s stop worrying about the death of email marketing and hop off to learn what exactly it is.
 
-        
+
    ` >       Key Takeaway: Email marketing is not dead.`
 
-## Types of email marketing
+### Types of email marketing
 
 If one had to separate emails by type, there would be so many outcomes. We’d get welcome email, thank you email, transactional email, update / press release email, promotional email, retention email and what not.
 
 But when we look at the bigger picture, email marketing falls into two broad categories of emails:
-    
-- Newsletters
 
+- Newsletters
 - Direct email campaigns
 
- **Newsletters**
+
+
+**Newsletters**   
 Simply put, newsletters are broadcasts. Generally, newsletters are informational content sent over email regularly. It could be anything ranging from sharing life hacks to an update about a new release product. You can also send a performance report as newsletter.
 
 Some of the best newsletters in my personal inbox are Inside newsletters, Higher Thoughts from Medium and Wait But Why. They are valuable content that I subscribed to with consent. That is how newsletters work. They do not focus on sales, but they focus on keeping the reader interested.
@@ -74,10 +75,10 @@ There may be recipients who did not open your email or did not take any action a
 
 Basically, you have the data and you can respond to the reader’s action accordingly. You can automatically send each new message based on previous success or failure.
 
- > Key Takeaway  
- >*Newsletters are for indirect brand marketing. Not for selling products.       
- >* Email campaigns are direct, targeted and goal oriented. For selling products.       
- >* Email campaigns can result in a better ROI. Newsletters are informational.
+ > #### Key Takeaway
+ > * Newsletters are for indirect brand marketing. Not for selling products.       
+ > * Email campaigns are direct, targeted and goal oriented. For selling products.       
+ > * Email campaigns can result in a better ROI. Newsletters are informational.
 
 
 **How To Run Email Campaigns**
@@ -102,4 +103,3 @@ So, the bottom line is this – If you want to give informational content while 
 Whatever your choice be, email marketing is definitely not dead! Go for it and see how it works for your brand.
 
 Have you tried email marketing already? Share how email marketing has worked for you in the comments below!
-

@@ -1,101 +1,92 @@
 import React from 'react';
 import $ from 'jquery';
-import {FaArrowRight} from 'react-icons/fa';
-
-import customerView from '../images/icons/Customer-In-Depth-Analytics.png';
-import abandCart from '../images/icons/abandoned-cart-recovery.png';
-import dragDrop from '../images/icons/WYSIWYG-Email-Editor.png';
-import followEmail from '../images/icons/follow-up-emails.png';
-import productRec from '../images/icons/product-recommendations.png';
-import winBack from '../images/icons/win-back-inactive-customers.png';
-import popInt from '../images/icons/Popular-Integration.png';
-
-import recovery from '../images/features/abandoned-cart-recovery-2.png';
-import follow from '../images/features/follow-up-emails-2.png';
-import recommend from '../images/features/product-recommendations-2.png';
-import customers from '../images/features/win-back-inactive-customers-2.png';
-import visualEmail from '../images/features/Drag-and-drop-visual-email-builder.png';
-import degree from '../images/features/360-degree-view-of-customers-2.png';
-import integrate from '../images/features/supports-your-favourite-ecommerce-platform–woocommerce.png';
+import {FaArrowRight, FaShoppingCart, FaEnvelopeOpenText, FaEnvelope, FaUsers, FaRegThumbsUp, FaChartLine, FaLaptop} from 'react-icons/fa';
+import {Link} from 'gatsby';
 
 class homeTabs extends React.Component {
     componentDidMount () {
-        $('ul.tabs li').click(function(){
-    		var tab_id = $(this).attr('data-tab');
+        $('ul.tabs li.tab-link').click(function(){
+            var tab_id = $(this).attr('data-tab');
 
-    		$('ul.tabs li').removeClass('current');
-    		$('.tab-content').removeClass('current');
+            $('ul.tabs li').removeClass('current');
+            $('.tab-content').removeClass('current');
 
-    		$(this).addClass('current');
-    		$("#"+tab_id).addClass('current');
-    	})
+            $(this).addClass('current');
+            $("#"+tab_id).addClass('current');
+        })
     }
     render () {
         return (
             <div id="exTab2" className="features-tabs">
                 <div className="container">
                     <div className="features-intro text-center">
-                        <h2>
-                            Discover how you can sell more
-                        </h2>
+                        <h3>
+                            Powerful features tailored for <strong>eCommerce</strong> businesses
+                        </h3>
+                        <p>Learn how Campaignrabbit can drive sales and grow your business on autopilot</p>
                     </div>
-                    <ul className="tabs">
-                        <li className="tab-link current" data-tab="tab-1">
-                            <img className="img-responsive" src={abandCart} alt="Abandoned Cart Recovery"/>
-                            <span>Recover abandoned carts</span>
-                        </li>
-                        <li className="tab-link" data-tab="tab-2">
-                            <img className="img-responsive" src={followEmail} alt="Follow-up Emails"/>
-                            <span>Smart Follow-up <br/> Emails</span>
-                        </li>
-                        <li className="tab-link" data-tab="tab-3">
-                            <img className="img-responsive" src={winBack} alt="Win-Back inactive customers"/>
-                            <span>Win back inactive customers</span>
-                        </li>
-                        <li className="tab-link" data-tab="tab-4">
-                            <img className="img-responsive" src={productRec} alt="Product recommendation"/>
-                            <span>Dynamic product recommendation</span>
-                        </li>
-                        <li className="tab-link" data-tab="tab-5">
-                            <img className="img-responsive" src={customerView} alt="Customer in-depth Analytics"/>
-                            <span>In-depth Analytics</span>
-                        </li>
-                        <li className="tab-link" data-tab="tab-6">
-                            <img className="img-responsive" src={dragDrop} alt="WYSIWYG Email builder"/>
-                            <span>Visual Drag and Drop Email builder</span>
-                        </li>
-                        <li className="tab-link" data-tab="tab-7">
-                            <img src={popInt} className="img-responsive" alt="Popular integrations"/>
-                            <span>Integrations</span>
-                        </li>
-                        <li className="tab-link link-arrow">
-                            <a href="#">
-                                <span className="arrow"> <FaArrowRight/></span>
-                                See More
-                            </a>
-                        </li>
-                    </ul>
-
-                    <div id="tab-1" className="tab-content current">
-                        <img className="img-fluid" src={recovery} alt="Abandoned Cart Recovery"/>
-                    </div>
-                    <div id="tab-2" className="tab-content">
-                        <img className="img-responsive" src={follow} alt="Follow-up Emails"/>
-                    </div>
-                    <div id="tab-3" className="tab-content">
-                        <img className="img-responsive" src={customers} alt="Win-Back inactive customers"/>
-                    </div>
-                    <div id="tab-4" className="tab-content">
-                        <img className="img-responsive" src={recommend} alt="Product recommendation"/>
-                    </div>
-                    <div id="tab-5" className="tab-content">
-                        <img className="img-responsive" src={degree} alt="Customer in-depth Analytics"/>
-                    </div>
-                    <div id="tab-6" className="tab-content">
-                        <img className="img-responsive" src={visualEmail} alt="WYSIWYG Email builder"/>
-                    </div>
-                    <div id="tab-7" className="tab-content">
-                        <img src={integrate} className="img-responsive" alt="Popular integrations"/>
+                </div>
+                <div className="container-s">
+                    <div className="row">
+                          <ul className="col-sm-5 tabs">
+                              <li className="tab-link current" data-tab="tab-1">
+                                  <FaEnvelope className="tab-icon"/>
+                                  <span> Welcome Emails</span>
+                              </li>
+                              <li className="tab-link" data-tab="tab-2">
+                                  <FaEnvelopeOpenText className="tab-icon"/>
+                                  <span>Follow-up Emails</span>
+                              </li>
+                              <li className="tab-link" data-tab="tab-3">
+                                  <FaRegThumbsUp className="tab-icon"/>
+                                  <span>Product Recommendations</span>
+                              </li>
+                              <li className="tab-link" data-tab="tab-4">
+                                  <FaShoppingCart className="tab-icon"/>
+                                  <span>Recover Abandoned Carts</span>
+                              </li>
+                              <li className="tab-link" data-tab="tab-5">
+                                  <FaUsers className="tab-icon"/>
+                                  <span>Win-Back Inactive Customers</span>
+                              </li>
+                              <li className="tab-link" data-tab="tab-6">
+                                  <FaChartLine className="tab-icon"/>
+                                  <span>Visitor Engagement</span>
+                              </li>
+                              <li className="tab-link" data-tab="tab-7">
+                                  <FaLaptop className="tab-icon"/>
+                                  <span>Visual Email Builder</span>
+                              </li>
+                              <li className="link-arrow">
+                                  <Link to="/features">
+                                      <span className="arrow"><FaArrowRight/></span>
+                                      <span>See More</span>
+                                  </Link>
+                              </li>
+                          </ul>
+                          <div className="col-sm-7">
+                            <div id="tab-1" className="tab-content current">
+                                <img src={`${process.env.CR_MEDIA_URL}/images/home-features/welcome.png`} className="img-responsive" alt="Welcome Emails"/>
+                            </div>
+                            <div id="tab-2" className="tab-content">
+                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Follow-Up-Emails.png`} alt="Follow-up Emails"/>
+                            </div>
+                            <div id="tab-3" className="tab-content">
+                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Product-Recommendation.png`} alt="Product recommendation"/>
+                            </div>
+                            <div id="tab-4" className="tab-content">
+                                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/home-features/Abandoned-Cart-Recovery.png`} alt="Abandoned Cart Recovery"/>
+                            </div>
+                            <div id="tab-5" className="tab-content">
+                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Win-Back-Inactive-Customers.png`} alt="Win-Back inactive customers"/>
+                            </div>
+                            <div id="tab-6" className="tab-content">
+                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Visitor-Engagement.png`} alt="Visitor Engagement"/>
+                            </div>
+                            <div id="tab-7" className="tab-content">
+                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/WYSIWYG-Email-Editor.png`} alt="Visual Email builder"/>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>

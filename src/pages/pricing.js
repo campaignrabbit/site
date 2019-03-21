@@ -1,31 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import $ from 'jquery'
-
-import recovery from '../images/features/abandoned-cart-recovery-2.png';
-import follow from '../images/features/follow-up-emails-2.png';
-import recommend from '../images/features/product-recommendations-2.png';
-import customers from '../images/features/win-back-inactive-customers-2.png';
-import visualEmail from '../images/features/Drag-and-drop-visual-email-builder.png';
-import degree from '../images/features/360-degree-view-of-customers-2.png';
-import responsive from '../images/features/Bulletproof-responsive-emails.png';
-import integrate from '../images/features/supports-your-favourite-ecommerce-platform–woocommerce.png';
-
-import analytics from '../images/feature-icons/analytics.png';
-import calltoaction from '../images/feature-icons/call-to-action.png';
-import datadriven from '../images/feature-icons/data-driven.png';
-import emails from '../images/feature-icons/emails.png';
-import integrations from '../images/feature-icons/integrations.png';
-import mailbuilder from '../images/feature-icons/mail-builder.png';
-import automation from '../images/feature-icons/marketing-automation.png';
-import newsletter from '../images/feature-icons/newsletter.png';
-import productrecommend from '../images/feature-icons/product-recommend.png';
-import segmentation from '../images/feature-icons/segmentation.png';
-import cart from '../images/feature-icons/shopping-cart.png';
-import users from '../images/feature-icons/users.png';
 
 class PricingPage extends React.Component {
     componentDidMount () {
@@ -36,27 +13,40 @@ class PricingPage extends React.Component {
             switch (chosenPrice) {
                 case '100':
                     x.innerHTML = "Free";
+                    $('.price-title').show();
+                    $('.price-sub').show();
                     // y.innerHTML = "0";
                     break;
                 case '2000':
                     x.innerHTML = "$14";
+                    $('.price-title').show();
+                    $('.price-sub').show();
                     // y.innerHTML = "$ 168";
                     break;
                 case '5000':
                     x.innerHTML = "$29";
+                    $('.price-title').show();
+                    $('.price-sub').show();
                     // y.innerHTML = "$ 348";
                     break;
                 case '10000':
                     x.innerHTML = "$49";
+                    $('.price-title').show();
+                    $('.price-sub').show();
                     // y.innerHTML = "$ 588";
                     break;
                 case '25000':
                     x.innerHTML = "$69";
+                    $('.price-title').show();
+                    $('.price-sub').show();
                     // y.innerHTML = "$ 828";
                     break;
                 case '26000':
-                    x.innerHTML = '<span className="pricing-percent">Having more than 25,000+ customers <br><a className="pricing-link btn btn-primary" href="https://www.campaignrabbit.com/contact-us/">Contact us</a><br> For info and pricing, contact us at <a href="mailto:sales@campaignrabbit.com">sales@campaignrabbit.com</a></span>';
-                    // y.innerHTML = "$ 828";
+                    x.innerHTML = `<span class="pricing-percent">Having more than 25,000+ customers <br/>
+                        <a class="pricing-link btn btn-primary" href="https://www.campaignrabbit.com/contact-us/">Contact us</a>
+                        <br/> For info and pricing, contact us at <a href="mailto:sales@campaignrabbit.com">sales@campaignrabbit.com</a></span>`;
+                        $('.price-title').hide();
+                        $('.price-sub').hide();
                     break;
             }
         });
@@ -87,9 +77,9 @@ class PricingPage extends React.Component {
                                 <option value="26000">Above 25000</option>
                             </select>
                         </div>
-                        <h4>Campaignrabbit will cost you:</h4>
+                        <h4 className="price-title">Campaignrabbit will cost you:</h4>
                         <div className="price-value-box">
-                            Monthly
+                            <span className="price-sub">Monthly</span>
                             <div id="monthprice" className="price">Free</div>
                         </div>
                     </div>
@@ -112,25 +102,25 @@ class PricingPage extends React.Component {
                             <div className="row">
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={users} /></p>
+                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/users.png`} /></p>
                                         <h4>Unlimited Contacts</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={emails} /></p>
+                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/emails.png`} /></p>
                                         <h4>Unlimited Emails</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={automation} /></p>
+                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/marketing-automation.png`} /></p>
                                         <h4>Marketing Automation</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={cart} /></p>
+                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/shopping-cart.png`} /></p>
                                         <h4>Abandoned Cart Recovery Emails</h4>
                                     </div>
                                 </div>
@@ -138,26 +128,26 @@ class PricingPage extends React.Component {
                             <div className="row">
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={calltoaction} /></p>
+                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/call-to-action.png`} /></p>
                                         <h4>Call to action</h4>
                                         <p>Opt-ins, Popups, Sliders, Actions bars</p>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={productrecommend} /></p>
+                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/product-recommend.png`} /></p>
                                         <h4>Product Recommendations</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={newsletter} /></p>
+                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/newsletter.png`} /></p>
                                         <h4>Welcome Emails</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={segmentation} /></p>
+                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/segmentation.png`} /></p>
                                         <h4>Customer Segmentation</h4>
                                     </div>
                                 </div>
@@ -165,25 +155,25 @@ class PricingPage extends React.Component {
                             <div className="row">
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={mailbuilder} /></p>
+                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/mail-builder.png`} /></p>
                                         <h4>Visual Email Builder</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={datadriven} /></p>
+                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/data-driven.png`} /></p>
                                         <h4>Data driven Automation</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={analytics} /></p>
+                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/analytics.png`} /></p>
                                         <h4>Analytics and Reporting</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={integrations} /></p>
+                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/integrations.png`} /></p>
                                         <h4>Integrations</h4>
                                         <p>WooCommerce, J2Store, Shopify</p>
                                     </div>

@@ -4,7 +4,8 @@ import PropTypes from 'prop-types'
 import $ from 'jquery'
 import Logo from '../images/campaignrabbit-logo.png'
 import Container from "../components/container"
-import Menu from './menu'
+import Menu from './menu';
+import {MdMenu} from 'react-icons/md'
 
 class Header extends React.Component {
     componentDidMount () {
@@ -14,7 +15,10 @@ class Header extends React.Component {
             } else {
                 $('.navbar').removeClass('past-main');
             }
-        })
+        });
+        $("#showMenuBtn").on("click", function(){
+          $('#navbarSupportedContent').toggleClass('show');
+        });
     }
     render () {
         return (
@@ -23,6 +27,7 @@ class Header extends React.Component {
                     <Link className="navbar-brand" to="/">
                         <img src={ Logo } alt="Campaignrabbit" />
                     </Link>
+                    <button id="showMenuBtn" className="visible-xs btn btn-primary"><MdMenu/></button>
                     <Menu/>
                     <div className="collapse navbar-collapse">
                         <ul className="navbar-nav ml-auto navbar-right">
@@ -30,7 +35,7 @@ class Header extends React.Component {
                                 <a href="https://app.campaignrabbit.com/login" target="_blank" className="btn-link nav-link">Login</a>
                             </li>
                             <li className="nav-item">
-                                <a href="https://app.campaignrabbit.com/register" target="_blank" className="btn-cta nav-link">Sign Up for free</a>
+                                <a href="https://app.campaignrabbit.com/register" target="_blank" className="nav-link btn-cta">Sign Up for free</a>
                             </li>
                         </ul>
                     </div>

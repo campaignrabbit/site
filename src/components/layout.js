@@ -22,7 +22,7 @@ const Layout = ({children}) => (
             <>
                 <div className="wrapper">
                     <Header siteTitle={data.site.siteMetadata.title}/>
-                    <Menu />
+
                     <div id="main" className="main">
                         {children}
 

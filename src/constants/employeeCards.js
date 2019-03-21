@@ -1,99 +1,83 @@
 import React from 'react';
-import ramesh from '../images/about/ramesh_profile_image.jpg';
-import alagesan from '../images/about/alagesan.jpg';
-import ashlin from '../images/about/ashlin.png';
-import manoj from '../images/about/manoj_profile_image.jpg';
-import kiddy from '../images/about/kiddy_profile.jpg';
-import shobana from '../images/about/shobana_profile.jpg';
-import dhamayanthi from '../images/about/dhamayanthi.png';
-import sowbagya from '../images/about/sowbagya_profile.jpg';
-import kiruthiga from '../images/about/kiruthiga_profile_image.jpg';
-import kowsaliya from '../images/about/kowsaliya_profile_image.jpg';
-import srimannar from '../images/about/sri-mannar.png';
-import sathish from '../images/about/sathish_profile_img.jpg';
-import siddharth from '../images/about/siddharth_profile_image.jpg';
-import prabhakaran from '../images/about/prabhakaran_profile_image.jpg';
-import sathyaseelan from '../images/about/sathyaseelan_profile_image.jpg';
-import kalaiarasi from '../images/about/kalaiarasi_profile_image.jpg';
 
 const EMPLOYEE_PROFILES = [
     {
-        PROFILE: ramesh,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/ramesh_profile_image.jpg`,
         NAME: 'Ramesh Elamathi',
         DESIGNATION: 'CEO &amp; Founder'
     },
     {
-        PROFILE: alagesan,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/alagesan.jpg`,
         NAME: 'Alagesan',
         DESIGNATION: 'Development Expert'
     },
     {
-        PROFILE: ashlin,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/ashlin.png`,
         NAME: 'Ashlin Rejo',
         DESIGNATION: 'Development Expert'
     },
     {
-        PROFILE: manoj,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/manoj_profile_image.jpg`,
         NAME: 'Manoj',
         DESIGNATION: 'Development Expert'
     },
     {
-        PROFILE: kiddy,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/kiddy_profile.jpg`,
         NAME: 'Kiddy',
         DESIGNATION: 'Copy Editor'
     },
     {
-        PROFILE: shobana,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/shobana_profile.jpg`,
         NAME: 'Shobana',
         DESIGNATION: 'UI Developer'
     },
     {
-        PROFILE: dhamayanthi,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/dhamayanthi.png`,
         NAME: 'Dhamayanthi',
         DESIGNATION: 'Senior Customer Success'
     },
     {
-        PROFILE: sowbagya,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/sowbagya_profile.jpg`,
         NAME: 'Sowbagya Lakshmi',
         DESIGNATION: 'Customer Success'
     },
     {
-        PROFILE: kiruthiga,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/kiruthiga_profile_image.jpg`,
         NAME: 'Kiruthiga',
         DESIGNATION: 'Customer Success'
     },
     {
-        PROFILE: kowsaliya,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/kowsaliya_profile_image.jpg`,
         NAME: 'Kowsaliya',
         DESIGNATION: 'Customer Success'
     },
     {
-        PROFILE: srimannar,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/sri-mannar.png`,
         NAME: 'SriMannar',
         DESIGNATION: 'Admin &amp; Accounts'
     },
     {
-        PROFILE: sathish,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/sathish_profile_img.jpg`,
         NAME: 'Sathish',
         DESIGNATION: 'Digital Marketing'
     },
     {
-        PROFILE: siddharth,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/siddharth_profile_image.jpg`,
         NAME: 'Siddharth',
         DESIGNATION: 'Content Writer'
     },
     {
-        PROFILE: prabhakaran,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/prabhakaran_profile_image.jpg`,
         NAME: 'Prabhakaran',
         DESIGNATION: 'Frontend Engineer'
     },
     {
-        PROFILE: sathyaseelan,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/sathyaseelan_profile_image.jpg`,
         NAME: 'Sathyaseelan',
         DESIGNATION: 'Development Expert'
     },
     {
-        PROFILE: kalaiarasi,
+        PROFILE: `${process.env.CR_MEDIA_URL}/images/about/kalaiarasi_profile_image.jpg`,
         NAME: 'Kalaiarasi',
         DESIGNATION: 'QA'
     },

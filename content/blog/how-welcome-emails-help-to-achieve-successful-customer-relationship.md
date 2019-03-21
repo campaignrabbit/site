@@ -4,8 +4,8 @@ date: "2019-02-11"
 title: "How Welcome Emails help to achieve Successful Customer Relationship"
 description: "Do you own an online business? Send welcome emails to your onboarding customers and enrich your brand. Retain your customers with an engaging welcome email."
 author: "Siddharth"
-image: "https://raw.githubusercontent.com/shreegowtham27/site-1/dev_v2/src/images/blog/How-Welcome-emails-help-to-achieve-Successful-Customer-relationship/How-Welcome-emails-help-to-achieve-Successful-Customer-relationship.jpg"
-category: "Email Marketing"
+image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/How-Welcome-emails-help-to-achieve-Successful-Customer-relationship/How-Welcome-emails-help-to-achieve-Successful-Customer-relationship.jpg"
+category: "email-marketing"
 ---
 Why is Welcome email incredibly effective?
 On average, 320% more revenue is attributed to Welcome emails than other promotional emails.
@@ -13,7 +13,7 @@ Emails. The one thing that fills our lives every day. Isn’t it?
 And it is no surprise that we get tired of opening email inboxes seeing thousands of promotional messages. Here’s a fact, an average worker receives 121 emails per day.
 Quite a number.
 But, people do prioritize <link-text url="https://www.campaignrabbit.com/types-of-ecommerce-emails-to-send/" rel="noopener" target="_blank">certain emails</link-text> in that 121 which they receive and Welcome emails are the one to top that priority list.
-## Welcome Emails- The First Blush
+### Welcome Emails- The First Blush
 
 As a customer, whenever you sign up to any services online your email notification pops up.
 
