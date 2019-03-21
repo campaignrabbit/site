@@ -35,7 +35,7 @@ class Header extends React.Component {
                                 <a href="https://app.campaignrabbit.com/login" target="_blank" className="btn-link nav-link">Login</a>
                             </li>
                             <li className="nav-item">
-                                <a href="https://app.campaignrabbit.com/register" target="_blank" className="btn-cta nav-link">Sign Up for free</a>
+                                <a href="https://app.campaignrabbit.com/register" target="_blank" className="nav-link btn-cta">Sign Up for free</a>
                             </li>
                         </ul>
                     </div>

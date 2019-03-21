@@ -51,7 +51,7 @@ class homeTabs extends React.Component {
                               </li>
                               <li className="tab-link" data-tab="tab-6">
                                   <FaChartLine className="tab-icon"/>
-                                  <span>Customer In-Depth Analytics</span>
+                                  <span>Visitor Engagement</span>
                               </li>
                               <li className="tab-link" data-tab="tab-7">
                                   <FaLaptop className="tab-icon"/>
@@ -81,7 +81,7 @@ class homeTabs extends React.Component {
                                 <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Win-Back-Inactive-Customers.png`} alt="Win-Back inactive customers"/>
                             </div>
                             <div id="tab-6" className="tab-content">
-                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Customer-In-Depth-Analytics.png`} alt="Customer in-depth Analytics"/>
+                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Visitor-Engagement.png`} alt="Visitor Engagement"/>
                             </div>
                             <div id="tab-7" className="tab-content">
                                 <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/WYSIWYG-Email-Editor.png`} alt="Visual Email builder"/>
