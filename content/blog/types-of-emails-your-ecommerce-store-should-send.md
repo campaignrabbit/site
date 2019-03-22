@@ -18,7 +18,7 @@ If you are wondering what types of emails are best for your customers, happy rea
 According to a study done on the behavior of online shoppers, 3/4th of the customers decided to abandon the site without completing a purchase. This could be for many reasons. In order to tackle this, you can create two kinds of abandonment campaigns to win such customers back.
 * Browse Abandonment email campaigns are designed for you to display the products that the customers browsed through, but did not end up buying them. Sending a personalized mail containing products, or offers related to such products, to a person who showed interest in them yields more chance to sales.
 
-* On the other hand, a campaign called <link-text url="https://www.campaignrabbit.com/reduce-cart-abandonment-recovery-solutions/" target="_blank" rel="noopener">Cart Abandonment</link-text> email campaign is designed to target customers who add products to the cart but abandon the cart without buying. Sending them products that they left out in the cart increases the chances of them finishing the buying process.
+* On the other hand, a campaign called <link-text url="https://www.campaignrabbit.com/blog/reduce-cart-abandonment-recovery-solutions/" target="_blank" rel="noopener">Cart Abandonment</link-text> email campaign is designed to target customers who add products to the cart but abandon the cart without buying. Sending them products that they left out in the cart increases the chances of them finishing the buying process.
 
 ## Win-back emails
 
@@ -31,7 +31,7 @@ For example, if a customer has bought a camera, relevant products such as lenses
 
 These email campaigns could probably be the most attention-seeking ones. One of the best ways to retain customer loyalty is by offering them in terms of regular prices and exciting offers that save their money. Coupon codes, discounts, and other reward systems act as an attractive add-on that influences a customer’s decision on buying.
 
-With the help of data like the browsing history of a customer, you can learn what kind of products the customer is interested in. Sending exciting offers related to such products will <link-text url="https://www.campaignrabbit.com/how-we-improved-sales-conversion-by-270-using-transactional-emails/" target="_blank" rel="noopener">lead to more sales.</link-text> This may also lead to new customers.
+With the help of data like the browsing history of a customer, you can learn what kind of products the customer is interested in. Sending exciting offers related to such products will <link-text url="https://www.campaignrabbit.com/blog/how-we-improved-sales-conversion-by-270-using-transactional-emails/" target="_blank" rel="noopener">lead to more sales.</link-text> This may also lead to new customers.
 
 At the end of the day, who wouldn’t like the idea of their money being saved, even if it’s little.
 ## Purchase again campaigns
