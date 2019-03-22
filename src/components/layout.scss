@@ -179,7 +179,7 @@ body {
   vertical-align: middle;
   margin-right: 0.3em;
   margin-bottom: 0;
-  max-width: 250px;
+  max-width: 220px;
   width: 100%;
   height: auto;
   -webkit-transition: 0.5s all ease;
@@ -214,10 +214,11 @@ body {
 .navbar-nav .nav-item {
   margin-right: 0;
   margin-top: 1.5rem;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   text-transform: capitalize;
   color: #563D7C;
+  letter-spacing: 0;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -354,7 +355,7 @@ body {
       font-weight: 500;
       line-height: 1.4;
       letter-spacing: 0;
-      max-width: 900px;
+      max-width: 850px;
       margin: 0px auto 20px;
      }
      h2 {
@@ -458,13 +459,12 @@ body {
 
   .btn-cta {
     display: inline-block;
-    height: 30px;
-    padding: 0 30px;
+    height: 34px;
+    padding: 5px 13px !important;
     text-align: center;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 28px;
-    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 600 !important;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     text-decoration: none !important;
     white-space: nowrap;
@@ -1837,6 +1837,7 @@ body {
   .footer-container {
     padding: 30px 0;
     background: #ffffff;
+    border-top: 1px solid #eee;
     .footer-title {
       font-size: 14px;
       font-weight: 600;
@@ -2069,16 +2070,16 @@ body {
     font-weight: 600;
     color: $primary;
     letter-spacing: 0;
-    display: block;
-    margin-bottom: 15px;
+    display: inline-block;
+    margin: 0 auto 15px;
     text-decoration: none;
   }
 
   .footer-sm h6 {
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0;
-    display: inline-block;
+    display: block;
     color: #818198;
   }
 
@@ -2195,8 +2196,8 @@ body {
   .navbar-nav .nav-item {
     margin-top: 0;
     margin-right: 5px;
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
   }
 
   .container-s {
@@ -2375,10 +2376,10 @@ body {
 
 .blog-list-container {
   font-family: $secondary-font;
-  color: #33475b;
+  color: #53575b;
   line-height: 1.625;
   padding: 40px 0;
-  font-size: 1.2em;
+  font-size: 18px;
   h1, h2, h3, h4, h5, h6 {
     margin: 1em 0 0;
     font-weight: 600;
@@ -2431,7 +2432,7 @@ body {
     background: #ffffff;
     margin-bottom: 30px;
     transition: all 0.2s ease 0s;
-    border: 1px solid #dddddd;
+    border: 1px solid #eeeeee;
     border-radius: 4px;
     overflow: hidden;
     .image-section {
@@ -2440,9 +2441,11 @@ body {
     .content-section {
       padding: 30px;
       h3 {
+        font-size: 26px;
         margin-top: 0;
+        margin-bottom: 10px;
         a {
-          color: #33475b;
+          color: #31343d;
           display: block;
           &:hover {
             color: #007bff;
@@ -2450,16 +2453,87 @@ body {
           }
         }
       }
+      .post-meta{
+        font-size: 16px;
+        margin: 10px 0 20px;
+      }
+      .btn-readmore{
+        display: inline-block;
+        padding: 8px 20px;
+        background: $primary;
+        color: #ffffff;
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 15px;
+        text-transform: capitalize;
+        &:hover,&:focus{
+          background: darken($primary, 12%);
+        }
+      }
     }
   }
   .pagination-links{
     display: flex;
+    justify-content: center;
+    font-size: 16px;
+    a{
+      display: inline-block;
+      border-radius: 4px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      background: $primary;
+      color: #ffffff;
+      text-align: center;
+      margin: 5px;
+      &:hover{
+        background: darken($primary, 12%);
+        text-decoration: none;
+      }
+    }
+    span{
+      display: inline-block;
+      border-radius: 4px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      background: #eeeeee;
+      color: #333333;
+      text-align: center;
+      margin: 5px;
+    }
     .previousLink{
-      flex: 1;
+      width: auto;
+      padding: 0 10px;
     }
     .nextLink{
-      flex: 1;
-      text-align: right;
+      width: auto;
+      padding: 0 10px;
+    }
+  }
+}
+
+.blog-sidebar-container{
+  padding: 40px 0;
+  h4{
+    color: #333333;
+    margin-bottom: 15px;
+  }
+  ul{
+    li{
+      font-size: 17px;
+      font-weight: 500;
+      margin-bottom: 2px;
+      text-transform: capitalize;
+      a{
+        padding: 5px;
+        display: block;
+        color: #333;
+        &:hover, &:focus{
+          color: $primary;
+          text-decoration: none;
+        }
+      }
     }
   }
 }
@@ -2467,30 +2541,29 @@ body {
 .single-blog-post {
   color: #525252;
   padding: 40px 0;
-  font-size: 18px;
+  font-size: 17px;
+  letter-spacing: 0.01em;
   h1, h2, h3, h4, h5, h6 {
-    margin: 1em 0 0;
+    margin: 20px 0 10px;
     font-weight: 600;
     color: #333333;
+  }
+  b, strong {
+    font-weight: 600;
+  }
+  .toc-title-icon{
+    color: $primary;
+    line-height: 1;
+    svg{
+      fill: $primary;
+    }
   }
   blockquote {
     font-style: italic;
     border-left: 2px solid $primary;
-    padding: 1.875rem 2.25rem 0.875rem;
+    padding: 20px 30px;
     margin: 2.25rem 0;
     position: relative;
-    &:before {
-      content: '"';
-      display: block;
-      text-transform: uppercase;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 50px;
-      letter-spacing: .7px;
-      position: absolute;
-      top: 0;
-      line-height: 1;
-    }
     :first-child {
       margin-top: 0;
     }
@@ -2523,8 +2596,8 @@ body {
     }
   }
   p {
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 10px;
+    margin-bottom: 30px;
     font-weight: 400;
   }
   ins {
@@ -2607,11 +2680,14 @@ body {
     > :first-child {
       margin-top: 0;
     }
-    p {
-      font-size: 1em;
-    }
     h1{
-      margin-top: 0;
+      margin-top: 15px;
+      font-size: 32px;
+    }
+    .post-meta{
+      font-size: 17px;
+      margin-top: 10px;
+      margin-bottom: 10px;
     }
   }
   img {
@@ -2621,12 +2697,32 @@ body {
   .pagination-links{
     display: flex;
     li{
-      flex: 1;
+      padding-left: 0;
+      line-height: 1.5;
+      margin: 10px;
+      a{
+        display: flex;
+        align-items: center;
+        color: #888;
+        &:hover{
+          color: $primary;
+          text-decoration: none;
+        }
+      }
+      &.nav-prev{
+        svg{
+          margin-right: 10px;
+        }
+      }
+      &.nav-next{
+        text-align: right;
+        svg{
+          margin-left: 10px;
+        }
+      }
+
       &:before{
         content: none;
-      }
-      &.pull-right{
-        text-align: right;
       }
     }
   }
@@ -3158,6 +3254,7 @@ body {
   width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
+  border-radius: 4px;
   h4 {
     margin-top: 0 !important;
     margin-bottom: 15px !important;
@@ -3165,14 +3262,25 @@ body {
   }
   ul, ol {
     margin: 0 20px !important;
+    list-style: disc;
     li {
+      list-style: disc;
       font-size: 16px;
       line-height: 1.8;
+      &:before{
+        content: none;
+      }
       a {
-        display: block;
+        display: inline-block;
         color: #333;
         &:hover, &:focus{
           text-decoration: underline
+        }
+      }
+      ul{
+        list-style: circle;
+        li{
+          list-style: circle;
         }
       }
     }
@@ -3445,9 +3553,9 @@ ul.tabs{
         }
         .arrow{
             display: inline-block;
-            width: 40px;
-            height: 40px;
-            line-height: 38px;
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
             border-radius: 50%;
             text-align: center;
             margin-right: 10px;
@@ -3488,7 +3596,7 @@ ul.tabs{
         margin-bottom: 30px;
         h3{
           font-size: 38px;
-          max-width: 900px;
+          max-width: 850px;
           margin-left: auto;
           margin-right: auto;
           font-weight: 500;
@@ -3942,7 +4050,7 @@ ul.tabs{
             display: inline-block;
             width: 100%;
             max-width: 500px;
-            margin: 20px auto 0;
+            margin: 0 auto;
             p{
                 color: #777;
                 text-transform: uppercase;
@@ -3970,7 +4078,6 @@ ul.tabs{
                 display: inline-block;
             }
             .pricing-percent{
-                margin-top: 30px;
                 display: block;
                 font-size: 21px;
                 color: #333;

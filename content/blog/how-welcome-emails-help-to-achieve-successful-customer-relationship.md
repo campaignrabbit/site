@@ -13,7 +13,7 @@ Emails. The one thing that fills our lives every day. Isn’t it?
 And it is no surprise that we get tired of opening email inboxes seeing thousands of promotional messages. Here’s a fact, an average worker receives 121 emails per day.
 Quite a number.
 But, people do prioritize <link-text url="https://www.campaignrabbit.com/types-of-ecommerce-emails-to-send/" rel="noopener" target="_blank">certain emails</link-text> in that 121 which they receive and Welcome emails are the one to top that priority list.
-## Welcome Emails- The First Blush
+### Welcome Emails- The First Blush
 
 As a customer, whenever you sign up to any services online your email notification pops up.
 

@@ -51,7 +51,7 @@ class homeTabs extends React.Component {
                               </li>
                               <li className="tab-link" data-tab="tab-6">
                                   <FaChartLine className="tab-icon"/>
-                                  <span>Customer In-Depth Analytics</span>
+                                  <span>Visitor Engagement</span>
                               </li>
                               <li className="tab-link" data-tab="tab-7">
                                   <FaLaptop className="tab-icon"/>
@@ -65,7 +65,7 @@ class homeTabs extends React.Component {
                               </li>
                           </ul>
                           <div className="col-sm-7">
-                            <div id="tab-1" className="tab-content">
+                            <div id="tab-1" className="tab-content current">
                                 <img src={`${process.env.CR_MEDIA_URL}/images/home-features/welcome.png`} className="img-responsive" alt="Welcome Emails"/>
                             </div>
                             <div id="tab-2" className="tab-content">
@@ -74,14 +74,14 @@ class homeTabs extends React.Component {
                             <div id="tab-3" className="tab-content">
                                 <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Product-Recommendation.png`} alt="Product recommendation"/>
                             </div>
-                            <div id="tab-4" className="tab-content current">
+                            <div id="tab-4" className="tab-content">
                                 <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/home-features/Abandoned-Cart-Recovery.png`} alt="Abandoned Cart Recovery"/>
                             </div>
                             <div id="tab-5" className="tab-content">
                                 <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Win-Back-Inactive-Customers.png`} alt="Win-Back inactive customers"/>
                             </div>
                             <div id="tab-6" className="tab-content">
-                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Customer-In-Depth-Analytics.png`} alt="Customer in-depth Analytics"/>
+                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Visitor-Engagement.png`} alt="Visitor Engagement"/>
                             </div>
                             <div id="tab-7" className="tab-content">
                                 <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/WYSIWYG-Email-Editor.png`} alt="Visual Email builder"/>

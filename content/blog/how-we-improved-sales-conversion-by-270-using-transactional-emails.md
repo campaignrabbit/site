@@ -116,7 +116,7 @@ Building a Community is easier said than done! but take it from me my friend, th
 
 The brand value of your online shopping store expands when you get an active audience in social media. Obviously, when more people see your brand shared online the opportunity to make new customers is also more. Share Social media buttons to engage the customers in digital space.
 
-#InsideIdea- Make sure you present customers with buttons rather than links to click because buttons encourage more participation than plain-looking links.
+###InsideIdea- Make sure you present customers with buttons rather than links to click because buttons encourage more participation than plain-looking links.
 
 -You can see that Net-A-Porter(online fashion store) share social buttons at the bottom of the mail for the customers to get connect.
 ### Showcase your Brand
