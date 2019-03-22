@@ -16,9 +16,14 @@ class Header extends React.Component {
                 $('.navbar').removeClass('past-main');
             }
         });
+        $(".table-of-contents ul li a").addClass("scroll-down");
         $("#showMenuBtn").on("click", function(){
           $('#navbarSupportedContent').toggleClass('show');
         });
+        $(".scroll-down").click(function(event){
+      		event.preventDefault();
+      		$('html,body').animate({scrollTop:$(this.hash).offset().top-100}, 800);
+      	});
     }
     render () {
         return (

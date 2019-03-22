@@ -14,6 +14,31 @@ class homeTabs extends React.Component {
             $(this).addClass('current');
             $("#"+tab_id).addClass('current');
         })
+
+        // $.fn.cycle = function(timeout, cls) {
+        //     var l = this.length,
+        //         current = 0,
+        //         prev = 0,
+        //         elements = this;
+        //
+        //     if (this.filter('.current').length > 0) {
+        //         current = this.index(this.filter('.current')[0]) + 1;
+        //         prev = current - 1;
+        //     }
+        //
+        //     function next() {
+        //         elements.eq(prev).removeClass(cls);
+        //         elements.eq(current).addClass(cls);
+        //         prev = current;
+        //         current = (current + 1) % l;
+        //         setTimeout(next, timeout);
+        //     }
+        //     setTimeout(next, timeout);
+        //     return this;
+        // };
+        //
+        // $('ul.tabs li.tab-link').cycle(2000, 'current');
+        // $('.tab-content').cycle(2000, 'current');
     }
     render () {
         return (
