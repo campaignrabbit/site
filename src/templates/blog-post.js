@@ -57,20 +57,6 @@ export default function BlogPost(props) {
     const {title} = props.data.markdownRemark.frontmatter;
     const {prev, next} = props.pageContext;
     const toc = props.data.markdownRemark.tableOfContents;
-    // const toc = props.data.markdownRemark.htmlAst.children.filter((item)=>{
-    //     if(item.tagName === "h3"){
-    //         return item;
-    //     }
-    // });
-    // const TableCon = toc.map((item)=>{
-    //     return(
-    //         <li>
-    //             <a className="scroll-down" href="#section1">{item}</a>
-    //         </li>
-    //     );
-    // });
-    // console.log(toc);
-    // console.log(TableCon);
     return (
         <Layout>
             <MetaTags
@@ -117,7 +103,7 @@ export default function BlogPost(props) {
                     <div className="footer">
                         <hr/>
                         <PrevNext prev={prev && prev.node} next={next && next.node}/>
-                            <Share title={title} url={url} pathname={props.location.pathname}/>
+                        <Share title={title} url={url} pathname={props.location.pathname}/>
                         <div className="text-right">
                             <Link to="/blog" className="btn btn-primary">Go Back</Link>
                         </div>
