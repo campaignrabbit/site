@@ -82,7 +82,7 @@ const list = css`
   li + li {
     margin-top: 1.7em;
     padding-top: 1.7em;
-    border-top: 1px solid ${props => props.theme.lightGray};
+    border-top: 1px solid #eeeeee;
   }
 `
 

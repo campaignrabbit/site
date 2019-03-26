@@ -46,7 +46,7 @@ class DocsPage extends React.Component {
                     <div className="search-hero text-center">
                         <Container type="s">
                             <div className="search-hero__bg">
-                                <h1 className="page-title">Knowledge Center</h1>
+                                <h1 className="page-title">Documentation</h1>
                                 <Search collapse indices={searchIndices} />
                             </div>
                         </Container>
