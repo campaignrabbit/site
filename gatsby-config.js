@@ -1,3 +1,7 @@
+const queries = require('./src/utils/algolia')
+
+require('dotenv').config()
+
 module.exports = {
     siteMetadata: {
         title: `Campaignrabbit`,
@@ -63,6 +67,15 @@ module.exports = {
           },
         },
         {
+          resolve: `gatsby-plugin-algolia`,
+          options: {
+            appId: process.env.GATSBY_ALGOLIA_APP_ID,
+            apiKey: process.env.ALGOLIA_ADMIN_KEY,
+            queries,
+            chunkSize: 10000, // default: 1000
+          },
+        },
+        {
             resolve: `gatsby-plugin-google-fonts`,
             options: {
                 fonts: [
@@ -116,6 +129,12 @@ module.exports = {
                 id: 1062564,
                 sv: 6
             },
+        },
+        {
+          resolve: `gatsby-plugin-sitemap`,
+          options: {
+            sitemapSize: 5000
+          }
         },
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.app/offline
