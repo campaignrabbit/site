@@ -67,7 +67,6 @@ export const Form = styled.form`
 
 const list = css`
   position: absolute;
-
   top: calc(100% + 0.5em);
   width: calc(4em + 40vw);
   max-width: 45em;
@@ -102,7 +101,7 @@ const grid = css`
 export const HitsWrapper = styled.div`
   display: ${props => (props.show ? `grid` : `none`)};
   max-height: 80vh;
-  overflow: scroll;
+  overflow: auto;
   background: #fff;
   z-index: 9;
   ${props => (props.hitsAsGrid ? grid : list)};
