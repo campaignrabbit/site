@@ -70,7 +70,7 @@ const list = css`
 
   top: calc(100% + 0.5em);
   width: calc(4em + 40vw);
-  max-width: 30em;
+  max-width: 45em;
   box-shadow: 0 0 5px 0;
   padding: 0.7em 1em 0.4em;
   background: ${props => props.theme.white};
@@ -80,8 +80,8 @@ const list = css`
     border-top: 2px solid ${props => props.theme.darkGray};
   }
   li + li {
-    margin-top: 0.7em;
-    padding-top: 0.7em;
+    margin-top: 1.7em;
+    padding-top: 1.7em;
     border-top: 1px solid ${props => props.theme.lightGray};
   }
 `
@@ -112,6 +112,7 @@ export const HitsWrapper = styled.div`
   }
   ul {
     list-style: none;
+    text-align: left;
   }
   mark {
     color: ${props => props.theme.lightBlue};
@@ -122,9 +123,9 @@ export const HitsWrapper = styled.div`
     justify-content: space-between;
     margin-bottom: 0.3em;
     h3 {
-      color: ${props => props.theme.white};
+      color: #333333;
       background: ${props => props.theme.gray};
-      padding: 0.1em 0.4em;
+      padding: 0.1em 0;
       border-radius: ${props => props.theme.smallBorderRadius};
     }
   }
@@ -133,6 +134,9 @@ export const HitsWrapper = styled.div`
   }
   h4 {
     margin-bottom: 0.3em;
+    a{
+      color: #6772e5;
+    }
   }
 `
 
