@@ -34,7 +34,7 @@ class homeFeature extends React.Component {
                     <div className="features-intro text-center">
                         <p>
                             <a href="/features">
-                                Explore more features <FaArrowRight/>
+                                Explore All Features <FaArrowRight/>
                             </a>
                         </p>
                     </div>
