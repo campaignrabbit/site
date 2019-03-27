@@ -10,7 +10,7 @@ const homeFeature = () =>(
           </div>
           <div className="yd-ft-inner">
               <div className="yd-ft-right">
-                  <img src={`${process.env.CR_MEDIA_URL}/images/sue-bryce-7aefe319.jpg`} alt="sue-bryce"/>
+                  <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/sue-bryce-7aefe319.jpg`} alt="sue-bryce"/>
               </div>
               <div className="yd-ft-left">
                   <h3><a href="#">Gimlet Media</a></h3>
@@ -33,12 +33,12 @@ const homeFeature = () =>(
                   <hr/>
               </div>
               <div className="yd-ft-right">
-                  <img src={`${process.env.CR_MEDIA_URL}/images/sue-bryce-7aefe319.jpg`} alt="sue-bryce"/>
+                  <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/sue-bryce-7aefe319.jpg`} alt="sue-bryce"/>
               </div>
           </div>
           <div className="yd-ft-inner">
               <div className="yd-ft-right">
-                  <img src={`${process.env.CR_MEDIA_URL}/images/sue-bryce-7aefe319.jpg`} alt="sue-bryce"/>
+                  <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/sue-bryce-7aefe319.jpg`} alt="sue-bryce"/>
               </div>
               <div className="yd-ft-left">
                   <h3><a href="#">Gimlet Media</a></h3>

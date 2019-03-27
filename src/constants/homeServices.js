@@ -33,7 +33,7 @@ const homeFeature = () =>(
         </div>
         <div className="service-content-container">
             <div className="service-img-div">
-                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/discover-features/engaging-messages.png`} alt="Drive sales with Engaging Messages"/>
+                <img className="img-fluid" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/discover-features/engaging-messages.png`} alt="Drive sales with Engaging Messages"/>
             </div>
             <div className="service-text-div">
                 <h4>Make a great first impression - Engage customers</h4>
@@ -65,12 +65,12 @@ const homeFeature = () =>(
                 </ul>
             </div>
             <div className="service-img-div align-right">
-                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/discover-features/relevant-messages.png`} alt="Send only Relevant Messages"/>
+                <img className="img-fluid" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/discover-features/relevant-messages.png`} alt="Send only Relevant Messages"/>
             </div>
         </div>
         <div className="service-content-container">
             <div className="service-img-div">
-                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/discover-features/abandoned-carts.png`} alt="Recover Abandoned Carts"/>
+                <img className="img-fluid" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/discover-features/abandoned-carts.png`} alt="Recover Abandoned Carts"/>
             </div>
             <div className="service-text-div">
                 <h4>Never let go a customer without buying</h4>
@@ -100,7 +100,7 @@ const homeFeature = () =>(
                 </ul>
             </div>
             <div className="service-img-div align-right">
-                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/discover-features/repeat-sales.png`} alt="Drive Repeat Sales"/>
+                <img className="img-fluid" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/discover-features/repeat-sales.png`} alt="Drive Repeat Sales"/>
             </div>
         </div>
     </div>

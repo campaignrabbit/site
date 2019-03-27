@@ -102,25 +102,25 @@ class PricingPage extends React.Component {
                             <div className="row">
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/users.png`} /></p>
+                                        <p><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/feature-icons/users.png`} /></p>
                                         <h4>Unlimited Contacts</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/emails.png`} /></p>
+                                        <p><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/feature-icons/emails.png`} /></p>
                                         <h4>Unlimited Emails</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/marketing-automation.png`} /></p>
+                                        <p><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/feature-icons/marketing-automation.png`} /></p>
                                         <h4>Marketing Automation</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/shopping-cart.png`} /></p>
+                                        <p><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/feature-icons/shopping-cart.png`} /></p>
                                         <h4>Abandoned Cart Recovery Emails</h4>
                                     </div>
                                 </div>
@@ -128,26 +128,26 @@ class PricingPage extends React.Component {
                             <div className="row">
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/call-to-action.png`} /></p>
+                                        <p><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/feature-icons/call-to-action.png`} /></p>
                                         <h4>Call to action</h4>
                                         <p>Opt-ins, Popups, Sliders, Actions bars</p>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/product-recommend.png`} /></p>
+                                        <p><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/feature-icons/product-recommend.png`} /></p>
                                         <h4>Product Recommendations</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/newsletter.png`} /></p>
+                                        <p><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/feature-icons/newsletter.png`} /></p>
                                         <h4>Welcome Emails</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/segmentation.png`} /></p>
+                                        <p><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/feature-icons/segmentation.png`} /></p>
                                         <h4>Customer Segmentation</h4>
                                     </div>
                                 </div>
@@ -155,25 +155,25 @@ class PricingPage extends React.Component {
                             <div className="row">
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/mail-builder.png`} /></p>
+                                        <p><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/feature-icons/mail-builder.png`} /></p>
                                         <h4>Visual Email Builder</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/data-driven.png`} /></p>
+                                        <p><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/feature-icons/data-driven.png`} /></p>
                                         <h4>Data driven Automation</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/analytics.png`} /></p>
+                                        <p><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/feature-icons/analytics.png`} /></p>
                                         <h4>Analytics and Reporting</h4>
                                     </div>
                                 </div>
                                 <div className="col-sm-3">
                                     <div className="feature-wrapper">
-                                        <p><img src={`${process.env.CR_MEDIA_URL}/images/feature-icons/integrations.png`} /></p>
+                                        <p><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/feature-icons/integrations.png`} /></p>
                                         <h4>Integrations</h4>
                                         <p>WooCommerce, J2Store, Shopify</p>
                                     </div>

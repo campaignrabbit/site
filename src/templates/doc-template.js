@@ -56,7 +56,6 @@ const renderAst = new rehypeReact({
 }).Compiler
 
 function DocTemplate(props) {
-    console.log(props);
     const url = props.data.site.siteMetadata.siteUrl;
     const thumbnail = props.data.markdownRemark.frontmatter.image &&
         props.data.markdownRemark.frontmatter.image.childImageSharp.resize.src;

@@ -11,13 +11,13 @@ class homeFeature extends React.Component {
                       </div>
                       <div className="row">
                           <div className="col-sm-4">
-                              <p className="rl-item-icon"><img src={`${process.env.CR_MEDIA_URL}/images/store.png`} /></p>
+                              <p className="rl-item-icon"><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/store.png`} /></p>
                           </div>
                           <div className="col-sm-4">
-                              <p className="rl-item-icon"><img src={`${process.env.CR_MEDIA_URL}/images/campaigns.png`} /></p>
+                              <p className="rl-item-icon"><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/campaigns.png`} /></p>
                           </div>
                           <div className="col-sm-4">
-                              <p className="rl-item-icon"><img src={`${process.env.CR_MEDIA_URL}/images/autopilot.png`} /></p>
+                              <p className="rl-item-icon"><img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/autopilot.png`} /></p>
                           </div>
                       </div>
                       <div className="rl-multi-step numbered">

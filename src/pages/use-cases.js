@@ -38,7 +38,7 @@ class UseCasesPage extends React.Component {
                     <div className="usecases-row row">
                         <div className="col-sm-6">
                             <div className="usecase-image-block">
-                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/use-cases/send-follow-up-emails.png`} alt="Follow-up Emails"/>
+                                <img className="img-responsive" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/use-cases/send-follow-up-emails.png`} alt="Follow-up Emails"/>
                             </div>
                         </div>
                         <div className="col-sm-6">
@@ -67,14 +67,14 @@ class UseCasesPage extends React.Component {
                         </div>
                         <div className="col-sm-6">
                             <div className="usecase-image-block">
-                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/use-cases/win-back-customers.png`} alt="Follow-up Emails"/>
+                                <img className="img-responsive" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/use-cases/win-back-customers.png`} alt="Follow-up Emails"/>
                             </div>
                         </div>
                     </div>
                     <div className="usecases-row row">
                         <div className="col-sm-6">
                             <div className="usecase-image-block">
-                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/use-cases/show-product-suggestions.png`} alt="Follow-up Emails"/>
+                                <img className="img-responsive" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/use-cases/show-product-suggestions.png`} alt="Follow-up Emails"/>
                             </div>
                         </div>
                         <div className="col-sm-6">
@@ -103,7 +103,7 @@ class UseCasesPage extends React.Component {
                         </div>
                         <div className="col-sm-6">
                             <div className="usecase-image-block">
-                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/use-cases/cart-abandonment-emails.png`} alt="Follow-up Emails"/>
+                                <img className="img-responsive" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/use-cases/cart-abandonment-emails.png`} alt="Follow-up Emails"/>
                             </div>
                         </div>
                     </div>
