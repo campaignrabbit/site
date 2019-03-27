@@ -9,9 +9,6 @@ const { createFilePath, createFileNode } = require(`gatsby-source-filesystem`);
 const createPaginatedPages = require('gatsby-paginate');
 const _ = require('lodash');
 
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
 
 // Create pages
 exports.createPages = ({ actions, graphql }) => {

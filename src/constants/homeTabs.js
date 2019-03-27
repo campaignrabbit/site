@@ -91,25 +91,25 @@ class homeTabs extends React.Component {
                           </ul>
                           <div className="col-sm-7">
                             <div id="tab-1" className="tab-content current">
-                                <img src={`${process.env.CR_MEDIA_URL}/images/home-features/welcome.png`} className="img-responsive" alt="Welcome Emails"/>
+                                <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-features/welcome.png`} className="img-responsive" alt="Welcome Emails"/>
                             </div>
                             <div id="tab-2" className="tab-content">
-                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Follow-Up-Emails.png`} alt="Follow-up Emails"/>
+                                <img className="img-responsive" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-features/Follow-Up-Emails.png`} alt="Follow-up Emails"/>
                             </div>
                             <div id="tab-3" className="tab-content">
-                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Product-Recommendation.png`} alt="Product recommendation"/>
+                                <img className="img-responsive" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-features/Product-Recommendation.png`} alt="Product recommendation"/>
                             </div>
                             <div id="tab-4" className="tab-content">
-                                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/home-features/Abandoned-Cart-Recovery.png`} alt="Abandoned Cart Recovery"/>
+                                <img className="img-fluid" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-features/Abandoned-Cart-Recovery.png`} alt="Abandoned Cart Recovery"/>
                             </div>
                             <div id="tab-5" className="tab-content">
-                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Win-Back-Inactive-Customers.png`} alt="Win-Back inactive customers"/>
+                                <img className="img-responsive" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-features/Win-Back-Inactive-Customers.png`} alt="Win-Back inactive customers"/>
                             </div>
                             <div id="tab-6" className="tab-content">
-                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/Visitor-Engagement.png`} alt="Visitor Engagement"/>
+                                <img className="img-responsive" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-features/Visitor-Engagement.png`} alt="Visitor Engagement"/>
                             </div>
                             <div id="tab-7" className="tab-content">
-                                <img className="img-responsive" src={`${process.env.CR_MEDIA_URL}/images/home-features/WYSIWYG-Email-Editor.png`} alt="Visual Email builder"/>
+                                <img className="img-responsive" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-features/WYSIWYG-Email-Editor.png`} alt="Visual Email builder"/>
                             </div>
                           </div>
                     </div>

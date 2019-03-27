@@ -33,43 +33,44 @@ const homeFeature = () =>(
         </div>
         <div className="service-content-container">
             <div className="service-img-div">
-                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/discover-features/engaging-messages.png`} alt="Drive sales with Engaging Messages"/>
+                <img className="img-fluid" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/discover-features/engaging-messages.png`} alt="Drive sales with Engaging Messages"/>
             </div>
             <div className="service-text-div">
                 <h4>Make a great first impression - Engage customers</h4>
-                <h2>Drive sales with <strong>Engaging Emails</strong></h2>
+                <h2>Drive sales with <strong>Engaging Messages</strong></h2>
                 <div className="divider-line"></div>
                 <p>Building a stronger relationship begins the moment customer signs-up. A personalised welcome email goes a long way in building a lasting relationship.</p>
+                <p>And keep the conversations at intervals so that your customers have a greater brand re-call.</p>
                 <p>Use our wide range of tools and features to build brand loyalty.</p>
 
                 <ul className="list">
                     <li>Send a personalised email.</li>
                     <li>Follow-Up at specific intervals. Keep yours customers engaged</li>
-                    <li>Show a welcome back message. Use a popup / slide in / email</li>
+                    <li>Show a welcome back message. Use a popup / slide in / Email</li>
                 </ul>
             </div>
         </div>
         <div className="service-content-container">
             <div className="service-text-div">
                 <h4>No one wants boring newsletters</h4>
-                <h2>Send only <strong>Relevant Emails</strong></h2>
+                <h2>Send only <strong>Relevant Messages</strong></h2>
                 <div className="divider-line"></div>
                 <p>It is high time you stop sending the boring newsletters. People are tired of receiving them as they do not deliver any value.</p>
                 <p>Send messages based on the shopping behaviour, purchase history of your customers. Segment your customers based on their interests and respond to them with relevant messages</p>
                 <p>Send timely and relevant messages on autopilot & let your customers know they’re valued.</p>
                 <ul className="list">
                     <li>Send targeted messages based on the shopping behaviour or customer attributes</li>
-                    <li>Thank the customer as soon as he places the order</li>
+                    <li>Send a thank you note as soon as the customer placed the order</li>
                     <li>Customize your messages to reflect your brand</li>
                 </ul>
             </div>
             <div className="service-img-div align-right">
-                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/discover-features/relevant-messages.png`} alt="Send only Relevant Messages"/>
+                <img className="img-fluid" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/discover-features/relevant-messages.png`} alt="Send only Relevant Messages"/>
             </div>
         </div>
         <div className="service-content-container">
             <div className="service-img-div">
-                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/discover-features/abandoned-carts.png`} alt="Recover Abandoned Carts"/>
+                <img className="img-fluid" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/discover-features/abandoned-carts.png`} alt="Recover Abandoned Carts"/>
             </div>
             <div className="service-text-div">
                 <h4>Never let go a customer without buying</h4>
@@ -79,7 +80,7 @@ const homeFeature = () =>(
                 <p>Remind customers when they abandon the cart and encourage them to complete the purchase with a coupon code.</p>
                 <ul className="list">
                     <li>Automated reminders for abandoned carts</li>
-                    <li>Trigger Exit-Intent Popup when a customer tries to leave the cart or checkout page</li>
+                    <li>Trigger Exit-Intent Based popup when a customer tries to leave the cart or checkout page</li>
                     <li>Automatically follow-up if the customer did not convert</li>
                 </ul>
             </div>
@@ -99,7 +100,7 @@ const homeFeature = () =>(
                 </ul>
             </div>
             <div className="service-img-div align-right">
-                <img className="img-fluid" src={`${process.env.CR_MEDIA_URL}/images/discover-features/repeat-sales.png`} alt="Drive Repeat Sales"/>
+                <img className="img-fluid" src={`${process.env.GATSBY_CR_MEDIA_URL}/images/discover-features/repeat-sales.png`} alt="Drive Repeat Sales"/>
             </div>
         </div>
     </div>
