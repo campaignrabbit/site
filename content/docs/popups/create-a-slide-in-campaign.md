@@ -4,7 +4,7 @@ updated: "2019-02-20"
 title: "Create a slide in campaign"
 description: "Show a pop up when the time spent on a page is atleast 10 secs"
 author: "Kowsaliya"
-category: "campaigns"
+category: "popups"
 ---
 ### How to set slide in campaigns ?
 * Click on "Create New Campaign" from the On site popups.

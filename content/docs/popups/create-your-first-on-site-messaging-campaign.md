@@ -4,7 +4,7 @@ updated: "2019-02-20"
 title: "Create your first on-site messaging campaign"
 description: "Add call to actions like popups, slide-ins and action bars to create a high CTA and engagement"
 author: "Kowsaliya"
-category: "campaigns"
+category: "popups"
 ---
 Convert the website visitors into customers by showing personalised messages based on the customer behaviour.
 

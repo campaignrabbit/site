@@ -4,7 +4,7 @@ updated: "2019-02-20"
 title: "Create a popup campaign"
 description: "Show a pop up when the time spent on a page is atleast 10 secs"
 author: "Kowsaliya"
-category: "campaigns"
+category: "popups"
 ---
 ## Create a popup campaign
 **How to set popup campaigns ?**
