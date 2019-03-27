@@ -7,7 +7,7 @@ import { FaTags } from "react-icons/fa"
 const DocsHit = clickHandler => ({ hit }) => (
   <div>
     <h4>
-      <Link to={hit.fields.slug} onClick={clickHandler}>
+      <Link to={hit.slug} onClick={clickHandler}>
         <Highlight attribute="title" hit={hit} tagName="mark" />
       </Link>
     </h4>

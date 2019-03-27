@@ -4,8 +4,8 @@ import Layout from "../components/layout";
 import Container from "../components/container"
 import HOME_CARDS from '../constants/docsCards';
 import CALLOUTS from '../constants/docsCallouts';
-import Search from '../components/Search';
 import SEO from '../components/seo';
+import Search from '../components/Search';
 
 const searchIndices = [
   { name: `Docs`, title: `Docs`, hitComp: `DocsHit` },
@@ -43,14 +43,14 @@ class DocsPage extends React.Component {
             <Layout>
                 <SEO title="Documentation" />
                 <div className='docs-container'>
-                    <div className="search-hero text-center">
-                        <Container type="s">
-                            <div className="search-hero__bg">
-                                <h1 className="page-title">Knowledge Center</h1>
-                                <Search collapse indices={searchIndices} />
-                            </div>
-                        </Container>
-                    </div>
+                  <div className="search-hero text-center">
+                      <Container type="s">
+                          <div className="search-hero__bg">
+                              <h1 className="page-title">Documentation</h1>
+                              <Search collapse indices={searchIndices} />
+                          </div>
+                      </Container>
+                  </div>
                     <div className="home-callouts">
                         <Container type="l">
                             <div className="row row--home-cards">
