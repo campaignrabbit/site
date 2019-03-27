@@ -46,9 +46,9 @@ class homeTabs extends React.Component {
                 <div className="container">
                     <div className="features-intro text-center">
                         <h3>
-                            Powerful features tailored for <strong>eCommerce</strong> businesses
+                            Email Marketing. Marketing Automation. Popups. Action Bars
                         </h3>
-                        <p>Learn how Campaignrabbit can drive sales and grow your business on autopilot</p>
+                        <p>All the tools you need to drive sales and grow your business on autopilot</p>
                     </div>
                 </div>
                 <div className="container-s">
@@ -56,7 +56,7 @@ class homeTabs extends React.Component {
                           <ul className="col-sm-5 tabs">
                               <li className="tab-link current" data-tab="tab-1">
                                   <FaEnvelope className="tab-icon"/>
-                                  <span> Welcome Emails</span>
+                                  <span>Welcome Emails</span>
                               </li>
                               <li className="tab-link" data-tab="tab-2">
                                   <FaEnvelopeOpenText className="tab-icon"/>
@@ -76,7 +76,7 @@ class homeTabs extends React.Component {
                               </li>
                               <li className="tab-link" data-tab="tab-6">
                                   <FaChartLine className="tab-icon"/>
-                                  <span>Visitor Engagement</span>
+                                  <span>Popups</span>
                               </li>
                               <li className="tab-link" data-tab="tab-7">
                                   <FaLaptop className="tab-icon"/>
