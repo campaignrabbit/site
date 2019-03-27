@@ -41,11 +41,11 @@ If you are running an eCommerce business and sell goods or services online, you 
 **What's Next**
 
 Connect your store with Campaignrabbit. It just takes a minute
-* <link-text url="https://docs.campaignrabbit.com/integrations/woocommerce" >Integrate with WooCommerce store
+* <link-text url="https://www.campaignrabbit.com/docs/integrations/woocommerce" >Integrate with WooCommerce store
 * Integrate with J2Store based store
 
 **I have more questions**
 
-Just leave your question and email by clicking the Live Chat button below or submit your support request to hello@campaignrabbit.com
+Just leave your question and email by clicking the Live Chat button below or submit your support request to support@campaignrabbit.com
 
 We are always happy to assist you :)

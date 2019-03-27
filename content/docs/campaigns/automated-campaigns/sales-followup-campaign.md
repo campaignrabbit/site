@@ -39,12 +39,12 @@ In the *message section,* draft the message body.
 
 ![FollowupBody](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/salesfollowupBody.png)
 
-To know more about working with the editor types, click <link-text url="https://docs.campaignrabbit.com/campaigns/working-with-editor" rel="noopener" target="_blank">here.</link-text>
+To know more about working with the editor types, click <link-text url="https://www.campaignrabbit.com/docs/campaigns/working-with-editor" rel="noopener" target="_blank">here.</link-text>
 
 If the status of the product is cancelled, you can send a followup mail to the customer requesting the reason for his cancellation.
 
 I have more questions
 
-Just leave your question and email by clicking the Live Chat button below or submit your support request to <hello@campaignrabbit.com>
+Just leave your question and email by clicking the Live Chat button below or submit your support request to <support@campaignrabbit.com>
 
 We are always happy to assist you :)

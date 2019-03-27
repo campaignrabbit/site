@@ -1,5 +1,5 @@
 ---
-path: "/docs/campaigns/on-site-messaging-campaigns/create-your-first-on-site-messaging-campaign"
+path: "/docs/popups/create-your-first-on-site-messaging-campaign"
 updated: "2019-02-20"
 title: "Create your first on-site messaging campaign"
 description: "Add call to actions like popups, slide-ins and action bars to create a high CTA and engagement"
@@ -64,6 +64,6 @@ Create your first In-App Campaign (popup / slide-in / action bar)
 
 **I have more questions**
 
-Just leave your question and email by clicking the Live Chat button below or submit your support request to <hello@campaignrabbit.com>
+Just leave your question and email by clicking the Live Chat button below or submit your support request to <support@campaignrabbit.com>
 
 We are always happy to assist you :)
