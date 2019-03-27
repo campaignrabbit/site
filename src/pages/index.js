@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { FaPlay, FaTimes } from 'react-icons/fa';
 import Layout from '../components/layout'
-import MetaTags from '../components/Metatags'
+import SEO from '../components/seo'
 import $ from 'jquery'
 import SignUpForm from '../components/SignUpForm'
 
@@ -19,12 +19,14 @@ class IndexPage extends React.Component {
     render(){
         return (
             <Layout>
-                <MetaTags
-                    title="Campaignrabbit - Email Marketing Automation for WooCommerce and Shopify"
-                    description="Campaignrabbit is an eCommerce Marketing Automation platform to send personalised, data-drive emails and popups on autopilot. Try Campaignrabbit for FREE today!"
-                    thumbnail={`${process.env.CR_MEDIA_URL}/images/campaignrabbit-logo.png`}
-                    url="https://wwww.campaignrabbit.com"
-                />
+                <SEO title="Campaignrabbit - Email Marketing Automation for WooCommerce and Shopify"
+                     keywords={['ecommerce marketing','marketing automation', 'email marketing', 'WooCommerce Email Marketing', 'Shopify Email Marketing']}/>
+                    <MetaTags
+                        title="Campaignrabbit - Email Marketing Automation for WooCommerce and Shopify"
+                        description="Campaignrabbit is an eCommerce Marketing Automation platform to send personalised, data-drive emails and popups on autopilot. Try Campaignrabbit for FREE today!"
+                        thumbnail={`${process.env.CR_MEDIA_URL}/images/campaignrabbit-logo.png`}
+                        url="https://wwww.campaignrabbit.com"
+                    />
 
                 <div id="home" className="home">
                     <div className="container-m text-center">
