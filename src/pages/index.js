@@ -22,7 +22,7 @@ class IndexPage extends React.Component {
                 <MetaTags
                     title="Campaignrabbit - Email Marketing Automation for WooCommerce and Shopify"
                     description="Campaignrabbit is an eCommerce Marketing Automation platform to send personalised, data-drive emails and popups on autopilot. Try Campaignrabbit for FREE today!"
-                    thumbnail={`${process.env.CR_MEDIA_URL}/images/campaignrabbit-logo.png`}
+                    thumbnail={`${process.env.GATSBY_CR_MEDIA_URL}/images/campaignrabbit-logo.png`}
                     url="https://wwww.campaignrabbit.com"
                 />
                 <div id="home" className="home">
