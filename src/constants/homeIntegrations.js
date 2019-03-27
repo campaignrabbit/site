@@ -13,25 +13,25 @@ class homeFeature extends React.Component {
                         </h2>
                     </div>
                     <div className="integration-list row">
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-sm-6">
                             <Link to="/" className="integration-item shopify">
                                 <span className="logo logo-grey"></span>
                                 <span className="logo logo-color"></span>
                             </Link>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-sm-6">
                             <Link to="/" className="integration-item shopify-plus">
                                 <span className="logo logo-grey"></span>
                                 <span className="logo logo-color"></span>
                             </Link>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-sm-6">
                             <Link to="/" className="integration-item woocommerce">
                                 <span className="logo logo-grey"></span>
                                 <span className="logo logo-color"></span>
                             </Link>
                         </div>
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-sm-6">
                             <Link to="/" className="integration-item j2store">
                                 <span className="logo logo-grey"></span>
                                 <span className="logo logo-color"></span>
