@@ -95,7 +95,48 @@ class PricingPage extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="feature-block">
+                <div className="faq-block">
+                    <div className="container-m">
+                        <div className="included-faq-block">
+                            <h3>Frequently Asked Questions</h3>
+                            <div className="row">
+                                <div className="col-sm-6">
+                                    <div className="faq-wrapper">
+                                        <h4>What’s an “MCE”?</h4>
+                                        <p>MCE means “monthly customers emailed” — how many customers Campaignrabbit reaches for you that month. It doesn’t matter how many times you contact the customer, so you can send as many emails as you’d like! Only pay for people you reach that month, no matter how often you talk to them.</p>
+                                    </div>
+                                    <div className="faq-wrapper">
+                                        <h4>Do I pay per-email?</h4>
+                                        <p>Nope! You’ll only pay for the number of unique customers that you email each month, not per email sent or list size.</p>
+                                    </div>
+                                    <div className="faq-wrapper">
+                                        <h4>How are you estimating the number of people I email?</h4>
+                                        <p>Our calculator assumes you send a couple of different campaigns with Campaignrabbit (abandonment and welcome campaigns). However, you can send more or less, or target specific customers with our advanced segmentation, it’s up to you!</p>
+                                    </div>
+                                </div>
+                                <div className="col-sm-6">
+                                    <div className="faq-wrapper">
+                                        <h4>Do you have a free plan?</h4>
+                                        <p>We do! You can email up to 50 customers each month entirely free. You won’t be able to access some features on our free plan.</p>
+                                    </div>
+                                    <div className="faq-wrapper">
+                                        <h4>What if I’m not happy?</h4>
+                                        <p>We want you to love using Campaignrabbit, but if you don’t, you can cancel at any time — there’s no annual contract or commitment. Contact us and we’ll be happy to help.</p>
+                                    </div>
+                                    <div className="faq-wrapper">
+                                        <h4>What payment methods do you accept?</h4>
+                                        <p>If your store uses Shopify, your Campaignrabbit charge will be added to your monthly Shopify invoice. For WooCommerce or Easy Digital Downloads stores, we accept Visa, MasterCard, American Express, Discover, and PayPal.</p>
+                                    </div>
+                                    <div className="faq-wrapper">
+                                        <h4>How many MCEs will I typically have?</h4>
+                                        <p>Check out our calculator above — it estimates this for you based on your current order volume.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="feature-block bottom">
                     <div className="container-m">
                         <div className="included-feature-block">
                             <h3>Included features</h3>
