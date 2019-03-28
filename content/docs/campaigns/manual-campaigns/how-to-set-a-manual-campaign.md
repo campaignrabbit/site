@@ -1,5 +1,5 @@
 ---
-path: "/docs/campaigns/https://docs.campaignrabbit.com/campaigns/manual-campaigns/how-to-set-a-manual-campaign"
+path: "/docs/campaigns/https://www.campaignrabbit.com/docs/campaigns/manual-campaigns/how-to-set-a-manual-campaign"
 updated: "2019-02-20"
 title: "Learn how to set Seasonal Campaigns in Campaignrabbit"
 description: "Show a pop up when the time spent on a page is atleast 10 secs"
@@ -41,7 +41,7 @@ Click "Save and set live".
 
 ![season](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/manualCampaigns/season.png)
 
-To know more about working with the editor types, click <link-text url="https://docs.campaignrabbit.com/campaigns/working-with-editor" rel="noopener" target="_blank">here.</link-text>
+To know more about working with the editor types, click <link-text url="https://www.campaignrabbit.com/docs/campaigns/working-with-editor" rel="noopener" target="_blank">here.</link-text>
 
 **I have more questions**
 

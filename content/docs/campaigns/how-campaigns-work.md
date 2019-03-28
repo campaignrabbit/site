@@ -49,12 +49,12 @@ This is exactly what the Campaigns do.
 
 Campaignrabbit helps you create conversion-focussed email campaigns based on the customer's purchase behaviour, his geolocation, total spent and a number of other parameters.
 #### What's Next ?
-* Create your first <link-text url="https://docs.campaignrabbit.com/campaigns/automated-campaigns/the-welcome-series-campaign" rel="noopener" target="_blank">Automated Email Campaign</link-text>
+* Create your first <link-text url="https://www.campaignrabbit.com/docs/campaigns/automated-campaigns/the-welcome-series-campaign/" rel="noopener">Automated Email Campaign</link-text>
 * Create your first Manual Email Campaign
-* Create your first <link-text url="https://docs.campaignrabbit.com/campaigns/on-site-campaigns/how-in-app-campaigns-work" rel="noopener" target="_blank">In-App Campaign</link-text> (popup / slide-in / action bar)
+* Create your first <link-text url="https://www.campaignrabbit.com/docs/campaigns/on-site-messaging-campaigns/create-your-first-on-site-messaging-campaign" rel="noopener">Popup Campaign</link-text> (popup / slide-in / action bar)
 
 **I have more questions**
 
-Just leave your question and email by clicking the Live Chat button below or submit your support request to <hello@campaignrabbit.com>
+Just leave your question and email by clicking the Live Chat button below or submit your support request to <support@campaignrabbit.com>
 
 We are always happy to assist you :)
