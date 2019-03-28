@@ -5,7 +5,7 @@ import CALLOUTS from '../constants/homeCallouts';
 class homeFeature extends React.Component {
     static renderCallouts() {
         return CALLOUTS.map((card) => {
-            const cardClass = `col-md-3 col-sm-6`;
+            const cardClass = `col-lg-3 col-md-4 col-sm-6`;
             return (
                 <div className={cardClass} key={card.TITLE}>
                     <div className="card text-center feature-list">
