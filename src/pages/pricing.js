@@ -60,8 +60,7 @@ class PricingPage extends React.Component {
                     <div className="container-m">
                         <h3>Simple, transparent pricing.</h3>
                         <h2>Pay as you Grow</h2>
-                        <p>Estimate your monthly cost based on your customers. <br/>
-                        Get started now and pick your plan later.</p>
+                        <p>Estimate your monthly cost based on your customers.</p>
                     </div>
             	</div>
                 <div id="price-slider">
@@ -88,10 +87,10 @@ class PricingPage extends React.Component {
                     <div className="free-trail-block">
                         <div className="row">
                             <div className="col-sm-8">
-                                <h3>Start your free 30-day trial now!</h3>
+                                <h3>Try Campaignrabbit for FREE for 30 days.</h3>
                                 <p>No credit card required – no risk</p>
                             </div>
-                            <div className="col-sm-4"><a className="btn btn-primary" href="https://app.campaignrabbit.com/register" target="_blank" rel="noopener">Start free trial</a></div>
+                            <div className="col-sm-4"><a className="btn btn-primary" href="https://app.campaignrabbit.com/register" target="_blank" rel="noopener">Get Started FREE</a></div>
                         </div>
                     </div>
                 </div>
