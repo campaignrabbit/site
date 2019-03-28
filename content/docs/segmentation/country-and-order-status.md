@@ -28,10 +28,10 @@ Country Has Any Value and Order Status is Completed.
 County Starts With United and Order Status is Cancelled.
 
 ### What's next ?
-* Creating <link-text url="https://docs.campaignrabbit.com/campaigns/how-campaigns-work" target="_blank" rel="noopener">Campaigns.
+* Creating <link-text url="https://www.campaignrabbit.com/docs/campaigns/how-campaigns-work" target="_blank" rel="noopener">Campaigns.
 
 #### I have more questions
 
-Just leave your question and email by clicking the Live Chat button below or submit your support request to <hello@campaignrabbit.com>
+Just leave your question and email by clicking the Live Chat button below or submit your support request to <support@campaignrabbit.com>
 
 We are always happy to assist you :)

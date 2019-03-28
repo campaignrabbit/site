@@ -157,13 +157,13 @@ The last ordered is lesser than 10 days and the price is greater than $1000. Whe
 Segments are an optional setup
 This might have been a little bit monotonous but trust me, this article will be of great use when you wish to work independently.  
 
-Check an <link-text url="https://docs.campaignrabbit.com/segmentation/country-and-order-status" rel="noopener" target="_blank">example</link-text> on how to create a segment.
+Check an <link-text url="https://www.campaignrabbit.com/docs/segmentation/country-and-order-status" rel="noopener" target="_blank">example</link-text> on how to create a segment.
 
 Start working !
 
 
 **I have more questions**
 
-Just leave your question and email by clicking the Live Chat button below or submit your support request to <hello@campaignrabbit.com>
+Just leave your question and email by clicking the Live Chat button below or submit your support request to <support@campaignrabbit.com>
 
 We are always happy to assist you :)

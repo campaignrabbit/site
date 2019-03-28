@@ -10,9 +10,14 @@ const DOCS_CALLOUTS = [
         LINK: '/docs/integrations/woocommerce',
     },
     {
-        TITLE: 'Campaigns',
+        TITLE: 'Email Campaigns',
         COPY: 'Create and manage automated email campaigns for follow ups, product recommendations, welcome and win-back emails',
         LINK: '/docs/campaigns/how-campaigns-work',
+    },
+    {
+        TITLE: 'Popups',
+        COPY: 'Convert visitors to customers. Trigger popups / slide-ins / action bars based on shopping behaviour',
+        LINK: '/docs/popups/create-your-first-on-site-messaging-campaign',
     },
     {
         TITLE: 'Segmentation',

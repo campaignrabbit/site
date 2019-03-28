@@ -36,10 +36,10 @@ Click "Save and set live".
 ![reengagebody](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/reengagebody.png)
 
 
-To know more about working with the editor types, click <link-text url="https://docs.campaignrabbit.com/campaigns/working-with-editor" rel="noopener" target="_blank">here.</link-text>
+To know more about working with the editor types, click <link-text url="https://www.campaignrabbit.com/docs/campaigns/working-with-editor" rel="noopener" target="_blank">here.</link-text>
 
 **I have more questions**
 
-Just leave your question and email by clicking the Live Chat button below or submit your support request to <hello@campaignrabbit.com>
+Just leave your question and email by clicking the Live Chat button below or submit your support request to <support@campaignrabbit.com>
 
 We are always happy to assist you :)
