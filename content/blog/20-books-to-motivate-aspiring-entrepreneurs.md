@@ -6,7 +6,7 @@ description: "Want to create a successful startup story? Get the list of 20 book
 author: "Deepika"
 image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/20-books-to-motivate-aspiring-entrepreneurs/Top-20-Books-to-Motivate-Aspiring-Entrepreneurs.jpg"
 thumbnail: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/20-books-to-motivate-aspiring-entrepreneurs/Top-20-Books-to-Motivate-Aspiring-Entrepreneurs.jpg"
-category: StartUp
+category: "StartUp"
 ogtype: blog
 ---
 **Books maketh a man!**
