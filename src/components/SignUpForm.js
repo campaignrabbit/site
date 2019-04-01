@@ -5,7 +5,6 @@ import $ from 'jquery'
 class SignUpForm extends React.Component {
 
   componentDidMount() {
-    console.log(this.props.user_mail_id);
         $(".cf_send").click(function(e) {
              e.preventDefault();
             let user_mail = $(".cf_email").val();

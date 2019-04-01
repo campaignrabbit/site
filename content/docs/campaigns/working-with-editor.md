@@ -6,7 +6,7 @@ description: "Learn how to automated campaigns work"
 author: "Kowsaliya"
 category: "campaigns"
 ---
-Once you have decided on what <link-text url="https://docs.campaignrabbit.com/campaigns/how-campaigns-work" target="_blank" rel="noopener">campaign</link-text> to choose, you need to start creating one.
+Once you have decided on what <link-text url="https://www.campaignrabbit.com/docs/campaigns/how-campaigns-work/" rel="noopener">campaign</link-text> to choose, you need to start creating one.
 
 Campaignrabbit comes with an easy drag and drop editor which brings your creativity to reality.
 
@@ -42,6 +42,6 @@ By default, these are the few available tags in Campaignrabbit.
 
 **I have more questions**
 
-Just leave your question and email by clicking the Live Chat button below or submit your support request to <hello@campaignrabbit.com>
+Just leave your question and email by clicking the Live Chat button below or submit your support request to <support@campaignrabbit.com>
 
 We are always happy to assist you :)

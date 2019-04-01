@@ -25,9 +25,8 @@ const BlogPage = ({ pageContext}) => {
                 {/*<h2>Blog</h2>*/}
             {/*</Breadcrumb>*/}
             <SEO title="Blog" />
-            <Container>
-                <div className="row">
-                  <div className="col-sm-8">
+            <Container type="s">
+
                       <div className="blog-list-container">
                           { group.map(post => (
                               <div className="blog-post" key={post.node.fields.slug}>
@@ -62,20 +61,17 @@ const BlogPage = ({ pageContext}) => {
                               <NavLink className="nextLink" test={last} url={nextUrl} text={<FaAngleDoubleRight/>} />
                           </div>
                       </div>
-                  </div>
-                  <div className="col-sm-4">
-                    <div className="blog-sidebar-container">
+
+                    {/*<div className="blog-sidebar-container">
                       <h4>Categories</h4>
                       <ul>
-                        {group.map(cat =>(
-                          <li className="post-meta" key={cat.node.fields.slug}>
-                            <Link to={'blog/category/'+ cat.node.frontmatter.category}> {cat.node.frontmatter.category}</Link>
-                          </li>
-                        ))}
+                        group.map(cat =>(
+                          //<li className="post-meta" key={cat.node.fields.slug}>
+                            //<Link to={'blog/category/'+ cat.node.frontmatter.category}> {cat.node.frontmatter.category}</Link>
+                          //</li>
+                        ))
                       </ul>
-                    </div>
-                  </div>
-                </div>
+                    </div>*/}
 
             </Container>
         </Layout>

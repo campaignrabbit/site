@@ -35,7 +35,7 @@ export default function VideoPopup( props ) {
           contentLabel="Example Modal In Gatsby"
         >
         <video width="100%" heigh="100%"  controls autoplay="autoplay">
-          <source src={`${process.env.CR_MEDIA_URL}/CampaignRabbit-Quick-Tour-Dashboard-Video.mp4`} type="video/mp4"/>
+          <source src={`${process.env.GATSBY_CR_MEDIA_URL}/CampaignRabbit-Quick-Tour-Dashboard-Video.mp4`} type="video/mp4"/>
           Your browser does not support HTML5 video.
         </video>
 

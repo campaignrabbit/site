@@ -16,31 +16,26 @@ const HOME_CARDS = [
         LINKS: [
             { URL: '/docs/integrations/woocommerce', TEXTNODE: 'WooCommerce' },
             { URL: '/docs/integrations/j2store', TEXTNODE: 'J2Store' },
-            { URL: '/docs/integrations/synchronising-your-existing-orders-and-customers-from-woocommerce', TEXTNODE: 'Synchronising your existing orders and customers from WooCommerce' },
-            { URL: '/docs/integrations/synchronising-existing-orders-and-customers-from-j2store', TEXTNODE: 'Synchronising your existing orders and customers from J2Store' },
         ],
         BUTTON_LINK: '/docs/integrations',
     },
     {
         ICON: <MdSend/>,
-        TITLE: 'Campaigns',
+        TITLE: 'Email Marketing',
         LINKS: [
             { URL: '/docs/campaigns/how-campaigns-work', TEXTNODE: 'How campaigns work?' },
-            { URL: '/docs/campaigns/working-with-editor', TEXTNODE: 'Working with Editor' },
-            { URL: '/docs/campaigns/on-site-messaging-campaigns/create-your-first-on-site-messaging-campaign', TEXTNODE: 'Create your first on-site messaging campaign' },
-            { URL: '/docs/campaigns/on-site-messaging-campaigns/create-a-slide-in-campaign', TEXTNODE: 'Create a slide in campaign' },
-            { URL: '/docs/campaigns/on-site-messaging-campaigns/create-a-popup-campaign', TEXTNODE: 'Create a popup campaign' },
+            { URL: '/docs/campaigns/automated-campaigns/cart-abandonment-reminders-campaigns', TEXTNODE: 'Recover Abandoned Carts' },
+            { URL: '/docs/campaigns/automated-campaigns/the-welcome-series-campaign', TEXTNODE: 'Welcome Emails' }
         ],
         BUTTON_LINK: '/docs/campaigns',
     },
     {
         ICON: <MdSend/>,
-        TITLE: 'Segmentation',
+        TITLE: 'Popups',
         LINKS: [
-            { URL: '/docs/segmentation/what-is-a-segment', TEXTNODE: 'What is a segment?' },
-            { URL: '/docs/segmentation/country-and-order-status', TEXTNODE: 'Country and Order status' },
-            { URL: '/docs/segmentation/customer-group-and-last-opened', TEXTNODE: 'Customer Group and Last opened' },
-            { URL: '/docs/segmentation/order-status-and-total-spent', TEXTNODE: 'Order Status and Total Spent' },
+            { URL: '/docs/campaigns/popups/create-your-first-on-site-messaging-campaign', TEXTNODE: 'Create your first on-site messaging campaign' },
+            { URL: '/docs/campaigns/popups/create-a-slide-in-campaign', TEXTNODE: 'Create a slide in campaign' },
+            { URL: '/docs/campaigns/popups/create-a-popup-campaign', TEXTNODE: 'Create a popup campaign' },
         ],
         BUTTON_LINK: '/docs/segmentation',
     },

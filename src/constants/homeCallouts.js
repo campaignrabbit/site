@@ -15,12 +15,12 @@ const HOME_CALLOUTS = [
     {
         IMAGE: <FaUsers/>,
         TITLE: 'Win-Back Inactive Customers',
-        COPY: 'Bring back inactive customers with a series of messages designed to drive repeat purchases.'
+        COPY: 'Bring back inactive customers with a series of automatic emails and get repeat sales.'
     },
     {
         IMAGE: <FaRegThumbsUp/>,
         TITLE: 'Product Recommendations',
-        COPY: 'Automatically boost sales by suggesting related products based on the purchase history of customers.'
+        COPY: 'Automatically boost sales by suggesting related products based on the purchase history.'
     },
     {
         IMAGE: <FaEnvelope/>,
@@ -29,17 +29,17 @@ const HOME_CALLOUTS = [
     },
     {
         IMAGE: <FaRegComments/>,
-        TITLE: 'On-site messages',
-        COPY: 'Engage and convert your visitors into customers with on-site popups / slide-ins / action bars.'
+        TITLE: 'Popups',
+        COPY: 'Convert your visitors into customers with popups / slide-ins / action bars.'
     },
     {
         IMAGE: <FaLaptop/>,
         TITLE: 'Visual email builder',
-        COPY: 'Create beautiful emails that reflect your brand with our intuitive drag-and-drop visual email builder.'
+        COPY: 'Create beautiful, responsive emails with our intuitive drag-and-drop visual email builder.'
     },
     {
         IMAGE: <FaRoad/>,
-        TITLE: 'Segmentation',
+        TITLE: 'Powerful Segmentation',
         COPY: 'Segment your customers based on their purchase history, total spending, location and more.'
     },
 ];
