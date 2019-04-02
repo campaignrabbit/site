@@ -33,7 +33,7 @@ class SideNav extends Component {
           // console.log(linksC);
           if(card.BUTTON_LINK === current_url || find(linksC, current_url)){
             return(
-              <div className="sidenav active">
+              <div className="active">
                 {card.LINKS ? (
                   <div>
                     <a className="dropdown-btn">{card.TITLE}
