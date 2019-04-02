@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Layout from "../components/layout";
 import Container from "../components/container";
+import MetaTags from '../components/Metatags'
 // Components
 import { Link, graphql } from "gatsby"
 
@@ -14,6 +15,10 @@ const Category = ({ pageContext, data }) => {
 
     return (
         <Layout>
+          <MetaTags
+              title={category}
+              description={categoryHeader}
+          />
             <div className="category-container">
                 <div className="category-header">
                     <Container type="s">
