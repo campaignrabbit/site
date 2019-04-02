@@ -4,7 +4,7 @@ import styled from "styled-components";
 import {Link} from 'gatsby';
 import {FaAngleRight} from 'react-icons/fa';
 
-class LandingPage extends Component {
+class SideNav extends Component {
   constructor(props) {
     super(props);
   }
@@ -77,14 +77,14 @@ class LandingPage extends Component {
   render() {
     return (
         <div className="sidenav">
-          { LandingPage.renderCallouts(this.props.navLinks, this.props.currentUrl) }
+          { SideNav.renderCallouts(this.props.navLinks, this.props.currentUrl) }
         </div>
     );
   }
 }
 
-LandingPage.propTypes = {
+SideNav.propTypes = {
 
 };
 
-export default LandingPage;
+export default SideNav;
