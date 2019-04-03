@@ -25,6 +25,7 @@ const BlogPage = ({ pageContext}) => {
         <Layout>
             <MetaTags
                 title="Blog"
+                description="Campaignrabbit Blog"
             />
             <Container type="s">
 
