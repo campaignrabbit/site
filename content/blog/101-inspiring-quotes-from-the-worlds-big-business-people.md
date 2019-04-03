@@ -1,5 +1,3 @@
-## **What Billionaires say? 101 Inspiring quotes from the World's Big Business people**
-
 ---
 path: "101-inspiring-quotes-from-the-worlds-big-business-people"
 date: "2019-03-14"
@@ -10,6 +8,8 @@ image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/
 thumbnail: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/What-do-Billionaires-say!-101-Inspiring-Quotes-from-the-World's-Top-Business-People/What-do-Billionaires-say!-101-Inspiring-Quotes-from-the-World's-Top-Business-People.jpg"
 category: "business"
 ---
+
+## **What Billionaires say? 101 Inspiring quotes from the World's Big Business people**
 
 Sometimes in life, we stop for a minute and gaze at successful people on how to just be successful like them. Well, the success stories of famous people are always interesting and motivating. What more in life can teach better than the things learnt in the dunes struggle.
 
