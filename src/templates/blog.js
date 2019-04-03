@@ -6,6 +6,8 @@ import Img from 'gatsby-image';
 import SEO from '../components/seo';
 import {FaAngleDoubleLeft, FaAngleDoubleRight} from 'react-icons/fa';
 
+import MetaTags from '../components/Metatags'
+
 const NavLink = props => {
   if (!props.test) {
     return <Link className={props.className} to={props.url}>{props.text}</Link>
@@ -21,10 +23,10 @@ const BlogPage = ({ pageContext}) => {
 
     return (
         <Layout>
-            {/*<Breadcrumb>*/}
-                {/*<h2>Blog</h2>*/}
-            {/*</Breadcrumb>*/}
-            <SEO title="Blog" />
+            <MetaTags
+                title="Blog"
+                description="Campaignrabbit Blog"
+            />
             <Container type="s">
 
                       <div className="blog-list-container">

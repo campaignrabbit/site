@@ -10,6 +10,7 @@ function Metatags(props) {
                 { name: 'title', content: props.title },
 
                 { name: 'description', content: props.description },
+                { name: 'google-site-verification', content: "cgZnH5mCFiWU5rksQBV5zMfHNRjjbLts48Ii77nmDG8"  },
                 {
                     property: 'og:title',
                     content: props.title,
