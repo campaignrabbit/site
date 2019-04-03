@@ -9,6 +9,8 @@ import Img from 'gatsby-image';
 import PrevNext from '../components/prevnext';
 import MetaTags from '../components/Metatags';
 import Share from '../components/share';
+import SideNav from '../components/SideNav';
+import SideNavLinks from '../constants/docsSideNavLinks';
 
 import Container from "../components/container"
 import Callout from '../components/callout'
@@ -66,7 +68,10 @@ function DocTemplate(props) {
     const { edges, totalCount } = props.data.allMarkdownRemark;
     const categoryHeader = `List of post${
         totalCount === 1 ? "" : "s"
-        } in ${category} (${totalCount})`
+        } in ${category} (${totalCount})`;
+    const toc = props.data.markdownRemark.tableOfContents;
+
+    // console.log(props.pageContext);
 
     return (
         <Layout>
@@ -77,29 +82,12 @@ function DocTemplate(props) {
                 url={url}
                 pathname={props.location.pathname}
             />
-            <Container className="docs-wrap" type='l'>
+            <div className="container-fluid docs-wrap">
               <div className="aside-menu">
                   <div className="card">
-                      <div className="card-header">
-                          <h3>{categoryHeader}</h3>
-                      </div>
                       <div className="card_inner">
-                          <ol className="card_links">
-                              {edges.map(({ node }) => {
-                                const { title, description } = node.frontmatter
-                                const { slug } = node.fields
-                                const { excerpt } = node.excerpt
-                                return (
-                                    <li key={slug} className={(props.pageContext.slug === slug ? 'active' : '')}>
-                                        <Link to={slug}>{title}</Link>
-                                    </li>
-                                )
-                              })}
-                          </ol>
-                          <div className="btn-container">
-                            <Link to="/docs" className="btn btn-primary">Back to Docs</Link>
-                          </div>
-                        </div>
+                          <SideNav navLinks={SideNavLinks} currentUrl={props.pageContext.slug} />
+                      </div>
                     </div>
               </div>
               <div className="single-blog-post">
@@ -124,8 +112,37 @@ function DocTemplate(props) {
                             </div>
                         }
                     </div>
-              </div>
-            </Container>
+                </div>
+                <div className="aside-menu">
+                    <div className="card">
+                        <div className="card_inner">
+
+
+                            {toc &&
+                              <div className="table-of-contents">
+                                  <h4>Contents</h4>
+                                  <div  dangerouslySetInnerHTML={{__html: toc}} />
+                              </div>
+                            }
+                            { /*<ol className="card_links">
+                                {edges.map(({ node }) => {
+                                  const { title, description } = node.frontmatter
+                                  const { slug } = node.fields
+                                  const { excerpt } = node.excerpt
+                                  return (
+                                      <li key={slug} className={(props.pageContext.slug === slug ? 'active' : '')}>
+                                          <Link to={slug}>{title}</Link>
+                                      </li>
+                                  )
+                                })}
+                            </ol>*/}
+                            <div className="btn-container">
+                              <Link to="/docs" className="btn btn-primary">Back to Docs</Link>
+                            </div>
+                          </div>
+                      </div>
+                </div>
+            </div>
         </Layout>
     )
 }
@@ -160,6 +177,9 @@ export const docQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       htmlAst
       excerpt
+      tableOfContents(
+        pathToSlugField: "fields.slug"
+      )
       frontmatter {
           title
           image

@@ -9,7 +9,7 @@ module.exports = {
     siteMetadata: {
         title: `Campaignrabbit`,
         description: `Sell more by sending targetted, data-driven marketing emails to your customers`,
-        author: `Shobana`,
+        author: `campaignrabbit`,
         siteUrl: `https://www.campaignrabbit.com/`
     },
     plugins: [
@@ -138,6 +138,12 @@ module.exports = {
           options: {
             sitemapSize: 5000
           }
+        },
+        {
+          resolve: `gatsby-plugin-canonical-urls`,
+          options: {
+            siteUrl: `https://www.campaignrabbit.com`,
+          },
         },
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.app/offline
