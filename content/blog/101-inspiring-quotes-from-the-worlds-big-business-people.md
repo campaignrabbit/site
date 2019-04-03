@@ -6,8 +6,8 @@ date: "2019-03-14"
 title: "What Billionaires say? 101 Inspiring quotes from the World's Big Business people"
 description: "101 inspiring quotes for business people to harness the real power of entrepreneurship. Quotes that cover business, money, love & wealth can do wonders in your career."
 author: "Deepika"
-image:
-thumbnail: 
+image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/What-do-Billionaires-say!-101-Inspiring-Quotes-from-the-World's-Top-Business-People/What-do-Billionaires-say!-101-Inspiring-Quotes-from-the-World's-Top-Business-People.jpg"
+thumbnail: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/What-do-Billionaires-say!-101-Inspiring-Quotes-from-the-World's-Top-Business-People/What-do-Billionaires-say!-101-Inspiring-Quotes-from-the-World's-Top-Business-People.jpg"
 category: "business"
 ---
 
