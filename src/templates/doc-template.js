@@ -1,14 +1,15 @@
 import React from 'react'
 import rehypeReact from "rehype-react"
 import PropTypes from "prop-types"
-import {Link} from 'gatsby'
-import {graphql} from 'gatsby'
-import Layout from "../components/layout";
+import {Link, graphql} from 'gatsby'
+import {MdMenu} from "react-icons/md"
 import styled from 'styled-components'
 import Img from 'gatsby-image';
+import Layout from "../components/layout";
 import PrevNext from '../components/prevnext';
 import MetaTags from '../components/Metatags';
 import Share from '../components/share';
+import Search from '../components/Search';
 import SideNav from '../components/SideNav';
 import SideNavLinks from '../constants/docsSideNavLinks';
 
@@ -57,15 +58,19 @@ const renderAst = new rehypeReact({
     },
 }).Compiler
 
+const searchIndices = [
+    { name: `Docs`, title: `Docs`, hitComp: `DocsHit` },
+]
+
 function DocTemplate(props) {
     const url = props.data.site.siteMetadata.siteUrl;
     const thumbnail = props.data.markdownRemark.frontmatter.image &&
         props.data.markdownRemark.frontmatter.image.childImageSharp.resize.src;
-    const { title, image } = props.data.markdownRemark.frontmatter;
-    const { prev, next } = props.pageContext;
+    const {title, image, description} = props.data.markdownRemark.frontmatter;
+    const {prev, next} = props.pageContext;
 
-    const { category } = props.pageContext;
-    const { edges, totalCount } = props.data.allMarkdownRemark;
+    const {category} = props.pageContext;
+    const {edges, totalCount} = props.data.allMarkdownRemark;
     const categoryHeader = `List of post${
         totalCount === 1 ? "" : "s"
         } in ${category} (${totalCount})`;
@@ -77,54 +82,33 @@ function DocTemplate(props) {
         <Layout>
             <MetaTags
                 title={title}
-                description={props.data.markdownRemark.excerpt}
+                description={description}
                 thumbnail={thumbnail && url + thumbnail}
                 url={url}
                 pathname={props.location.pathname}
             />
             <div className="container-fluid docs-wrap">
-              <div className="aside-menu">
-                  <div className="card">
-                      <div className="card_inner">
-                          <SideNav navLinks={SideNavLinks} currentUrl={props.pageContext.slug} />
-                      </div>
-                    </div>
-              </div>
-              <div className="single-blog-post">
-                    <div className="header">
-                        <div className="image-section">
-                            {image && <Img fluid={image.childImageSharp.fluid} />}
-                        </div>
-                        <h1>{title}</h1>
-                    </div>
-                    <div className="content">
-                        { renderAst(props.data.markdownRemark.htmlAst) }
-                    </div>
-                    <div className="footer">
-                        {title &&
-                            <div>
-                                <Share title={title} url={url} pathname={props.location.pathname} />
-                                <PrevNext prev={prev && prev.node} next={next && next.node} />
-                                <hr/>
-                                <div className="text-right">
-                                    <Link to="/docs">Go Back</Link>
-                                </div>
+                <div className="row">
+                    <div className="col-md-3 col-sm-12">
+                        <button id="showDocNavBtn" className="visible-xs btn btn-primary"><MdMenu/></button>
+                        <div className="aside-menu" id="docNavLinkContent">
+                            <div className="search-hero text-center">
+                                <Search collapse indices={searchIndices}/>
                             </div>
-                        }
+                            <SideNav navLinks={SideNavLinks} currentUrl={props.pageContext.slug}/>
+                            <div className="btn-container">
+                                <Link to="/docs" className="btn btn-primary">Back to Docs</Link>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div className="aside-menu">
-                    <div className="card">
-                        <div className="card_inner">
-
-
-                            {toc &&
-                              <div className="table-of-contents">
-                                  <h4>Contents</h4>
-                                  <div  dangerouslySetInnerHTML={{__html: toc}} />
-                              </div>
-                            }
-                            { /*<ol className="card_links">
+                    <div className="toc-wrapper col-md-3 col-sm-12">
+                        {toc &&
+                        <div className="table-of-contents">
+                            <h4>Contents</h4>
+                            <div dangerouslySetInnerHTML={{__html: toc}}/>
+                        </div>
+                        }
+                        { /*<ol className="card_links">
                                 {edges.map(({ node }) => {
                                   const { title, description } = node.frontmatter
                                   const { slug } = node.fields
@@ -135,12 +119,34 @@ function DocTemplate(props) {
                                       </li>
                                   )
                                 })}
-                            </ol>*/}
-                            <div className="btn-container">
-                              <Link to="/docs" className="btn btn-primary">Back to Docs</Link>
+                            </ol>*/
+                        }
+                    </div>
+                    <div className="col-md-6 col-sm-12">
+                        <div className="single-blog-post">
+                            <div className="header">
+                                <div className="image-section">
+                                    {image && <Img fluid={image.childImageSharp.fluid}/>}
+                                </div>
+                                <h1>{title}</h1>
                             </div>
-                          </div>
-                      </div>
+                            <div className="content">
+                                {renderAst(props.data.markdownRemark.htmlAst)}
+                            </div>
+                            <div className="footer">
+                                {title &&
+                                <div>
+                                    <Share title={title} url={url} pathname={props.location.pathname}/>
+                                    <PrevNext prev={prev && prev.node} next={next && next.node}/>
+                                    <hr/>
+                                    <div className="text-right">
+                                        <Link to="/docs">Go Back</Link>
+                                    </div>
+                                </div>
+                                }
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </Layout>
@@ -182,6 +188,7 @@ export const docQuery = graphql`
       )
       frontmatter {
           title
+          description
           image
           author
           category

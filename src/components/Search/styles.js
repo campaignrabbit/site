@@ -79,8 +79,8 @@ const list = css`
     border-top: 2px solid ${props => props.theme.darkGray};
   }
   li + li {
-    margin-top: 1.7em;
-    padding-top: 1.7em;
+    margin-top: 20px;
+    padding-top: 20px;
     border-top: 1px solid #eeeeee;
   }
 `
@@ -103,7 +103,7 @@ export const HitsWrapper = styled.div`
   max-height: 80vh;
   overflow: auto;
   background: #fff;
-  z-index: 9;
+  z-index: 1300 !important;
   ${props => (props.hitsAsGrid ? grid : list)};
   * {
     margin-top: 0;

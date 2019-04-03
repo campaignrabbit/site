@@ -5,13 +5,13 @@ import { FaCalendar } from "react-icons/fa"
 import { FaTags } from "react-icons/fa"
 
 const DocsHit = clickHandler => ({ hit }) => (
-  <div>
-    <h4>
+  <div className="hit-item">
       <Link to={hit.slug} onClick={clickHandler}>
-        <Highlight attribute="title" hit={hit} tagName="mark" />
+        <h5>
+            <Highlight attribute="title" hit={hit} tagName="mark" />
+        </h5>
+        <Snippet attribute="excerpt" hit={hit} tagName="mark" />
       </Link>
-    </h4>
-    <Snippet attribute="excerpt" hit={hit} tagName="mark" />
   </div>
 )
 
