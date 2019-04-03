@@ -54,14 +54,14 @@ const renderAst = new rehypeReact({
 export default function BlogPost(props) {
     const url = props.data.site.siteMetadata.siteUrl;
     const thumbnail = props.data.markdownRemark.frontmatter.image;
-    const {title} = props.data.markdownRemark.frontmatter;
+    const {title, description} = props.data.markdownRemark.frontmatter;
     const {prev, next} = props.pageContext;
     const toc = props.data.markdownRemark.tableOfContents;
     return (
         <Layout>
             <MetaTags
                 title={title}
-                description={props.data.markdownRemark.frontmatter.description}
+                description={description}
                 thumbnail={thumbnail && thumbnail}
                 url={url}
                 pathname={props.location.pathname}

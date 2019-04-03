@@ -25,6 +25,9 @@ class Header extends React.Component {
       		$('html,body').animate({scrollTop:$(this.hash).offset().top-100}, 800);
       	});
 
+        $("#showDocNavBtn").on("click", function(){
+            $('#docNavLinkContent').toggleClass('show');
+        });
         var dropdown = document.getElementsByClassName("dropdown-btn");
         var i;
 

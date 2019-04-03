@@ -4,7 +4,7 @@ import { connectSearchBox } from "react-instantsearch-dom"
 import { SearchIcon, Form, Input } from "./styles"
 
 export default connectSearchBox(({ refine, ...rest }) => (
-  <Form>
+  <Form className="docs-search-box">
     <Input
       type="text"
       placeholder="What are you looking for?"
