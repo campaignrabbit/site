@@ -2,6 +2,10 @@ import React from 'react';
 
 const SIDENAV_LINKS = [
     {
+        TITLE: 'Home',
+        BUTTON_LINK: '/docs',
+    },
+    {
         TITLE: 'Getting started',
         LINKS: [
             { URL: '/docs/getting-started/what-is-campaignrabbit', TEXTNODE: 'What is Campaignrabbit' },

@@ -134,16 +134,24 @@ module.exports = {
             },
         },
         {
-          resolve: `gatsby-plugin-sitemap`,
-          options: {
-            sitemapSize: 5000
-          }
-        },
-        {
           resolve: `gatsby-plugin-canonical-urls`,
           options: {
             siteUrl: `https://www.campaignrabbit.com`,
           },
+        },
+        `gatsby-plugin-remove-trailing-slashes`,
+        {
+            resolve: `gatsby-plugin-sitemap`,
+            options: {
+                sitemapSize: 5000,
+                output: `/sitemap.xml`,
+            }
+        },
+        {
+            resolve: `gatsby-plugin-breadcrumb`,
+            options: {
+                sitemapPath: `/sitemap.xml`,
+            },
         },
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.app/offline

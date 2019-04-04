@@ -14,11 +14,10 @@ class SideNav extends Component {
   }
   static renderCallouts(callouts, current_url = '') {
       return callouts.map((card, index) => {
-          const cardClass = `col-md-3`;
           current_url = current_url.replace(/\/$/, "");
           const find = function(input, target){
-            var found = false;
-            for (var prop in input) {
+            let found = false;
+            for (let prop in input) {
               if(input[prop] == target){
                   found = true;
               }
