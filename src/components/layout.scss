@@ -2594,11 +2594,20 @@ body {
     }
   }
   blockquote {
+    font-family: "Quattrocento Sans", sans-serif;
     font-style: italic;
     border-left: 2px solid $primary;
     padding: 20px 30px;
     margin: 2.25rem 0;
     position: relative;
+    font-size: 23px;
+    line-height: 1.68;
+    color: rgba(0,0,0,.78);
+    font-weight: 400;
+    letter-spacing: -0.012em;
+    strong:last-child{
+      display: block;
+    }
     :first-child {
       margin-top: 0;
     }
