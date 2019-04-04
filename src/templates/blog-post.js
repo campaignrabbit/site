@@ -1,6 +1,7 @@
 import React from 'react'
 import rehypeReact from "rehype-react"
 import {Link, graphql} from 'gatsby';
+import {Breadcrumb} from "gatsby-plugin-breadcrumb";
 import Layout from "../components/layout";
 import styled from 'styled-components'
 import Img from 'gatsby-image';
@@ -58,7 +59,7 @@ export default function BlogPost(props) {
     const {prev, next} = props.pageContext;
     const toc = props.data.markdownRemark.tableOfContents;
     return (
-        <Layout>
+        <Layout location={props.location} crumbLabel={title}>
             <MetaTags
                 title={title}
                 description={description}

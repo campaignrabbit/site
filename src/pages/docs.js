@@ -1,12 +1,13 @@
 import React from 'react'
 import {Link, graphql} from 'gatsby'
+import { Breadcrumb } from "gatsby-plugin-breadcrumb";
+import {MdMenu} from "react-icons/md";
 import Layout from "../components/layout";
 import Container from "../components/container"
 import HOME_CARDS from '../constants/docsCards';
 import CALLOUTS from '../constants/docsCallouts';
 import SEO from '../components/seo';
 import Search from '../components/Search';
-import {MdMenu} from "react-icons/md";
 import SideNav from '../components/SideNav';
 import SideNavLinks from '../constants/docsSideNavLinks';
 
@@ -54,7 +55,7 @@ class DocsPage extends React.Component {
 
     render() {
         return (
-            <Layout>
+            <Layout location={this.props.location} crumbLabel="Docs">
                 <SEO title="Documentation"/>
                 <div className='docs-container'>
                     <div className="container-fluid">
@@ -65,7 +66,7 @@ class DocsPage extends React.Component {
                                     <div className="search-hero text-center">
                                         <Search collapse indices={searchIndices}/>
                                     </div>
-                                    <SideNav navLinks={SideNavLinks} currentUrl={this.props.uri}/>
+                                    <SideNav navLinks={SideNavLinks} currentUrl={this.props.location.pathname}/>
                                 </div>
                             </div>
                             <div className="col-md-7">

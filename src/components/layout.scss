@@ -2820,9 +2820,17 @@ body {
   }
 }
 
-.breadcrumb {
-  font-family: $secondary-font;
-  background: #EAF0F9;
+.breadcrumb-container {
+  background: #fbfbfc;
+  border-bottom: 1px solid #e9ecef;
+  padding: 20px 0;
+  font-size: 14px;
+  span, a{
+    font-size: 16px !important;
+  }
+  a{
+    color: #717188;
+  }
   h2 {
     margin-top: 20px;
     margin-bottom: 20px;
