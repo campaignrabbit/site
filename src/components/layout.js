@@ -29,7 +29,7 @@ const Layout = ({children, location, crumbLabel}) => (
                     <Header siteTitle={data.site.siteMetadata.title}/>
 
                     <div id="main" className="main">
-                        { location &&
+                        { /* location &&
                         <div className="breadcrumb-container">
                             <div className="container">
                                 <Breadcrumb
@@ -40,7 +40,7 @@ const Layout = ({children, location, crumbLabel}) => (
                                 />
                             </div>
                         </div>
-                        }
+                        */}
                         {children}
                         <Footer/>
                     </div>
