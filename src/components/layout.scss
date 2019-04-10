@@ -39,7 +39,7 @@ body {
 }
 
 ol, ul {
-  list-style: none;
+  list-style-type: none;
 }
 
 blockquote, q {
@@ -299,26 +299,6 @@ body {
   .navbar .btn-cta {
     padding: 0 30px;
   }
-  .home{
-    .hero-content {
-      padding: 40px 0 80px;
-      .btn-container {
-        flex-wrap: wrap;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
-      }
-      img.img-responsive {
-        max-height: 100%;
-        position: relative;
-        top: 0px;
-        width: auto;
-        height: auto;
-      }
-    }
-  }
 }
 
 
@@ -400,24 +380,6 @@ body {
         justify-content: center;
         margin-top: 30px;
         margin-bottom: 30px;
-      }
-      img.img-responsive {
-        max-height: 680px;
-        position: absolute;
-        top: -40px;
-        width: auto;
-        height: auto;
-      }
-      .free-trial-form{
-        text-align: left;
-        .form{
-          max-width: 100%;
-          .form-alt{
-            max-width: 100%;
-            margin: 0;
-            justify-content: flex-start;
-          }
-        }
       }
     }
 
@@ -532,6 +494,37 @@ body {
 
             &:hover {
               opacity: 0.9;
+            }
+          }
+        }
+      }
+    }
+    &.home-top{
+      .hero-content {
+        padding: 40px 0 80px;
+        .btn-container {
+          flex-wrap: wrap;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
+        img.img-responsive {
+          max-height: 680px;
+          position: absolute;
+          top: -40px;
+          width: auto;
+          height: auto;
+        }
+        .free-trial-form{
+          text-align: left;
+          .form{
+            max-width: 100%;
+            .form-alt{
+              max-width: 100%;
+              margin: 0;
+              justify-content: flex-start;
             }
           }
         }
@@ -2705,14 +2698,20 @@ body {
       width: 40px;
       height: 40px;
       line-height: 40px;
-      background: $primary;
-      color: #ffffff;
+      background: #ffffff;
+      color: #333333;
       text-align: center;
       margin: 5px;
-
+      transition: all 0.3s ease 0s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
       &:hover {
-        background: darken($primary, 12%);
+        background: $primary;
+        color: #ffffff;
         text-decoration: none;
+      }
+      &[aria-current="page"]{
+        background: $primary;
+        color: #ffffff;
       }
     }
 
@@ -2818,31 +2817,24 @@ body {
       margin-bottom: 0;
     }
   }
-
-  ul, ol {
-    margin: 1em 0 1.5em;
-    padding: 0;
-
-    li {
-      list-style-type: none;
-      margin: 0 0 0.75em;
-      padding: 0 0 0 1.2em;
-      font-weight: 400;
-
-      &::before {
-        content: '';
-        display: inline-block;
-        position: relative;
-        top: -0.1em;
-        left: -0.875em;
-        background-color: #2d3e50;
-        border-radius: 50%;
-        width: 6px;
-        height: 6px;
+  .content{
+    ul {
+      margin: 1em 1.5em;
+      padding: 0;
+      list-style-type: disc;
+      li {
+        margin: 0 0 0.75em;
+        padding: 0 0 0 0.5em;
       }
+    }
 
-      > div {
-        display: inline;
+    ol {
+      margin: 1em 1.5em;
+      padding: 0;
+      list-style-type: decimal;
+      li {
+        margin: 0 0 0.75em;
+        padding: 0 0 0 0.5em;
       }
     }
   }
@@ -5817,7 +5809,7 @@ ul.tabs {
 }
 
 @media only screen and (max-width: 768px) {
-  .home{
+  .home-top{
     .hero-content {
       padding: 40px 0;
       img.img-responsive {

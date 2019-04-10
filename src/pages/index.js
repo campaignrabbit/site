@@ -25,7 +25,7 @@ class IndexPage extends React.Component {
                     thumbnail={`${process.env.GATSBY_CR_MEDIA_URL}/images/campaignrabbit-og-image.jpg`}
                     url="https://wwww.campaignrabbit.com"
                 />
-                <div id="home" className="home">
+                <div id="home" className="home home-top">
                     <div className="container">
                         <div className="hero-content wow fadeIn">
                             <div className="row">
