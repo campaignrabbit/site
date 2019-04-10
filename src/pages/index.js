@@ -26,10 +26,10 @@ class IndexPage extends React.Component {
                     url="https://wwww.campaignrabbit.com"
                 />
                 <div id="home" className="home">
-                    <div className="container-m text-center">
+                    <div className="container">
                         <div className="hero-content wow fadeIn">
                             <div className="row">
-                                <div className="col-sm-12">
+                                <div className="col-sm-7">
                                     <h1>Sell more by sending personalised, highly relevant emails and popups</h1>
                                     <p>Campaignrabbit offers Email Marketing and Popups for growth-focused eCommerce businesses. <br /><span className="underline">Engage and convert visitors into customers smartly</span>
                                     </p>
@@ -38,8 +38,8 @@ class IndexPage extends React.Component {
                                       note="No credit card required" />
 
                                 </div>
-                                <div className="col-sm-2">
-
+                                <div className="col-sm-5">
+                                    <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/campaignrabbit-flow-transparent-bg.png`} className="img-responsive" alt="Campaignrabbit flow image"/>
                                 </div>
                             </div>
                         </div>
