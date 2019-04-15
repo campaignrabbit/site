@@ -3563,7 +3563,6 @@ body {
 
     .table-of-contents {
       background-color: #fff;
-
       h4 {
         font-size: 18px;
         color: #333;
@@ -3849,7 +3848,9 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 4px;
-
+  p{
+    margin: 0;
+  }
   h4 {
     margin-top: 0 !important;
     margin-bottom: 15px !important;
@@ -3870,9 +3871,9 @@ body {
       }
 
       a {
-        display: inline-block;
+        display: block;
         color: #333;
-
+        margin-bottom: 10px;
         &:hover, &:focus {
           text-decoration: underline
         }
