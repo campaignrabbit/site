@@ -32,7 +32,7 @@ This is the starting point to grow an email list. To speed up the growth, conten
 
 ##### Email Marketing
 The name says it all. It is a promotional activity done by a business with the help of marketers to convert leads into customers. The sad truth is that people turn their backs when they encounter frequent promotional emails. Here is the catch. It turns out that <link-text url="https://www.flycart.org/blog/woocommerce/top-5-email-plugins-for-woocommerce" rel="noopener"> email marketing for WooCommerce </link-text> or any other website is much more than sending out promotional emails. One of the key areas where email marketing focuses on is email list building for the exponential growth of an existing list.  Read on for more details.
-- **Consider adding an opt-in for your website**
+- **Consider adding an opt-in for your website**  <br/>
 Using an opt-in method to get subscribers is viable because the benefit is mutual here. You provide them with some content of their expectation, probably for free, in return for their subscription. This is what I came across when surfing a page in Optinmonster.
 
     It appeared when I was about to leave the page, hence named an ‘exit intent popup’. Even though there seems to be another step involved to fill up the name and email address, the statement ‘Yes, I want more subscribers’ makes you take the leap. Words do matter in an opt-in.
@@ -40,14 +40,14 @@ Using an opt-in method to get subscribers is viable because the benefit is mutua
     Opt-ins come in the form of popups, slide-ins, and even call-to-action bars that appear in the side, header, or footer. The important part is that opt-ins are not meant to infuriate the visitor. They must not jump out of a corner when the visitor is engaged with the content. Give the visitor around 15 seconds after which the opt-in form appears in a subtle manner. So, a timed opt-in works best.
 
     A single opt-in has a better growth rate for email list though the double opt-in generates an email list of better quality by confirming the subscription via the email address.
-- **Promote newsletters and other content through social media**
+- **Promote newsletters and other content through social media**  <br/>
 Email marketing outperforms every other type of marketing but social media is just second to it. The power of social media cannot be underestimated.
 
     Newsletters are generally informational content that does not focus on selling. It is indirect marketing which provides some exclusive information that is not part of the blog. Give a glimpse of the content in the newsletter via Facebook posts and other mediums. This prompts the reader to subscribe to your website.
 
     Another good idea to build an email list is to provide in-email social sharing options. <link-text url="https://blog.getresponse.com/social-sharing-boosts-email-ctr" rel="noopener nofollow">GetResponse</link-text> says that the average email Click Through Rate with social sharing options is 6.2% whereas for others it is 2.4%.
 
-- **A giveaway, executed right,  always pays back**
+- **A giveaway, executed right,  always pays back**  <br/>
 To host a successful giveaway, the prize must be something worthy of and something that the visitors have been looking forward to for a long time.
 
     For example, consider that you own a blog based on makeup and beauty.
@@ -67,16 +67,16 @@ Here is a bonus.
 #### Email list segmentation
 Segmenting the huge database of available email addresses is very vital, especially for an e-commerce business. The division can be made based on various parameters like time of purchase, money spent, preferred products, location, and so on. This, in turn, helps in retargeting customers to purchase more by sending out personalized promotional emails. Email list segmentation is one major email marketing list building strategy that every store owner must know about. <link-text url="https://www.campaignrabbit.com/" rel="noopener">CampaignRabbit</link-text> is one such email campaigning tool to retarget customers effectively.
 
-- **Better reach than social media**
+- **Better reach than social media**  <br/>
 Social media is the rage of the era but stats prove otherwise when it comes to marketing. A survey by <link-text url="https://optinmonster.com/email-marketing-vs-social-media-performance-2016-2019-statistics/" rel="noopener nofollow">Optinmonster</link-text> says the number of email users is higher than that of social media users. Another fact is that 60% of people prefer email for receiving promotional messages. The facts speak for themselves, right?
 
-- **Get to know your customers**
+- **Get to know your customers**  <br/>
 Having an email list is beneficial in understanding the customers’ behavior and choices. It is a direct communication that a business makes with a person. It can be targeted to a certain group or even personalized for converting the subscribers into customers.
 
-- **Minimal investment and higher ROI**
+- **Minimal investment and higher ROI**  <br/>
 Designing a brochure, a flyer, marketing on social media - all of these are time-consuming and sometimes creates a hole in the pocket. Emails comparatively need very minimal or zero investment to do the same work. Optinmonster shows a good comparison between email and social media in terms of ROI. As per the study, every $1 spent for email marketing is getting an ROI of $44. What more can you ask for?
 
-- **Completely under your control**
+- **Completely under your control**  <br/>
 Google, Facebook, Twitter, Pinterest, and how many ever social platforms you consider, all of them ask for an email address to connect with the user. So, email address plays a pivotal role and when a business literally owns a list of them, it is their biggest asset. Unless the user opts to change the email or unsubscribe, no other platforms can pose a threat to the list maintained.
 
 Time never waits for anyone. Don’t think twice to take the big leap.
