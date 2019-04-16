@@ -35,7 +35,7 @@ The name says it all. It is a promotional activity done by a business with the h
 - **Consider adding an opt-in for your website**  <br/>
 Using an opt-in method to get subscribers is viable because the benefit is mutual here. You provide them with some content of their expectation, probably for free, in return for their subscription. I came across these words when surfing a page in Optinmonster. They read
 
-> <highlight>12 proven ways to convert abandoning visitors into subscribers</highlight> <br/>
+> <highlight>12 proven ways to convert abandoning visitors into subscribers</highlight> </br>
   <underline>Yes, I want more subscribers. </underline>     |       <underline>No, I have enough leads.</underline>
 
 It appeared when I was about to leave the page, hence named an ‘exit intent popup’. Even though there seems to be another step involved to fill up the name and email address, the statement ‘Yes, I want more subscribers’ makes you take the leap. Words do matter in an opt-in.
