@@ -38,7 +38,7 @@ class AboutUsPage extends React.Component {
                             <p>Our work desks not just shares responsibilities but lots of Smiles as well!</p>
                         </div>
                         <div className="col-sm-6">
-                            <img src={`${process.env.CR_MEDIA_URL}/images/about/cartrabbit-inside-the-office.jpg`} alt="cartrabbit Office" />
+                            <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/about/cartrabbit-inside-the-office.jpg`} alt="cartrabbit Office" />
                         </div>
                     </div>
 

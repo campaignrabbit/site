@@ -1,13 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {StaticQuery, graphql} from 'gatsby'
+import {Breadcrumb} from "gatsby-plugin-breadcrumb";
 import Header from './header'
 import Menu from './menu'
 import Footer from './footer'
+import MetaTags from '../components/Metatags'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './layout.scss'
 
-const Layout = ({children}) => (
+const Layout = ({children, location, crumbLabel}) => (
     <StaticQuery
         query={graphql`
       query SiteTitleQuery {
@@ -21,11 +23,25 @@ const Layout = ({children}) => (
         render={data => (
             <>
                 <div className="wrapper">
+
+                    <MetaTags />
+
                     <Header siteTitle={data.site.siteMetadata.title}/>
 
                     <div id="main" className="main">
+                        { /* location &&
+                        <div className="breadcrumb-container">
+                            <div className="container">
+                                <Breadcrumb
+                                    location={location}
+                                    crumbLabel={crumbLabel}
+                                    crumbStyle={{color: "#666"}}
+                                    crumbActiveStyle={{color: "#6772e5"}}
+                                />
+                            </div>
+                        </div>
+                        */}
                         {children}
-
                         <Footer/>
                     </div>
                 </div>

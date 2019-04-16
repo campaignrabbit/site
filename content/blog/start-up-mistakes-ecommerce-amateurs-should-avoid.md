@@ -33,7 +33,7 @@ What makes your brand a failure?
 The answer is as simple as the question. When you fail to target the right audience, you have all the possibilities of putting your brand through a lot of ups and downs. You should sell your products to the right audience.
 ### 4. Avoiding social media marketing
 
-Social media has become a part and parcel of everyone’s life. Kids, these days know how to create their own social media handles. If you are ignoring the idea of <link-text url="https://www.campaignrabbit.com/quick-ways-to-promote-your-ecommerce-store-in-2019/" target="_blank" rel="noopener">promoting your brand on social media, you are dealing with fewer chances of making a successful brand. Professional marketing strategy also involves marketing your brand through social media. “Marketing your presence on social media is as important as creating your presence”.
+Social media has become a part and parcel of everyone’s life. Kids, these days know how to create their own social media handles. If you are ignoring the idea of <link-text url="https://www.campaignrabbit.com/blog/quick-ways-to-promote-your-ecommerce-store-in-2019/" target="_blank" rel="noopener">promoting your brand on social media, you are dealing with fewer chances of making a successful brand. Professional marketing strategy also involves marketing your brand through social media. “Marketing your presence on social media is as important as creating your presence”.
 ### 5. Failing to choose the right platform
 
 Choosing the right platform is the game changer of your startup business. Understand your own requirements and portfolio it on the right platform.

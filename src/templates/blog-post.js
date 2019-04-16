@@ -1,6 +1,7 @@
 import React from 'react'
 import rehypeReact from "rehype-react"
 import {Link, graphql} from 'gatsby';
+import {Breadcrumb} from "gatsby-plugin-breadcrumb";
 import Layout from "../components/layout";
 import styled from 'styled-components'
 import Img from 'gatsby-image';
@@ -54,29 +55,15 @@ const renderAst = new rehypeReact({
 export default function BlogPost(props) {
     const url = props.data.site.siteMetadata.siteUrl;
     const thumbnail = props.data.markdownRemark.frontmatter.image;
-    const {title} = props.data.markdownRemark.frontmatter;
+    const {title, description} = props.data.markdownRemark.frontmatter;
     const {prev, next} = props.pageContext;
     const toc = props.data.markdownRemark.tableOfContents;
-    // const toc = props.data.markdownRemark.htmlAst.children.filter((item)=>{
-    //     if(item.tagName === "h3"){
-    //         return item;
-    //     }
-    // });
-    // const TableCon = toc.map((item)=>{
-    //     return(
-    //         <li>
-    //             <a className="scroll-down" href="#section1">{item}</a>
-    //         </li>
-    //     );
-    // });
-    // console.log(toc);
-    // console.log(TableCon);
     return (
-        <Layout>
+        <Layout location={props.location} crumbLabel={title}>
             <MetaTags
                 title={title}
-                description={props.data.markdownRemark.frontmatter.description}
-                thumbnail={thumbnail && url + thumbnail}
+                description={description}
+                thumbnail={thumbnail && thumbnail}
                 url={url}
                 pathname={props.location.pathname}
             />
@@ -117,7 +104,7 @@ export default function BlogPost(props) {
                     <div className="footer">
                         <hr/>
                         <PrevNext prev={prev && prev.node} next={next && next.node}/>
-                            <Share title={title} url={url} pathname={props.location.pathname}/>
+                        <Share title={title} url={url} pathname={props.location.pathname}/>
                         <div className="text-right">
                             <Link to="/blog" className="btn btn-primary">Go Back</Link>
                         </div>

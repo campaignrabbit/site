@@ -1,5 +1,5 @@
 ---
-path: "/docs/campaigns/https://docs.campaignrabbit.com/campaigns/automated-campaigns/the-welcome-series-campaign"
+path: "/docs/campaigns/https://www.campaignrabbit.com/docs/campaigns/automated-campaigns/the-welcome-series-campaign"
 updated: "2019-02-20"
 title: "The Welcome Series Campaign"
 description: "Create an awesome welcome series email campaign"
@@ -36,10 +36,10 @@ You can mention details about the discount available.
 
 ![WelcomeMessage](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/docs/campaigns/automated-campaigns/welcome_message.png)
 
-To know more about working with the editor types, click <link-text url="https://docs.campaignrabbit.com/campaigns/working-with-editor" target="_blank" rel="noopener">here.</link-text>
+To know more about working with the editor types, click <link-text url="https://www.campaignrabbit.com/docs/campaigns/working-with-editor" target="_blank" rel="noopener">here.</link-text>
 
 **I have more questions**
 
-Just leave your question and email by clicking the Live Chat button below or submit your support request to <hello@campaignrabbit.com>
+Just leave your question and email by clicking the Live Chat button below or submit your support request to <support@campaignrabbit.com>
 
 We are always happy to assist you :)

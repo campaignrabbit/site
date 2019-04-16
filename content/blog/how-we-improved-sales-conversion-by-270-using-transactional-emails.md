@@ -23,7 +23,7 @@ I cleaned my desk… filled my coffee mug and started to work my fingers over th
 Every hour in search of potential information, I go on refilling my mug.
 
 ## Mug 1. Is email marketing still relevant to the happening trend in eCommerce?
-Before analyzing the potential of transactional emails, I made sure to check the survival rate of <link-text url="https://www.campaignrabbit.com/email-marketing-works/" target="_blank" rel="noopener"> email marketing in the on-going digital trend.</link-text>
+Before analyzing the potential of transactional emails, I made sure to check the survival rate of <link-text url="https://www.campaignrabbit.com/blog/email-marketing-works/" target="_blank" rel="noopener"> email marketing in the on-going digital trend.</link-text>
 
 Is email marketing still relevant to the happening trend in eCommerce?
 

@@ -46,7 +46,7 @@ Adapting to strategies of affiliate marketing can prove to be very helpful. Affi
 **Email Marketing**
 Email Marketing is emerging fast these days and people stay connected with the help of emails. You can send promotional emails to your customers regarding the latest offers, new products or whatsoever. Instead of sending usual e-mails, segment your customers and <link-text url="https://www.campaignrabbit.com/" terget="_blank" rel="noopener">automate your email campaigns. Giving catchy offer descriptions are the sole reason for this.
 
-People tend to shop frequently on online because of dynamic pricing. Also, sending offer and price drop <link-text url="https://www.campaignrabbit.com/how-automated-email-grow-online-business/" target="_blank" rel="noopener">emails can really boost the revenue</link-text> of your online store.
+People tend to shop frequently on online because of dynamic pricing. Also, sending offer and price drop <link-text url="https://www.campaignrabbit.com/blog/how-automated-email-grow-online-business/" target="_blank" rel="noopener">emails can really boost the revenue</link-text> of your online store.
 ## SMS Marketing
 Even for people who don’t open their email on a regular basis, you can always keep them informed about your products through SMS. There are very fewer chances of ignoring text messages.
 

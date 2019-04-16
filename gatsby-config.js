@@ -1,8 +1,15 @@
+const queries = require('./src/utils/algolia')
+
+
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
     siteMetadata: {
         title: `Campaignrabbit`,
         description: `Sell more by sending targetted, data-driven marketing emails to your customers`,
-        author: `Shobana`,
+        author: `campaignrabbit`,
         siteUrl: `https://www.campaignrabbit.com/`
     },
     plugins: [
@@ -63,6 +70,15 @@ module.exports = {
           },
         },
         {
+          resolve: `gatsby-plugin-algolia`,
+          options: {
+            appId: process.env.GATSBY_ALGOLIA_APP_ID,
+            apiKey: process.env.GATSBY_ALGOLIA_ADMIN_KEY,
+            queries,
+            chunkSize: 10000, // default: 1000
+          },
+        },
+        {
             resolve: `gatsby-plugin-google-fonts`,
             options: {
                 fonts: [
@@ -115,6 +131,26 @@ module.exports = {
             options: {
                 id: 1062564,
                 sv: 6
+            },
+        },
+        {
+          resolve: `gatsby-plugin-canonical-urls`,
+          options: {
+            siteUrl: `https://www.campaignrabbit.com`,
+          },
+        },
+        `gatsby-plugin-remove-trailing-slashes`,
+        {
+            resolve: `gatsby-plugin-sitemap`,
+            options: {
+                sitemapSize: 5000,
+                output: `/sitemap.xml`,
+            }
+        },
+        {
+            resolve: `gatsby-plugin-breadcrumb`,
+            options: {
+                sitemapPath: `/sitemap.xml`,
             },
         },
         // this (optional) plugin enables Progressive Web App + Offline functionality
