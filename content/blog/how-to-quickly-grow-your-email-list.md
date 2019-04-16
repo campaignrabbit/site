@@ -8,6 +8,7 @@ image: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/
 thumbnail: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/How-to-grow-your-email-list-rapidly.png"
 category: "marketing"
 ---
+
 ## How to grow your email list rapidly?
 A loyal customer who keeps coming back for more value from your products is an asset for any business but the scenario here is that <link-text url="https://www.hubspot.com/database-decay" rel="noopener nofollow"> email databases deplete every year by a whopping 22.5% </link-text>. That is something to be concerned about when when customers play a pivotal role in business. In this case, getting back this loyal following is a tedious task. Instead, learning the art of <link-text url="https://www.retainful.com/blog/the-simple-way-to-retain-all-your-customers/" rel="noopener"> retaining the customer </link-text> is vital here. This second phase of the process is completely dependent on the initial step which is all about how to build an email list.
 
