@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Layout from "../components/layout";
 import Container from "../components/container";
-import NavSub from "../components/NavSub";
+import MetaTags from '../components/Metatags'
 // Components
 import { Link, graphql } from "gatsby"
 
@@ -15,33 +15,48 @@ const Category = ({ pageContext, data }) => {
 
     return (
         <Layout>
+            <MetaTags
+                title={category}
+                description={categoryHeader}
+            />
             <div className="category-container">
                 <div className="category-header">
                     <Container>
                         <h2>{categoryHeader}</h2>
                     </Container>
                 </div>
-                <Container>
-                    <ul className="category-list">
-                        <h4>{category}</h4>
+
+                <Container type="s">
+                    <div className="blog-list-container">
                         {edges.map(({ node }) => {
-                            const { title } = node.frontmatter
+                            const { title, description, image, author, date } = node.frontmatter
                             const { slug } = node.fields
                             const { excerpt } = node.excerpt
                             return (
-                                <li key={slug}>
-                                    <Link to={slug}>{title}</Link>
-                                    <p>{excerpt}</p>
-                                </li>
+                              <div className="blog-post" key={slug}>
+                                  <div className="image-section">
+                                      <Link to={slug}>
+                                          { image &&
+                                          <img src={image} alt={title} />
+                                          }
+                                      </Link>
+                                  </div>
+                                  <div className="content-section">
+                                      <h3><Link to={slug}>{title}</Link></h3>
+                                      <p>
+                                          <small>Posted by {author} on {date} in {category}</small>
+                                      </p>
+                                      <p>
+                                          {description}
+                                      </p>
+                                      <Link to={slug}>Read more</Link>
+                                  </div>
+                              </div>
                             )
                         })}
-                    </ul>
-                    {/*
-                      This links to a page that does not yet exist.
-                      We'll come back to it!
-                    */}
+                    </div>
                 </Container>
-            </div>
+              </div>
         </Layout>
     )
 }
@@ -84,7 +99,11 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            description
             category
+            image
+            author
+            date(formatString: "DD MMMM, YYYY")
           }
           fields{
              slug

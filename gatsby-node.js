@@ -6,8 +6,9 @@
 
 const path = require("path");
 const { createFilePath, createFileNode } = require(`gatsby-source-filesystem`);
-const _ = require('lodash');
 const createPaginatedPages = require('gatsby-paginate');
+const _ = require('lodash');
+
 
 // Create pages
 exports.createPages = ({ actions, graphql }) => {
@@ -23,9 +24,13 @@ exports.createPages = ({ actions, graphql }) => {
           node {
             frontmatter {
               title
-              tags
+              date(formatString: "DD MMMM, YYYY")
+              author
+              image
               category
+              tags
             }
+            excerpt
             fields{
                 slug
             }
@@ -65,6 +70,18 @@ exports.createPages = ({ actions, graphql }) => {
             })
         })
         const blogCategorySet = new Set();
+
+        createPaginatedPages({
+          edges: posts,
+          createPage: createPage,
+          pageTemplate: 'src/templates/blog.js',
+          pageLength: 5, // This is optional and defaults to 10 if not used
+          pathPrefix: 'blog', // This is optional and defaults to an empty string if not used
+          context: {}, // This is optional and defaults to an empty object if not used
+          buildPath: (index, pathPrefix) =>
+            index > 1 ? `${pathPrefix}/${index}` : `/${pathPrefix}`,
+        })
+
         posts.forEach(({ node }, index) => {
             const {
                 category
@@ -158,23 +175,24 @@ exports.createPages = ({ actions, graphql }) => {
                     slug: node.fields.slug,
                     prev: index === 0 ? null : posts[index - 1],
                     next: index === result.length - 1 ? null : posts[index + 1],
+                    category: category,
                 }, // additional data can be passed via context
             })
         });
 
         //Category page
         // Eliminate duplicate Category
-        // const docCategoryList = _.uniq(Array.from(docsCategorySet));
-        // const categoryList = Array.from(docsCategorySet);
-        // docCategoryList.forEach((category) => {
-        //     createPage({
-        //         path: `/docs/${_.kebabCase(category)}/`,
-        //         component: categoryPage,
-        //         context: {
-        //             category,
-        //         },
-        //     });
-        // });
+        const docCategoryList = _.uniq(Array.from(docsCategorySet));
+        const categoryList = Array.from(docsCategorySet);
+        docCategoryList.forEach((category) => {
+            createPage({
+                path: `/docs/${_.kebabCase(category)}/`,
+                component: categoryPage,
+                context: {
+                    category,
+                },
+            });
+        });
     });
 
     return Promise.all([blog, docs]);

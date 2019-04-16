@@ -4,7 +4,7 @@ import Container from  '../components/container'
 const PricingTable = () =>(
     <div id="pricing" className="pricing-section text-center">
         <Container>
-            
+
             <div className="row">
                 <div className="col-lg-4 offset-lg-4 col-md-12">
                     <div className="table-left wow fadeInDown">
@@ -19,7 +19,7 @@ const PricingTable = () =>(
                                 <li>Analytics & Insights</li>
                             </ul>
                             <p>
-                                <a className="btn-action btn-lg" href="https://app.retainful.com/" target="_blank" rel="noopener noreferrer"> Get Started Now</a>
+                                <a className="btn-action btn-lg" href="https://app.campaignrabbit.com/" target="_blank" rel="noopener noreferrer"> Get Started Now</a>
                             </p>
                         </div>
                     </div>

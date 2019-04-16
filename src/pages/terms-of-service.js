@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Container from '../components/container'
-import Breadcrumb from '../components/breadcrumb'
 
 const TermsOfService = () => (
     <Layout>

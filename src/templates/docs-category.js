@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import Layout from "../components/layout";
 import Container from "../components/container";
-import NavSub from "../components/NavSub";
+import MetaTags from '../components/Metatags'
 // Components
 import { Link, graphql } from "gatsby"
 
@@ -15,31 +15,36 @@ const Category = ({ pageContext, data }) => {
 
     return (
         <Layout>
+          <MetaTags
+              title={category}
+              description={categoryHeader}
+          />
             <div className="category-container">
                 <div className="category-header">
-                    <Container>
+                    <Container type="s">
                         <h2>{categoryHeader}</h2>
                     </Container>
                 </div>
-                <Container>
-                    <ul className="category-list">
-                        <h4>{category}</h4>
+                <Container type="s">
+                    <div className="row category-list">
                         {edges.map(({ node }) => {
-                            const { title } = node.frontmatter
-                            const { slug } = node.fields
-                            const { excerpt } = node.excerpt
-                            return (
-                                <li key={slug}>
-                                    <Link to={slug}>{title}</Link>
-                                    <p>{excerpt}</p>
-                                </li>
-                            )
+                          const { title, description } = node.frontmatter
+                          const { slug } = node.fields
+                          const { excerpt } = node.excerpt
+                          return (
+                            <div className="col-sm-6" key={slug}>
+                                <div className="card card-category">
+                                    <div className="card_inner">
+                                        <div className="card_links">
+                                          <h4><Link to={slug}>{title}</Link></h4>
+                                          <p>{description}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                          )
                         })}
-                    </ul>
-                    {/*
-                      This links to a page that does not yet exist.
-                      We'll come back to it!
-                    */}
+                    </div>
                 </Container>
             </div>
         </Layout>
@@ -77,13 +82,14 @@ export const pageQuery = graphql`
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { category: { eq: $category } } , fileAbsolutePath: { regex: "/docs/" } }
+      filter: { frontmatter: { category: { eq: $category } }, fileAbsolutePath: { regex: "/docs/" } }
     ) {
       totalCount
       edges {
         node {
           frontmatter {
             title
+            description
             category
           }
           fields{
