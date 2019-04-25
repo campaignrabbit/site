@@ -32,32 +32,32 @@ There is no better way to break the ice with your subscribers than sending them 
 
 Now that you know how effective a welcome mail can be, let’s check out how to nail it.
 #### Do’s
-**A warm welcome**
+**A warm welcome** - 
 Of course, this is the main purpose of the welcome email. Use the subject line of the mail for the welcome and hint about the same at the start of the content. 
 
-**Personalize**
+**Personalize** - 
  This is completely optional. Personalization does create a better rapport and improve sales but even without it most people still do open up the welcome emails.
  
-**Convey subscriber expectations**
+**Convey subscriber expectations** - 
  You can probably let your subscribers know what to expect as a member of your community, like newsletters, offers, occasional blog posts, and the like. 
  
-**Give a discount**
+**Give a discount** - 
  This is what will bring about sales conversion. You can either choose to just mention the discount offered or give a coupon code to be used on check out.
  
-**Include a prominent CTA**
- Call-to-action must accompany the discount offered. It can simply say ‘SHOP NOW’.
+**Include a prominent CTA** - 
+ Call-to-action must accompany the discount offered. It can simply say **‘SHOP NOW’**.
  
-**Encourage social sharing**
+**Encourage social sharing** - 
 Revenue can be increased by asking your subscribers to do some social sharing. The buttons must be present at the bottom of the email. 
 
 #### Don’ts
-**Delay**
+**Delay** - 
 The welcome email must reach your subscriber’s inbox within the blink of an eye. Any delay in doing this, be it an hour or a day, will affect revenue and create a bad impression.
 
-**Enforce the idea of sales**
+**Enforce the idea of sales** - 
 Welcome emails are actually not meant to generate revenue. It is about including a member to your family. For the sake of marketing, sales have cropped in here too but it must be in a subtle manner with just one CTA.
 
-**Include content of great lengths**
+**Include content of great lengths** - 
 The whole of the content in the email must only be within the range of 50 - 150 words. No person will have the patience to keep reading chunks of text. 
 
 ![EmailTemplate](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/grow-your-ecommerce-store-with-9-effective-automated-emails/WELCOME%20EMAIL%20IMAGE.jpg)
