@@ -9,8 +9,6 @@ thumbnail: "https://raw.githubusercontent.com/campaignrabbit/cr-media/master/ima
 category: "email-marketing"
 ---
 
-# 9 Effective Automated Emails To Grow Your eCommerce Revenue
-
 The eCommerce sector makes shopping much easier for today’s world where people spend most of the time on the internet. Clothes, books, food, electronics, this and that, anything and everything, from A to Z (like the Amazon logo) is available at your doorstep with just a click. 
  
 Every eCommerce establishment must ‘KNOW’ their customer base in depth. This in turn helps in generating revenue in leaps and bounds. The tool that is used passively to generate such revenue is automated email. Here is a peek into how <link-text url="https://www.campaignrabbit.com/blog/how-automated-email-grow-online-business" target="_blank" rel="noopener">how automated emails grow online business.</link-text>
