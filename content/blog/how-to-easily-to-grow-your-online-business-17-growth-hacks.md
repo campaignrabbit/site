@@ -92,13 +92,13 @@ Let’s look at an example.
 
 Movexa, a vitamin and supplement company had the title as ‘Natural Joint Relief’ for one of their products. They changed it to ‘Natural Joint Relief Supplement’ and saw an increase in conversion by 89.97%.
 
-### Pro tip: 
+**Pro tip:** 
 
 * Start off with small changes for testing. If you are gearing up for a big change, you must be patient enough to get the results.
 * Never stop A/B testing. Do as many as possible and keep it going because as times change, the minds of people change too.
 * Keep experimenting. 
 
-#### Use exit-intent pop-ups
+**Use exit-intent pop-ups**
 
 On leaving a site, this pops up
 
