@@ -2,55 +2,10 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+import Pricing from '../components/pricing'
 import $ from 'jquery'
 
 class PricingPage extends React.Component {
-    componentDidMount () {
-        $('#customer-count-select').change(function () {
-            var chosenPrice = $(this).val();
-            var x = document.getElementById("monthprice");
-            // var y = document.getElementById("yearprice");
-            switch (chosenPrice) {
-                case '100':
-                    x.innerHTML = "Free";
-                    $('.price-title').show();
-                    $('.price-sub').show();
-                    // y.innerHTML = "0";
-                    break;
-                case '2000':
-                    x.innerHTML = "$14";
-                    $('.price-title').show();
-                    $('.price-sub').show();
-                    // y.innerHTML = "$ 168";
-                    break;
-                case '5000':
-                    x.innerHTML = "$29";
-                    $('.price-title').show();
-                    $('.price-sub').show();
-                    // y.innerHTML = "$ 348";
-                    break;
-                case '10000':
-                    x.innerHTML = "$49";
-                    $('.price-title').show();
-                    $('.price-sub').show();
-                    // y.innerHTML = "$ 588";
-                    break;
-                case '25000':
-                    x.innerHTML = "$69";
-                    $('.price-title').show();
-                    $('.price-sub').show();
-                    // y.innerHTML = "$ 828";
-                    break;
-                case '26000':
-                    x.innerHTML = `<span class="pricing-percent">Having more than 25,000+ customers <br/>
-                        <a class="pricing-link btn btn-primary" href="https://www.campaignrabbit.com/contact-us/">Contact us</a>
-                        <br/> For info and pricing, contact us at <a href="mailto:sales@campaignrabbit.com">sales@campaignrabbit.com</a></span>`;
-                        $('.price-title').hide();
-                        $('.price-sub').hide();
-                    break;
-            }
-        });
-    }
     render() {
         return (
           <Layout>
@@ -63,26 +18,7 @@ class PricingPage extends React.Component {
                         <p>Estimate your monthly cost based on your customers.</p>
                     </div>
             	</div>
-                <div id="price-slider">
-                    <div className="calcuate-pricing-plan container-m">
-                        <h4>How many customers does your store have?</h4>
-                        <div className="customer-select-box">
-                            <select id="customer-count-select">
-                                <option value="100">0 - 100</option>
-                                <option value="2000">100 - 2000</option>
-                                <option value="5000">2000 - 5000</option>
-                                <option value="10000">5000 - 10000</option>
-                                <option value="25000">10000 - 25000</option>
-                                <option value="26000">Above 25000</option>
-                            </select>
-                        </div>
-                        <h4 className="price-title">Campaignrabbit will cost you:</h4>
-                        <div className="price-value-box">
-                            <span className="price-sub">Monthly</span>
-                            <div id="monthprice" className="price">Free</div>
-                        </div>
-                    </div>
-            	</div>
+                <Pricing/>
                 <div className="container-m">
                     <div className="free-trail-block">
                         <div className="row">
