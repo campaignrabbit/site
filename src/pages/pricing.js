@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import MetaTags from '../components/Metatags'
 import Pricing from '../components/pricing'
 import $ from 'jquery'
 
@@ -9,7 +9,11 @@ class PricingPage extends React.Component {
     render() {
         return (
           <Layout>
-            <SEO title="Pricing" />
+              <MetaTags
+                  title="CampaignRabbit Pricing - Automate your ecommerce email campaigns for an affordable price."
+                  description="Start sending data-driven emails to your eCommerce customers for as low as $14 per month. Try CampaignRabbit for free for 30 days without providing your credit card."
+                  keywords="ecommerce email marketing, email marketing pricing, email marketing cost, email marketing cost, email service platforms, best shopify email marketing, woocommerce email, campaignrabbit pricing"
+              />
             <div className="pricing-banner-container">
                 <div className="intro-text-container text-center">
                     <div className="container-m">

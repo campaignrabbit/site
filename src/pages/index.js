@@ -21,9 +21,10 @@ class IndexPage extends React.Component {
             <Layout>
                 <MetaTags
                     title="Campaignrabbit - Email Marketing Automation for WooCommerce and Shopify"
-                    description="Campaignrabbit is an eCommerce Marketing Automation platform to send personalised, data-drive emails and popups on autopilot. Try Campaignrabbit for FREE today!"
+                    description="Campaignrabbit is an eCommerce Marketing Automation platform to send personalised, data-driven emails and popups on autopilot. Try Campaignrabbit for FREE today!"
                     thumbnail={`${process.env.GATSBY_CR_MEDIA_URL}/images/campaignrabbit-og-image.jpg`}
                     url="https://wwww.campaignrabbit.com"
+                    keywords="ecommerce marketing automation, ecommerce email automation, online store marketing tool, Shopify email followups, WooCommerce abandoned cart recovery software, campaignrabbit"
                 />
                 <div id="home" className="home home-top">
                     <div className="container">
