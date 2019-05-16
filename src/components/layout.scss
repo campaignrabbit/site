@@ -1,5 +1,6 @@
 $primary: #6772e5;
 $info: #1a82e2;
+$lavendar:rgb(230, 230, 250);
 $danger: #b71c1c;
 $primary-font: 'Cabin', sans-serif;
 $secondary-font: 'Cabin', sans-serif;
@@ -68,6 +69,13 @@ table {
   }
 }
 
+.ctabox{
+  padding:50px;
+  width:100%;
+  font-style: bold;
+  background-color: $lavendar;
+}
+
 .underline {
   text-decoration: none;
   border-bottom: none;
@@ -120,14 +128,17 @@ body {
     padding: 55px;
     font-weight: bolder;
     td{
-      margin-right: 3px;
-      text-align: left;
+      text-align: center;
     }
   }
-  tr td{
+  td{
+    margin-right: 3px;
+    text-align: left;;
+  }
+  tr {
     padding: 0;
-    border: 1px solid #000;
     text-align:center;
+    border-bottom: 1px solid #000
   }
 }
 

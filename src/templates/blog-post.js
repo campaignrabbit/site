@@ -18,6 +18,7 @@ import LinkText from "../components/linkText"
 import Gist from "../components/gist"
 import Row from "../components/row"
 import Col from "../components/column"
+import CtaBox from '../components/ctabox'
 
 const PrimaryTitle = styled.h1`
     color: #f00;
@@ -49,6 +50,7 @@ const renderAst = new rehypeReact({
         "link-text": LinkText,
         row: Row,
         col: Col,
+        "cta-box":CtaBox
     },
 }).Compiler
 
