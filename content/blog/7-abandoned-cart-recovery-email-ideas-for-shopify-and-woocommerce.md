@@ -1,5 +1,5 @@
 ---
-path: "7-abandoned-cart-recovery-email-ideas-for-shopify-and-woocommerce"
+path: "/blog/7-abandoned-cart-recovery-email-ideas-for-shopify-and-woocommerce"
 date: "2019-05-01"
 title: "7 Abandoned Cart Recovery Email Ideas For Shopify And WooCommerce"
 description: "Did you know that you are losing out on a fortune if you ignore abandoned carts? These email ideas for Shopify and WooCommerce will help you reclaim them."
