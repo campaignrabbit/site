@@ -10,7 +10,7 @@ module.exports = {
         title: `Campaignrabbit`,
         description: `Sell more by sending targetted, data-driven marketing emails to your customers`,
         author: `campaignrabbit`,
-        siteUrl: `https://www.campaignrabbit.com/`
+        siteUrl: `https://www.campaignrabbit.com`
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -30,6 +30,12 @@ module.exports = {
                 name: `images`,
                 path: `${__dirname}/src/images`,
             }
+        },
+        {
+          resolve: `gatsby-plugin-canonical-urls`,
+          options: {
+            siteUrl: `https://www.campaignrabbit.com`,
+          },
         },
         {
           resolve: `gatsby-transformer-remark`,
