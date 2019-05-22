@@ -61,26 +61,29 @@ class homeTabs extends React.Component {
             <div className="home-tabs">
                 <ul className="tabs">
                     <li className="tab-link current" data-tab="hometab-1">
-                        <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-banner/icons/robot.png`}
+                        <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-banner/tab-icons/Email-automation.png`}
                              className="img-responsive tab-image" alt="Email Automation"/>
                         <span>Email Automation</span>
                     </li>
                     <li className="tab-link" data-tab="hometab-2">
-                        <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-banner/icons/popup.png`}
+                        <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-banner/tab-icons/Trigged-Popup.png`}
                              className="img-responsive tab-image" alt="Triggered PopUps"/>
                         <span>Triggered PopUps</span>
                     </li>
                     <li className="tab-link" data-tab="hometab-3">
-                        <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-banner/icons/shopping.png`}
+                        <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-banner/tab-icons/Abandoned-cart-recovery.png`}
                              className="img-responsive tab-image" alt="Abandoned Cart Recovery"/>
                         <span>Abandoned Cart Recovery</span>
                     </li>
                     <li className="tab-link" data-tab="hometab-4">
-                        <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/feature-icons/mail-builder.png`}
+                        <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-banner/tab-icons/Visual-email-builder.png`}
                              className="img-responsive tab-image" alt="Visual Email Builder"/>
                         <span>Visual Email Builder</span>
                     </li>
                 </ul>
+                <div className="browser-top-bar">
+                    <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/browser.png`} alt="chrome-safari-top" className="img-responsive" />
+                </div>
                 <div id="hometab-1" className="tab-content current">
                     <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-banner/Email-Automation.png`}
                          className="img-responsive" alt="Email Automation"/>
