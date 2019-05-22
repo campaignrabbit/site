@@ -31,10 +31,10 @@ class IndexPage extends React.Component {
                                     <h1>All-in-one<br/> eCommerce Automation</h1>
                                 </div>
                                 <div className="col-md-6">
-                                    <p>Email Marketing, Popups, Optin, Abandoned Cart Recovery - all in one place
+                                    <p>Email Marketing, Popups, Optin, Abandoned Cart Recovery - all in one place.
                                     </p>
                                     <SignUpForm user_mail_id={true}
-                                                btnText="Get started" btnClass="btn-action" note="For Shopify & WooCommerce" />
+                                                btnText="Get started" btnClass="btn-action" note="For Shopify & WooCommerce." />
                                     {/*<img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/campaignrabbit-flow-transparent-bg.png`} className="img-responsive" alt="Campaignrabbit flow image"/>*/}
                                 </div>
                             </div>
