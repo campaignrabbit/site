@@ -397,6 +397,30 @@ body {
 
     &.bottom {
       background: #f6f6fd;
+      .free-trial-form{
+        .form-alt{
+          .submit-button{
+            display: inline-block;
+            height: auto;
+            padding: 10px 20px;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 600;
+            margin: 5px 10px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-decoration: none !important;
+            white-space: nowrap;
+            cursor: pointer;
+            background: $primary;
+            color: #FFFFFF;
+            border: 1px solid $primary !important;
+            border-radius: 4px;
+            box-sizing: border-box;
+            transition: 0.2s;
+          }
+        }
+      }
     }
 
     .hero-img {
@@ -422,7 +446,7 @@ body {
 
     h1 {
       color: #222222;
-      font-size: 62px;
+      font-size: 52px;
       font-weight: 700;
       line-height: 1.1;
       letter-spacing: 0;
@@ -540,7 +564,7 @@ body {
     }
     &.home-top{
       .hero-content {
-        padding: 40px 0 80px;
+        padding: 40px 0;
         .btn-container {
           flex-wrap: wrap;
           display: flex;
@@ -656,6 +680,9 @@ body {
     .form {
       margin-top: 15px;
       margin-bottom: 10px;
+      @media(min-width: 420px) {
+        max-width: 500px;
+      }
     }
 
     .form-alt {
@@ -667,7 +694,7 @@ body {
       justify-content: center;
       padding: 10px 20px;
       @media(min-width: 420px) {
-        max-width: 400px;
+        max-width: 500px;
         padding: 0;
         .form-group {
           margin-bottom: 0;
@@ -4364,7 +4391,7 @@ ul.tabs {
           margin: 0 auto 10px;
         }
         .tab-image{
-          max-width: 100px;
+          max-width: 80px;
           width: 100%;
           height: auto;
           display: block;
@@ -4391,6 +4418,10 @@ ul.tabs {
       margin-top: 20px;
       display: flex;
       align-items: center;
+      max-width: 800px;
+      height: auto;
+      width: 100%;
+      margin: 20px auto 0;
     }
     .tab-content {
       background: #fff;
@@ -4400,7 +4431,7 @@ ul.tabs {
       height: auto;
       box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 20px, rgb(245, 245, 245) 0px -1px 0px;
       border-radius: 4px;
-      max-width: 100%;
+      max-width: 800px;
       width: 100%;
       margin: 0 auto 20px;
       border: 1px solid #e5e5e5;
@@ -4628,8 +4659,8 @@ ul.tabs {
 }
 
 .home-services {
-  padding: 40px 0;
-
+  padding: 0;
+  //background: #f5f9fc;
   .services-intro {
     text-align: center;
 

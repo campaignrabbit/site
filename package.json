@@ -13,7 +13,7 @@
     "gatsby-paginate": "^1.0.17",
     "gatsby-plugin-algolia": "^0.3.0",
     "gatsby-plugin-breadcrumb": "^2.1.0",
-    "gatsby-plugin-canonical-urls": "^2.0.12",
+    "gatsby-plugin-canonical-urls": "^2.0.13",
     "gatsby-plugin-catch-links": "^2.0.13",
     "gatsby-plugin-facebook-pixel": "^1.0.3",
     "gatsby-plugin-google-analytics": "^2.0.17",
@@ -69,6 +69,7 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
+    "gatsby-plugin-force-trailing-slashes": "^1.0.4",
     "prettier": "^1.15.2"
   },
   "repository": {

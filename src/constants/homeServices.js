@@ -4,31 +4,31 @@ const homeFeature = () =>(
     <div id="services" className="home-services wow fadeInDown">
         <div className="text-center container-m">
             <div className="services-intro">
-                <div className="divider-line"></div>
+                {/*<div className="divider-line"></div>*/}
                 <h3>Discover how <strong>Campaignrabbit</strong> can drive more sales</h3>
-                <div className="row">
-                  <div className="col-sm-4">
-                    <p>
-                        You have spent a huge amount of money for acquiring customers. Now <span className="highlight">how do you retain them and get more dollars per customer?</span>
-                    </p>
-                  </div>
-                  <div className="col-sm-4">
-                    <p>
-                        We know it is quite a challange. That is where <strong>Campaignrabbit</strong> comes in. We let you automate your marketing efforts in a few simple steps.
-                    </p>
-                  </div>
-                  <div className="col-sm-4">
-                    <p>
-                        Right from extending a warm welcome, <span className="highlight">Campaignrabbit helps you stay connected with your customers, engage and retain them in a more meaningful way</span> - using
-                        a wide range of features.
-                    </p>
-                  </div>
-                </div>
-                <p>
-                    <strong>Grow your business by building lasting relationships with your customers.</strong>
-                </p>
+                {/*<div className="row">*/}
+                  {/*<div className="col-sm-4">*/}
+                    {/*<p>*/}
+                        {/*You have spent a huge amount of money for acquiring customers. Now <span className="highlight">how do you retain them and get more dollars per customer?</span>*/}
+                    {/*</p>*/}
+                  {/*</div>*/}
+                  {/*<div className="col-sm-4">*/}
+                    {/*<p>*/}
+                        {/*We know it is quite a challange. That is where <strong>Campaignrabbit</strong> comes in. We let you automate your marketing efforts in a few simple steps.*/}
+                    {/*</p>*/}
+                  {/*</div>*/}
+                  {/*<div className="col-sm-4">*/}
+                    {/*<p>*/}
+                        {/*Right from extending a warm welcome, <span className="highlight">Campaignrabbit helps you stay connected with your customers, engage and retain them in a more meaningful way</span> - using*/}
+                        {/*a wide range of features.*/}
+                    {/*</p>*/}
+                  {/*</div>*/}
+                {/*</div>*/}
+                {/*<p>*/}
+                    {/*<strong>Grow your business by building lasting relationships with your customers.</strong>*/}
+                {/*</p>*/}
 
-                <div className="divider-line"></div>
+                {/*<div className="divider-line"></div>*/}
             </div>
         </div>
         <div className="service-content-container">
