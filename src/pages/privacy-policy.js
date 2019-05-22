@@ -1,9 +1,15 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Container from '../components/container'
+import MetaTags from '../components/Metatags'
 
 const PrivacyPolicy = () => (
     <Layout>
+        <MetaTags
+            title="CampaignRabbit Privacy Policy and GDPR Compliance Page"
+            description="Check CampaignRabbit's privacy policy updates and the data protection safety measures here. We respect the privacy of our website visitors and customers who trust us."
+            keywords="email marketing tool privacy policy, ecommerce email marketing policies, campaignrabbit privacy policy"
+        />
         <Container type="s">
             <div className="legal-info">
                 <p>Privacy Statement for Personally Identifiable Information of Cartrabbit International Pte Ltd.</p>

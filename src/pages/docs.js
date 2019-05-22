@@ -6,7 +6,7 @@ import Layout from "../components/layout";
 import Container from "../components/container"
 import HOME_CARDS from '../constants/docsCards';
 import CALLOUTS from '../constants/docsCallouts';
-import SEO from '../components/seo';
+import MetaTags from '../components/Metatags'
 import Search from '../components/Search';
 import SideNav from '../components/SideNav';
 import SideNavLinks from '../constants/docsSideNavLinks';
@@ -56,7 +56,11 @@ class DocsPage extends React.Component {
     render() {
         return (
             <Layout location={this.props.location} crumbLabel="Docs">
-                <SEO title="Documentation"/>
+                <MetaTags
+                    title="CampaignRabbit Documentation - Get Started with eCommerce Marketing Automation Tool"
+                    description="Get started with CampaignRabbit documentation today and drive more sales to your eCommerce store. Read how to setup perfect automated email campaigns for your store customers instantly."
+                    keywords="email campaign examples, email campaign templates, ecommerce growth hacks, learn ecommerce marketing, email marketing forum, campaignrabbit documentation"
+                />
                 <div className='docs-container'>
                     <div className="container-fluid">
                         <div className="row">
