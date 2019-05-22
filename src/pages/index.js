@@ -30,10 +30,10 @@ class IndexPage extends React.Component {
                     <div className="container">
                         <div className="hero-content wow fadeIn">
                             <div className="row">
-                                <div className="col-sm-5">
+                                <div className="col-md-6 col-lg-5">
                                     <h1>All-in-one<br/> eCommerce Automation</h1>
                                 </div>
-                                <div className="col-sm-6">
+                                <div className="col-md-6">
                                     <p>Automate Email Campaigns, Triggered PopUps, Recover Cart Abandonment - in one place.
                                     </p>
                                     <SignUpForm user_mail_id={true}

@@ -459,7 +459,7 @@ body {
       }
 
       .form-alt input[type="text"] {
-        height: 46px;
+        height: 45px;
       }
       .form-alt .btn-action {
         display: inline-block;
@@ -6185,8 +6185,15 @@ ul.tabs {
         height: auto;
         margin-top: 15px;
       }
+      .free-trial-form .form .form-alt{
+        display: block;
+        .btn-action{
+          margin: 10px 0;
+        }
+      }
     }
   }
+  
   .features-tabs{
     padding: 40px 0;
   }
