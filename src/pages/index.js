@@ -7,11 +7,8 @@ import HomeBanner from '../constants/homeBanner'
 import SignUpForm from '../components/SignUpForm'
 
 //sections
-import HomeSteps from '../constants/homeSteps';
 import HomeFeatures from '../constants/homeFeatures';
-import HomeTabs from '../constants/homeTabs';
 import HomeServices from '../constants/homeServices';
-import HomeReviews from '../constants/homeReviews';
 import HomeIntegrations from '../constants/homeIntegrations';
 
 
@@ -30,14 +27,14 @@ class IndexPage extends React.Component {
                     <div className="container">
                         <div className="hero-content wow fadeIn">
                             <div className="row">
-                                <div className="col-md-6 col-lg-5">
+                                <div className="offset-lg-1 col-md-6 col-lg-4">
                                     <h1>All-in-one<br/> eCommerce Automation</h1>
                                 </div>
                                 <div className="col-md-6">
-                                    <p>Automate Email Campaigns, Trigger PopUps, Recover Cart Abandonment - in one place.
+                                    <p>Email Marketing, Popups, Optin, Abandoned Cart Recovery - all in one place
                                     </p>
                                     <SignUpForm user_mail_id={true}
-                                                btnText="Get started" btnClass="btn-action" note="For Shopify & WooCommerce Entrepreneurs." />
+                                                btnText="Get started" btnClass="btn-action" note="For Shopify & WooCommerce" />
                                     {/*<img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/campaignrabbit-flow-transparent-bg.png`} className="img-responsive" alt="Campaignrabbit flow image"/>*/}
                                 </div>
                             </div>
@@ -47,8 +44,6 @@ class IndexPage extends React.Component {
                         </div>
                     </div>
                 </div>
-
-                <HomeTabs/>
 
                 <HomeServices/>
 

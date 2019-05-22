@@ -68,7 +68,7 @@ class homeTabs extends React.Component {
                     <li className="tab-link" data-tab="hometab-2">
                         <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-banner/tab-icons/Trigged-Popup.png`}
                              className="img-responsive tab-image" alt="Triggered PopUps"/>
-                        <span>Triggered PopUps</span>
+                        <span>PopUps</span>
                     </li>
                     <li className="tab-link" data-tab="hometab-3">
                         <img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/home-banner/tab-icons/Abandoned-cart-recovery.png`}
