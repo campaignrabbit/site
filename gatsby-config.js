@@ -139,7 +139,8 @@ module.exports = {
             siteUrl: `https://www.campaignrabbit.com`,
           },
         },
-        `gatsby-plugin-remove-trailing-slashes`,
+        `gatsby-plugin-force-trailing-slashes`,
+        `gatsby-plugin-canonical-urls`,
         {
             resolve: `gatsby-plugin-sitemap`,
             options: {

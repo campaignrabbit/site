@@ -540,7 +540,7 @@ body {
     }
     &.home-top{
       .hero-content {
-        padding: 40px 0 80px;
+        padding: 40px 0;
         .btn-container {
           flex-wrap: wrap;
           display: flex;
@@ -4364,7 +4364,7 @@ ul.tabs {
           margin: 0 auto 10px;
         }
         .tab-image{
-          max-width: 100px;
+          max-width: 80px;
           width: 100%;
           height: auto;
           display: block;
@@ -4391,6 +4391,10 @@ ul.tabs {
       margin-top: 20px;
       display: flex;
       align-items: center;
+      max-width: 900px;
+      height: auto;
+      width: 100%;
+      margin: 20px auto 0;
     }
     .tab-content {
       background: #fff;
@@ -4400,7 +4404,7 @@ ul.tabs {
       height: auto;
       box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 20px, rgb(245, 245, 245) 0px -1px 0px;
       border-radius: 4px;
-      max-width: 100%;
+      max-width: 900px;
       width: 100%;
       margin: 0 auto 20px;
       border: 1px solid #e5e5e5;

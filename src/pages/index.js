@@ -34,7 +34,7 @@ class IndexPage extends React.Component {
                                     <h1>All-in-one<br/> eCommerce Automation</h1>
                                 </div>
                                 <div className="col-md-6">
-                                    <p>Automate Email Campaigns, Triggered PopUps, Recover Cart Abandonment - in one place.
+                                    <p>Automate Email Campaigns, Trigger PopUps, Recover Cart Abandonment - in one place.
                                     </p>
                                     <SignUpForm user_mail_id={true}
                                                 btnText="Get started" btnClass="btn-action" note="For Shopify & WooCommerce Entrepreneurs." />
