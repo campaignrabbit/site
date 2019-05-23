@@ -10,7 +10,7 @@ const SIDENAV_LINKS = [
         LINKS: [
             { URL: '/docs/getting-started/what-is-campaignrabbit', TEXTNODE: 'What is Campaignrabbit' },
         ],
-        BUTTON_LINK: '/docs/getting-started/what-is-campaignrabbit/',
+        BUTTON_LINK: '/docs/getting-started/what-is-campaignrabbit',
     },
     {
         TITLE: 'Integrations',
