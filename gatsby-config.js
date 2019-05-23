@@ -139,13 +139,13 @@ module.exports = {
                 sv: 6
             },
         },
+        `gatsby-plugin-force-trailing-slashes`,
         {
           resolve: `gatsby-plugin-canonical-urls`,
           options: {
             siteUrl: `https://www.campaignrabbit.com`,
           },
         },
-        `gatsby-plugin-remove-trailing-slashes`,
         {
             resolve: `gatsby-plugin-sitemap`,
             options: {

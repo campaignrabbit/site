@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
 import $ from 'jquery'
+import MetaTags from '../components/Metatags'
 
 class FeaturesPage extends React.Component {
     componentDidMount () {
@@ -34,7 +34,11 @@ class FeaturesPage extends React.Component {
     render() {
         return (
           <Layout>
-            <SEO title="Features" />
+              <MetaTags
+                  title="CampaignRabbit - eCommerce Email Marketing Automation Software features"
+                  description="CampaignRabbit, a powerful eCommerce email marketing automation platform that sends data-driven emails to your customers. Check the detailed features of CampaignRabbit."
+                  keywords="ecommerce automation software features, ecommerce marketing platform, ecommerce marketing campaign, how ecommerce email marketing works, best email app for shopify, campaignrabbit features"
+              />
             <div className="features-banner-container">
                 <div className="features-header-banner text-center">
                     <div className="container-m">

@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import MetaTags from '../components/Metatags'
 import $ from 'jquery'
 
 import INTEGRATIONS from '../constants/Integrations';
@@ -30,7 +30,11 @@ class IntegrationsPage extends React.Component {
     render(){
         return (
             <Layout>
-                <SEO title="Integrations" />
+                <MetaTags
+                    title="CampaignRabbit Integrations - eCommerce platforms that we currently support"
+                    description="CampaignRabbit Marketing Automation tool supports the most popular eCommerce platforms such as Shopify, WooCommerce and J2store. Integrate and Start automating emails."
+                    keywords="ecommerce automation software features, ecommerce marketing platform, ecommerce marketing campaign, how ecommerce email marketing works, campaignrabbit integration"
+                />
                 <div id="integrations">
                     <div className="integration-banner-container">
                         <div className="container-m">

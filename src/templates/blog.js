@@ -25,8 +25,9 @@ const BlogPage = ({pageContext, location}) => {
     return (
         <Layout location={location} crumbLabel="Blog">
             <MetaTags
-                title="Blog"
-                description="Campaignrabbit Blog"
+                title="CampaignRabbit Blog - eCommerce Marketing & Growth Resources"
+                description="Stay updated with CampaignRabbit Blog for latest news on eCommerce Growth and Marketing. Find useful content on email marketing, sales and ecommerce conversion."
+                keywords="best ecommerce blogs, top ecommerce blogs, ecommerce marketing blogs, ecommerce growth hacks, ecommerce resources, best email marketing solutions, campaignrabbit blog"
             />
             <Container type="s">
                 <div className="blog-list-container">
