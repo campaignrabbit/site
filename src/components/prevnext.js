@@ -6,10 +6,10 @@ const PrevNext = (props) => {
 
     return (
         <ul className="pagination-links">
-            {prev && <li className="nav-prev"><a href={prev.fields.slug}>
+            {prev && <li className="nav-prev"><a href={(prev.fields.slug).replace(/\/$/, "")}>
                 <FaAngleDoubleLeft/> {" "}
                 {prev.frontmatter.title}</a></li>}
-            {next && <li className="nav-next"><a href={next.fields.slug}>
+            {next && <li className="nav-next"><a href={(next.fields.slug).replace(/\/$/, "")}>
                 {next.frontmatter.title} {" "} <FaAngleDoubleRight/>
 
             </a></li>}
