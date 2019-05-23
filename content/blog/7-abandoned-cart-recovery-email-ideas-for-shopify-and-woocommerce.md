@@ -1,5 +1,5 @@
 ---
-path: "7-abandoned-cart-recovery-email-ideas-for-shopify-and-woocommerce"
+path: "/blog/7-abandoned-cart-recovery-email-ideas-for-shopify-and-woocommerce"
 date: "2019-05-01"
 title: "7 Abandoned Cart Recovery Email Ideas For Shopify And WooCommerce"
 description: "Did you know that you are losing out on a fortune if you ignore abandoned carts? These email ideas for Shopify and WooCommerce will help you reclaim them."
@@ -162,7 +162,7 @@ It reads ‘You’re almost there’.
 
 It is that simple to<link-text url="https://www.retainful.com/blog/the-simple-way-to-retain-all-your-customers/" target="_blank" rel="noopener nofollow">retain your customer</link-text>with a little brainstorming behind it.
 
-![Let customers realize how close they are to checkout-2](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/7%20abandoned%20cart%20recovery%20email%20ideas%20for%20Shopify%20and%20WooCommerce/let-customers-realize-how-close-they-are-to-checkout-21.png)
+![Let customers realize how close they are to checkout-2](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/7%20abandoned%20cart%20recovery%20email%20ideas%20for%20Shopify%20and%20WooCommerce/let-customers-realize-how-close-they-are-to-checkout-2.png)
 
 
 ----
@@ -194,7 +194,7 @@ The usual place where you find a testimonial or review is in the product page of
 
 Place the same in your abandoned cart recovery email. Just make sure that you do not include all the reviews. Choose 2 or 3 reviews or go for just 1 prominent review that has the capability to impact conversions positively. Also, provide a link to read other reviews. Check out this email from Casper.
 
-![Use social proof in emails](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/7%20abandoned%20cart%20recovery%20email%20ideas%20for%20Shopify%20and%20WooCommerce/use-social-proof-in-emails-1.png)
+![Use social proof in emails](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/7%20abandoned%20cart%20recovery%20email%20ideas%20for%20Shopify%20and%20WooCommerce/use-social-proof-in-emails-1.jpg)
 
 
 Another way to include social proof is to present star ratings for the products. People normally are very excited to check out products that have ratings above 4.
