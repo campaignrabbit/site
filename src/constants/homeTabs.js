@@ -5,11 +5,11 @@ import {Link} from 'gatsby';
 
 class homeTabs extends React.Component {
     componentDidMount () {
-        $('ul.tabs li.tab-link').click(function(){
+        $('.features-tabs ul.tabs li.tab-link').click(function(){
             var tab_id = $(this).attr('data-tab');
 
-            $('ul.tabs li').removeClass('current');
-            $('.tab-content').removeClass('current');
+            $('.features-tabs ul.tabs li').removeClass('current');
+            $('.features-tabs .tab-content').removeClass('current');
 
             $(this).addClass('current');
             $("#"+tab_id).addClass('current');

@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
 import $ from 'jquery'
 import EMPLOYEE_PROFILE from '../constants/employeeCards';
+import MetaTags from '../components/Metatags'
 
 class AboutUsPage extends React.Component {
     static renderEmployees() {
@@ -23,7 +23,11 @@ class AboutUsPage extends React.Component {
     render() {
         return (
           <Layout>
-            <SEO title="About us" />
+              <MetaTags
+                  title="About CampaignRabbit - See Our Mission, Team and Work Culture"
+                  description="CampaignRabbit is a popular eCommerce email automation and growth marketing tool. We reinvented boring email marketing strategy into a modern minimalistic one."
+                  keywords="campaignrabbit mission, campaignrabbit team, contact campaignrabbit, ecommerce email marketing company"
+              />
             <div className="aboutus-intro-block">
                 <div className="aboutus-title-block container">
                     <div className="row">

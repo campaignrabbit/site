@@ -1,9 +1,15 @@
 import React from 'react'
 import Layout from '../components/layout'
 import Container from '../components/container'
+import MetaTags from '../components/Metatags'
 
 const TermsOfService = () => (
     <Layout>
+        <MetaTags
+            title="CampaignRabbit Term of Services Fair Use and Disclaimer"
+            description="Read CampaignRabbit's terms of service catalogue representing license, ownership, obligations, payment processing and other legal documentations."
+            keywords="email marketing tool privacy policy, ecommerce email marketing policies, campaignrabbit privacy policy"
+        />
         <Container type="s">
             <div className="legal-info">
                 <p>

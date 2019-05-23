@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import MetaTags from '../components/Metatags'
 import $ from 'jquery'
 
 class UseCasesPage extends React.Component {
@@ -23,7 +23,11 @@ class UseCasesPage extends React.Component {
     render() {
         return (
           <Layout>
-            <SEO title="Use Cases" />
+              <MetaTags
+                  title="Try CampaignRabbit to Automate your eCommerce Email Campaigns"
+                  description="Use CampaignRabbit for sending follow-up emails, win-back emails and abandoned cart recovery emails automatically. Also, build your list using timely pop-ups."
+                  keywords="ecommerce conversion funnel, win back email, ecommerce campaigns, ecommerce pop-up campaigns, abandoned cart recovery emails, ecommerce email automation, campaignrabbit use cases"
+              />
             <div className="usecases-banner-container">
                 <div className="features-header-banner text-center">
                     <div className="container-m">
