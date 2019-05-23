@@ -139,7 +139,7 @@ module.exports = {
                 sv: 6
             },
         },
-        `gatsby-plugin-force-trailing-slashes`,
+        `gatsby-plugin-remove-trailing-slashes`,
         {
           resolve: `gatsby-plugin-canonical-urls`,
           options: {

@@ -433,7 +433,7 @@ body {
     .hero-content {
       padding: 40px 0 80px;
       margin: auto;
-      max-width: 900px;
+      //max-width: 900px;
       .btn-container {
         flex-wrap: wrap;
         display: flex;
@@ -564,7 +564,7 @@ body {
     }
     &.home-top{
       .hero-content {
-        padding: 40px 0;
+        padding: 40px 0 80px;
         .btn-container {
           flex-wrap: wrap;
           display: flex;
@@ -5127,6 +5127,9 @@ ul.tabs {
             }
           }
         }
+        .offer{
+          color: #00c852;
+        }
         label{
           display: block;
           padding: 10px;
@@ -6211,7 +6214,7 @@ ul.tabs {
         max-height: 100%;
         max-width: 100%;
         position: relative;
-        top: 0px;
+        top: 0;
         width: auto;
         height: auto;
         margin-top: 15px;
