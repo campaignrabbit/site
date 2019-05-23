@@ -10,7 +10,7 @@ module.exports = {
         title: `Campaignrabbit`,
         description: `Sell more by sending targetted, data-driven marketing emails to your customers`,
         author: `campaignrabbit`,
-        siteUrl: `https://www.campaignrabbit.com/`
+        siteUrl: `https://www.campaignrabbit.com`
     },
     plugins: [
         `gatsby-plugin-react-helmet`,
@@ -133,7 +133,7 @@ module.exports = {
                 sv: 6
             },
         },
-        `gatsby-plugin-force-trailing-slashes`,
+        `gatsby-plugin-remove-trailing-slashes`,
         {
           resolve: `gatsby-plugin-canonical-urls`,
           options: {

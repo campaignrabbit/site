@@ -37,16 +37,16 @@ class Footer extends React.Component {
                             <h4 className="footer-title">Product</h4>
                             <ul>
                                 <li>
-                                  <Link to="/features/">Features</Link>
+                                  <Link to="/features">Features</Link>
                                 </li>
                                 <li>
-                                  <Link to="/pricing/">Pricing</Link>
+                                  <Link to="/pricing">Pricing</Link>
                                 </li>
                                 <li>
-                                  <Link to="/integrations/">Integrations</Link>
+                                  <Link to="/integrations">Integrations</Link>
                                 </li>
                                 <li>
-                                  <Link to="/use-cases/">Use cases</Link>
+                                  <Link to="/use-cases">Use cases</Link>
                                 </li>
                             </ul>
                         </div>
@@ -71,10 +71,10 @@ class Footer extends React.Component {
                             <h4 className="footer-title">Resources</h4>
                             <ul>
                                 <li>
-                                    <Link to="/blog/">Blog</Link>
+                                    <Link to="/blog">Blog</Link>
                                 </li>
                                 <li>
-                                  <Link to="/docs/">Documentation</Link>
+                                  <Link to="/docs">Documentation</Link>
                                 </li>
                             </ul>
                         </div>
@@ -82,7 +82,7 @@ class Footer extends React.Component {
                             <div>
                                 <h4 className="footer-title">Company</h4>
                                 <ul>
-                                    <li><Link to="/about-us/">About us</Link></li>
+                                    <li><Link to="/about-us">About us</Link></li>
                                 </ul>
                                 <h5>Also from us:</h5>
                                 <ul>
@@ -126,10 +126,10 @@ class Footer extends React.Component {
                         All rights reserved. #07-04, High Street Centre, 1 North Bridge Road,  Singapore, 179094</h6>
                         <ul>
                             <li>
-                                <Link to="/privacy-policy/">Privacy policy</Link>
+                                <Link to="/privacy-policy">Privacy policy</Link>
                             </li>
                             <li>
-                                <Link to="/terms-of-service/">Terms of Service</Link>
+                                <Link to="/terms-of-service">Terms of Service</Link>
                             </li>
                         </ul>
                     </div>
