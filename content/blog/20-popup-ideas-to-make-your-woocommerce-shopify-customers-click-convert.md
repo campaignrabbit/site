@@ -339,6 +339,8 @@ To do this effectively,
 
 A geo-targeted free shipping popup is shown below.
 
+![Free Shipping Popup](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/20-popup-ideas-to-make-your-woocommerce-shopify-customers-click-convert/free-shipping-popup.png)
+
 ----------
 
 ### Contest Popup
