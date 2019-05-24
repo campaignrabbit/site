@@ -40,6 +40,8 @@ It stands out for 2 reasons:
 
 When reading the copy, the reader experiences a surge of FOMO and immediately signs up for this Shopify email popup to be in the know.  
 
+![Email Popup](https://raw.githubusercontent.com/campaignrabbit/cr-media/master/images/blog/20-popup-ideas-to-make-your-woocommerce-shopify-customers-click-convert/Gaiam%20-%20email%20popup.jpg)
+
 ------
 
 ### Exit Intent Popup
