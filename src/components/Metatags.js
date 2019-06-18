@@ -72,8 +72,6 @@ const getSchemaOrgJSONLD = ({
 
   const Metatags  =(props) => {
 
-    {console.log(props)}
-
   const title =  props.title;
   const description = props.description;
   const image = props.thumbnail;
@@ -117,11 +115,11 @@ const getSchemaOrgJSONLD = ({
 
       {/* Twitter Card tags */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content="@retainful" />
+      <meta name="twitter:creator" content="@campaignrabbit" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
-      <meta name="twitter:domain" content="retainful.com" />
+      <meta name="twitter:domain" content="campaignrabbit.com" />
     </Helmet>
   );
 };

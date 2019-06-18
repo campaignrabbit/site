@@ -55,7 +55,8 @@ const renderAst = new rehypeReact({
 }).Compiler
 
 export default function BlogPost(props) {
-    const {url,sitename} = props.data.site.siteMetadata;
+    const url = props.data.site.siteMetadata.url;
+    const sitename = props.data.site.siteMetadata.title;
     const thumbnail = props.data.markdownRemark.frontmatter.image;
     const {title, description,datePublished,author} = props.data.markdownRemark.frontmatter;
     const {prev, next} = props.pageContext;
