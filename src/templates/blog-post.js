@@ -55,9 +55,9 @@ const renderAst = new rehypeReact({
 }).Compiler
 
 export default function BlogPost(props) {
-    const url = props.data.site.siteMetadata.siteUrl;
+    const {url,sitename} = props.data.site.siteMetadata;
     const thumbnail = props.data.markdownRemark.frontmatter.image;
-    const {title, description} = props.data.markdownRemark.frontmatter;
+    const {title, description,datePublished,author} = props.data.markdownRemark.frontmatter;
     const {prev, next} = props.pageContext;
     const toc = props.data.markdownRemark.tableOfContents;
     return (
@@ -67,7 +67,11 @@ export default function BlogPost(props) {
                 description={description}
                 thumbnail={thumbnail && thumbnail}
                 url={url}
+                sitename={sitename}
                 pathname={props.location.pathname}
+                datePublished = {datePublished}
+                author = {author}
+                isBlogPost="true"
             />
             <div className="single-blog-post">
                 <Container type='s'>
@@ -137,6 +141,7 @@ export const query = graphql`
     site {
         siteMetadata {
             siteUrl
+            title
           }
     }
   }
