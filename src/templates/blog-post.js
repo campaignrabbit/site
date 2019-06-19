@@ -72,8 +72,8 @@ export default function BlogPost(props) {
                 pathname={props.location.pathname}
                 datePublished = {datePublished}
                 author = {author}
-                isBlogPost="true"
-            />
+                isBlogPost={true}
+                />
             <div className="single-blog-post">
                 <Container type='s'>
                     <div className="header">
