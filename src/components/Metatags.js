@@ -61,7 +61,7 @@ const getSchemaOrgJSONLD = ({
   const authorName = props.author;
   const sitename = props.sitename;
   const keywords = props.keywords;
-
+  
   const schemaOrgJSONLD = getSchemaOrgJSONLD({
     url,
     title,
