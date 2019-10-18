@@ -6,6 +6,7 @@
   "author": "Campaignrabbit <shobana@j2store.org>",
   "dependencies": {
     "algoliasearch": "^3.32.1",
+    "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
     "dotenv": "^4.0.0",
     "gatsby": "^2.6.0",
@@ -46,6 +47,7 @@
     "prismjs": "^1.15.0",
     "prop-types": "^15.6.2",
     "react": "^16.8.6",
+    "react-awesome-modal": "^2.0.5",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.3.0",
