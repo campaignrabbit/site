@@ -14,6 +14,9 @@ const Menu = () => (
                 <Link to="/integrations" activeClassName="active" className="nav-link">Integrations</Link>
             </li>
             <li className="nav-item">
+                <Link to="/support" activeClassName="active" className="nav-link">Support</Link>
+            </li>
+            <li className="nav-item">
                 <Link to="/use-cases" activeClassName="active" className="nav-link">Use cases</Link>
             </li>
             <li className="nav-item">

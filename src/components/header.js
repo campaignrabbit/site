@@ -49,6 +49,7 @@ class Header extends React.Component {
                 <Container type='l'>
                     <Link className="navbar-brand" to="/">
                         <img src={ Logo } alt="Campaignrabbit" />
+                        <small>Beta</small>
                     </Link>
                     <button id="showMenuBtn" className="visible-xs btn btn-primary"><MdMenu/></button>
                     <Menu/>
