@@ -53,16 +53,6 @@ class Header extends React.Component {
                     </Link>
                     <button id="showMenuBtn" className="visible-xs btn btn-primary"><MdMenu/></button>
                     <Menu/>
-                    <div className="collapse navbar-collapse">
-                        <ul className="navbar-nav ml-auto navbar-right">
-                            <li className="nav-item">
-                                <a href="https://app.campaignrabbit.com/login" target="_blank" className="btn-link nav-link">Login</a>
-                            </li>
-                            <li className="nav-item">
-                                <a href="https://app.campaignrabbit.com/register" target="_blank" className="nav-link btn-cta">Sign Up for free</a>
-                            </li>
-                        </ul>
-                    </div>
                 </Container>
             </nav>
         )
