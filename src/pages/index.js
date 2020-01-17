@@ -3,13 +3,7 @@ import { Link } from 'gatsby'
 import { FaPlay, FaTimes } from 'react-icons/fa';
 import Layout from '../components/layout'
 import MetaTags from '../components/Metatags'
-import HomeBanner from '../constants/homeBanner'
-import SignUpForm from '../components/SignUpForm'
 
-//sections
-import HomeFeatures from '../constants/homeFeatures';
-import HomeServices from '../constants/homeServices';
-import HomeIntegrations from '../constants/homeIntegrations';
 
 
 class IndexPage extends React.Component {
@@ -26,38 +20,15 @@ class IndexPage extends React.Component {
                 <div id="home" className="home home-top">
                     <div className="container">
                         <div className="hero-content wow fadeIn">
-                            <div className="row">
-                                <div className="offset-lg-1 col-md-6 col-lg-4">
-                                    <h1>All-in-one<br/> eCommerce Automation</h1>
-                                </div>
-                                <div className="col-md-6">
-                                    <p>Email Marketing, Popups, Optin, Abandoned Cart Recovery - all in one place.
-                                    </p>
-                                    <SignUpForm user_mail_id={true}
-                                                btnText="Get started" btnClass="btn-action" note="For Shopify & WooCommerce." />
-                                    {/*<img src={`${process.env.GATSBY_CR_MEDIA_URL}/images/campaignrabbit-flow-transparent-bg.png`} className="img-responsive" alt="Campaignrabbit flow image"/>*/}
-                                </div>
+                            <div className="row text-center py-5">
+                                <h1>We always ensure that we provide quality services & support to our customers.</h1>
+                                <h2 className="mt-4">In order to continue doing so, we had to take a few hard decisions.</h2>
+                                <h2 className="mt-4">We deeply regret to inform our beloved customers & users that we are discontinuing all our services related to Campaign Rabbit, effective from 17-01-2019.</h2>
+                                <p className="mt-4">For further queries, get in touch with us via mail - support@campaignrabbit.com</p>
                             </div>
                         </div>
-                        <div className="home-tabs-container">
-                            <HomeBanner/>
-                        </div>
                     </div>
                 </div>
-
-                <HomeServices/>
-
-                <HomeFeatures/>
-
-                <HomeIntegrations/>
-
-                <div className="home bottom">
-                    <div className="container-m text-center">
-                        <SignUpForm className="hero-content wow fadeIn" title="Start Selling More Today" user_mail_id={true}
-                          btnText="Sign Up for free" description="Join 1000+ growth-focussed eCommerce brands and start driving more sales" />
-                    </div>
-                </div>
-
             </Layout>
         )
     }
