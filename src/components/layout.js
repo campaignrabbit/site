@@ -1,10 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {StaticQuery, graphql} from 'gatsby'
-import {Breadcrumb} from "gatsby-plugin-breadcrumb";
-import Header from './header'
-import Menu from './menu'
-import Footer from './footer'
 import MetaTags from '../components/Metatags'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './layout.scss'
@@ -26,7 +22,7 @@ const Layout = ({children, location, crumbLabel}) => (
 
                     <MetaTags />
 
-                    <Header siteTitle={data.site.siteMetadata.title}/>
+                    
 
                     <div id="main" className="main">
                         { /* location &&
@@ -42,7 +38,6 @@ const Layout = ({children, location, crumbLabel}) => (
                         </div>
                         */}
                         {children}
-                        <Footer/>
                     </div>
                 </div>
             </>
