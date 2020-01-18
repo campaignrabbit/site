@@ -24,7 +24,7 @@ class IndexPage extends React.Component {
                                 <h1>We always ensure that we provide quality services & support to our customers.</h1>
                                 <h2 className="mt-4">In order to continue doing so, we had to take a few hard decisions.</h2>
                                 <h2 className="mt-4">We deeply regret to inform our beloved customers & users that we are discontinuing all our services related to Campaign Rabbit, effective from 17-01-2019.</h2>
-                                <p className="mt-4">For further queries, get in touch with us via mail - <a mailto="support@campaignrabbit.com">support@campaignrabbit.com</a></p>
+                                <p className="mt-4">For further queries, get in touch with us via mail - <a href="mailto:support@campaignrabbit.com">support@campaignrabbit.com</a></p>
                             </div>
                         </div>
                     </div>
