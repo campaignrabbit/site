@@ -7,3 +7,5 @@ http://campaignrabbit.com/blog/* https://www.campaignrabbit.com/:splat 301!
 https://campaignrabbit.com/blog/* https://www.campaignrabbit.com/:splat 301!
 http://campaignrabbit.netlify.com/blog/* http://www.campaignrabbit.com/:splat 301!
 https://campaignrabbit.netlify.com/blog/* https://www.campaignrabbit.com/:splat 301!
+
+/* /index.html 200
