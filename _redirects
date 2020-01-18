@@ -1,11 +1,5 @@
-http://campaignrabbit.com/* https://www.campaignrabbit.com/:splat 301!
-https://campaignrabbit.com/* https://www.campaignrabbit.com/:splat 301!
-http://campaignrabbit.netlify.com/* http://www.campaignrabbit.com/:splat 301!
-https://campaignrabbit.netlify.com/* https://www.campaignrabbit.com/:splat 301!
-
-http://campaignrabbit.com/blog/* https://www.campaignrabbit.com/:splat 301!
-https://campaignrabbit.com/blog/* https://www.campaignrabbit.com/:splat 301!
-http://campaignrabbit.netlify.com/blog/* http://www.campaignrabbit.com/:splat 301!
-https://campaignrabbit.netlify.com/blog/* https://www.campaignrabbit.com/:splat 301!
-
-/* /index.html 200
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true 
